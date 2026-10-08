@@ -3,7 +3,7 @@ kind: issue
 title: Real-world test drive against foundlings/qew-ledger and the GitHub project
 parent: 042cxmtnm
 needs: 042cxmtnz 042cxmtnw
-labels: area:replication replication
+labels: area:replication
 owner: 
 priority: 0
 created: 2026-10-08T17:20:13Z
