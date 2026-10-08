@@ -14,13 +14,14 @@
     "comments": [],
     "labels": [
       "area:project-parity",
-      "board"
+      "board",
+      "status:Done"
     ],
-    "open": true,
+    "open": false,
     "title": "project ensure builds the full board: Status options, Priority field, views"
   },
-  "synced_at": "2026-10-08T17:52:09Z",
-  "synced_event": "042cz6cdt",
-  "synced_hash": "a72f2a44dde5a042",
+  "synced_at": "2026-10-08T18:22:32Z",
+  "synced_event": "042czuu6y",
+  "synced_hash": "163d767081bd3a54",
   "url": "https://github.com/foundlings/qew"
 }
