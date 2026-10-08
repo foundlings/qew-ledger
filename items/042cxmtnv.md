@@ -3,7 +3,7 @@ kind: issue
 title: Forge-side state changes become forge_divergence events
 parent: 042cxmtnm
 needs: 042cxmtnu
-labels: area:replication replication
+labels: area:replication
 owner: 
 priority: 0
 created: 2026-10-08T17:20:13Z
