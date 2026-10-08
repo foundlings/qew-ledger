@@ -3,7 +3,7 @@ kind: issue
 title: Best-effort ledger remote fetch/merge before a write and push after
 parent: 042cxmtnm
 needs: 042cxmtnn 042cxmtno 042cxmtnp
-labels: area:replication replication
+labels: area:replication
 owner: 
 priority: 0
 created: 2026-10-08T17:20:13Z
