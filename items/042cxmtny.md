@@ -3,7 +3,7 @@ kind: issue
 title: qew restore --to TARGET recreates forge state from the ledger alone
 parent: 042cxmtnm
 needs: 042cxmtnr
-labels: area:replication replication
+labels: area:replication
 owner: 
 priority: 0
 created: 2026-10-08T17:20:13Z
