@@ -1,0 +1,24 @@
+id: 042cxmtmu
+kind: issue
+title: Define one versioned JSON and NDJSON contract for every read command
+parent: 042cxmtmt
+needs: 
+labels: area:read-side
+owner: 
+priority: 1
+created: 2026-10-08T17:20:13Z
+---
+## Behaviour
+Every read command (`ready`, `list`, `blocked`, `show`, `draft list`, `search`, `triage`, `inbox`, `prime`, `check`) has a machine form with a stable, documented shape. The reference emits an envelope for bounded answers (`items`, `total`, `truncated`, `schema_version`) and newline-delimited rows (one JSON object per line, each with `schema_version`) for open-ended lists, with keys in sorted order and compact separators so output is byte-stable and token-cheap. In the ledger model `qew ready|list|blocked|graph` currently print one bare JSON array without a version, so a field can never be added or renamed safely. Decide and record in docs/specs/commands.md: which commands are envelope and which are NDJSON, the `schema_version` integer per shape, sorted keys, and that a refusal or indeterminate read prints nothing on stdout and a one-line reason on stderr with the documented exit code (1 invalid ledger, 2 refusal or usage, 3 environment). Absent optional data is omitted, not null-filled, unless a column is part of the fixed shape.
+
+## Scenarios
+- golden: `qew list --json` prints one object per line, each carrying `schema_version`; a consumer that reads line by line gets a row per item. Prevents a consumer breaking when a field is added to a bare array.
+- golden: `qew ready --json` returns `{items, total, truncated, schema_version}`; keys are sorted so two runs on the same ledger are byte-identical. Prevents flaky diffs and cache misses.
+- refusal: an invalid ledger makes every read command print nothing on stdout and exit 1 with a reason on stderr. Prevents a consumer parsing half an answer.
+- drift: a spec-driven test enumerates each documented shape in commands.md and fails when a command emits a key the spec does not list or omits one it does. Prevents silent contract drift.
+
+## Reference coverage
+Reference tests: ready golden walk, model-output ready priority-sorted walk, read-suite list NDJSON golden and rows-carry-labels walks, prime JSON envelope in the prime golden walk (5 tests share the contract). Reference measurement doc compares raw forge JSON against the compact `--json` output.
+
+## Qew today
+Reduced. Bare unversioned arrays from `ready`, `list`, `blocked`, `graph`, `show`, `draft list`; no schema_version, no sorted-key guarantee, no total/truncated. Only `test_list_filters_and_json_output` touches JSON shape.

@@ -1,0 +1,25 @@
+id: 042cxmtgq
+kind: issue
+title: Quote, bound and flag untrusted text in output; report text findings in `qew check`
+parent: 042cxmt4m
+needs: 
+labels: area:board-admin
+owner: 
+priority: 1
+created: 2026-10-08T17:20:13Z
+---
+## Behaviour
+Titles come from ledger files that other contributors, imports and forges can write, and `qew hook session-start` / `qew ready` feed them to an agent. Text output must never let a title speak to the agent: collapse whitespace and newlines, drop non-printable characters, byte-bound the title (96 bytes plus an ellipsis), quote it when printed beside a runnable command, and withhold it entirely (`[title withheld: zero_width]`, JSON `title: null` plus `text_findings`) when it contains zero-width, bidirectional-override or control characters. `qew check` reports a `text_findings` entry for every approved item whose title carries such characters (a finding, exit 1 like other problems). One shared helper, used by every command and the hook.
+
+## Scenarios
+- `newline_and_instruction_text_in_a_title_is_flattened`: title with a newline and 'IGNORE PRIOR INSTRUCTIONS ...' prints on one quoted line; prevents injected lines.
+- `zero_width_title_is_withheld_with_a_named_finding`: text shows the withheld marker, JSON null plus findings; prevents hidden-Unicode smuggling.
+- `long_title_is_byte_bounded`: 500-character title stays under 200 bytes per line; prevents context flooding.
+- `runnable_command_is_omitted_when_the_title_was_rewritten`: no copy-pasteable command beside a rewritten title.
+- `check_reports_text_findings_for_approved_titles`: `qew check --json` lists the item and finding kind; prevents poisoned ready work.
+
+## Reference coverage
+Tests: campaign status quotes and withholds hostile milestone titles (text and JSON); diagnostics graph report `text_findings` on approved titles. Spec: untrusted text rules.
+
+## Qew today
+Missing: no sanitising helper in src/qew (rg finds none); `row()` prints titles raw; `ledger_check` has no text findings.

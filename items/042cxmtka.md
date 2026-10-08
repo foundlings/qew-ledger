@@ -1,0 +1,23 @@
+id: 042cxmtka
+kind: issue
+title: Separate unresolvable or malformed landing data from a plain not-landed refusal
+parent: 042cxmtjw
+needs: 042cxmtk2
+labels: area:lifecycle
+owner: 
+priority: 2
+created: 2026-10-08T17:20:13Z
+---
+## Behaviour
+Today a change id that does not resolve in the checkout and a change that resolves but is not an ancestor both print `not an ancestor`, exit 2. The reference separates: a commit or branch that cannot be found is a refusal naming both; malformed or inconsistent data (a comparison about a different commit, missing status, invalid associated pull-request data) is indeterminate, exit 4, and nothing is written. In the ledger: evidence recorded with a different vcs than the checkout stays exit 3 (covered), a missing target branch stays exit 3 (covered in code), an unresolved change id gets its own message `unknown to this checkout`, and unreadable pr-mirror data used for the PR list is exit 4.
+
+## Scenarios
+- evidence id unknown to this clone (typo or unpushed on another machine): message says unknown, not `not an ancestor`, exit 2, zero events (prevents: misdiagnosing a missing fetch as unlanded work)
+- malformed pr mirror file when composing the PR list: exit 4 `indeterminate`, zero events (prevents: completing on guessed data)
+- missing target branch: exit 3 naming it (covered in code)
+
+## Reference coverage
+2 reference test function(s): `test_complete_refuses_a_commit_or_branch_github_cannot_find`, `test_complete_treats_malformed_compare_data_as_indeterminate`
+
+## Qew today
+Reduced. The ancestor test conflates unknown and not-ancestor; exit 4 is not used.
