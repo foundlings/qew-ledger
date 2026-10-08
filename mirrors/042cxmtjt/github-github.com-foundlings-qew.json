@@ -18,8 +18,8 @@
     "open": true,
     "title": "Verify the build checkout equals the recorded source commit before attesting"
   },
-  "synced_at": "2026-10-08T17:54:26Z",
+  "synced_at": "2026-10-08T18:19:04Z",
   "synced_event": "042cxmtrp",
-  "synced_hash": "f719688730d5770b",
+  "synced_hash": "d45ba047b0ba27f3",
   "url": "https://github.com/foundlings/qew"
 }
