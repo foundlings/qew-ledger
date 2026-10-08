@@ -6,18 +6,20 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV7BIeA",
   "number": 105,
+  "priority": "P1",
   "seen": {
     "assignee": "",
     "body": "Epic for area `graph-ready`. Child issues carry the gaps found by the audit and the scenarios each needs.",
     "comments": [],
     "labels": [
-      "area:graph-ready"
+      "area:graph-ready",
+      "status:In progress"
     ],
     "open": true,
     "title": "Graph output and ready ordering"
   },
-  "synced_at": "2026-10-08T17:53:59Z",
+  "synced_at": "2026-10-08T18:16:38Z",
   "synced_event": "042cxmtqx",
-  "synced_hash": "96260d53dd6f0f19",
+  "synced_hash": "9faaae774ab16b93",
   "url": "https://github.com/foundlings/qew"
 }
