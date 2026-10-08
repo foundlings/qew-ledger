@@ -6,6 +6,7 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV6SnFQ",
   "number": 4,
+  "priority": "P1",
   "seen": {
     "assignee": "",
     "body": "forge_github board calls (createProjectV2, createProjectV2Field, updateProjectV2Field input shapes) were written against a local fake from memory. Run `qew project ensure` against a scratch repo and fix any drift; capture the real shapes in tests/fake_github.py.",
