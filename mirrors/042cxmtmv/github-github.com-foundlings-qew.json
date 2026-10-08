@@ -1,5 +1,5 @@
 {
-  "column": "In progress",
+  "column": "Ready",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/204",
   "kind": "issue",
@@ -15,13 +15,13 @@
     "comments": [],
     "labels": [
       "area:read-side",
-      "status:In progress"
+      "status:Ready"
     ],
     "open": true,
     "title": "Bound `qew ready` with a default limit, --limit 0 for all, and truncation reporting"
   },
-  "synced_at": "2026-10-08T18:25:09Z",
+  "synced_at": "2026-10-08T18:25:13Z",
   "synced_event": "042czzkcv",
-  "synced_hash": "59b0f6d0ab1860c4",
+  "synced_hash": "c88c39241b0c191c",
   "url": "https://github.com/foundlings/qew"
 }
