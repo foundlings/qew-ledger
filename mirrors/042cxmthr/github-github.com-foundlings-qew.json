@@ -6,18 +6,20 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV6-e9g",
   "number": 60,
+  "priority": "P3",
   "seen": {
     "assignee": "",
     "body": "Command inventory for `qew evidence`: record the code changes that deliver an item.\n\nFlags: --change, --vcs.\n\nEnd-to-end check (2026-10-08, scratch ledger + local forge fake, scripted run of every command): works, exit codes as documented.\n\nWalk coverage today: 9 direct test invocation(s) of `qew evidence`; flags never exercised by any test: --vcs.\n\nDone when: a golden scenario and the refusal/adversary scenarios for this command and each flag exist as named walks whose docstrings state the failure prevented, and the three documents (help, README, commands spec) agree.",
     "comments": [],
     "labels": [
-      "area:command-inventory"
+      "area:command-inventory",
+      "status:Ready"
     ],
     "open": true,
     "title": "Inventory and walk coverage: qew evidence"
   },
-  "synced_at": "2026-10-08T17:23:54Z",
+  "synced_at": "2026-10-08T18:12:05Z",
   "synced_event": "042cxmtpn",
-  "synced_hash": "b8e7dfca80d8b691",
+  "synced_hash": "773949b9d96ddb18",
   "url": "https://github.com/foundlings/qew"
 }
