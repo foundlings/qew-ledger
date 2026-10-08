@@ -3,7 +3,7 @@ kind: issue
 title: Detached background sync after every write (token-free)
 parent: 042cxmtnm
 needs: 042cxmtnn 042cxmtnr 042cxmtnq
-labels: area:replication replication
+labels: area:replication
 owner: 
 priority: 0
 created: 2026-10-08T17:20:13Z
