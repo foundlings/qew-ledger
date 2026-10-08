@@ -1,5 +1,5 @@
 {
-  "column": "Backlog",
+  "column": "Ready",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/255",
   "kind": "issue",
@@ -20,8 +20,8 @@
     "open": true,
     "title": "qew import --from TARGET (and ad hoc --forge/--repo)"
   },
-  "synced_at": "2026-10-08T17:57:51Z",
-  "synced_event": "042cxmufg",
-  "synced_hash": "642b818ab7401adb",
+  "synced_at": "2026-10-08T18:01:30Z",
+  "synced_event": "042cznkdm",
+  "synced_hash": "6d893a2ba2444988",
   "url": "https://github.com/foundlings/qew"
 }
