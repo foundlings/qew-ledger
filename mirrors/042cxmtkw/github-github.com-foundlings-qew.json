@@ -1,11 +1,12 @@
 {
-  "column": "Ready",
+  "column": "In progress",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/170",
   "kind": "issue",
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV7FrxA",
   "number": 170,
+  "priority": "P1",
   "seen": {
     "assignee": "",
     "body": "No flag, env var, event hand-edit or provenance value lets `complete` skip claim, children or evidence; hand-edited events fail `qew check`.\nScenarios:\n- adversary: completed event written by hand without evidence fails check\n- adversary: provenance import written outside --import is refused at check\n- refusal: complete on a draft, unclaimed, blocked or closed item",
@@ -16,8 +17,8 @@
     "open": true,
     "title": "qew complete can never bypass a gate"
   },
-  "synced_at": "2026-10-08T17:32:48Z",
-  "synced_event": "042cxmtss",
-  "synced_hash": "8167d6c6758dc0f4",
+  "synced_at": "2026-10-08T18:22:22Z",
+  "synced_event": "042d08kc8",
+  "synced_hash": "3396bc40f888ce8c",
   "url": "https://github.com/foundlings/qew"
 }

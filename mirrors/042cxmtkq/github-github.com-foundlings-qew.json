@@ -6,18 +6,20 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV7FRBQ",
   "number": 164,
+  "priority": "P2",
   "seen": {
     "assignee": "",
     "body": "## Behaviour\n`qew comment ITEM (--body TEXT | --body-file FILE)` appends a `comment` event with the text and the actor (CLAUDE.md names `qew comment` for discussing drafts). Exactly one of body and body-file; empty or whitespace-only is refused; a symlinked body file is refused; text is stored as data, size-bounded, and never evaluated. Works on any state including draft, completed and closed. `qew show` prints the ten most recent comments (and `--json` all of them), truncating with a count. Event schema gains `comment` (allowed in every state, no transition).\n\n## Scenarios\n- golden: comment on a draft; show lists it with actor and time (prevents: draft discussion lost in chat)\n- both or neither of `--body` and `--body-file`, empty text, symlinked file, oversize text: exit 2, no event (prevents: junk and path tricks)\n- comment with text that looks like a command or an event JSON: stored verbatim, nothing executed (prevents: treating comments as instructions)\n- two branches each add a comment: merge keeps both (prevents: lost discussion)\n\n## Reference coverage\nNo dedicated reference test; specified from the reference command documentation. (spec) comment command; no dedicated reference walk in scope\n\n## Qew today\nMissing. No command and no event type.",
     "comments": [],
     "labels": [
-      "area:lifecycle"
+      "area:lifecycle",
+      "status:Ready"
     ],
     "open": true,
     "title": "Add `qew comment ITEM` as an append-only comment event"
   },
-  "synced_at": "2026-10-08T17:32:16Z",
+  "synced_at": "2026-10-08T18:21:48Z",
   "synced_event": "042cxmtsm",
-  "synced_hash": "ed899d591fe00133",
+  "synced_hash": "12d1aa25b8b0004b",
   "url": "https://github.com/foundlings/qew"
 }
