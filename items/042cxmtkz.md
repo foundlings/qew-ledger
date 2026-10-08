@@ -3,7 +3,7 @@ kind: issue
 title: Managed-label filter on every view
 parent: 042cxmth3
 needs: 042cxmtky
-labels: area:project-parity board
+labels: area:project-parity area:board
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
