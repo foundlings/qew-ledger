@@ -8,18 +8,20 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7Mjuw",
   "number": 264,
+  "priority": "P2",
   "seen": {
     "assignee": "",
     "body": "jj has no pre-push hook: provide `qew hook vcs-check` for scripts and the agent PreToolUse guard on `jj git push`.\nScenarios:\n- refusal: jj git push of a change citing an unevidenced id is blocked by the agent guard",
     "comments": [],
     "labels": [
-      "area:vcs-hook"
+      "area:vcs-hook",
+      "status:Backlog"
     ],
     "open": true,
     "title": "jj push integration without git hooks"
   },
-  "synced_at": "2026-10-08T17:58:02Z",
-  "synced_event": "042cxmufo",
-  "synced_hash": "b584c61bbbd1055a",
+  "synced_at": "2026-10-08T18:28:59Z",
+  "synced_event": "042d0idcv",
+  "synced_hash": "f694fb93d93b1d99",
   "url": "https://github.com/foundlings/qew"
 }

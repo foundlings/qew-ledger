@@ -13,13 +13,14 @@
     "body": "Mechanical parser for `Refs: ID` trailers; unknown ids reported.\nScenarios:\n- golden: trailer parsed\n- adversary: lookalike ids ignored",
     "comments": [],
     "labels": [
-      "area:vcs-hook"
+      "area:vcs-hook",
+      "status:Backlog"
     ],
     "open": true,
     "title": "Commit message references to ledger IDs"
   },
-  "synced_at": "2026-10-08T17:58:05Z",
-  "synced_event": "042cxmufp",
-  "synced_hash": "abe491ab673766f5",
+  "synced_at": "2026-10-08T18:29:04Z",
+  "synced_event": "042d0hs5d",
+  "synced_hash": "8a8b176228df36b2",
   "url": "https://github.com/foundlings/qew"
 }

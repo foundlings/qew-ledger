@@ -6,6 +6,7 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV7MfsA",
   "number": 263,
+  "priority": "P2",
   "seen": {
     "assignee": "",
     "body": "On push, a change citing a ledger ID must have its evidence recorded or the push is refused with the exact qew command; installed by `qew hook install`.\nScenarios:\n- golden: cited id with evidence passes\n- refusal: cited id without evidence blocks\n- adversary: hook is bypassable only by removing it, which is itself visible in the diff",
