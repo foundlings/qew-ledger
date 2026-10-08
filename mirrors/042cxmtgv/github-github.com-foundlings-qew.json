@@ -1,5 +1,5 @@
 {
-  "column": "Ready",
+  "column": "In progress",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/29",
   "kind": "issue",
@@ -18,8 +18,8 @@
     "open": true,
     "title": "Derive each item's author from its first recorded event and expose it"
   },
-  "synced_at": "2026-10-08T17:51:17Z",
-  "synced_event": "042cxmtor",
-  "synced_hash": "fc860db4cb51c1ba",
+  "synced_at": "2026-10-08T17:51:51Z",
+  "synced_event": "042cz5j7f",
+  "synced_hash": "1da519de529a7af9",
   "url": "https://github.com/foundlings/qew"
 }
