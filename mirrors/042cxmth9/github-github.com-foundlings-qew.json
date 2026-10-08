@@ -8,6 +8,7 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV69nEQ",
   "number": 43,
+  "priority": "P2",
   "seen": {
     "assignee": "",
     "body": "`--group-by column|owner|label|epic|parent` renders sections instead of or inside columns.\nScenarios:\n- golden: group by epic lists each epic's children; prevents orphan cards\n- golden: multi-label items appear under each label; prevents hiding overlap\n- refusal: unknown group key exits 2",
