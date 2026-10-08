@@ -13,13 +13,14 @@
     "body": "Mechanical, header-only parse; unknown keys fail; ids kept.\nScenarios:\n- golden: import of exported tree\n- refusal: duplicate ids refused before any write; malformed header names the file",
     "comments": [],
     "labels": [
-      "area:export-import"
+      "area:export-import",
+      "status:Backlog"
     ],
     "open": true,
     "title": "qew import reads Markdown files with fixed headers"
   },
-  "synced_at": "2026-10-08T17:53:54Z",
+  "synced_at": "2026-10-08T18:16:28Z",
   "synced_event": "042cxmtqv",
-  "synced_hash": "dacb1a1597a9c147",
+  "synced_hash": "7b1278298a6d5196",
   "url": "https://github.com/foundlings/qew"
 }
