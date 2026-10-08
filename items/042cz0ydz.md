@@ -3,7 +3,7 @@ kind: issue
 title: [authority] primary configuration and status
 parent: 042cz0y86
 needs: 
-labels: area:authority authority
+labels: area:authority
 owner: 
 priority: 0
 created: 2026-10-08T17:48:53Z
