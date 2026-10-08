@@ -6,6 +6,16 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV6-Wbg",
   "number": 57,
+  "seen": {
+    "assignee": "",
+    "body": "Command inventory for `qew release`: give up a claim.\n\nFlags: none.\n\nEnd-to-end check (2026-10-08, scratch ledger + local forge fake, scripted run of every command): works, exit codes as documented.\n\nWalk coverage today: 1 direct test invocation(s) of `qew release`; flags never exercised by any test: none.\n\nDone when: a golden scenario and the refusal/adversary scenarios for this command and each flag exist as named walks whose docstrings state the failure prevented, and the three documents (help, README, commands spec) agree.",
+    "comments": [],
+    "labels": [
+      "area:command-inventory"
+    ],
+    "open": true,
+    "title": "Inventory and walk coverage: qew release"
+  },
   "synced_at": "2026-10-08T17:23:43Z",
   "synced_event": "042cxmtpj",
   "synced_hash": "4449a3576fc4e4c7",

@@ -6,6 +6,16 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV670AA",
   "number": 9,
+  "seen": {
+    "assignee": "",
+    "body": "Epic for area `board-admin`. Child issues carry the gaps found by the audit and the scenarios each needs.",
+    "comments": [],
+    "labels": [
+      "area:board-admin"
+    ],
+    "open": true,
+    "title": "Board, campaign, config and admin parity"
+  },
   "synced_at": "2026-10-08T17:52:20Z",
   "synced_event": "042cxmto6",
   "synced_hash": "e26313f79eb8df35",

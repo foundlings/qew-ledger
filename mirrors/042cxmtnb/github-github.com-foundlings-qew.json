@@ -6,6 +6,16 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV7J5nQ",
   "number": 220,
+  "seen": {
+    "assignee": "",
+    "body": "## Behaviour\nGraph derivation must be linear in nodes plus edges, iterative (no recursion limit), and independent of path counts. The cycle finder is iterative already; what is unproven is behaviour on adversarial shapes. A layered diamond with 40 layers has 2^40 paths, a 3000-long need chain overflows a recursive search, and a 5000-item ledger must still read fast from files with no index (the ledger spec decided no index is built).\n\n## Scenarios\n- adversary: 40 layers of two-node diamonds validate in under one second with no cycle reported. Prevents path-enumeration blowups.\n- adversary: a chain of 3000 needs passes `qew check` and `qew ready` without a recursion error. Prevents a crash on deep graphs.\n- adversary: a cycle inside a large acyclic graph is still reported with its path (A -> B -> A). Prevents the performance fix hiding cycles.\n- golden: a ledger of 5000 items answers `qew ready` within a bounded time budget asserted in the test. Prevents the no-index decision silently regressing.\n\n## Reference coverage\nReference model-output walks: diamond layers linear time; long chain without recursion error; graph check golden clean DAG; graph check reports cycles (4 tests; cycle detection partially covered).\n\n## Qew today\nReduced. `find_cycles` is iterative, and `test_a_dependency_cycle_fails` covers a 2-node cycle. No scale or adversarial-shape test.",
+    "comments": [],
+    "labels": [
+      "area:read-side"
+    ],
+    "open": true,
+    "title": "Prove `qew check`, `ready` and `blocked` stay linear on big and deep graphs"
+  },
   "synced_at": "2026-10-08T17:38:12Z",
   "synced_event": "042cxmtu7",
   "synced_hash": "cd9975e81299f07c",

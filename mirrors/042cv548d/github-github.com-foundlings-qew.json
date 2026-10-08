@@ -6,6 +6,14 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV6SoJA",
   "number": 5,
+  "seen": {
+    "assignee": "",
+    "body": "ledger.md Hooks: on push or merge in the code repo, a change citing a ledger ID must have its evidence recorded. Add a git pre-push / jj equivalent installed by `qew hook install`.",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "Implement the VCS hook for evidence on push"
+  },
   "synced_at": "2026-10-08T16:30:11Z",
   "synced_event": "042cv54gr",
   "synced_hash": "acbb7a843030ab86",

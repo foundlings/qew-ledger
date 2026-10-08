@@ -8,6 +8,16 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV69zyQ",
   "number": 46,
+  "seen": {
+    "assignee": "",
+    "body": "`qew board create|list|set` manage named board files in the ledger; merge-safe (one file per board).\nScenarios:\n- golden: two branches add different boards and merge cleanly\n- refusal: duplicate board name refused",
+    "comments": [],
+    "labels": [
+      "area:board"
+    ],
+    "open": true,
+    "title": "qew board config files: create, list, set default view"
+  },
   "synced_at": "2026-10-08T17:53:10Z",
   "synced_event": "042cxmtp8",
   "synced_hash": "a6221f06704d3c20",

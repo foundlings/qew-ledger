@@ -6,6 +6,16 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV6933g",
   "number": 47,
+  "seen": {
+    "assignee": "",
+    "body": "Epic for area `command-inventory`. Child issues carry the gaps found by the audit and the scenarios each needs.",
+    "comments": [],
+    "labels": [
+      "area:command-inventory"
+    ],
+    "open": true,
+    "title": "Command inventory: every command and flag verified and walked"
+  },
   "synced_at": "2026-10-08T17:53:13Z",
   "synced_event": "042cxmtp9",
   "synced_hash": "b57578472798b6d9",

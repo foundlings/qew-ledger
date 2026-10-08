@@ -6,6 +6,16 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV7Ma-A",
   "number": 262,
+  "seen": {
+    "assignee": "",
+    "body": "Epic for area `vcs-hook`. Child issues carry the gaps found by the audit and the scenarios each needs.",
+    "comments": [],
+    "labels": [
+      "area:vcs-hook"
+    ],
+    "open": true,
+    "title": "VCS evidence hook"
+  },
   "synced_at": "2026-10-08T18:00:39Z",
   "synced_event": "042cxmufm",
   "synced_hash": "dd37a06f1a106fba",

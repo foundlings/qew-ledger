@@ -6,6 +6,16 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV7AHIQ",
   "number": 90,
+  "seen": {
+    "assignee": "",
+    "body": "## Behaviour\nCycle detection, readiness, `blocked`, `check` and the apply validation must not recurse per node. A 3000-link\ndependency chain must be accepted and a 3000-node cycle still reported, with no traceback and in bounded time.\n`find_cycles` is already iterative; the ordering and blockers helpers are linear. Pin it.\n\n## Scenarios\n1. Create/load a 3000-item chain through a plan file and run `qew check`, `qew ready`, `qew blocked`, `qew graph`: all exit 0, no traceback. Prevents a recursive cycle search overflowing on real plans.\n2. The same chain closed into a ring reports a cycle (exit 1) without a traceback. Prevents the opposite failure.\n\n## Reference coverage\nReference apply seam walk: long chain without recursion error (1 of 14).\n\n## Qew today\nImplementation is iterative; no test.",
+    "comments": [],
+    "labels": [
+      "area:drafts-plans"
+    ],
+    "open": true,
+    "title": "Prove graph algorithms stay iterative on very long chains"
+  },
   "synced_at": "2026-10-08T17:25:54Z",
   "synced_event": "042cxmtqh",
   "synced_hash": "fe7ecbc08fce2219",

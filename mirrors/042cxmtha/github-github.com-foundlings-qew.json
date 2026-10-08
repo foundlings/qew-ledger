@@ -8,6 +8,16 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV69rCA",
   "number": 44,
+  "seen": {
+    "assignee": "",
+    "body": "`--filter` takes the same `label:X kind:X state:X priority:N` terms (spaces and, commas or) plus `owner:X`, `epic:ID`, `parent:ID`.\nScenarios:\n- golden: filter narrows cards and counts\n- refusal: malformed term exits 2; prevents an empty board that looks like no work",
+    "comments": [],
+    "labels": [
+      "area:board"
+    ],
+    "open": true,
+    "title": "Board filter expressions using the select syntax"
+  },
   "synced_at": "2026-10-08T17:53:05Z",
   "synced_event": "042cxmtp6",
   "synced_hash": "6de0f20e39716235",

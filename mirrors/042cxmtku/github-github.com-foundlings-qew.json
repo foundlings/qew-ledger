@@ -8,6 +8,16 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7Fgsg",
   "number": 168,
+  "seen": {
+    "assignee": "",
+    "body": "The checked head must be covered by an evidence event of the item before merge.\nScenarios:\n- refusal: no evidence blocks merge\n- golden: evidence recorded then merge passes",
+    "comments": [],
+    "labels": [
+      "area:merge-gate"
+    ],
+    "open": true,
+    "title": "qew pr merge refuses without recorded evidence for the linked item"
+  },
   "synced_at": "2026-10-08T17:55:31Z",
   "synced_event": "042cxmtsq",
   "synced_hash": "dc54e3e97c4027d1",

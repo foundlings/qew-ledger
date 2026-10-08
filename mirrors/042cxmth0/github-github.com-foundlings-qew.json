@@ -8,6 +8,16 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV69IiQ",
   "number": 34,
+  "seen": {
+    "assignee": "",
+    "body": "## Behaviour\n`qew inbox [--login L] [--count] [--json]` reads only the ledger. Sections: `waiting` (draft items authored by L, i.e. waiting for a human to approve), `assigned` (items currently claimed by L; open, derived from claim events). Replies from forge comments are out of scope until the ledger models comments (list in dropped). `--count` prints one line for the session-start hook and conflicts with `--json` (exit 2); an invalid login is refused (exit 2); login defaults to the configured actor. Titles go through the shared untrusted-text helper. JSON rows carry `schema_version` and `section`. No state is kept.\n\n## Scenarios\n- `inbox_lists_waiting_and_assigned_sections`: golden: one draft by L, one claimed by L, one claimed by M; only the first two appear.\n- `count_line_is_one_line_and_exclusive_with_json`: both flags: exit 2.\n- `invalid_login_is_refused_before_any_read`: prevents a pattern as a login.\n- `hostile_titles_are_flattened`: newline title prints on one line.\n\n## Reference coverage\nReference inbox module (replies, waiting, assigned sections, count line, excerpt cap 100, control characters stripped, bot and marker comments excluded); the reference has inbox tests outside this audit's file filter, so no function in the scoped files maps here directly.\n\n## Qew today\nMissing. `qew hook session-start` prints ready work only.",
+    "comments": [],
+    "labels": [
+      "area:board-admin"
+    ],
+    "open": true,
+    "title": "Add an offline `qew inbox` for one person: waiting drafts, assigned work, session summary line"
+  },
   "synced_at": "2026-10-08T17:52:43Z",
   "synced_event": "042cxmtow",
   "synced_hash": "e031b12f28c0bcc3",

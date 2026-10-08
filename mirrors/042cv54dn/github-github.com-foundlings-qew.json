@@ -6,6 +6,14 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV6SqSA",
   "number": 7,
+  "seen": {
+    "assignee": "",
+    "body": "Sync is push-only. Report (never apply) forge-side state that disagrees with the ledger, such as an issue closed or a pull request merged around qew.",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "Pull direction of sync: detect forge-side closes and merges"
+  },
   "synced_at": "2026-10-08T16:30:19Z",
   "synced_event": "042cv54gt",
   "synced_hash": "475ad17a70f25b88",

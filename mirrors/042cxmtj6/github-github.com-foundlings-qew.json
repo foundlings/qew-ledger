@@ -6,6 +6,16 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV7BeEw",
   "number": 110,
+  "seen": {
+    "assignee": "",
+    "body": "Epic for area `hooks-dist`. Child issues carry the gaps found by the audit and the scenarios each needs.",
+    "comments": [],
+    "labels": [
+      "area:hooks-dist"
+    ],
+    "open": true,
+    "title": "Hooks, installation, help and release distribution parity"
+  },
   "synced_at": "2026-10-08T17:54:08Z",
   "synced_event": "042cxmtr2",
   "synced_hash": "7594edca9583a3dc",

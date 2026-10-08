@@ -8,6 +8,16 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV68qUA",
   "number": 25,
+  "seen": {
+    "assignee": "",
+    "body": "## Behaviour\n`qew check --json` prints one object: `schema_version`, `valid`, `cycles` (each cycle listed once, rotated so its smallest id comes first and closed back on it, list sorted), `contradictions` and `text_findings`. Contradictions that remain representable in the ledger: a claimed epic (epics are never claimed), a child of a completed epic that is not done, a completed item with open needs. Multiple priorities or kinds are unrepresentable in the header and need no check. Writes nothing.\n\n## Scenarios\n- `cycles_are_reported_once_in_canonical_rotation`: a three-item cycle entered from any node prints identically; prevents unstable diffs.\n- `claimed_epic_is_a_contradiction`: an epic with a claimed event is reported by id; prevents a state the board cannot show.\n- `valid_ledger_reports_valid_true_and_exit_0`: empty lists, schema_version present.\n\n## Reference coverage\nNo test file of its own in the reference; the diagnostics module backs the graph report used by the read suite (read-suite tests belong to another audit). Covered text part sits in `output-untrusted-text`.\n\n## Qew today\nReduced: `ledger_check.check` finds cycles, dangling needs, illegal transitions (tests/test_check_walk.py, 7 tests) but prints plain problem lines only.",
+    "comments": [],
+    "labels": [
+      "area:board-admin"
+    ],
+    "open": true,
+    "title": "Give `qew check` a stable machine report with canonical cycles and state contradictions"
+  },
   "synced_at": "2026-10-08T17:51:47Z",
   "synced_event": "042cz5t0j",
   "synced_hash": "fd02a681561ec318",

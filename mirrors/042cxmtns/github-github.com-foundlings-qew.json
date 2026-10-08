@@ -6,6 +6,17 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV7LahQ",
   "number": 248,
+  "seen": {
+    "assignee": "",
+    "body": "Contract: Replication 3. Pure function used by sync, status and auto push.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: matrix of (no mirror, behind, current, selected-out)\n- adversary: mirror file edited by hand to a future event id is reported by check",
+    "comments": [],
+    "labels": [
+      "area:replication",
+      "replication"
+    ],
+    "open": false,
+    "title": "Pending state derived from event ids and mirror synced_event"
+  },
   "synced_at": "2026-10-08T17:40:19Z",
   "synced_event": "042cy9jge",
   "synced_hash": "e897a4ac76ac6ed3",

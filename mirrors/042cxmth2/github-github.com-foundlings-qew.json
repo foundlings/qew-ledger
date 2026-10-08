@@ -6,6 +6,16 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV69PBA",
   "number": 36,
+  "seen": {
+    "assignee": "",
+    "body": "Epic for area `board`. Child issues carry the gaps found by the audit and the scenarios each needs.",
+    "comments": [],
+    "labels": [
+      "area:board"
+    ],
+    "open": true,
+    "title": "Offline board (qew board)"
+  },
   "synced_at": "2026-10-08T17:52:46Z",
   "synced_event": "042cxmtoy",
   "synced_hash": "7e0e8067e9229358",

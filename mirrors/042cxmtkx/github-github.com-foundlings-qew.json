@@ -8,6 +8,16 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7Fvpg",
   "number": 171,
+  "seen": {
+    "assignee": "",
+    "body": "After `qew pr merge`, `qew land PR` records evidence of the merge head and completes the claimed item if gates pass.\nScenarios:\n- golden: merge then land completes\n- refusal: land of an unmerged PR refused",
+    "comments": [],
+    "labels": [
+      "area:merge-gate"
+    ],
+    "open": true,
+    "title": "qew land completes items whose PR merged"
+  },
   "synced_at": "2026-10-08T17:55:37Z",
   "synced_event": "042cxmtst",
   "synced_hash": "62175386e8caa332",

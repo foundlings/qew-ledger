@@ -6,6 +6,16 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV7Iohw",
   "number": 206,
+  "seen": {
+    "assignee": "",
+    "body": "## Behaviour\nText rows are `ID STATE pN kind title [@owner]`, ordered by priority then by sortable id, identically for ready, list and blocked, so output order is deterministic across counter, letters and time id modes. The row must never contain control characters from an item title (see text-scan issues); the row for a long title is not truncated by ready but is bounded in prime.\n\n## Scenarios\n- golden: items at p3 and p0 created in the opposite order list p0 first in `ready`, `list` and `blocked`. Prevents agents picking low-priority work first.\n- golden: same priority in counter id mode sorts numerically (2 before 10). Prevents lexicographic misorder.\n\n## Reference coverage\nReference model-output walk `ready is priority sorted with typed vocabulary` (1 test).\n\n## Qew today\nCovered in substance by `ordered()` and `test_counter_mode_counts_up_and_lists_numerically`; ready-versus-blocked ordering equality is not asserted.",
+    "comments": [],
+    "labels": [
+      "area:read-side"
+    ],
+    "open": true,
+    "title": "Pin the ready/list/blocked text row and priority-then-id ordering"
+  },
   "synced_at": "2026-10-08T17:43:03Z",
   "synced_event": "042cyqu3h",
   "synced_hash": "7fbf9203a8c59489",

@@ -6,6 +6,16 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV7FcSA",
   "number": 167,
+  "seen": {
+    "assignee": "",
+    "body": "Linked items = the PR's recorded item. Refuse listing the open children.\nScenarios:\n- refusal: open task blocks merge; prevents merging half-done work\n- golden: all tasks complete allows merge",
+    "comments": [],
+    "labels": [
+      "area:merge-gate"
+    ],
+    "open": true,
+    "title": "qew pr merge refuses when a linked item has open child tasks"
+  },
   "synced_at": "2026-10-08T17:32:30Z",
   "synced_event": "042cxmtsp",
   "synced_hash": "ec82563a14dcb9e9",

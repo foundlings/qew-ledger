@@ -9,6 +9,17 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7LlRg",
   "number": 250,
+  "seen": {
+    "assignee": "",
+    "body": "Contract: Replication 4. Title/body/label edits and new comments made outside qew become `field`/`commented` events with provenance `forge`; then pushed to the other targets.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: label added on target A appears in the ledger and on target B\n- adversary: hostile title/comment text is stored as data, rendered escaped, never executed or used as a path\n- golden: re-pull with no changes writes nothing (idempotent)\n- adversary: forge down mid-pull records nothing partial",
+    "comments": [],
+    "labels": [
+      "area:replication",
+      "replication"
+    ],
+    "open": true,
+    "title": "Incremental pull: forge-side content edits become events"
+  },
   "synced_at": "2026-10-08T18:01:01Z",
   "synced_event": "042czmha0",
   "synced_hash": "76fdc2760ced4bab",

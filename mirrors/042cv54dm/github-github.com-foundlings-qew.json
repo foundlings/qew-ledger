@@ -6,6 +6,14 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV6SpJg",
   "number": 6,
+  "seen": {
+    "assignee": "",
+    "body": "The old model had `qew comment`; the ledger has no free-text events. Decide whether a `commented` event type belongs in the schema and mirror it as a forge comment.",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "Add qew comment and an audit trail for discussion"
+  },
   "synced_at": "2026-10-08T16:30:15Z",
   "synced_event": "042cv54gs",
   "synced_hash": "ba1e9d2ec24e7db8",

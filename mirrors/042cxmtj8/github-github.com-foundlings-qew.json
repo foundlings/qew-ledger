@@ -6,6 +6,16 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV7Bk9g",
   "number": 112,
+  "seen": {
+    "assignee": "",
+    "body": "## Behaviour\n`qew hook install|remove --json` prints a stable object per agent: action (`installed|removed|unchanged`), agent, `schema_version`, and `trust_required` for Codex. With several agents the object carries an `agents` list in the fixed order claude, codex, cursor, opencode. Human output stays one line per agent, with the Codex trust line `review and trust it with /hooks before it will run`.\n\n## Scenarios\n- Single agent `--json` on a fresh checkout: exact object incl. `trust_required: true` for Codex. Prevents scripted setup guessing whether a manual trust step remains.\n- All agents `--json` after an install: every entry `unchanged`, order fixed. Prevents non-idempotent reruns being invisible to automation.\n\n## Reference coverage\n2 tests (codex versioned machine output; the JSON half of install-all).\n\n## Qew today\nMissing. `cmd_hook` prints human lines (the trust line exists) but the command has no `--json`, and no test pins the human trust line either.",
+    "comments": [],
+    "labels": [
+      "area:hooks-dist"
+    ],
+    "open": false,
+    "title": "Give `qew hook install|remove` a versioned machine-readable result"
+  },
   "synced_at": "2026-10-08T17:59:38Z",
   "synced_event": "042cz8851",
   "synced_hash": "d25bac7930574434",

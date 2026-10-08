@@ -6,6 +6,16 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV6_blQ",
   "number": 79,
+  "seen": {
+    "assignee": "",
+    "body": "## Behaviour\n`draft approve`, `draft revert` and `create --quote` all call the shared quote check. The guarantee to pin with\nscenarios: validation runs before items are resolved or any file is written, the same refusal table applies on\nevery entry point, and the refusal is exit 2 with the form `Name: 'their words'` in the message. An approval with\nno human words behind it must never produce an `approved` event, since only quoted words release work.\n\n## Scenarios\n1. Table walk over `draft approve`: missing flag, empty, `ok`, no name, unquoted, multi-line, placeholder (`<their words>`, dots, TODO) all exit 2 and leave the item's events as `drafted` only. Prevents agent-minted approval.\n2. Same table over `draft revert` (with a valid reason) writes nothing. Prevents withdrawing approved work on an invented quote.\n3. Order: a bad quote with an unknown item reference reports the quote problem first and touches nothing. Prevents partial resolution side effects.\n\n## Reference coverage\nReference: approve `a human quote is required before any call` (1 of 14), revert `a reason and a human quote are\nrequired before any call` (1 of 12). The reason half is in draft-revert-tree-and-reason.\n\n## Qew today\nCovered in code (shared require_quote, identical rules). Tested only for the single value `ok` on approve (flow walk); the other forms and the revert path have no test.",
+    "comments": [],
+    "labels": [
+      "area:drafts-plans"
+    ],
+    "open": false,
+    "title": "Prove every human-release command validates the quote before touching the ledger"
+  },
   "synced_at": "2026-10-08T17:46:11Z",
   "synced_event": "042cyw5aa",
   "synced_hash": "b4f733eb9144ecf9",

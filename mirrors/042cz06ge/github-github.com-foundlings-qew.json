@@ -6,6 +6,16 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV7SDgg",
   "number": 270,
+  "seen": {
+    "assignee": "",
+    "body": "Found by the drafts lane: draft revert refuses approved work whose pr mirror is not recorded as draft (draft key is not true). qew pr open now records draft; qew pr ready flips the forge flag but leaves the mirror saying draft true, and pr ready is not a ledger-writing verb in replication.verb_for, so a mirror rewrite would be uncommitted. Record draft false on ready inside a session verb.",
+    "comments": [],
+    "labels": [
+      "area:pull-requests"
+    ],
+    "open": true,
+    "title": "qew pr ready must record draft:false in the pr mirror (and run in a ledger session)"
+  },
   "synced_at": "2026-10-08T17:48:33Z",
   "synced_event": "042cz06gf",
   "synced_hash": "b6e04eb549bd56d7",

@@ -8,6 +8,16 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7HbJw",
   "number": 192,
+  "seen": {
+    "assignee": "",
+    "body": "## Behaviour\nMachine-readable result: merge -> `{merged: true, number, head_sha, items: [IDs], schema_version}`, ready -> `{number, ready, changed}`, open -> see pr-open-golden. Every flag is in help_text, README and commands.md, per repo rules.\n\n## Scenarios\n- merge json reports merged, number, head and covered items. Prevents: agents scraping text.\n- help/README/spec agree for the new flag (existing help walk fails otherwise).\n\n## Reference coverage\nReference pr merge walk (json reports merge and what landed), pull-request walk (trailing machine flag): 2 test functions merged here.\n\n## Qew today\nMissing: only plain lines are printed.",
+    "comments": [],
+    "labels": [
+      "area:pull-requests"
+    ],
+    "open": true,
+    "title": "Add `--json` to `qew pr open|ready|merge` with a stable schema"
+  },
   "synced_at": "2026-10-08T17:56:24Z",
   "synced_event": "042cxmtte",
   "synced_hash": "8ac4f3b4642bdc6d",

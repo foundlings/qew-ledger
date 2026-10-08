@@ -6,6 +6,16 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV69Mbw",
   "number": 35,
+  "seen": {
+    "assignee": "",
+    "body": "## Behaviour\nThe reference had `adopt`, `author backfill`, `area ensure`, `project prune` and mode flags because a forge was the store. Qew must not grow lookalikes. Pin by a walk that `qew --help` lists none of `adopt`, `author`, `area`, `campaign` (the replacements are `qew sync`, derived author, header labels, epics) and that the hook guard still refuses direct forge label, milestone, board and project edits with advice naming the qew command to use instead. (Existing guard: hook_guard `_MILESTONE_ADVICE`.)\n\n## Scenarios\n- `help_lists_no_forge_as_store_commands`: prevents scope creep back into forge-as-store admin.\n- `hook_refuses_forge_label_and_board_edits_with_qew_advice`: refusal text names `qew sync`/`qew project ensure`.\n\n## Reference coverage\nGuard rails for the dropped commands above; no reference test maps one to one.\n\n## Qew today\nHook guard already covers label/milestone/board edits (tests/test_hook_v1_walk.py); the help assertion is new.",
+    "comments": [],
+    "labels": [
+      "area:board-admin"
+    ],
+    "open": true,
+    "title": "Keep forge-side admin commands out of the CLI and refuse them in the hook guard"
+  },
   "synced_at": "2026-10-08T17:22:11Z",
   "synced_event": "042cxmtox",
   "synced_hash": "cfbb31127dfe5269",

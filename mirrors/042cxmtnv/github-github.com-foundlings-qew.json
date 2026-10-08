@@ -8,6 +8,17 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7LtPA",
   "number": 252,
+  "seen": {
+    "assignee": "",
+    "body": "Contract: Replication 4. Closed/reopened/assignee/board column changes on the forge never override ledger state.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: issue closed on GitHub creates one divergence, ledger state unchanged, shown by status\n- adversary: a forge-side PR merge around qew creates a divergence and never completes the item\n- golden: the same divergence is not duplicated on the next pull",
+    "comments": [],
+    "labels": [
+      "area:replication",
+      "replication"
+    ],
+    "open": true,
+    "title": "Forge-side state changes become forge_divergence events"
+  },
   "synced_at": "2026-10-08T17:57:46Z",
   "synced_event": "042cxmufe",
   "synced_hash": "971d0d4f12e8fdcf",

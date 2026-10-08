@@ -8,6 +8,16 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7BQqQ",
   "number": 107,
+  "seen": {
+    "assignee": "",
+    "body": "For each blocked item show the longest unmet chain to a root blocker.\nScenarios:\n- golden: chain of three\n- adversary: dangling and closed needs are named",
+    "comments": [],
+    "labels": [
+      "area:graph-ready"
+    ],
+    "open": true,
+    "title": "qew blocked --chains explains blocked chains"
+  },
   "synced_at": "2026-10-08T17:54:02Z",
   "synced_event": "042cxmtqz",
   "synced_hash": "5c4a62bce4d84ee6",

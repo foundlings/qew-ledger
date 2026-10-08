@@ -6,6 +6,16 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV7GY9Q",
   "number": 179,
+  "seen": {
+    "assignee": "",
+    "body": "## Behaviour\n`qew pr open ITEM` opens a draft pull request on the item's issue mirror target, writes `mirrors/<ID>/<target>-pr-<N>.json` only after the forge accepted the create, and prints one terse line (`ID pr #N URL (draft)`). The PR is assigned to its opener (forge login from the actor) so a board and a reader see whose it is. `--json` prints a stable object (`item`, `number`, `url`, `draft`, `schema_version`). The PR title comes from the item title; the body carries the `<!-- qew:ID -->` marker and a short derived summary, never a closing keyword.\n\n## Scenarios\n- golden: claimed item with one issue mirror -> draft PR, assignee set to the opener, exactly one pr mirror file, line names number and url. Prevents: a PR opened with no ledger record, or recorded before the forge accepted it.\n- trailing machine flag: `qew pr open ITEM --json` after the positional prints the stable JSON object. Prevents: agents parsing human text.\n- forge failure leaves no mirror: ForgeUnavailable / ForgeAuth / ForgeRejected during open writes no pr mirror file and exits 1 with one line. Prevents: a phantom PR record that later merges the wrong number.\n- item with zero or several issue mirrors: refused with the `qew sync` / `--target` hint, nothing opened. Prevents: a PR opened against an arbitrary mirror.\n\n## Reference coverage\nReference pull-request lifecycle walk file: golden walk (title/body/assignee), trailing machine-output flag. 2 test functions.\n\n## Qew today\nCovered in part: `PrWalk.test_open_records_a_pull_request_mirror_without_a_closing_keyword` covers draft, head/base, no keyword and the pr mirror file. Missing: assignee on the PullRequestSpec (spec has no assignee field), `--json`, failure-leaves-no-mirror walk, zero/several mirror refusal walk. Reduced: `_mirror_for` uses a bare `next()` and would raise StopIteration if the mirror was removed from config.",
+    "comments": [],
+    "labels": [
+      "area:pull-requests"
+    ],
+    "open": true,
+    "title": "Cover `qew pr open` golden walk: draft PR, mirror file, opener assignee, JSON output"
+  },
   "synced_at": "2026-10-08T17:33:43Z",
   "synced_event": "042cxmtt1",
   "synced_hash": "1a91496ebd410494",

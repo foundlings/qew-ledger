@@ -9,6 +9,16 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7D78A",
   "number": 146,
+  "seen": {
+    "assignee": "",
+    "body": "## Behaviour\nAfter a pull request merges, `qew land PR_NUMBER [--target T] [--json]` completes the items it delivered. Items come from the ledger's own `pr` mirror records for that pull request (and the items linked by `qew pr open`), never from PR title or body text (untrusted). Each such item still claimed by the caller is completed exactly as `qew complete` would, with the merge commit (pinned in the pr mirror or read from the forge) as landing proof; `--json` prints `{state, landed, held, clean}`. Idempotent and safe from a hook: a second run finds nothing to do and exits 0.\n\n## Scenarios\n- golden: merged PR delivers item A claimed by me; A is completed with the merge commit as evidence and output names `landed A from PR N` (prevents: a merge that leaves a stale claim)\n- mixed json: one landed, one held by another actor, one already completed: `landed`, `held` (with holder), `clean` lists are exact (prevents: callers parsing prose)\n- second run: `nothing to land`, exit 0, zero events (prevents: duplicate completion on retry)\n- items taken from a PR body that names an unrelated item id are ignored (prevents: closing work from attacker-controlled text)\n\n## Reference coverage\n3 reference test function(s): `test_golden_walk_completes_the_callers_stale_claim_with_the_merge_commit`, `test_json_reports_landed_held_and_clean_issues`, `test_already_clean_issues_are_left_alone`\n\n## Qew today\nMissing. `qew pr merge` merges and prints a pointer to `qew complete`; nothing completes items from a merged pull request.",
+    "comments": [],
+    "labels": [
+      "area:lifecycle"
+    ],
+    "open": true,
+    "title": "Add `qew land PR` to complete the caller's claimed items after a pull request merges"
+  },
   "synced_at": "2026-10-08T17:54:58Z",
   "synced_event": "042cxmts3",
   "synced_hash": "042d62f241ae9c35",

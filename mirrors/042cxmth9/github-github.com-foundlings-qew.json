@@ -8,6 +8,16 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV69nEQ",
   "number": 43,
+  "seen": {
+    "assignee": "",
+    "body": "`--group-by column|owner|label|epic|parent` renders sections instead of or inside columns.\nScenarios:\n- golden: group by epic lists each epic's children; prevents orphan cards\n- golden: multi-label items appear under each label; prevents hiding overlap\n- refusal: unknown group key exits 2",
+    "comments": [],
+    "labels": [
+      "area:board"
+    ],
+    "open": true,
+    "title": "Board grouping: column, owner, label, epic, parent"
+  },
   "synced_at": "2026-10-08T17:53:02Z",
   "synced_event": "042cxmtp5",
   "synced_hash": "da5fecc190b50f3f",

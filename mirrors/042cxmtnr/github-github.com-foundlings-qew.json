@@ -9,6 +9,17 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7LTow",
   "number": 247,
+  "seen": {
+    "assignee": "",
+    "body": "Contract: Replication 3. Time budget, per-target isolation, pending derived from event ids (no outbox files).\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: claim in the ledger updates the issue and board column on all targets without running sync\n- adversary: forge A down mid-sync: B still updated, write succeeds, pending shown for A, later command catches up\n- golden: an item with no mirror file is pending and gets created\n- prevents: a second command re-sending already synced items (idempotent)",
+    "comments": [],
+    "labels": [
+      "area:replication",
+      "replication"
+    ],
+    "open": false,
+    "title": "Opportunistic push of affected items to every mirror target after a write"
+  },
   "synced_at": "2026-10-08T17:40:15Z",
   "synced_event": "042cyhofz",
   "synced_hash": "28570a70c3dfa7a9",

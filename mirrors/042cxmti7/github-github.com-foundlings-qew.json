@@ -6,6 +6,16 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV6_Pxw",
   "number": 76,
+  "seen": {
+    "assignee": "",
+    "body": "Epic for area `drafts-plans`. Child issues carry the gaps found by the audit and the scenarios each needs.",
+    "comments": [],
+    "labels": [
+      "area:drafts-plans"
+    ],
+    "open": true,
+    "title": "Drafts, plan files, plan rollups and graph invariants"
+  },
   "synced_at": "2026-10-08T17:53:16Z",
   "synced_event": "042cxmtq3",
   "synced_hash": "13d19f98bcac2397",

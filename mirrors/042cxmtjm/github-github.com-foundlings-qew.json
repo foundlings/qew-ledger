@@ -6,6 +6,16 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV7CYFw",
   "number": 125,
+  "seen": {
+    "assignee": "",
+    "body": "## Behaviour\nQew-specific (no reference counterpart): one line after `git push` or `jj git push` for claimed items of the current actor lacking evidence; nothing otherwise.\n\n## Scenarios\nCovered: reminder with a claim lacking evidence; silent without claims or outside a repo; another actor's claim ignored.\n\n## Reference coverage\nNone (qew-only). Listed so the audit accounts for the three qew post-tool walks.\n\n## Qew today\nCovered.",
+    "comments": [],
+    "labels": [
+      "area:hooks-dist"
+    ],
+    "open": true,
+    "title": "Keep the post-push evidence reminder bounded and owner-scoped"
+  },
   "synced_at": "2026-10-08T17:28:38Z",
   "synced_event": "042cxmtrh",
   "synced_hash": "e428823fafca89ab",

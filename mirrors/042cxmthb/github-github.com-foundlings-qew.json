@@ -8,6 +8,16 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV69viQ",
   "number": 45,
+  "seen": {
+    "assignee": "",
+    "body": "Token-efficient fixed-format lines per card plus a stable `--json` schema.\nScenarios:\n- golden: json round-trips ids/columns; prevents format drift\n- golden: compact output under a byte budget for 200 cards",
+    "comments": [],
+    "labels": [
+      "area:board"
+    ],
+    "open": true,
+    "title": "Board compact agent format and --json"
+  },
   "synced_at": "2026-10-08T17:53:08Z",
   "synced_event": "042cxmtp7",
   "synced_hash": "d76785982049764c",

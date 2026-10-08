@@ -8,6 +8,16 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV678AA",
   "number": 12,
+  "seen": {
+    "assignee": "",
+    "body": "## Behaviour\nBoards carry a second single-select field, Priority, with options P0..P4 (ledger `priority: N`, lower is sooner). `project ensure` creates or repairs it with the same keep-foreign-options rule as Status; `place_on_board` (or a new `set_board_priority`) writes only the values that differ; a priority change in the ledger moves the card's Priority on the next sync. A priority outside the board's options is a typed rejection before any write. Forges without fields skip it as Unsupported.\n\n## Scenarios\n- `sync_creates_card_with_priority_and_status`: a new approved item lands with Status Ready and Priority from the header in the expected writes; prevents unprioritised boards.\n- `priority_change_updates_only_the_priority_field`: `qew set --priority` then sync writes Priority once and leaves Status untouched; prevents status churn.\n- `unknown_priority_option_is_rejected_before_any_write`: priority 9 on a P0..P4 board is a typed error; prevents a half-written card.\n\n## Reference coverage\nTests: ready-state-and-priority projection (item, priority and status writes), create adds the card with priority and status, status reports stale priority. Spec: projects.md Priority field.\n\n## Qew today\nMissing. Board has only Status; `Board` carries no fields; the item header priority reaches the forge only as the `priority:N` label.",
+    "comments": [],
+    "labels": [
+      "area:board-admin"
+    ],
+    "open": true,
+    "title": "Mirror item priority to a board Priority field and keep it current"
+  },
   "synced_at": "2026-10-08T17:52:22Z",
   "synced_event": "042cxmto9",
   "synced_hash": "105f79ad7512548c",

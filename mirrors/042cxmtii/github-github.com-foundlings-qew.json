@@ -13,7 +13,7 @@
     "labels": [
       "area:drafts-plans"
     ],
-    "open": true,
+    "open": false,
     "title": "Refuse dependency and parent writes that create cycles, self edges, dangling refs or bad nesting"
   },
   "synced_at": "2026-10-08T17:59:22Z",

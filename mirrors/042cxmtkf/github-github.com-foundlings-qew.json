@@ -6,6 +6,16 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV7EmPA",
   "number": 154,
+  "seen": {
+    "assignee": "",
+    "body": "## Behaviour\nAn epic that has a claimed direct child is in progress, and its holders are exactly the actors of those children. In the ledger this is DERIVED in the read model (`qew show`, `qew list`, the sync mirror state), never stored, so the reference's reconcile-after-every-command machinery disappears. Rules: only open direct non-epic children count (not `needs` edges, grandchildren or child epics); when none is claimed the derived claim is empty; a completed or closed epic shows nothing derived; several holders are all listed; an epic with no claimed child is untouched. Sync pushes the derived assignee set and In progress column to the mirror (covered by the sync area); the derived claim is never a stored `claimed` event.\n\n## Scenarios\n- claimed child makes the epic in progress with that actor as holder; `qew show EPIC` and `list` agree (prevents: an epic that looks idle while a child is worked)\n- two claimed children by two actors: both listed; when the children stop, the epic returns to approved with no holders (prevents: stale derived holders)\n- grandchild, child epic and `needs` edge claims do not count (prevents: every linked epic reading as in progress)\n- closed epic and epic without claimed children show nothing derived; a human assignee on a mirrored epic is never part of the ledger model (prevents: phantom activity)\n- dangling or cyclic parent reference: `qew check` fails loudly, derivation never guessed (prevents: guessing from truncated or inconsistent data)\n\n## Reference coverage\n11 reference test function(s): `test_a_claimed_direct_child_claims_and_moves_its_epic`, `test_every_claimant_is_assigned_and_a_stale_assignee_is_removed`, `test_an_epic_whose_children_all_stopped_loses_what_<tool>_derived`, `test_only_direct_non_epic_children_claim_an_epic`, `test_a_consistent_epic_and_a_closed_epic_are_left_alone`, `test_status_reports_an_epic_claim_that_ensure_would_fix`, `test_start_claims_the_parent_epic_for_the_starter`, `test_completing_the_last_claimed_child_releases_the_epic`, `test_work_without_a_parent_makes_no_epic_call`, `test_a_truncated_child_list_is_never_guessed`, `test_an_unclaimed_epic_with_a_human_assignee_is_not_touched`\n\n## Qew today\nMissing. `qew show` lists children but no derived state. Today an epic must be explicitly claimed by `qew start EPIC` before `qew complete EPIC` is allowed (flow walk test_an_epic_completes_over_finished_children_without_its_own_evidence), which is a different model; decide whether an explicit epic claim stays as an override.",
+    "comments": [],
+    "labels": [
+      "area:lifecycle"
+    ],
+    "open": true,
+    "title": "Derive an epic's claim and status from its direct children at read time"
+  },
   "synced_at": "2026-10-08T17:31:25Z",
   "synced_event": "042cxmtsb",
   "synced_hash": "31869f59a993fe0b",

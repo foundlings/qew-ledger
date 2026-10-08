@@ -8,6 +8,16 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV69bWw",
   "number": 40,
+  "seen": {
+    "assignee": "",
+    "body": "Columns the seven statuses Draft / Backlog / Ready / Needs approval / In progress / In review / Done, cards with id, title, owner, priority, labels; width-aware text layout, no color codes when not a TTY.\nScenarios:\n- golden: five columns with cards; prevents unreadable output\n- adversary: titles with control characters or bidi marks are shown escaped; prevents terminal injection\n- golden: empty ledger renders empty columns with counts",
+    "comments": [],
+    "labels": [
+      "area:board"
+    ],
+    "open": true,
+    "title": "qew board renders the kanban in the terminal"
+  },
   "synced_at": "2026-10-08T17:52:52Z",
   "synced_event": "042cxmtp2",
   "synced_hash": "922f652bb56dc414",

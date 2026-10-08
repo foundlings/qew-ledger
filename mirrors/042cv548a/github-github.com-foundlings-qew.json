@@ -6,6 +6,14 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV6Sk3g",
   "number": 2,
+  "seen": {
+    "assignee": "",
+    "body": "Work remaining after the v1 ledger rewrite landed on branch v1-ledger (draft PR foundlings/qew#1).",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "qew v1 follow-ups"
+  },
   "synced_at": "2026-10-08T16:30:00Z",
   "synced_event": "042cv54dx",
   "synced_hash": "c87d80ff51ce54ea",

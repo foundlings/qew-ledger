@@ -6,6 +6,16 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV7DB8g",
   "number": 135,
+  "seen": {
+    "assignee": "",
+    "body": "Epic for area `lifecycle`. Child issues carry the gaps found by the audit and the scenarios each needs.",
+    "comments": [],
+    "labels": [
+      "area:lifecycle"
+    ],
+    "open": true,
+    "title": "Work lifecycle: claims, completion, close and landing, graph writes"
+  },
   "synced_at": "2026-10-08T17:54:28Z",
   "synced_event": "042cxmtrs",
   "synced_hash": "7676d4c803e15e57",

@@ -6,6 +6,16 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV7B21Q",
   "number": 117,
+  "seen": {
+    "assignee": "",
+    "body": "## Behaviour\nThe hook config foundation: atomic same-directory temp file, flush plus fsync, atomic replace, directory fsync; temp file removed on failure; symlinked root, directory component or target file refused (`symlink`); no-op does not rewrite; new directories 0700 and files 0600, existing file mode preserved; removal never creates directories; unmarked managed file never overwritten or deleted.\n\n## Scenarios\n- Structural JSON install/remove idempotent, unknown keys kept (covered by the qew hook config walk).\n- Managed file install/remove idempotent and refuses an unowned file, which stays byte-identical (covered).\n- Symlinked directory and symlinked target both refused and the outside file stays untouched (covered).\n- Failed atomic replace leaves the original bytes and no `.NAME.*.tmp` leftover (covered).\n- NEW: an existing 0644 or 0640 file keeps its mode after install and after a no-op; new files and directories are 0700/0600. Prevents loosening or tightening a user's config permissions.\n- NEW: symlinked repository root and a symlink swapped in after the first lookup are refused (O_NOFOLLOW chain). Prevents writing through a planted link outside the checkout.\n- NEW: managed-file remove of an unowned file is a no-op, not a delete.\n\n## Reference coverage\n4 tests (json structural, managed file, symlink, failed replace): all four have a qew twin of the same name.\n\n## Qew today\nCovered for four scenarios. Missing: preserved-mode, symlink root, unowned remove.",
+    "comments": [],
+    "labels": [
+      "area:hooks-dist"
+    ],
+    "open": false,
+    "title": "Close the safe-write foundation test gaps (modes, root symlink, tmp cleanup, fsync order)"
+  },
   "synced_at": "2026-10-08T17:59:55Z",
   "synced_event": "042cz9hdc",
   "synced_hash": "4a774c44607be66f",

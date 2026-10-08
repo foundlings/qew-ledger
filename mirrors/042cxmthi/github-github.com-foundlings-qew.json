@@ -6,6 +6,16 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV6-Glw",
   "number": 52,
+  "seen": {
+    "assignee": "",
+    "body": "Command inventory for `qew list`: list items.\n\nFlags: --kind, --state, --label, --json.\n\nEnd-to-end check (2026-10-08, scratch ledger + local forge fake, scripted run of every command): works, exit codes as documented.\n\nWalk coverage today: 2 direct test invocation(s) of `qew list`; flags never exercised by any test: --state.\n\nDone when: a golden scenario and the refusal/adversary scenarios for this command and each flag exist as named walks whose docstrings state the failure prevented, and the three documents (help, README, commands spec) agree.",
+    "comments": [],
+    "labels": [
+      "area:command-inventory"
+    ],
+    "open": true,
+    "title": "Inventory and walk coverage: qew list"
+  },
   "synced_at": "2026-10-08T17:23:24Z",
   "synced_event": "042cxmtpe",
   "synced_hash": "892f4198c33d37cb",

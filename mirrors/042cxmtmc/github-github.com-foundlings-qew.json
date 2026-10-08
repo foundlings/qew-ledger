@@ -9,6 +9,16 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7G7eg",
   "number": 186,
+  "seen": {
+    "assignee": "",
+    "body": "## Behaviour\nTicks `- [ ]` lines of a recorded PR's body outside code fences, addressed by `<!-- pr-progress:ID -->` marker, else by 1-based position (`@N` when a marker already uses N). Unknown ids and duplicate ids are exit 2 before any write. The body is re-read immediately before the write and the write is skipped (exit 3) if the body changed since the first read (no compare-and-set exists on forges; the residual window is documented); the result is read back and verified, and a write that did not stick is exit 3. The rest of the body, including line endings, is preserved byte for byte. An already-ticked item writes nothing. `--list` prints each item and whether it is ticked, writes nothing. The command is listed in the `--help` epilog group, README and commands.md.\n\n## Scenarios\n- golden: marked items -> tick one, forge body differs only by that box, verified by read-back. Prevents: a rebuilt body that drops trailers or text.\n- position addressing and `@N` fallback when a marker id equals a position (marker '2' on item 1 and markerless item 2): both addressable, body readable. Prevents: ambiguous or unreadable bodies.\n- `--all` ticks every open item; already ticked item writes nothing (changed list empty, zero edits). Prevents: spurious edits.\n- unknown item and duplicate item ids: exit 2, zero writes. Prevents: partial ticking.\n- code fences: items inside ``` or ~~~ blocks do not count; one-line fences and shorter closing fences follow CommonMark. Prevents: a hidden open box letting `qew pr merge` pass.\n- CRLF body ticked without changing line endings. Prevents: whole-body diffs.\n- concurrent human edit between read and write: refused exit 3, zero writes. Prevents: losing a teammate's edit.\n- write that did not stick (forge returns old body): exit 3. Prevents: reporting success for a failed write.\n- `--list` shows items and ticked state without writing; a body without a checklist says so.\n- naming items together with `--all` or `--list` or neither is exit 2 before any forge call. Prevents: ambiguous intent.\n- merged or closed PR refused exit 2 with zero writes. Prevents: editing history.\n- ownership refusals are covered by pr-owner-rule.\n\n## Reference coverage\nReference pr check walk file: 19 test functions (tick marked, position, all, already ticked, unknown item, code block, fence rules, CRLF, marker equals position, duplicate id, edited meanwhile, teammate holds claims, teammate missing claim, other login, merged PR, write not sticking, list, no checklist, mutually exclusive options). Ownership ones (3) go to pr-owner-rule.\n\n## Qew today\nMissing entirely: no `pr check` subcommand, no checklist model, `RemotePullRequest` carries no body.",
+    "comments": [],
+    "labels": [
+      "area:pull-requests"
+    ],
+    "open": true,
+    "title": "Add `qew pr check NUMBER (ID... | --all | --list)` to tick PR progress items in place"
+  },
   "synced_at": "2026-10-08T17:56:06Z",
   "synced_event": "042cxmtt8",
   "synced_hash": "c62754b941ab1e86",

@@ -6,6 +6,14 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV6SmIw",
   "number": 3,
+  "seen": {
+    "assignee": "",
+    "body": "Rewrite item IDs and every reference to time-mode IDs and record the old IDs as `aliases:` in the header. Requested by the owner; deliberately not v1.",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "Add qew migrate-ids --to time"
+  },
   "synced_at": "2026-10-08T16:30:04Z",
   "synced_event": "042cv54dy",
   "synced_hash": "8777601815654d06",

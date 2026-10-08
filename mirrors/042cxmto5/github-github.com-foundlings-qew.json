@@ -8,6 +8,16 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7MpzA",
   "number": 265,
+  "seen": {
+    "assignee": "",
+    "body": "Mechanical parser for `Refs: ID` trailers; unknown ids reported.\nScenarios:\n- golden: trailer parsed\n- adversary: lookalike ids ignored",
+    "comments": [],
+    "labels": [
+      "area:vcs-hook"
+    ],
+    "open": true,
+    "title": "Commit message references to ledger IDs"
+  },
   "synced_at": "2026-10-08T17:58:05Z",
   "synced_event": "042cxmufp",
   "synced_hash": "abe491ab673766f5",

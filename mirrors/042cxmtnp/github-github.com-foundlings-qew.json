@@ -6,6 +6,17 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV7LJlA",
   "number": 245,
+  "seen": {
+    "assignee": "",
+    "body": "Contract: Replication 7. auto_commit/auto_push/auto_forge_sync/timeout_s with defaults; QEW_OFFLINE=1.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: defaults on; each switch off disables exactly its step\n- refusal: unknown key or wrong type fails with the file named\n- golden: QEW_OFFLINE=1 makes zero network calls (fake forge and remote record none) yet still commits locally",
+    "comments": [],
+    "labels": [
+      "area:replication",
+      "replication"
+    ],
+    "open": false,
+    "title": "[replication] config and QEW_OFFLINE"
+  },
   "synced_at": "2026-10-08T17:40:10Z",
   "synced_event": "042cxwn50",
   "synced_hash": "904794956ecfbd48",

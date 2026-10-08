@@ -8,6 +8,16 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV69jMQ",
   "number": 42,
+  "seen": {
+    "assignee": "",
+    "body": "`--sort priority|updated|created|title[:desc]` like GitHub Projects boards; updated derives from the newest event.\nScenarios:\n- golden: each key orders cards as documented\n- refusal: unknown sort key exits 2 naming valid keys; prevents silent default ordering",
+    "comments": [],
+    "labels": [
+      "area:board"
+    ],
+    "open": true,
+    "title": "Board sorting: priority, updated, created, title"
+  },
   "synced_at": "2026-10-08T17:52:59Z",
   "synced_event": "042cxmtp4",
   "synced_hash": "b416dd11af99bcac",
