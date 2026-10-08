@@ -20,8 +20,8 @@
     "open": true,
     "title": "Rewrite the security spec for read-side trust, and add a token-efficiency measurement"
   },
-  "synced_at": "2026-10-08T17:57:41Z",
+  "synced_at": "2026-10-08T18:27:20Z",
   "synced_event": "042cxmtug",
-  "synced_hash": "222b996607b49024",
+  "synced_hash": "732fd347f8052369",
   "url": "https://github.com/foundlings/qew"
 }
