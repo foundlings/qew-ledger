@@ -14,11 +14,11 @@
       "area:authority",
       "authority"
     ],
-    "open": true,
+    "open": false,
     "title": "[authority] primary configuration and status"
   },
-  "synced_at": "2026-10-08T18:02:38Z",
-  "synced_event": "042czp387",
-  "synced_hash": "f186021e1e0a24a9",
+  "synced_at": "2026-10-08T18:03:43Z",
+  "synced_event": "042czr616",
+  "synced_hash": "ff52432ff958f39a",
   "url": "https://github.com/foundlings/qew"
 }
