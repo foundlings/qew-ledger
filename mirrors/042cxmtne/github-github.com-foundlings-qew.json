@@ -1,5 +1,5 @@
 {
-  "column": "Draft",
+  "column": "Backlog",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/226",
   "kind": "issue",
@@ -9,8 +9,8 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7KLJg",
   "number": 226,
-  "synced_at": "2026-10-08T17:38:33Z",
+  "synced_at": "2026-10-08T17:57:25Z",
   "synced_event": "042cxmtua",
-  "synced_hash": "e4f9b1d36bbd3e53",
+  "synced_hash": "9a3f97059afdc042",
   "url": "https://github.com/foundlings/qew"
 }
