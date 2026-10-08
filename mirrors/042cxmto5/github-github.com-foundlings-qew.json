@@ -8,6 +8,7 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7MpzA",
   "number": 265,
+  "priority": "P2",
   "seen": {
     "assignee": "",
     "body": "Mechanical parser for `Refs: ID` trailers; unknown ids reported.\nScenarios:\n- golden: trailer parsed\n- adversary: lookalike ids ignored",
