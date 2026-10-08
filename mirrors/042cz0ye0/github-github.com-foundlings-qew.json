@@ -8,6 +8,7 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7SoCQ",
   "number": 273,
+  "priority": "P0",
   "seen": {
     "assignee": "",
     "body": "Contract: docs/specs/ledger.md, Authority and topology.\nA `claimed` event named by `claim_lost` is ignored by the fold; `claim_confirmed` is informational; check validates refs.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: lost claim leaves the item approved and unclaimed\n- adversary: claim_lost naming a missing event fails check\n- golden: two claims with the second lost fold cleanly",
