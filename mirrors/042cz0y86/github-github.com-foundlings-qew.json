@@ -1,0 +1,23 @@
+{
+  "column": "Ready",
+  "forge": "github",
+  "issue_url": "https://github.com/foundlings/qew/issues/271",
+  "kind": "issue",
+  "linked": [],
+  "node_id": "I_kwDOVBP4_s8AAAABV7Sccw",
+  "number": 271,
+  "seen": {
+    "assignee": "",
+    "body": "Epic for area `authority`. Child issues carry the gaps found by the audit and the scenarios each needs.",
+    "comments": [],
+    "labels": [
+      "area:authority"
+    ],
+    "open": true,
+    "title": "Authority, conflicts, primary forge, migration and fork"
+  },
+  "synced_at": "2026-10-08T17:49:01Z",
+  "synced_event": "042cz0yg8",
+  "synced_hash": "abd35c72be5c3e99",
+  "url": "https://github.com/foundlings/qew"
+}
