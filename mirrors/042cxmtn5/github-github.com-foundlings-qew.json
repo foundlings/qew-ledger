@@ -1,5 +1,5 @@
 {
-  "column": "Backlog",
+  "column": "In progress",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/214",
   "kind": "issue",
@@ -8,18 +8,20 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7JVVQ",
   "number": 214,
+  "priority": "P2",
   "seen": {
     "assignee": "",
     "body": "## Behaviour\n`qew comment ITEM (--body TEXT | --body-file F)` appends a `commented` event (actor, time, body) and prints `commented on ID`. The body must be non-empty after trimming; exactly one of `--body` and `--body-file` is allowed; `-` reads stdin; the refusal happens before any write. Comments are untrusted text: `show` lists them with author and time, annotated with text findings, and routine reads never print them. Mirroring a comment to a forge is a sync concern (separate issue); the ledger record is the truth. `qew check` validates the new event type.\n\n## Scenarios\n- golden: comment with `--body` then `show --json` lists the comment with author and timestamp. Prevents discussion living only on the forge.\n- golden: `--body-file` preserves the file's exact text including the final newline. Prevents silent body mangling.\n- refusal: missing body, whitespace-only body, and both `--body` and `--body-file` exit 2 and write no event file. Prevents an empty or ambiguous comment.\n- adversary: comment text containing a claim-marker-looking string or HTML comment is stored verbatim as data and never interpreted as a claim or release. Prevents a comment forging a state change.\n\n## Reference coverage\nReference draft-read walk comment tests: adds the body, reads a body file, refuses missing/empty/double body (3 tests).\n\n## Qew today\nMissing. There is no comment command or comment event type; hook guard blocks forge comments but nothing replaces them.",
     "comments": [],
     "labels": [
-      "area:read-side"
+      "area:read-side",
+      "status:In progress"
     ],
     "open": true,
     "title": "Add item comments as append-only ledger events and show them on `qew show`"
   },
-  "synced_at": "2026-10-08T17:57:02Z",
-  "synced_event": "042cxmtu1",
-  "synced_hash": "e431e8e8651bfeeb",
+  "synced_at": "2026-10-08T18:25:59Z",
+  "synced_event": "042d0000u",
+  "synced_hash": "d322901a6faaf8de",
   "url": "https://github.com/foundlings/qew"
 }

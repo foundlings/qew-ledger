@@ -9,18 +9,20 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7J_Rg",
   "number": 222,
+  "priority": "P3",
   "seen": {
     "assignee": "",
     "body": "## Behaviour\n`qew check` stays fatal on schema, cycle, dangling and illegal-state problems and gains advisory (non-fatal) notes shaped like the reference `graph check` report: `cycles`, `contradictions` (an epic that is claimed, an item both approved and with a draft marker label, a priority outside the allowed range), and `text_findings` per item and field. `--json` prints `{valid, cycles, contradictions, text_findings, schema_version}`. Exit 1 only for fatal problems; advisory notes alone exit 0.\n\n## Scenarios\n- golden: a clean ledger reports `valid: true` and empty lists. Prevents false alarms.\n- adversary: an item title carrying a right-to-left override and a two-node cycle yields both `cycles` and `text_findings` in one JSON report and exit 1. Prevents hidden-text items passing health checks.\n- golden: only advisory findings present exits 0 with the findings listed. Prevents blocking work on a style warning.\n\n## Reference coverage\nReference model-output walks: graph check reports cycles, contradictions and unicode findings; golden clean DAG (2 tests). Multiple-priority and multiple-type contradictions are label-vocabulary artifacts and dropped (priority and kind are single header fields).\n\n## Qew today\nReduced. `qew check` prints text problems and notes only; no JSON, no advisory text findings, no claimed-epic contradiction.",
     "comments": [],
     "labels": [
-      "area:read-side"
+      "area:read-side",
+      "status:Backlog"
     ],
     "open": true,
     "title": "Extend `qew check` with advisory findings: suspicious titles, epic claimed, JSON report"
   },
-  "synced_at": "2026-10-08T17:57:19Z",
+  "synced_at": "2026-10-08T18:26:38Z",
   "synced_event": "042cxmtu8",
-  "synced_hash": "05e9694a06e2a2fe",
+  "synced_hash": "515ef79919543ef1",
   "url": "https://github.com/foundlings/qew"
 }
