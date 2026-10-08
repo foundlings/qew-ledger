@@ -6,18 +6,20 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV7BeEw",
   "number": 110,
+  "priority": "P1",
   "seen": {
     "assignee": "",
     "body": "Epic for area `hooks-dist`. Child issues carry the gaps found by the audit and the scenarios each needs.",
     "comments": [],
     "labels": [
-      "area:hooks-dist"
+      "area:hooks-dist",
+      "status:In progress"
     ],
     "open": true,
     "title": "Hooks, installation, help and release distribution parity"
   },
-  "synced_at": "2026-10-08T17:54:08Z",
+  "synced_at": "2026-10-08T18:17:07Z",
   "synced_event": "042cxmtr2",
-  "synced_hash": "7594edca9583a3dc",
+  "synced_hash": "192319ba84d8d1c5",
   "url": "https://github.com/foundlings/qew"
 }
