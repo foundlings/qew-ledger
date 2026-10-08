@@ -1,7 +1,9 @@
 {
   "columns": [
     "Draft",
+    "Backlog",
     "Ready",
+    "Needs approval",
     "In progress",
     "In review",
     "Done"
