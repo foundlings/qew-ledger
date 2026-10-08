@@ -9,12 +9,14 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7DYQQ",
   "number": 140,
+  "priority": "P2",
   "seen": {
     "assignee": "",
     "body": "## Behaviour\nTaking over work another actor holds is a deliberate act. `qew start ITEM --take-over --reason TEXT` checks the item may start (not draft, no unmet needs, not completed or closed), then appends a forced `released` event (previous owner, reason, taker) and a `claimed` event for the caller, both in one command. Without the flag another actor's claim stays exit 3. Refused before any write: `--take-over` without `--reason` (2); nothing to take over because the item is unclaimed or the caller already holds it (2); an item that may not start (2), so the claim is never freed and then stranded.\n\n## Scenarios\n- golden: A holds, B takes over with a reason; events show forced release naming A then claimed by B (prevents: a takeover that leaves no record of whose claim was taken)\n- plain start on A's claim still exits 3 naming `--take-over` (prevents: accidental takeover)\n- no `--reason`: exit 2, zero events (prevents: unexplained takeover)\n- unclaimed or own claim: exit 2 `nothing to take over`, zero events\n- blocked or draft claimed item: refused before the release is written (prevents: freeing work and then failing to claim it)\n\n## Reference coverage\n5 reference test function(s): `test_start_still_refuses_another_logins_claim_without_take_over`, `test_start_take_over_moves_the_claim_and_records_whose_it_was`, `test_start_take_over_needs_a_reason_before_any_call`, `test_start_take_over_of_unclaimed_work_is_refused_without_writing`, `test_start_take_over_never_frees_work_that_may_not_start`\n\n## Qew today\nMissing. No `--take-over` flag, no forced release.",
     "comments": [],
     "labels": [
-      "area:lifecycle"
+      "area:lifecycle",
+      "status:Backlog"
     ],
     "open": true,
     "title": "Add `qew start --take-over --reason` as a recorded takeover of another actor's claim"
