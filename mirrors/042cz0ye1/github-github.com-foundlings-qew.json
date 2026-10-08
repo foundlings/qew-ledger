@@ -14,13 +14,14 @@
     "comments": [],
     "labels": [
       "area:authority",
-      "authority"
+      "authority",
+      "status:In progress"
     ],
     "open": true,
     "title": "Atomic claim reservation on the primary forge"
   },
-  "synced_at": "2026-10-08T18:04:44Z",
-  "synced_event": "042czst9b",
-  "synced_hash": "fb8dbc0dcf1290ba",
+  "synced_at": "2026-10-08T18:29:29Z",
+  "synced_event": "042d08r56",
+  "synced_hash": "b204eab5b8c43a5d",
   "url": "https://github.com/foundlings/qew"
 }
