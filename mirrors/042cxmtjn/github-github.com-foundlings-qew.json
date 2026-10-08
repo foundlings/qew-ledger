@@ -11,13 +11,14 @@
     "body": "## Behaviour\n`qew --version` prints `qew X.Y.Z` (the installed package version), exits 0, touches no ledger, no network and no forge, and works outside any repository.\n\n## Scenarios\n- Outside a repo: stdout matches `^qew \\d+\\.\\d+\\.\\d+\\n$`, no subprocess or HTTP call recorded. Prevents users being unable to identify the installed build or the command needing credentials.\n- Version equals the package metadata and the release tag check in the release issue.\n\n## Reference coverage\n1 test (version flag).\n\n## Qew today\nMissing: no `--version` option in `cli.py`, no test.",
     "comments": [],
     "labels": [
-      "area:hooks-dist"
+      "area:hooks-dist",
+      "status:In progress"
     ],
     "open": true,
     "title": "Add `qew --version` printing the package version offline"
   },
-  "synced_at": "2026-10-08T18:00:53Z",
-  "synced_event": "042czke5b",
-  "synced_hash": "17a270758bffbe96",
+  "synced_at": "2026-10-08T18:18:33Z",
+  "synced_event": "042d0g92a",
+  "synced_hash": "7e813e4d2603955a",
   "url": "https://github.com/foundlings/qew"
 }

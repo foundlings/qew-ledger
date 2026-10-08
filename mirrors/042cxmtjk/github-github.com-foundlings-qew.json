@@ -8,12 +8,14 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7CTHQ",
   "number": 124,
+  "priority": "P2",
   "seen": {
     "assignee": "",
     "body": "## Behaviour\nThe reference auto-landed the closed items after `gh pr merge N`. In qew a raw merge is refused by pre-tool, and the ledger is the source of truth, so the post-tool hook must instead handle merges that happen anyway (merge via `qew pr merge`, the forge UI, auto-merge): after a successful `qew pr merge N` run by the agent, post-tool prints one line naming the items whose evidence is now merged and the exact `qew complete ITEM` command; it never completes anything itself (a human or agent completion stays explicit) and never acts on a PR that is not merged.\n\n## Scenarios\n- Agent ran `qew pr merge 42` and the ledger holds claimed item with that evidence: one reminder naming `qew complete`. Prevents merged-but-open items going stale.\n- Command text only mentions a merge in quotes, or a PR number 0 or a branch name: silent. Prevents acting on data in command text.\n- PR still open or the forge unreadable: silent, exit 0. Prevents a false completion hint.\n- Another actor's claim is named, not taken (`--take-over` hint).\n- Per-agent shapes (Cursor silent, opencode plain) via the shape issue.\n\n## Reference coverage\nPost-shell tests: merge lands; explicit repo/URL; cursor silent; opencode plain; non-merge commands inert; failing landing reports command; other login's claim reported not taken; outside repo silent. 8 tests, redesigned into 5 scenarios.\n\n## Qew today\nMissing by design: post-tool today only reminds after a push. Needs a decision recorded in docs/specs/hooks.md.",
     "comments": [],
     "labels": [
-      "area:hooks-dist"
+      "area:hooks-dist",
+      "status:In progress"
     ],
     "open": true,
     "title": "Decide and implement what happens after an agent merges a pull request (ledger completion hint)"
