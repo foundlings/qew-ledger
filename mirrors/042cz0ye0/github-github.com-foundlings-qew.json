@@ -1,5 +1,5 @@
 {
-  "column": "Backlog",
+  "column": "Ready",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/273",
   "kind": "issue",
@@ -19,8 +19,8 @@
     "open": true,
     "title": "claim_confirmed and claim_lost events in the fold"
   },
-  "synced_at": "2026-10-08T17:58:11Z",
-  "synced_event": "042cz0yga",
-  "synced_hash": "7abd39d15b227db9",
+  "synced_at": "2026-10-08T18:03:46Z",
+  "synced_event": "042czrgax",
+  "synced_hash": "9cf280f72a4c3ea4",
   "url": "https://github.com/foundlings/qew"
 }
