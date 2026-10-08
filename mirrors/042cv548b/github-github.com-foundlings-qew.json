@@ -10,12 +10,14 @@
     "assignee": "",
     "body": "Rewrite item IDs and every reference to time-mode IDs and record the old IDs as `aliases:` in the header. Requested by the owner; deliberately not v1.",
     "comments": [],
-    "labels": [],
+    "labels": [
+      "status:Draft"
+    ],
     "open": true,
     "title": "Add qew migrate-ids --to time"
   },
-  "synced_at": "2026-10-08T16:30:04Z",
+  "synced_at": "2026-10-08T18:06:04Z",
   "synced_event": "042cv54dy",
-  "synced_hash": "8777601815654d06",
+  "synced_hash": "49b4fde2d8baded2",
   "url": "https://github.com/foundlings/qew"
 }

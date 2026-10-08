@@ -6,6 +6,7 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV6Sk3g",
   "number": 2,
+  "priority": "P1",
   "seen": {
     "assignee": "",
     "body": "Work remaining after the v1 ledger rewrite landed on branch v1-ledger (draft PR foundlings/qew#1).",
