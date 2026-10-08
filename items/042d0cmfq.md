@@ -1,9 +1,9 @@
 id: 042d0cmfq
 kind: issue
-title: drive: created offline by agent c
+title: drive: renamed on GitHub by a human
 parent: 
 needs: 
-labels: drive
+labels: drive human-triage
 owner: 
 priority: 2
 created: 2026-10-08T18:16:06Z
