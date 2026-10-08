@@ -8,6 +8,7 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7L9aQ",
   "number": 258,
+  "priority": "P0",
   "seen": {
     "assignee": "",
     "body": "Contract: Replication 5.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: empty forge fake rebuilt with issues, links, board\n- golden: idempotent second run changes nothing\n- adversary: forge down halfway resumes without duplicates (marker adoption)",
