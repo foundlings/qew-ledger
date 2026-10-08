@@ -16,13 +16,14 @@
     "comments": [],
     "labels": [
       "area:replication",
-      "replication"
+      "replication",
+      "status:Done"
     ],
     "open": false,
     "title": "Detached background sync after every write (token-free)"
   },
-  "synced_at": "2026-10-08T17:41:56Z",
+  "synced_at": "2026-10-08T18:28:43Z",
   "synced_event": "042cyi4bn",
-  "synced_hash": "22c40f98e55bff6f",
+  "synced_hash": "dcf8da61736ce087",
   "url": "https://github.com/foundlings/qew"
 }
