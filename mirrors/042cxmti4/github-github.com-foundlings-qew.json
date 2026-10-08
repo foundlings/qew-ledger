@@ -11,13 +11,14 @@
     "body": "Command inventory for `qew pr open`: open a draft pull request for an item.\n\nFlags: --target, --head, --base, --ready.\n\nEnd-to-end check (2026-10-08, scratch ledger + local forge fake, scripted run of every command): works, exit codes as documented.\n\nWalk coverage today: 1 direct test invocation(s) of `qew pr open`; flags never exercised by any test: --base, --ready.\n\nDone when: a golden scenario and the refusal/adversary scenarios for this command and each flag exist as named walks whose docstrings state the failure prevented, and the three documents (help, README, commands spec) agree.",
     "comments": [],
     "labels": [
-      "area:command-inventory"
+      "area:command-inventory",
+      "status:Ready"
     ],
     "open": true,
     "title": "Inventory and walk coverage: qew pr open"
   },
-  "synced_at": "2026-10-08T17:24:42Z",
+  "synced_at": "2026-10-08T18:13:22Z",
   "synced_event": "042cxmtq0",
-  "synced_hash": "9fcd9dab944e3c71",
+  "synced_hash": "550bd208ec9e44ed",
   "url": "https://github.com/foundlings/qew"
 }
