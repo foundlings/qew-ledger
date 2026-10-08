@@ -3,7 +3,7 @@ kind: issue
 title: Make plan application re-runnable: adopt already-created items instead of duplicating
 parent: 042cxmti7
 needs: 042cxmtiq
-labels: area:drafts-plans
+labels: area:drafts-plans status:Backlog
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
