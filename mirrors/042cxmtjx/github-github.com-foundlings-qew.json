@@ -16,8 +16,8 @@
     "open": true,
     "title": "Resolve concurrent double claims after a ledger merge deterministically"
   },
-  "synced_at": "2026-10-08T17:51:01Z",
+  "synced_at": "2026-10-08T18:19:25Z",
   "synced_event": "042cz1x20",
-  "synced_hash": "f45db8541f0cc562",
+  "synced_hash": "13e21e2badc60039",
   "url": "https://github.com/foundlings/qew"
 }
