@@ -3,7 +3,7 @@ kind: issue
 title: Local per-checkout write lock
 parent: 042cxmtnm
 needs: 
-labels: area:replication replication
+labels: area:replication
 owner: 
 priority: 0
 created: 2026-10-08T17:20:13Z
