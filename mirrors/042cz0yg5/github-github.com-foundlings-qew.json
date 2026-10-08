@@ -1,5 +1,5 @@
 {
-  "column": "Backlog",
+  "column": "Ready",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/283",
   "kind": "issue",
@@ -19,8 +19,8 @@
     "open": true,
     "title": "Contradictions surface as divergences"
   },
-  "synced_at": "2026-10-08T17:58:36Z",
+  "synced_at": "2026-10-08T18:04:15Z",
   "synced_event": "042cz0ygk",
-  "synced_hash": "c5d23f00b2ffa958",
+  "synced_hash": "8b364479a0249de2",
   "url": "https://github.com/foundlings/qew"
 }

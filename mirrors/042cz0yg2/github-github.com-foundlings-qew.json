@@ -1,5 +1,5 @@
 {
-  "column": "Backlog",
+  "column": "Ready",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/280",
   "kind": "issue",
@@ -19,8 +19,8 @@
     "open": true,
     "title": "Code and ledger repos pushed to every forge target"
   },
-  "synced_at": "2026-10-08T17:58:28Z",
+  "synced_at": "2026-10-08T18:03:51Z",
   "synced_event": "042cz0ygh",
-  "synced_hash": "944e70c608791400",
+  "synced_hash": "26b41f3d45fbaa95",
   "url": "https://github.com/foundlings/qew"
 }

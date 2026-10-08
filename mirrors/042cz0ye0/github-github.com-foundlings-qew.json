@@ -1,5 +1,5 @@
 {
-  "column": "Ready",
+  "column": "Done",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/273",
   "kind": "issue",
@@ -16,11 +16,11 @@
       "area:authority",
       "authority"
     ],
-    "open": true,
+    "open": false,
     "title": "claim_confirmed and claim_lost events in the fold"
   },
-  "synced_at": "2026-10-08T18:03:46Z",
-  "synced_event": "042czrgax",
-  "synced_hash": "9cf280f72a4c3ea4",
+  "synced_at": "2026-10-08T18:04:03Z",
+  "synced_event": "042czro6i",
+  "synced_hash": "5f84e65e48cd2342",
   "url": "https://github.com/foundlings/qew"
 }
