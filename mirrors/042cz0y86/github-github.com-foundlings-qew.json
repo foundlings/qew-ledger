@@ -1,5 +1,5 @@
 {
-  "column": "Ready",
+  "column": "Backlog",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/271",
   "kind": "issue",
@@ -16,8 +16,8 @@
     "open": true,
     "title": "Authority, conflicts, primary forge, migration and fork"
   },
-  "synced_at": "2026-10-08T17:49:01Z",
+  "synced_at": "2026-10-08T17:58:08Z",
   "synced_event": "042cz0yg8",
-  "synced_hash": "abd35c72be5c3e99",
+  "synced_hash": "35318a3dddcded74",
   "url": "https://github.com/foundlings/qew"
 }
