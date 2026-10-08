@@ -11,13 +11,14 @@
     "body": "Epic for area `command-inventory`. Child issues carry the gaps found by the audit and the scenarios each needs.",
     "comments": [],
     "labels": [
-      "area:command-inventory"
+      "area:command-inventory",
+      "status:Backlog"
     ],
     "open": true,
     "title": "Command inventory: every command and flag verified and walked"
   },
-  "synced_at": "2026-10-08T17:53:13Z",
+  "synced_at": "2026-10-08T18:10:45Z",
   "synced_event": "042cxmtp9",
-  "synced_hash": "b57578472798b6d9",
+  "synced_hash": "59ee63144a2275da",
   "url": "https://github.com/foundlings/qew"
 }
