@@ -6,6 +6,7 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV7DB8g",
   "number": 135,
+  "priority": "P1",
   "seen": {
     "assignee": "",
     "body": "Epic for area `lifecycle`. Child issues carry the gaps found by the audit and the scenarios each needs.",
