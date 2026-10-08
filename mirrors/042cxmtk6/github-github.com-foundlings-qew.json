@@ -18,8 +18,8 @@
     "open": true,
     "title": "Enforce a per-actor active-claim cap from config (`max_active_claims`)"
   },
-  "synced_at": "2026-10-08T17:54:54Z",
+  "synced_at": "2026-10-08T18:20:12Z",
   "synced_event": "042cxmts2",
-  "synced_hash": "ba85b9e046d8165b",
+  "synced_hash": "d5f2bb9f36fed289",
   "url": "https://github.com/foundlings/qew"
 }
