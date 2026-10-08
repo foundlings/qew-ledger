@@ -13,13 +13,13 @@
     "comments": [],
     "labels": [
       "area:pull-requests",
-      "status:Done"
+      "status:In progress"
     ],
-    "open": false,
+    "open": true,
     "title": "Prove complete pagination for the forge reads the pr commands rely on"
   },
-  "synced_at": "2026-10-08T18:24:53Z",
+  "synced_at": "2026-10-08T18:25:05Z",
   "synced_event": "042d04d0b",
-  "synced_hash": "b610f9d40a74586b",
+  "synced_hash": "88d24e4f46c73887",
   "url": "https://github.com/foundlings/qew"
 }

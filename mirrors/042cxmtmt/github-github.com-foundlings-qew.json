@@ -6,6 +6,7 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV7IU3A",
   "number": 202,
+  "priority": "P1",
   "seen": {
     "assignee": "",
     "body": "Epic for area `read-side`. Child issues carry the gaps found by the audit and the scenarios each needs.",
