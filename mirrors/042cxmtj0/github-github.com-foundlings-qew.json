@@ -8,18 +8,20 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7BDTQ",
   "number": 104,
+  "priority": "P2",
   "seen": {
     "assignee": "",
     "body": "Stable JSON schema equal to what `create --from-file` accepts.\nScenarios:\n- golden: round trip equality",
     "comments": [],
     "labels": [
-      "area:export-import"
+      "area:export-import",
+      "status:Backlog"
     ],
     "open": true,
     "title": "qew export --json and create --from-file round trip"
   },
-  "synced_at": "2026-10-08T17:53:57Z",
+  "synced_at": "2026-10-08T18:17:22Z",
   "synced_event": "042cxmtqw",
-  "synced_hash": "d17080f2b34505a4",
+  "synced_hash": "9466ff539889c010",
   "url": "https://github.com/foundlings/qew"
 }

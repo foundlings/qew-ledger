@@ -6,18 +6,20 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV7A6Rw",
   "number": 102,
+  "priority": "P2",
   "seen": {
     "assignee": "",
     "body": "`qew export DIR` writes items/<ID>.md-compatible files and an events summary, deterministic.\nScenarios:\n- golden: export then import into an empty ledger reproduces items\n- adversary: ids that would escape the directory are refused",
     "comments": [],
     "labels": [
-      "area:export-import"
+      "area:export-import",
+      "status:In progress"
     ],
     "open": true,
     "title": "qew export writes items as Markdown files with fixed headers"
   },
-  "synced_at": "2026-10-08T17:48:43Z",
+  "synced_at": "2026-10-08T18:17:19Z",
   "synced_event": "042cz0i9e",
-  "synced_hash": "fb5589093913181f",
+  "synced_hash": "e138857365c563de",
   "url": "https://github.com/foundlings/qew"
 }
