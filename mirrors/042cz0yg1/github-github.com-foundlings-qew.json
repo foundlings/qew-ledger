@@ -6,19 +6,21 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV7TQ8w",
   "number": 279,
+  "priority": "P2",
   "seen": {
     "assignee": "",
     "body": "Contract: docs/specs/ledger.md, Authority and topology.\nSchema gains `tracks:` and `pr:` (ledger ids); forge numbers and URLs never appear in item files; `qew show` resolves links to forge URLs from mirrors/.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: show prints the issue URL from the mirror index\n- refusal: a header containing a URL or number fails check\n- golden: adding a forge target rewrites no item file",
     "comments": [],
     "labels": [
       "area:authority",
-      "authority"
+      "authority",
+      "status:Ready"
     ],
     "open": true,
     "title": "Item headers carry ledger-level links only (tracks, pr)"
   },
-  "synced_at": "2026-10-08T17:49:59Z",
-  "synced_event": "042cz0ygg",
-  "synced_hash": "745f7f852c6ee6cc",
+  "synced_at": "2026-10-08T18:29:59Z",
+  "synced_event": "042d0mv07",
+  "synced_hash": "2361153fb44c2af5",
   "url": "https://github.com/foundlings/qew"
 }
