@@ -8,6 +8,7 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7HWPQ",
   "number": 191,
+  "priority": "P1",
   "seen": {
     "assignee": "",
     "body": "## Behaviour\nAfter a forge merge call, re-read the PR; if it still reads open, wait about one second and read once more; if still not merged report exit 3 'merge not visible' (the forge call returned ok but nothing landed). The success line is printed only after the PR is `merged`. Because the ledger completes through `qew complete`, no automatic landing is performed here; the output carries the exact command to run (`qew complete ID`), and for epic PRs lists every covered item.\n\n## Scenarios\n- delayed visibility: first re-read open, second merged -> success. Prevents: false failure when the forge lags.\n- merge that did not happen: both re-reads open -> exit 3. Prevents: telling the user work merged when it did not.\n- epic PR merged: output lists each covered item and its `qew complete` command. Prevents: forgotten items.\n\n## Reference coverage\nReference pr merge walk file: merge not yet visible re-read, merge that did not happen, landing failure reported with the command to rerun (landing itself is dropped: see dropped). 3 test functions.\n\n## Qew today\nMissing: `merge_pull_request` trusts the forge call and never re-reads.",
@@ -18,8 +19,8 @@
     "open": true,
     "title": "Verify the merge happened: re-read once after a delay, report a merge that did not land"
   },
-  "synced_at": "2026-10-08T17:56:20Z",
+  "synced_at": "2026-10-08T18:24:03Z",
   "synced_event": "042cxmttd",
-  "synced_hash": "59282e07f5cf7e37",
+  "synced_hash": "1bac28e05d204ac8",
   "url": "https://github.com/foundlings/qew"
 }
