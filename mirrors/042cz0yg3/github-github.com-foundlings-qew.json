@@ -9,19 +9,21 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7TcHA",
   "number": 281,
+  "priority": "P2",
   "seen": {
     "assignee": "",
     "body": "Contract: docs/specs/ledger.md, Authority and topology.\nRestore the ledger onto the target, verify counts, switch primary, demote old primary to read-only (or --remove-old). Idempotent, resumable.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: migrate between two fake forges ends with primary switched and old read-only\n- adversary: crash midway resumes without duplicates\n- refusal: verification mismatch leaves primary unchanged",
     "comments": [],
     "labels": [
       "area:authority",
-      "authority"
+      "authority",
+      "status:Backlog"
     ],
     "open": true,
     "title": "qew forge migrate --to TARGET"
   },
-  "synced_at": "2026-10-08T17:58:30Z",
+  "synced_at": "2026-10-08T18:30:08Z",
   "synced_event": "042cz0ygi",
-  "synced_hash": "5662aca4a66cefe6",
+  "synced_hash": "7a913b0030a3817f",
   "url": "https://github.com/foundlings/qew"
 }

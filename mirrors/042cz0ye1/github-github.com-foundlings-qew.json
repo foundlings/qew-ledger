@@ -1,5 +1,5 @@
 {
-  "column": "In progress",
+  "column": "Done",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/274",
   "kind": "issue",
@@ -8,19 +8,21 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7SwRg",
   "number": 274,
+  "priority": "P0",
   "seen": {
     "assignee": "",
     "body": "Contract: docs/specs/ledger.md, Authority and topology.\n`start` posts a claim comment on the mirrored issue, re-reads comments, earliest claim comment wins; release posts a release comment. Uses create_comment/list_comments only. Unreachable primary or missing mirror refuses.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: first claimant wins and gets claimed+claim_confirmed\n- adversary: two checkouts race the same item; exactly one wins and the other writes nothing\n- refusal: primary down refuses start with no event written\n- refusal: item without a mirror on the primary is refused with the sync command to run",
     "comments": [],
     "labels": [
       "area:authority",
-      "authority"
+      "authority",
+      "status:Done"
     ],
-    "open": true,
+    "open": false,
     "title": "Atomic claim reservation on the primary forge"
   },
-  "synced_at": "2026-10-08T18:04:44Z",
-  "synced_event": "042czst9b",
-  "synced_hash": "fb8dbc0dcf1290ba",
+  "synced_at": "2026-10-08T18:29:29Z",
+  "synced_event": "042d08r56",
+  "synced_hash": "96126cf0082e8622",
   "url": "https://github.com/foundlings/qew"
 }

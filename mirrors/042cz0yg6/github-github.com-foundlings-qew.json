@@ -6,19 +6,21 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV7TwOQ",
   "number": 284,
+  "priority": "P3",
   "seen": {
     "assignee": "",
     "body": "Contract: docs/specs/ledger.md, Authority and topology.\nGitHub and Forgejo/Gitea get full scenarios for every authority feature; GitLab is not extended (documented, existing tests only).\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: docs/specs/forges.md states the priority",
     "comments": [],
     "labels": [
       "area:authority",
-      "authority"
+      "authority",
+      "status:Ready"
     ],
     "open": true,
     "title": "Forge support priorities documented and enforced in tests"
   },
-  "synced_at": "2026-10-08T17:50:38Z",
+  "synced_at": "2026-10-08T18:30:24Z",
   "synced_event": "042cz0ygu",
-  "synced_hash": "19b1ca6f7b918d43",
+  "synced_hash": "33a1b72255ef95ad",
   "url": "https://github.com/foundlings/qew"
 }

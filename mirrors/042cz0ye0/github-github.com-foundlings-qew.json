@@ -8,6 +8,7 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7SoCQ",
   "number": 273,
+  "priority": "P0",
   "seen": {
     "assignee": "",
     "body": "Contract: docs/specs/ledger.md, Authority and topology.\nA `claimed` event named by `claim_lost` is ignored by the fold; `claim_confirmed` is informational; check validates refs.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: lost claim leaves the item approved and unclaimed\n- adversary: claim_lost naming a missing event fails check\n- golden: two claims with the second lost fold cleanly",
@@ -19,8 +20,8 @@
     "open": false,
     "title": "claim_confirmed and claim_lost events in the fold"
   },
-  "synced_at": "2026-10-08T18:04:03Z",
+  "synced_at": "2026-10-08T18:29:24Z",
   "synced_event": "042czro6i",
-  "synced_hash": "5f84e65e48cd2342",
+  "synced_hash": "76499f0f91af5d7c",
   "url": "https://github.com/foundlings/qew"
 }

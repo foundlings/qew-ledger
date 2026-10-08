@@ -8,19 +8,21 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7TqRw",
   "number": 283,
+  "priority": "P2",
   "seen": {
     "assignee": "",
     "body": "Contract: docs/specs/ledger.md, Authority and topology.\nTwo effective claims or conflicting terminal states found in a merged ledger appear in qew status and resolve via accept/reject.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: hand-merged double claim shows one divergence\n- refusal: status never resolves it by timestamp",
     "comments": [],
     "labels": [
       "area:authority",
-      "authority"
+      "authority",
+      "status:Ready"
     ],
     "open": true,
     "title": "Contradictions surface as divergences"
   },
-  "synced_at": "2026-10-08T18:04:15Z",
+  "synced_at": "2026-10-08T18:30:19Z",
   "synced_event": "042cz0ygk",
-  "synced_hash": "8b364479a0249de2",
+  "synced_hash": "95405717b13387f7",
   "url": "https://github.com/foundlings/qew"
 }

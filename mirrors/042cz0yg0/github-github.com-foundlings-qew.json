@@ -1,5 +1,5 @@
 {
-  "column": "Ready",
+  "column": "In progress",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/278",
   "kind": "issue",
@@ -8,6 +8,7 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7TK8g",
   "number": 278,
+  "priority": "P1",
   "seen": {
     "assignee": "",
     "body": "Contract: docs/specs/ledger.md, Authority and topology.\nEvery non-primary target is one-way: pull ignores its edits (optionally flags a state edit as a divergence); `qew mirror add FORGE REPO [--read-only]`, `qew mirror remove TARGET`, `qew mirror list` edit config.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: edit on a secondary mirror is not imported\n- golden: mirror add/list/remove round trip leaves other config untouched\n- refusal: removing the primary is refused",
@@ -19,8 +20,8 @@
     "open": true,
     "title": "Secondary mirrors are read-only and qew mirror add/remove/list"
   },
-  "synced_at": "2026-10-08T18:03:49Z",
-  "synced_event": "042cz0ygf",
-  "synced_hash": "7ce34b4e4215c99e",
+  "synced_at": "2026-10-08T18:29:52Z",
+  "synced_event": "042d0bg8x",
+  "synced_hash": "8faa82ac370500d8",
   "url": "https://github.com/foundlings/qew"
 }
