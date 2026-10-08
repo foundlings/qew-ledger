@@ -11,13 +11,14 @@
     "body": "Command inventory for `qew hook post-tool`: answer the agent's post-tool event.\n\nFlags: --agent.\n\nEnd-to-end check (2026-10-08, scratch ledger + local forge fake, scripted run of every command): works, exit codes as documented.\n\nWalk coverage today: 0 direct test invocation(s) of `qew hook post-tool`; flags never exercised by any test: none.\n\nDone when: a golden scenario and the refusal/adversary scenarios for this command and each flag exist as named walks whose docstrings state the failure prevented, and the three documents (help, README, commands spec) agree.",
     "comments": [],
     "labels": [
-      "area:command-inventory"
+      "area:command-inventory",
+      "status:Ready"
     ],
     "open": true,
     "title": "Inventory and walk coverage: qew hook post-tool"
   },
-  "synced_at": "2026-10-08T17:24:30Z",
+  "synced_at": "2026-10-08T18:13:03Z",
   "synced_event": "042cxmtpx",
-  "synced_hash": "49ea1468b3476a97",
+  "synced_hash": "60bf7444ba675a6e",
   "url": "https://github.com/foundlings/qew"
 }
