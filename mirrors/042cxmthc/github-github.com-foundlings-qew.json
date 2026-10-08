@@ -13,13 +13,14 @@
     "body": "`qew board create|list|set` manage named board files in the ledger; merge-safe (one file per board).\nScenarios:\n- golden: two branches add different boards and merge cleanly\n- refusal: duplicate board name refused",
     "comments": [],
     "labels": [
-      "area:board"
+      "area:board",
+      "status:Backlog"
     ],
     "open": true,
     "title": "qew board config files: create, list, set default view"
   },
-  "synced_at": "2026-10-08T17:53:10Z",
+  "synced_at": "2026-10-08T18:10:39Z",
   "synced_event": "042cxmtp8",
-  "synced_hash": "a6221f06704d3c20",
+  "synced_hash": "83cb0cdff27f9174",
   "url": "https://github.com/foundlings/qew"
 }

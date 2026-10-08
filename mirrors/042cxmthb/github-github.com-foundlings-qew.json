@@ -8,6 +8,7 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV69viQ",
   "number": 45,
+  "priority": "P2",
   "seen": {
     "assignee": "",
     "body": "Token-efficient fixed-format lines per card plus a stable `--json` schema.\nScenarios:\n- golden: json round-trips ids/columns; prevents format drift\n- golden: compact output under a byte budget for 200 cards",
@@ -19,7 +20,7 @@
     "open": true,
     "title": "Board compact agent format and --json"
   },
-  "synced_at": "2026-10-08T18:10:34Z",
+  "synced_at": "2026-10-08T18:10:33Z",
   "synced_event": "042cxmtp7",
   "synced_hash": "5a8ee6f5ca1ca4ee",
   "url": "https://github.com/foundlings/qew"
