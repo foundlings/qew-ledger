@@ -11,13 +11,14 @@
     "body": "## Behaviour\n`RemotePullRequest` gains `body` and `author` (forge login); `Forge` gains `update_pull_request_body(number, body)` (idempotent, returns the re-read PR) and `PullRequestSpec` gains `assignee`. GitHub uses `PATCH /pulls/N`, Forgejo `PATCH /pulls/N`, GitLab `PUT /merge_requests/iid` (description). A null body reads as empty; any other mistyped field is `ForgeRejected`. Anything a forge lacks raises `Unsupported`, never faked. Documented in docs/specs/forges.md.\n\n## Scenarios\n- round trip per backend (fake server): open with body, read body, update body, read back differs only by the edit. Prevents: a backend that silently truncates or escapes the body.\n- malformed body type is rejected not defaulted. Prevents: fabricated empty bodies hiding a checklist.\n- assignee set on open is read back as author/assignee. Prevents: PR ownership drift between forges.\n\n## Reference coverage\nReference gh adapter edit/read operations used by pr check and ownership (no separate test file; exercised by pr check and pr ready walks).\n\n## Qew today\nMissing: forge.py and the three backends have no body/author/update support.",
     "comments": [],
     "labels": [
-      "area:pull-requests"
+      "area:pull-requests",
+      "status:Done"
     ],
-    "open": true,
+    "open": false,
     "title": "Extend the forge interface: PR body, author, update body, and per-forge support"
   },
-  "synced_at": "2026-10-08T18:00:24Z",
-  "synced_event": "042cz7e6t",
-  "synced_hash": "fd4f97d23f215305",
+  "synced_at": "2026-10-08T18:23:32Z",
+  "synced_event": "042d038az",
+  "synced_hash": "2f4e5ded33c06f40",
   "url": "https://github.com/foundlings/qew"
 }
