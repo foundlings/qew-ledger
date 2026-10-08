@@ -1,5 +1,5 @@
 {
-  "column": "In progress",
+  "column": "Backlog",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/239",
   "kind": "issue",
@@ -16,8 +16,8 @@
     "open": true,
     "title": "Self-updating ledger and bidirectional forge sync"
   },
-  "synced_at": "2026-10-08T17:57:43Z",
+  "synced_at": "2026-10-08T18:01:59Z",
   "synced_event": "042cxmtuh",
-  "synced_hash": "a1bb037d2ce9afe8",
+  "synced_hash": "e8680220e3e93bd7",
   "url": "https://github.com/foundlings/qew"
 }

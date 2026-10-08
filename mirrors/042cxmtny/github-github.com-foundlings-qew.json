@@ -1,5 +1,5 @@
 {
-  "column": "In progress",
+  "column": "Done",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/258",
   "kind": "issue",
@@ -16,11 +16,11 @@
       "area:replication",
       "replication"
     ],
-    "open": true,
+    "open": false,
     "title": "qew restore --to TARGET recreates forge state from the ledger alone"
   },
-  "synced_at": "2026-10-08T17:51:08Z",
-  "synced_event": "042cz2789",
-  "synced_hash": "f9d05b6874b6df9f",
+  "synced_at": "2026-10-08T18:02:03Z",
+  "synced_event": "042czobb2",
+  "synced_hash": "438099128188c16b",
   "url": "https://github.com/foundlings/qew"
 }
