@@ -1,5 +1,5 @@
 {
-  "column": "Draft",
+  "column": "Backlog",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/278",
   "kind": "issue",
@@ -19,8 +19,8 @@
     "open": true,
     "title": "Secondary mirrors are read-only and qew mirror add/remove/list"
   },
-  "synced_at": "2026-10-08T17:49:52Z",
+  "synced_at": "2026-10-08T17:58:25Z",
   "synced_event": "042cz0ygf",
-  "synced_hash": "a68caf200e5f04c2",
+  "synced_hash": "a8fa4ac45692a075",
   "url": "https://github.com/foundlings/qew"
 }

@@ -1,5 +1,5 @@
 {
-  "column": "Draft",
+  "column": "Backlog",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/285",
   "kind": "issue",
@@ -23,8 +23,8 @@
     "open": true,
     "title": "Real test drive: fork qew-ledger, claim race, read-only mirror, forge migrate"
   },
-  "synced_at": "2026-10-08T17:50:45Z",
+  "synced_at": "2026-10-08T17:58:38Z",
   "synced_event": "042cz0ygv",
-  "synced_hash": "224bd40555659cfb",
+  "synced_hash": "7b04ecbc5ee253c1",
   "url": "https://github.com/foundlings/qew"
 }

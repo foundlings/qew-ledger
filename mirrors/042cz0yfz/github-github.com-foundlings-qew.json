@@ -1,5 +1,5 @@
 {
-  "column": "Draft",
+  "column": "Backlog",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/277",
   "kind": "issue",
@@ -19,8 +19,8 @@
     "open": true,
     "title": "Working on items you do not hold is refused"
   },
-  "synced_at": "2026-10-08T17:49:45Z",
+  "synced_at": "2026-10-08T17:58:22Z",
   "synced_event": "042cz0yge",
-  "synced_hash": "68dc15d6a9a2b08c",
+  "synced_hash": "f83d24c4cd575315",
   "url": "https://github.com/foundlings/qew"
 }

@@ -1,5 +1,5 @@
 {
-  "column": "Draft",
+  "column": "Backlog",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/281",
   "kind": "issue",
@@ -20,8 +20,8 @@
     "open": true,
     "title": "qew forge migrate --to TARGET"
   },
-  "synced_at": "2026-10-08T17:50:13Z",
+  "synced_at": "2026-10-08T17:58:30Z",
   "synced_event": "042cz0ygi",
-  "synced_hash": "d2b9221f71dcbaed",
+  "synced_hash": "5662aca4a66cefe6",
   "url": "https://github.com/foundlings/qew"
 }

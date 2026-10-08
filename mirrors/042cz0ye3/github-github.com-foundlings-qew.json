@@ -1,5 +1,5 @@
 {
-  "column": "Draft",
+  "column": "Backlog",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/276",
   "kind": "issue",
@@ -20,8 +20,8 @@
     "open": true,
     "title": "Claiming an epic claims its open descendants atomically"
   },
-  "synced_at": "2026-10-08T17:49:36Z",
+  "synced_at": "2026-10-08T17:58:20Z",
   "synced_event": "042cz0ygd",
-  "synced_hash": "c2e1045c3cfabb99",
+  "synced_hash": "a562050c646ccfa2",
   "url": "https://github.com/foundlings/qew"
 }

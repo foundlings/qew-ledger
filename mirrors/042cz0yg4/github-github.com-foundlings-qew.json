@@ -1,5 +1,5 @@
 {
-  "column": "Draft",
+  "column": "Backlog",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/282",
   "kind": "issue",
@@ -19,8 +19,8 @@
     "open": true,
     "title": "qew ledger fork --to REMOTE [--primary TARGET]"
   },
-  "synced_at": "2026-10-08T17:50:23Z",
+  "synced_at": "2026-10-08T17:58:33Z",
   "synced_event": "042cz0ygj",
-  "synced_hash": "c0711fff7dc310ef",
+  "synced_hash": "509b354c1346d749",
   "url": "https://github.com/foundlings/qew"
 }
