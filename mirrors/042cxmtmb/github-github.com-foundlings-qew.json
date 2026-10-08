@@ -12,13 +12,13 @@
     "comments": [],
     "labels": [
       "area:pull-requests",
-      "status:Done"
+      "status:In progress"
     ],
-    "open": false,
+    "open": true,
     "title": "Extend the forge interface: PR body, author, update body, and per-forge support"
   },
-  "synced_at": "2026-10-08T18:23:32Z",
+  "synced_at": "2026-10-08T18:23:36Z",
   "synced_event": "042d038az",
-  "synced_hash": "2f4e5ded33c06f40",
+  "synced_hash": "ab8e421df2dd6226",
   "url": "https://github.com/foundlings/qew"
 }
