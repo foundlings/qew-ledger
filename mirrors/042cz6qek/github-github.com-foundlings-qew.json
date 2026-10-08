@@ -10,12 +10,14 @@
     "assignee": "",
     "body": "",
     "comments": [],
-    "labels": [],
+    "labels": [
+      "status:Draft"
+    ],
     "open": true,
     "title": "t"
   },
-  "synced_at": "2026-10-08T17:58:44Z",
+  "synced_at": "2026-10-08T18:30:35Z",
   "synced_event": "042cz6qem",
-  "synced_hash": "f411e90fc9b6c0c8",
+  "synced_hash": "46f1c1936a958c32",
   "url": "https://github.com/foundlings/qew"
 }

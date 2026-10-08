@@ -12,6 +12,7 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7T1bg",
   "number": 285,
+  "priority": "P2",
   "seen": {
     "assignee": "",
     "body": "Contract: docs/specs/ledger.md, Authority and topology.\nFork foundlings/qew-ledger into a NEW private repo with its own GitHub target and board (do not touch the real ledger); race a claim between two checkouts; verify a read-only mirror ignores forge-side edits; migrate between the two targets. File findings as issues; clean up only if the owner asks.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: the drive report is recorded as a comment on this issue",
