@@ -8,18 +8,20 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7HFQg",
   "number": 188,
+  "priority": "P1",
   "seen": {
     "assignee": "",
     "body": "## Behaviour\n`qew pr ready NUMBER [--target T]` marks the caller's recorded draft PR ready, then re-reads the PR and verifies it is no longer a draft (still a draft afterwards is an indeterminate failure, exit 4, never success). A merged or closed PR is exit 2 and writes nothing. An already-ready PR is reported unchanged and writes nothing. A non-positive number is exit 2 before any ledger or forge call. A PR whose covered items include a draft is refused (exit 2). The command stays discoverable as a subcommand of `qew pr`.\n\n## Scenarios\n- golden: draft PR becomes ready, read back not draft, output `pr #N ready`. Prevents: reporting ready when the forge did not change.\n- already ready: output says unchanged, forge mark call count zero. Prevents: redundant writes.\n- merged and closed PRs: exit 2, zero writes. Prevents: touching finished PRs.\n- stays draft after the write: exit 4 'still a draft'. Prevents: false success.\n- non-positive number (0, -3): exit 2 before any call. Prevents: odd forge URLs.\n- unrecorded number: exit 2 'not recorded' (exists for merge; assert for ready too).\n- draft covered item: refused exit 2 naming `qew draft approve`. Prevents: readying a plan PR early.\n\n## Reference coverage\nReference pr ready walk file: marks ready and verifies, human output, already ready, merged/closed refused, another login refused, teammate holds claims, teammate missing claim names take-over, stays draft indeterminate, non-positive number, creating a PR still works without the subcommand. 10 test functions (3 ownership ones go to pr-owner-rule; the last is a parser-compat check and is dropped).\n\n## Qew today\nReduced: `mark_ready` refuses a draft item and relays forge errors, but there is no read-back, no already-ready no-op, no merged/closed refusal, no number validation, no test for `ready` at all (tests/test_pr_walk.py calls it only as setup).",
     "comments": [],
     "labels": [
-      "area:pull-requests"
+      "area:pull-requests",
+      "status:Backlog"
     ],
     "open": true,
     "title": "Complete `qew pr ready`: verify, idempotence, refusals, input checks"
   },
-  "synced_at": "2026-10-08T17:56:09Z",
+  "synced_at": "2026-10-08T18:23:49Z",
   "synced_event": "042cxmtta",
-  "synced_hash": "b3a955db20c52f24",
+  "synced_hash": "8125549447d75899",
   "url": "https://github.com/foundlings/qew"
 }

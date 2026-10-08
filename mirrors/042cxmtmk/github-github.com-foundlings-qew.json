@@ -9,6 +9,7 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7Hj0w",
   "number": 194,
+  "priority": "P2",
   "seen": {
     "assignee": "",
     "body": "## Behaviour\n`--auto` lets a PR with pending checks merge once they pass, but only when the base branch requires status checks (branch protection or an active ruleset); otherwise the forge would merge at once and skip CI, so it is refused (exit 3 'would merge immediately'). Rules that cannot be read are an indeterminate failure (exit 4), never assumed. After enabling, the PR is re-read and must show auto-merge enabled, else exit 3. The output names the follow-up (`qew complete`). A forge without auto-merge raises `Unsupported` and exits with a clear line. `--auto` with `--admin` is exit 2 before any call.\n\n## Scenarios\n- no required checks: `--auto` with pending checks refused exit 3, zero merge calls. Prevents: auto-merge that skips CI.\n- ruleset with required checks accepted though no classic protection rule exists. Prevents: false refusals on ruleset repos.\n- ruleset without required checks does not enable auto. Prevents: assuming any ruleset protects.\n- rules unreadable (403): exit 4, no merge. Prevents: guessing.\n- protected base enables auto and prints follow-up; auto not visible after enabling exit 3.\n- forge without auto-merge (Forgejo test double): Unsupported surfaced as one line, nothing written.\n\n## Reference coverage\nReference pr merge walk file: auto refused with no required checks, accepted with ruleset, ruleset without required checks, unreadable rules, auto enables and names landing command, auto not taking effect. 6 test functions, plus part of the contradictory-options test.\n\n## Qew today\nMissing: no `--auto`, no `enable_auto_merge` capability on `Forge`.",
@@ -19,8 +20,8 @@
     "open": true,
     "title": "Add `qew pr merge --auto`: enable forge auto-merge only where checks are required"
   },
-  "synced_at": "2026-10-08T17:56:27Z",
+  "synced_at": "2026-10-08T18:24:19Z",
   "synced_event": "042cxmttg",
-  "synced_hash": "cc927ab70ac0962d",
+  "synced_hash": "77098983d099fba6",
   "url": "https://github.com/foundlings/qew"
 }

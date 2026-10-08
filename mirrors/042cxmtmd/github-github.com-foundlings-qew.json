@@ -1,11 +1,12 @@
 {
-  "column": "Ready",
+  "column": "In progress",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/187",
   "kind": "issue",
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV7HBZg",
   "number": 187,
+  "priority": "P2",
   "seen": {
     "assignee": "",
     "body": "## Behaviour\nA small helper in the pr command layer reads the PR after any write (ready, body edit, merge) and returns a typed outcome (`Verified`, `Unchanged`, `NotApplied`) instead of trusting the write's response. `NotApplied` maps to exit 4 for ready/merge. Backends stay free of ledger knowledge.\n\n## Scenarios\n- write accepted but PR unchanged (memory forge that ignores ready): outcome NotApplied, exit 4. Prevents: ledger and forge disagreeing silently.\n- write succeeds and read shows change: Verified.\n\n## Reference coverage\nShared by pr ready (still-draft indeterminate), pr merge (merge not visible), pr check (write not sticking): 3 reference tests.\n\n## Qew today\nMissing; qew trusts the return value of mark/merge calls.",
@@ -16,8 +17,8 @@
     "open": true,
     "title": "Make the PR forge calls verify: single re-read helper and typed indeterminate outcome"
   },
-  "synced_at": "2026-10-08T17:34:32Z",
-  "synced_event": "042cxmtt9",
-  "synced_hash": "9f82b41d0de8274d",
+  "synced_at": "2026-10-08T18:23:44Z",
+  "synced_event": "042d07xbd",
+  "synced_hash": "c0b8ac4b565a57e9",
   "url": "https://github.com/foundlings/qew"
 }
