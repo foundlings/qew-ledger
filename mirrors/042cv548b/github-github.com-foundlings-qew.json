@@ -6,6 +6,7 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV6SmIw",
   "number": 3,
+  "priority": "P2",
   "seen": {
     "assignee": "",
     "body": "Rewrite item IDs and every reference to time-mode IDs and record the old IDs as `aliases:` in the header. Requested by the owner; deliberately not v1.",
