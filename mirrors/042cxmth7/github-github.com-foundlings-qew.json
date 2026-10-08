@@ -8,18 +8,20 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV69fbA",
   "number": 41,
+  "priority": "P2",
   "seen": {
     "assignee": "",
     "body": "Compact one-line-per-column output for agents.\nScenarios:\n- golden: counts match `qew list --state` totals; prevents drift between views",
     "comments": [],
     "labels": [
-      "area:board"
+      "area:board",
+      "status:Backlog"
     ],
     "open": true,
     "title": "qew board columns prints only columns and counts"
   },
-  "synced_at": "2026-10-08T17:52:54Z",
+  "synced_at": "2026-10-08T18:10:09Z",
   "synced_event": "042cxmtp3",
-  "synced_hash": "9f80bddf44c9061a",
+  "synced_hash": "9b04672bf84c9236",
   "url": "https://github.com/foundlings/qew"
 }
