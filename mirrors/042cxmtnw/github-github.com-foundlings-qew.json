@@ -1,5 +1,5 @@
 {
-  "column": "Ready",
+  "column": "Done",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/254",
   "kind": "issue",
@@ -16,11 +16,11 @@
       "area:replication",
       "replication"
     ],
-    "open": true,
+    "open": false,
     "title": "qew accept and qew reject resolve a divergence"
   },
-  "synced_at": "2026-10-08T18:01:28Z",
+  "synced_at": "2026-10-08T18:01:48Z",
   "synced_event": "042czng6q",
-  "synced_hash": "bcc7f00814b1be3f",
+  "synced_hash": "6882c3c2824ed8de",
   "url": "https://github.com/foundlings/qew"
 }
