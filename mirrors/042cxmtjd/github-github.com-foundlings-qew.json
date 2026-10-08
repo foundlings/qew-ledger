@@ -16,8 +16,8 @@
     "open": false,
     "title": "Close the safe-write foundation test gaps (modes, root symlink, tmp cleanup, fsync order)"
   },
-  "synced_at": "2026-10-08T17:59:55Z",
+  "synced_at": "2026-10-08T18:17:46Z",
   "synced_event": "042cz9hdc",
-  "synced_hash": "4a774c44607be66f",
+  "synced_hash": "9df8dc0c668c5ba2",
   "url": "https://github.com/foundlings/qew"
 }
