@@ -2,7 +2,11 @@
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/259",
   "kind": "issue",
-  "linked": [],
+  "linked": [
+    "042cxmtnq",
+    "042cxmtnr",
+    "042cxmtnv"
+  ],
   "node_id": "I_kwDOVBP4_s8AAAABV7MDHg",
   "number": 259,
   "synced_at": "2026-10-08T17:40:58Z",
