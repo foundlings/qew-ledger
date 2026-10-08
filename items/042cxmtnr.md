@@ -3,7 +3,7 @@ kind: issue
 title: Opportunistic push of affected items to every mirror target after a write
 parent: 042cxmtnm
 needs: 042cxmtnn 042cxmtnp
-labels: area:replication replication
+labels: area:replication
 owner: 
 priority: 0
 created: 2026-10-08T17:20:13Z
