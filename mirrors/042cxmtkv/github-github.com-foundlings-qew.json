@@ -8,6 +8,7 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7Fl2g",
   "number": 169,
+  "priority": "P2",
   "seen": {
     "assignee": "",
     "body": "Merging an item claimed by someone else is refused unless the claim was taken over with a reason.\nScenarios:\n- refusal: foreign claim blocks merge\n- golden: explicit takeover event then merge",
