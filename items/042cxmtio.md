@@ -3,7 +3,7 @@ kind: issue
 title: Pin epic completion walks: draft epic, open children, idempotent rerun
 parent: 042cxmti7
 needs: 042cxmtin
-labels: area:drafts-plans
+labels: area:drafts-plans status:Backlog
 owner: 
 priority: 3
 created: 2026-10-08T17:20:13Z
