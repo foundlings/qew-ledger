@@ -20,7 +20,7 @@
     "open": true,
     "title": "Add the explicit body-inspection read: `qew list --bodies` and `qew show` as the only body readers"
   },
-  "synced_at": "2026-10-08T18:25:53Z",
+  "synced_at": "2026-10-08T18:25:54Z",
   "synced_event": "042cxmtu0",
   "synced_hash": "baf43bcbb2d32a7e",
   "url": "https://github.com/foundlings/qew"
