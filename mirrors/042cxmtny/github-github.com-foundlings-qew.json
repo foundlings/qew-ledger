@@ -14,13 +14,14 @@
     "comments": [],
     "labels": [
       "area:replication",
-      "replication"
+      "replication",
+      "status:Done"
     ],
     "open": false,
     "title": "qew restore --to TARGET recreates forge state from the ledger alone"
   },
-  "synced_at": "2026-10-08T18:02:03Z",
+  "synced_at": "2026-10-08T18:28:27Z",
   "synced_event": "042czobb2",
-  "synced_hash": "438099128188c16b",
+  "synced_hash": "7a380485c53e6362",
   "url": "https://github.com/foundlings/qew"
 }
