@@ -12,13 +12,14 @@
     "comments": [],
     "labels": [
       "area:replication",
-      "replication"
+      "replication",
+      "status:Done"
     ],
     "open": false,
     "title": "Every qew write commits itself to the ledger repo (jj or git)"
   },
-  "synced_at": "2026-10-08T17:40:07Z",
+  "synced_at": "2026-10-08T18:27:29Z",
   "synced_event": "042cxwkas",
-  "synced_hash": "45f913336d6db800",
+  "synced_hash": "79f64dea763fa004",
   "url": "https://github.com/foundlings/qew"
 }
