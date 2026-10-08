@@ -3,7 +3,7 @@ kind: issue
 title: Add `qew plan status [EPIC]` with a deterministic child rollup and next ready child
 parent: 042cxmti7
 needs: 042cxmtie
-labels: area:drafts-plans status:Backlog
+labels: area:drafts-plans
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z

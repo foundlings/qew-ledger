@@ -9,6 +9,7 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7Levw",
   "number": 249,
+  "priority": "P0",
   "seen": {
     "assignee": "",
     "body": "Contract: Replication 6. Uncommitted files, unpushed commits, pending per target, divergences, last sync per target, offline/online; token-efficient, --json.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: clean online ledger prints one line\n- golden: every problem class appears with its count and the command that fixes it\n- golden: --json schema stable",

@@ -15,13 +15,14 @@
     "comments": [],
     "labels": [
       "area:replication",
-      "replication"
+      "replication",
+      "status:Done"
     ],
     "open": false,
     "title": "Incremental pull: forge-side content edits become events"
   },
-  "synced_at": "2026-10-08T18:01:21Z",
+  "synced_at": "2026-10-08T18:28:06Z",
   "synced_event": "042czmha0",
-  "synced_hash": "ec93680235dd700c",
+  "synced_hash": "44f9e9ee9406688e",
   "url": "https://github.com/foundlings/qew"
 }

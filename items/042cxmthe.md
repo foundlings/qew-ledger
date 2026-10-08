@@ -3,7 +3,7 @@ kind: task
 title: Inventory and walk coverage: qew init
 parent: 042cxmthd
 needs: 
-labels: area:command-inventory status:Ready
+labels: area:command-inventory
 owner: 
 priority: 3
 created: 2026-10-08T17:20:13Z
