@@ -1,5 +1,5 @@
 {
-  "column": "In progress",
+  "column": "Ready",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/167",
   "kind": "issue",
@@ -13,13 +13,13 @@
     "comments": [],
     "labels": [
       "area:merge-gate",
-      "status:In progress"
+      "status:Ready"
     ],
     "open": true,
     "title": "qew pr merge refuses when a linked item has open child tasks"
   },
-  "synced_at": "2026-10-08T18:22:09Z",
+  "synced_at": "2026-10-08T18:22:05Z",
   "synced_event": "042d08863",
-  "synced_hash": "19d3a90c017be21a",
+  "synced_hash": "d9a40e89880c2430",
   "url": "https://github.com/foundlings/qew"
 }

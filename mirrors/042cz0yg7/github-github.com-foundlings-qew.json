@@ -25,7 +25,7 @@
     "open": true,
     "title": "Real test drive: fork qew-ledger, claim race, read-only mirror, forge migrate"
   },
-  "synced_at": "2026-10-08T18:30:30Z",
+  "synced_at": "2026-10-08T18:30:29Z",
   "synced_event": "042cz0ygv",
   "synced_hash": "a98ed234306e90cc",
   "url": "https://github.com/foundlings/qew"

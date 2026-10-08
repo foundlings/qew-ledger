@@ -18,7 +18,7 @@
     "open": false,
     "title": "Make `qew hook remove` write nothing on a hook-free checkout, for every agent"
   },
-  "synced_at": "2026-10-08T18:17:46Z",
+  "synced_at": "2026-10-08T18:17:12Z",
   "synced_event": "042cz6mey",
   "synced_hash": "e305cd720c03c9ee",
   "url": "https://github.com/foundlings/qew"

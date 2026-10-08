@@ -6,19 +6,19 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV7FYSw",
   "number": 166,
+  "priority": "P1",
   "seen": {
     "assignee": "",
     "body": "Epic for area `merge-gate`. Child issues carry the gaps found by the audit and the scenarios each needs.",
     "comments": [],
     "labels": [
-      "area:merge-gate",
-      "status:In progress"
+      "area:merge-gate"
     ],
     "open": true,
     "title": "Pull request merge gate and completion gates"
   },
-  "synced_at": "2026-10-08T18:21:59Z",
+  "synced_at": "2026-10-08T18:22:00Z",
   "synced_event": "042d09gdt",
-  "synced_hash": "a0347a9530aa18b3",
+  "synced_hash": "979aa747f2764d90",
   "url": "https://github.com/foundlings/qew"
 }

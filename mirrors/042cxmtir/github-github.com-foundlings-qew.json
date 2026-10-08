@@ -20,8 +20,8 @@
     "open": true,
     "title": "Add `--dry-run` that prints the operations a plan file would perform"
   },
-  "synced_at": "2026-10-08T18:17:06Z",
-  "synced_event": "042d0cecb",
+  "synced_at": "2026-10-08T18:15:45Z",
+  "synced_event": "042cxmtqn",
   "synced_hash": "bd69b5a18857129c",
   "url": "https://github.com/foundlings/qew"
 }

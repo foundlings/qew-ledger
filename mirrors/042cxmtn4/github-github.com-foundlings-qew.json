@@ -15,13 +15,12 @@
     "body": "## Behaviour\nRoutine reads (`ready`, `prime`, hook context) never emit item bodies; bodies appear only via `qew show ITEM` or `qew list --bodies`, both explicit inspection actions, and only for approved work in `--bodies` (drafts via `show` or `triage`). Output is annotated with text findings and never rewritten.\n\n## Scenarios\n- golden: `qew list --bodies --json` includes `body` for approved items and nothing for drafts. Prevents routine bulk reads exposing unapproved text.\n- adversary: `qew ready --json` and `qew prime` on an item whose body holds an instruction never contain the body. Prevents prompt injection through routine context.\n\n## Reference coverage\nReference security spec section on explicit body inspection, reference read-suite list golden walk (1 test shares it).\n\n## Qew today\nMissing. `qew show` prints the body; list has no body option; no walk asserts bodies are absent from ready/prime.",
     "comments": [],
     "labels": [
-      "area:read-side",
-      "status:Backlog"
+      "area:read-side"
     ],
     "open": true,
     "title": "Add the explicit body-inspection read: `qew list --bodies` and `qew show` as the only body readers"
   },
-  "synced_at": "2026-10-08T18:25:53Z",
+  "synced_at": "2026-10-08T18:25:54Z",
   "synced_event": "042cxmtu0",
   "synced_hash": "baf43bcbb2d32a7e",
   "url": "https://github.com/foundlings/qew"

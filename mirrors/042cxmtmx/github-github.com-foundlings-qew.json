@@ -1,5 +1,5 @@
 {
-  "column": "Done",
+  "column": "In progress",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/206",
   "kind": "issue",
@@ -13,13 +13,13 @@
     "comments": [],
     "labels": [
       "area:read-side",
-      "status:Done"
+      "status:In progress"
     ],
-    "open": false,
+    "open": true,
     "title": "Pin the ready/list/blocked text row and priority-then-id ordering"
   },
-  "synced_at": "2026-10-08T18:25:14Z",
+  "synced_at": "2026-10-08T18:25:19Z",
   "synced_event": "042czz9av",
-  "synced_hash": "65fd22e8dd25d10c",
+  "synced_hash": "aaae663c302fb9bb",
   "url": "https://github.com/foundlings/qew"
 }

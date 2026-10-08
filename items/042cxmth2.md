@@ -3,7 +3,7 @@ kind: epic
 title: Offline board (qew board)
 parent: 
 needs: 
-labels: area:board status:Backlog
+labels: area:board
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z

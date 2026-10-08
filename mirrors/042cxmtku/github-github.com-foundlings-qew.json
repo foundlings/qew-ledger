@@ -14,13 +14,12 @@
     "body": "The checked head must be covered by an evidence event of the item before merge.\nScenarios:\n- refusal: no evidence blocks merge\n- golden: evidence recorded then merge passes",
     "comments": [],
     "labels": [
-      "area:merge-gate",
-      "status:Backlog"
+      "area:merge-gate"
     ],
     "open": true,
     "title": "qew pr merge refuses without recorded evidence for the linked item"
   },
-  "synced_at": "2026-10-08T18:22:14Z",
+  "synced_at": "2026-10-08T18:22:11Z",
   "synced_event": "042cxmtsq",
   "synced_hash": "cdd7c117da4a5760",
   "url": "https://github.com/foundlings/qew"

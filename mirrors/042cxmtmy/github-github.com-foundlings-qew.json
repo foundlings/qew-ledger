@@ -1,5 +1,5 @@
 {
-  "column": "In progress",
+  "column": "Ready",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/207",
   "kind": "issue",
@@ -15,13 +15,13 @@
     "comments": [],
     "labels": [
       "area:read-side",
-      "status:In progress"
+      "status:Ready"
     ],
     "open": true,
     "title": "Complete `qew list` filters: repeated --label (AND), --owner, --parent, --limit, case folding"
   },
-  "synced_at": "2026-10-08T18:25:19Z",
+  "synced_at": "2026-10-08T18:25:25Z",
   "synced_event": "042czzqdp",
-  "synced_hash": "5208b90605f55db8",
+  "synced_hash": "56407f8731a2bc96",
   "url": "https://github.com/foundlings/qew"
 }

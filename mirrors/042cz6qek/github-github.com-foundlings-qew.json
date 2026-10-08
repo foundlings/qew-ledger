@@ -11,7 +11,9 @@
     "assignee": "",
     "body": "",
     "comments": [],
-    "labels": [],
+    "labels": [
+      "status:Draft"
+    ],
     "open": true,
     "title": "t"
   },

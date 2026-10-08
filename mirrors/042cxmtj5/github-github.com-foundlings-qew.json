@@ -1,5 +1,5 @@
 {
-  "column": "In progress",
+  "column": "Backlog",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/109",
   "kind": "issue",
@@ -15,13 +15,13 @@
     "comments": [],
     "labels": [
       "area:graph-ready",
-      "status:In progress"
+      "status:Backlog"
     ],
     "open": true,
     "title": "qew check graph invariants parity"
   },
-  "synced_at": "2026-10-08T18:17:39Z",
+  "synced_at": "2026-10-08T18:17:03Z",
   "synced_event": "042d072h1",
-  "synced_hash": "cb0117893dfce800",
+  "synced_hash": "6f4622b191759acc",
   "url": "https://github.com/foundlings/qew"
 }

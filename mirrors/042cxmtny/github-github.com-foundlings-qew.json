@@ -15,7 +15,8 @@
     "comments": [],
     "labels": [
       "area:replication",
-      "replication"
+      "replication",
+      "status:Done"
     ],
     "open": false,
     "title": "qew restore --to TARGET recreates forge state from the ledger alone"

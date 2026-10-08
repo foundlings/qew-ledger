@@ -18,7 +18,7 @@
     "open": false,
     "title": "Make every read refuse a partially readable ledger instead of listing what it could parse"
   },
-  "synced_at": "2026-10-08T18:25:30Z",
+  "synced_at": "2026-10-08T18:25:31Z",
   "synced_event": "042czya2a",
   "synced_hash": "2c95822c0b8312f8",
   "url": "https://github.com/foundlings/qew"

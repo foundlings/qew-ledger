@@ -3,7 +3,7 @@ kind: issue
 title: Add `--dry-run` that prints the operations a plan file would perform
 parent: 042cxmti7
 needs: 042cxmtiq
-labels: area:drafts-plans status:Backlog
+labels: area:drafts-plans
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z

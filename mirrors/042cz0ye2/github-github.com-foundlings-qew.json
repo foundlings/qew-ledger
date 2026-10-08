@@ -1,5 +1,5 @@
 {
-  "column": "Done",
+  "column": "In progress",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/275",
   "kind": "issue",
@@ -15,13 +15,14 @@
     "comments": [],
     "labels": [
       "area:authority",
-      "authority"
+      "authority",
+      "status:In progress"
     ],
-    "open": false,
+    "open": true,
     "title": "Claim arbitration through the ledger remote when primary is none"
   },
-  "synced_at": "2026-10-08T18:29:36Z",
+  "synced_at": "2026-10-08T18:29:39Z",
   "synced_event": "042d09adq",
-  "synced_hash": "03f936a2e04386a2",
+  "synced_hash": "1b8de3ff1a97811e",
   "url": "https://github.com/foundlings/qew"
 }

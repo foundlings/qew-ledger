@@ -1,5 +1,5 @@
 {
-  "column": "Done",
+  "column": "In progress",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/199",
   "kind": "issue",
@@ -13,13 +13,13 @@
     "comments": [],
     "labels": [
       "area:pull-requests",
-      "status:Done"
+      "status:In progress"
     ],
-    "open": false,
+    "open": true,
     "title": "Harden untrusted forge and config text at the request boundary"
   },
-  "synced_at": "2026-10-08T18:24:46Z",
+  "synced_at": "2026-10-08T18:24:50Z",
   "synced_event": "042d0402z",
-  "synced_hash": "fbab2759676437c8",
+  "synced_hash": "423fbc1943fa0604",
   "url": "https://github.com/foundlings/qew"
 }

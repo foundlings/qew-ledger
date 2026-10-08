@@ -1,5 +1,5 @@
 {
-  "column": "In progress",
+  "column": "Ready",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/220",
   "kind": "issue",
@@ -13,13 +13,13 @@
     "comments": [],
     "labels": [
       "area:read-side",
-      "status:In progress"
+      "status:Ready"
     ],
     "open": true,
     "title": "Prove `qew check`, `ready` and `blocked` stay linear on big and deep graphs"
   },
-  "synced_at": "2026-10-08T18:26:32Z",
+  "synced_at": "2026-10-08T18:26:37Z",
   "synced_event": "042d00i5e",
-  "synced_hash": "7f707db7c9237082",
+  "synced_hash": "47755ca4fe86942a",
   "url": "https://github.com/foundlings/qew"
 }

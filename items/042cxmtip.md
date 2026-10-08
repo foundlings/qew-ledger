@@ -3,7 +3,7 @@ kind: issue
 title: Decide and build `qew plan create` for an epic with attached children
 parent: 042cxmti7
 needs: 042cxmtii
-labels: area:drafts-plans status:Ready
+labels: area:drafts-plans
 owner: 
 priority: 3
 created: 2026-10-08T17:20:13Z

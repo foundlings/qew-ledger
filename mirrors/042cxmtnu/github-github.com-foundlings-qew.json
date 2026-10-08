@@ -16,7 +16,8 @@
     "comments": [],
     "labels": [
       "area:replication",
-      "replication"
+      "replication",
+      "status:Done"
     ],
     "open": false,
     "title": "Incremental pull: forge-side content edits become events"

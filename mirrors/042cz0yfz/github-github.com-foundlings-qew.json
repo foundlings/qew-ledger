@@ -15,12 +15,13 @@
     "comments": [],
     "labels": [
       "area:authority",
-      "authority"
+      "authority",
+      "status:Ready"
     ],
     "open": true,
     "title": "Working on items you do not hold is refused"
   },
-  "synced_at": "2026-10-08T18:29:47Z",
+  "synced_at": "2026-10-08T18:29:49Z",
   "synced_event": "042cz0yge",
   "synced_hash": "4e498b32fc0dd899",
   "url": "https://github.com/foundlings/qew"

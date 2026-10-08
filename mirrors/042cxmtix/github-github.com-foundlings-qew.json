@@ -12,13 +12,12 @@
     "body": "Epic for area `export-import`. Child issues carry the gaps found by the audit and the scenarios each needs.",
     "comments": [],
     "labels": [
-      "area:export-import",
-      "status:In progress"
+      "area:export-import"
     ],
     "open": true,
     "title": "Export and import of items as Markdown"
   },
-  "synced_at": "2026-10-08T18:17:17Z",
+  "synced_at": "2026-10-08T18:16:17Z",
   "synced_event": "042cxmtqt",
   "synced_hash": "4e25c910b2b15568",
   "url": "https://github.com/foundlings/qew"
