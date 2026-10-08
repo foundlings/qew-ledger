@@ -1,5 +1,5 @@
 {
-  "column": "Ready",
+  "column": "Done",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/177",
   "kind": "issue",
@@ -8,6 +8,7 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7GP2w",
   "number": 177,
+  "priority": "P2",
   "seen": {
     "assignee": "",
     "body": "GitLab: board with lists for each Status as scoped labels `board::<Status>` and priority labels; Forgejo: unsupported board, state labels carry the same statuses.\nScenarios (named walks, each stating the failure it prevents):\n- golden: GitLab fake board lists match the seven statuses\n- refusal: Forgejo ensure is unsupported and says so",
