@@ -6,6 +6,7 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV6SpJg",
   "number": 6,
+  "priority": "P3",
   "seen": {
     "assignee": "",
     "body": "The old model had `qew comment`; the ledger has no free-text events. Decide whether a `commented` event type belongs in the schema and mirror it as a forge comment.",
