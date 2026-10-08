@@ -15,7 +15,7 @@
     "comments": [],
     "labels": [
       "area:drafts-plans",
-      "status:In progress"
+      "status:Ready"
     ],
     "open": true,
     "title": "Add `qew block` and `qew unblock` for incremental, idempotent dependency edits"

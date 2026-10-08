@@ -12,8 +12,7 @@
     "body": "Epic for area `drafts-plans`. Child issues carry the gaps found by the audit and the scenarios each needs.",
     "comments": [],
     "labels": [
-      "area:drafts-plans",
-      "status:In progress"
+      "area:drafts-plans"
     ],
     "open": true,
     "title": "Drafts, plan files, plan rollups and graph invariants"
