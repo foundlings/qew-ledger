@@ -1,5 +1,5 @@
 {
-  "column": "In progress",
+  "column": "Done",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/87",
   "kind": "issue",
@@ -16,8 +16,8 @@
     "open": true,
     "title": "Refuse dependency and parent writes that create cycles, self edges, dangling refs or bad nesting"
   },
-  "synced_at": "2026-10-08T17:50:58Z",
-  "synced_event": "042cz1ebm",
-  "synced_hash": "4546fac976ad32f2",
+  "synced_at": "2026-10-08T17:59:22Z",
+  "synced_event": "042czf5bi",
+  "synced_hash": "ab9f43752585ef56",
   "url": "https://github.com/foundlings/qew"
 }

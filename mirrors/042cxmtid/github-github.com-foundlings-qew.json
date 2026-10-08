@@ -1,13 +1,13 @@
 {
-  "column": "Ready",
+  "column": "Done",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/82",
   "kind": "issue",
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV6_oKQ",
   "number": 82,
-  "synced_at": "2026-10-08T17:25:20Z",
-  "synced_event": "042cxmtq9",
-  "synced_hash": "750e17b5668919de",
+  "synced_at": "2026-10-08T17:59:18Z",
+  "synced_event": "042czh19x",
+  "synced_hash": "19bdb112b5b847f6",
   "url": "https://github.com/foundlings/qew"
 }
