@@ -14,13 +14,14 @@
     "comments": [],
     "labels": [
       "area:authority",
-      "authority"
+      "authority",
+      "status:Ready"
     ],
     "open": true,
     "title": "Secondary mirrors are read-only and qew mirror add/remove/list"
   },
-  "synced_at": "2026-10-08T18:03:49Z",
-  "synced_event": "042cz0ygf",
-  "synced_hash": "7ce34b4e4215c99e",
+  "synced_at": "2026-10-08T18:29:51Z",
+  "synced_event": "042d0bg8x",
+  "synced_hash": "046128ac309339db",
   "url": "https://github.com/foundlings/qew"
 }
