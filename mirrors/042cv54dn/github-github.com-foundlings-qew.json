@@ -6,6 +6,7 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV6SqSA",
   "number": 7,
+  "priority": "P3",
   "seen": {
     "assignee": "",
     "body": "Sync is push-only. Report (never apply) forge-side state that disagrees with the ledger, such as an issue closed or a pull request merged around qew.",
