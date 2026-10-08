@@ -6,6 +6,7 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV7LDqQ",
   "number": 243,
+  "priority": "P0",
   "seen": {
     "assignee": "",
     "body": "Contract: Replication 8. Advisory flock on `.qew.lock` (VCS-ignored) held for the write+commit; reads never lock.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- adversary: two processes creating items concurrently both succeed with distinct ids and two commits; prevents interleaved commits and id collisions\n- refusal: lock held longer than timeout exits 3 naming the holder pid",
