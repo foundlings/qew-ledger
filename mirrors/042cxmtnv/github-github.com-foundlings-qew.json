@@ -1,5 +1,5 @@
 {
-  "column": "Backlog",
+  "column": "Done",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/252",
   "kind": "issue",
@@ -16,11 +16,11 @@
       "area:replication",
       "replication"
     ],
-    "open": true,
+    "open": false,
     "title": "Forge-side state changes become forge_divergence events"
   },
-  "synced_at": "2026-10-08T17:57:46Z",
-  "synced_event": "042cxmufe",
-  "synced_hash": "971d0d4f12e8fdcf",
+  "synced_at": "2026-10-08T18:01:25Z",
+  "synced_event": "042czn0fi",
+  "synced_hash": "8e28c0028530f786",
   "url": "https://github.com/foundlings/qew"
 }
