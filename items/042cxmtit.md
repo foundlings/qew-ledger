@@ -3,7 +3,7 @@ kind: issue
 title: Apply plan files with a per-item quote and a draft-by-default or --draft release rule
 parent: 042cxmti7
 needs: 042cxmtiq 042cxmtig
-labels: area:drafts-plans
+labels: area:drafts-plans status:Backlog
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
