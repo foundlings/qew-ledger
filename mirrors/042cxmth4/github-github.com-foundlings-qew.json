@@ -12,13 +12,14 @@
     "comments": [],
     "labels": [
       "area:project-parity",
-      "board"
+      "board",
+      "status:Done"
     ],
     "open": false,
     "title": "Seven-status model: derive the board status for every item"
   },
-  "synced_at": "2026-10-08T17:51:56Z",
+  "synced_at": "2026-10-08T18:09:49Z",
   "synced_event": "042cz5pf2",
-  "synced_hash": "70865e6e9bfb6a9d",
+  "synced_hash": "6505d4b5bd6b06bf",
   "url": "https://github.com/foundlings/qew"
 }

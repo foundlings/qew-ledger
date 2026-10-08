@@ -6,6 +6,7 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV69Rmw",
   "number": 37,
+  "priority": "P1",
   "seen": {
     "assignee": "",
     "body": "Epic for area `project-parity`. Child issues carry the gaps found by the audit and the scenarios each needs.",
