@@ -11,13 +11,14 @@
     "body": "Epic for area `project-parity`. Child issues carry the gaps found by the audit and the scenarios each needs.",
     "comments": [],
     "labels": [
-      "area:project-parity"
+      "area:project-parity",
+      "status:Backlog"
     ],
     "open": true,
     "title": "Board parity on forges (project ensure builds the full board)"
   },
-  "synced_at": "2026-10-08T17:52:49Z",
+  "synced_at": "2026-10-08T18:09:43Z",
   "synced_event": "042cxmtoz",
-  "synced_hash": "aab61fd6adb67c3d",
+  "synced_hash": "d06c3be25bea1ac9",
   "url": "https://github.com/foundlings/qew"
 }
