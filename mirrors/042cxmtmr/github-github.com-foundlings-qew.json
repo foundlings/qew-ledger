@@ -1,23 +1,25 @@
 {
-  "column": "In progress",
+  "column": "Done",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/200",
   "kind": "issue",
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV7IEGA",
   "number": 200,
+  "priority": "P2",
   "seen": {
     "assignee": "",
     "body": "## Behaviour\nReads of pull requests, checks, labels and issue lists complete every page up to `MAX_PAGES` and raise `ForgeRejected` beyond it or when a Link leaves the API root; they never return a truncated list as if complete. Check-run folding (GitHub combined status plus all check runs) counts every page: one failing check on page two makes the PR `failing`. A GraphQL error body is a typed failure with the server message, not a default value.\n\n## Scenarios\n- checks span two pages with a failure on page 2: PR checks read `failing`. Prevents: merging a red PR because page 1 was green.\n- endless pagination bounded for PR and check reads (exists for issue lists on GitHub and Forgejo, add for check runs and GitLab).\n- GraphQL error with message becomes ForgeRejected carrying the message (covered for GitHub `test_graphql_errors_are_typed`). Prevents: reading an error body as data.\n\n## Reference coverage\nReference github boundary walk file: every paginated query puts its own pageInfo first (gh-specific, dropped), top-level issue pages merged, nested blocker pages completed, GraphQL errors fail closed, last page claiming more data refused. 5 test functions map to the pagination/GraphQL scenarios here.\n\n## Qew today\nCovered in part: GitHub walk has endless-pagination bound, cross-host Link refusal, GraphQL typing; Forgejo has the pagination bound; GitLab has `find` paging. Missing: check-run pagination scenario and GitLab/Forgejo link-host walks.",
     "comments": [],
     "labels": [
-      "area:pull-requests"
+      "area:pull-requests",
+      "status:Done"
     ],
-    "open": true,
+    "open": false,
     "title": "Prove complete pagination for the forge reads the pr commands rely on"
   },
-  "synced_at": "2026-10-08T18:00:36Z",
-  "synced_event": "042cz8062",
-  "synced_hash": "93fbc4a48e3dbaf0",
+  "synced_at": "2026-10-08T18:24:52Z",
+  "synced_event": "042d04d0b",
+  "synced_hash": "b610f9d40a74586b",
   "url": "https://github.com/foundlings/qew"
 }

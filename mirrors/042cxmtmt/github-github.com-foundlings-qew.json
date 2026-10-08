@@ -6,18 +6,20 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV7IU3A",
   "number": 202,
+  "priority": "P1",
   "seen": {
     "assignee": "",
     "body": "Epic for area `read-side`. Child issues carry the gaps found by the audit and the scenarios each needs.",
     "comments": [],
     "labels": [
-      "area:read-side"
+      "area:read-side",
+      "status:In progress"
     ],
     "open": true,
     "title": "Read side: token-efficient, bounded and text-safe reads"
   },
-  "synced_at": "2026-10-08T17:56:41Z",
+  "synced_at": "2026-10-08T18:24:59Z",
   "synced_event": "042cxmttp",
-  "synced_hash": "0d44563a464978b1",
+  "synced_hash": "997dc54fd4da3686",
   "url": "https://github.com/foundlings/qew"
 }
