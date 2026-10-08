@@ -11,13 +11,14 @@
     "body": "## Behaviour\nIn qew an epic is the campaign/milestone. Add counts to epic rows of `qew list --kind epic` / `qew show`: children open, children done, `completable` (not closed, at least one child, no open child), and the exact `qew complete EPIC` command only when completable. Terse text, JSON rows carry `schema_version`. Hostile titles are never echoed next to a runnable command: see `output-untrusted-text`. Closed epics are excluded from the default listing; a named epic shows even if closed.\n\n## Scenarios\n- `progress_distinguishes_completable_blocked_and_closed_epics`: three epics (all done, one open child, closed); JSON rows match exactly and only the first carries a command; prevents a wrong complete suggestion.\n- `empty_epic_is_not_completable`: zero children never completable; prevents completing an empty plan.\n\n## Reference coverage\nTests: campaign status distinguishes completable and blocked milestones (JSON rows). Docs: commands campaign status.\n\n## Qew today\nMissing. `qew list` has no counts; `qew complete` enforces the gate but nothing tells an agent which epics can be completed.",
     "comments": [],
     "labels": [
-      "area:board-admin"
+      "area:board-admin",
+      "status:Ready"
     ],
     "open": true,
     "title": "Report epic progress and completability from the ledger (campaign status)"
   },
-  "synced_at": "2026-10-08T17:21:15Z",
+  "synced_at": "2026-10-08T18:08:01Z",
   "synced_event": "042cxmtoi",
-  "synced_hash": "b5dfdbebd05f119b",
+  "synced_hash": "1a3964f9190728e1",
   "url": "https://github.com/foundlings/qew"
 }

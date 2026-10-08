@@ -6,6 +6,7 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV68Y6w",
   "number": 20,
+  "priority": "P3",
   "seen": {
     "assignee": "",
     "body": "## Behaviour\nWhen `place_on_board` finds the board has no column of that name (a board made before a column existed), the failure line must say how to repair it: 'board has no `Draft` column; run `qew project ensure`'. The same applies to a partial `qew draft approve` / `qew sync` failure: stderr lists what is left and ends with the command that refreshes the mirrors (`qew sync`), never a bare error. Exit codes unchanged; the offline work is not rolled back.\n\n## Scenarios\n- `sync_onto_a_board_without_the_draft_column_names_project_ensure`: failure text contains `qew project ensure`; prevents an opaque 'missing option' dead end.\n- `partial_draft_approval_names_the_mirror_refresh`: failure after the first approval write names `qew sync`; prevents a user guessing how mirrors catch up.\n\n## Reference coverage\nTests: a board without the draft column names project ensure (sync walk); partial failure names the board refresh (draft approve walk, board part only; the other 13 draft-approve tests belong to the drafts audit).\n\n## Qew today\nReduced. forge_github raises `ForgeRejected(400, 'board has no `X` column ...')` with no repair hint; `draft approve` is ledger-only and never mentions sync.",
