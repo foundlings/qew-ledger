@@ -11,13 +11,14 @@
     "body": "## Behaviour\nEach agent receives only its documented shape: Claude and Codex `hookSpecificOutput` with the event name; Cursor `{permission, user_message, agent_message}` (explicit allow always) and `{additional_context}` at session start, nothing for the after-shell event; opencode plain text with exit 2 for deny and no JSON braces.\n\n## Scenarios\n- Same bypass command sent to all four agents: four shapes asserted, Cursor quiet command yields exactly `{permission: allow}`. Prevents invalid output, which blocks the agent.\n- Session start per agent: shapes asserted (opencode has no session-start entry).\n- Post-tool per agent: Cursor prints nothing, opencode plain text, Claude/Codex PostToolUse context.\n\n## Reference coverage\n3 tests (each agent gets its own shape; cursor runs landing and prints nothing; opencode plain text).\n\n## Qew today\nCovered for deny shapes (cursor and opencode deny walk). Missing: post-tool shapes per agent and the quiet-Cursor allow row.",
     "comments": [],
     "labels": [
-      "area:hooks-dist"
+      "area:hooks-dist",
+      "status:Done"
     ],
     "open": false,
     "title": "Pin each agent's non-blocking and blocking output shape for every hook event"
   },
-  "synced_at": "2026-10-08T18:00:10Z",
+  "synced_at": "2026-10-08T18:18:11Z",
   "synced_event": "042cz8q64",
-  "synced_hash": "88bdcf88fac81162",
+  "synced_hash": "c3453ceae00ec9c8",
   "url": "https://github.com/foundlings/qew"
 }
