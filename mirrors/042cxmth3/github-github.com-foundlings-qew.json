@@ -12,13 +12,13 @@
     "comments": [],
     "labels": [
       "area:project-parity",
-      "status:Backlog"
+      "status:In progress"
     ],
     "open": true,
     "title": "Board parity on forges (project ensure builds the full board)"
   },
-  "synced_at": "2026-10-08T18:09:43Z",
+  "synced_at": "2026-10-08T18:09:46Z",
   "synced_event": "042cxmtoz",
-  "synced_hash": "d06c3be25bea1ac9",
+  "synced_hash": "3a5e4a4002481683",
   "url": "https://github.com/foundlings/qew"
 }
