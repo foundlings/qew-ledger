@@ -14,13 +14,14 @@
     "comments": [],
     "labels": [
       "area:project-parity",
-      "board"
+      "board",
+      "status:Done"
     ],
-    "open": true,
+    "open": false,
     "title": "Item Status and Priority projection kept in sync"
   },
-  "synced_at": "2026-10-08T17:55:46Z",
-  "synced_event": "042cxmtsx",
-  "synced_hash": "e81668d5a6b9f8e4",
+  "synced_at": "2026-10-08T18:22:42Z",
+  "synced_event": "042czx28i",
+  "synced_hash": "13fee6ef588c50bd",
   "url": "https://github.com/foundlings/qew"
 }

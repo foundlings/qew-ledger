@@ -1,5 +1,5 @@
 {
-  "column": "Backlog",
+  "column": "Done",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/174",
   "kind": "issue",
@@ -8,19 +8,21 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7F-9Q",
   "number": 174,
+  "priority": "P1",
   "seen": {
     "assignee": "",
     "body": "An old option name (the reference's `To triage`) is renamed in place to the new one keeping its id and cards, or dropped when the new option already exists; unknown foreign options are preserved and reported.\nScenarios (named walks, each stating the failure it prevents):\n- golden: legacy option renamed, cards stay\n- golden: legacy and new both present: legacy dropped after its cards move\n- adversary: a foreign option with the same name but different color is left alone and reported",
     "comments": [],
     "labels": [
       "area:project-parity",
-      "board"
+      "board",
+      "status:Done"
     ],
-    "open": true,
+    "open": false,
     "title": "Legacy Status option migration"
   },
-  "synced_at": "2026-10-08T17:55:43Z",
-  "synced_event": "042cxmtsw",
-  "synced_hash": "b6026170e8343bba",
+  "synced_at": "2026-10-08T18:22:40Z",
+  "synced_event": "042czwr3k",
+  "synced_hash": "7f55031fd6d45136",
   "url": "https://github.com/foundlings/qew"
 }
