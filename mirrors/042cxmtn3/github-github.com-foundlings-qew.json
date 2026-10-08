@@ -9,18 +9,20 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7JGSQ",
   "number": 212,
+  "priority": "P2",
   "seen": {
     "assignee": "",
     "body": "## Behaviour\nExplicit reads attach `text_findings` listing each affected source (`title`, `body`, `comment` with index and author, `label`), as sparse objects `{\"source\": \"body\", \"zero_width\": true}`. Human output appends a bracketed note on the row (`[title: contains confusable characters; body: contains zero-width characters]`) or a `text findings:` block in `show` with `comment 2 (@author)`. Items with no findings carry no `text_findings` key and no bracket. Text is shown as is (never rewritten), but control characters are replaced when printed in a terminal row.\n\n## Scenarios\n- golden: triage of one item with a confusable title and a zero-width body shows both findings with sources in JSON and in the row note; an item with a ZWJ family emoji shows none. Prevents reviewers missing hidden text and crying wolf on emoji.\n- golden: show of an item whose comment carries a bidi control names `comment 1 (@author)` in human output. Prevents attributing a finding to the wrong field.\n- adversary: a tag-character payload not spelling a subdivision flag in a title is reported as `unicode_tags`. Prevents hidden payloads.\n\n## Reference coverage\nReference read-suite walks: triage attributes pinned findings without flagging emoji; flags tag sequences; show attributes comment findings in JSON and human output (3 tests).\n\n## Qew today\nMissing.",
     "comments": [],
     "labels": [
-      "area:read-side"
+      "area:read-side",
+      "status:Backlog"
     ],
     "open": true,
     "title": "Annotate `show`, `triage` and `draft list` output with attributed text findings"
   },
-  "synced_at": "2026-10-08T17:56:56Z",
+  "synced_at": "2026-10-08T18:25:48Z",
   "synced_event": "042cxmttz",
-  "synced_hash": "a095a58afc9307f6",
+  "synced_hash": "ad35500c70e3c68e",
   "url": "https://github.com/foundlings/qew"
 }
