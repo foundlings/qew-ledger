@@ -1,0 +1,25 @@
+{
+  "column": "Ready",
+  "forge": "github",
+  "issue_url": "https://github.com/foundlings/qew/issues/293",
+  "kind": "issue",
+  "linked": [],
+  "node_id": "I_kwDOVBP4_s8AAAABV7zZeQ",
+  "number": 293,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "body": "",
+    "comments": [],
+    "labels": [
+      "drive",
+      "status:Ready"
+    ],
+    "open": true,
+    "title": "drive: item created by agent a"
+  },
+  "synced_at": "2026-10-08T18:30:48Z",
+  "synced_event": "042d0bm8w",
+  "synced_hash": "8b150259c6c1bb9f",
+  "url": "https://github.com/foundlings/qew"
+}
