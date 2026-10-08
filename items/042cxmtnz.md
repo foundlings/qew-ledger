@@ -3,7 +3,7 @@ kind: issue
 title: Multi-agent convergence scenarios (two and three clones)
 parent: 042cxmtnm
 needs: 042cxmtnq 042cxmtnr 042cxmtnv
-labels: area:replication replication
+labels: area:replication
 owner: 
 priority: 0
 created: 2026-10-08T17:20:13Z
