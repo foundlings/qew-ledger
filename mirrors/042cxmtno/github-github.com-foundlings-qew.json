@@ -12,13 +12,14 @@
     "comments": [],
     "labels": [
       "area:replication",
-      "replication"
+      "replication",
+      "status:Done"
     ],
     "open": false,
     "title": "Local per-checkout write lock"
   },
-  "synced_at": "2026-10-08T17:40:08Z",
+  "synced_at": "2026-10-08T18:27:34Z",
   "synced_event": "042cxwmbr",
-  "synced_hash": "9081c09899f3eb5f",
+  "synced_hash": "743739d63c116eee",
   "url": "https://github.com/foundlings/qew"
 }
