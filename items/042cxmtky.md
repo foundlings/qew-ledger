@@ -3,7 +3,7 @@ kind: issue
 title: project ensure builds the full board: Status options, Priority field, views
 parent: 042cxmth3
 needs: 042cxmth4
-labels: area:project-parity board
+labels: area:project-parity area:board
 owner: 
 priority: 0
 created: 2026-10-08T17:20:13Z
