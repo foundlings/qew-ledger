@@ -15,13 +15,14 @@
     "comments": [],
     "labels": [
       "area:replication",
-      "replication"
+      "replication",
+      "status:Backlog"
     ],
     "open": true,
     "title": "Real-world test drive against foundlings/qew-ledger and the GitHub project"
   },
-  "synced_at": "2026-10-08T17:57:57Z",
+  "synced_at": "2026-10-08T18:28:37Z",
   "synced_event": "042cxmufj",
-  "synced_hash": "563ede1a4a928ccb",
+  "synced_hash": "ee08170e248e18f4",
   "url": "https://github.com/foundlings/qew"
 }

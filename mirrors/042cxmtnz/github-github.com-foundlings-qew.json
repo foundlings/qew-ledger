@@ -10,6 +10,7 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7MDHg",
   "number": 259,
+  "priority": "P0",
   "seen": {
     "assignee": "",
     "body": "Scenario walks with real git/jj clones against a bare remote and a forge fake: A claims and completes, B creates and comments, C works offline then reconnects; all converge to the same items, states and mirrors; includes a forge-side close producing a divergence on every clone.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: three agents converge\n- adversary: concurrent creates in the same second yield unique ids\n- adversary: offline agent writes, reconnects, merges without conflict",
