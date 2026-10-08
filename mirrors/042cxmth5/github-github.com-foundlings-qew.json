@@ -8,18 +8,20 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV69Xhw",
   "number": 39,
+  "priority": "P1",
   "seen": {
     "assignee": "",
     "body": "Behaviour: status derived exactly as in the status-model issue (project-parity); board config lives in `boards/<name>.json` style ledger files (one file per board: columns, default sort/group/filter), no forge needed.\nScenarios:\n- golden: item moves Draft->Ready->In progress->In review->Done as events are written; prevents the board disagreeing with readiness\n- refusal: a board file with unknown columns or duplicate names fails `qew check`; prevents silent mis-rendering\n- adversary: a forge outage leaves the board unchanged; prevents board reads needing network",
     "comments": [],
     "labels": [
-      "area:board"
+      "area:board",
+      "status:Ready"
     ],
     "open": true,
     "title": "Derive board state from ledger events and a per-board config file"
   },
-  "synced_at": "2026-10-08T17:51:59Z",
+  "synced_at": "2026-10-08T18:09:56Z",
   "synced_event": "042cxmtp1",
-  "synced_hash": "27906bf5a4c4195c",
+  "synced_hash": "081b90f341207c79",
   "url": "https://github.com/foundlings/qew"
 }
