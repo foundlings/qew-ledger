@@ -16,11 +16,11 @@
       "area:project-parity",
       "board"
     ],
-    "open": true,
+    "open": false,
     "title": "Boards on GitLab (scoped label board) and Forgejo (labels)"
   },
-  "synced_at": "2026-10-08T17:52:05Z",
-  "synced_event": "042cxmtsz",
-  "synced_hash": "6739ba0f80b761ec",
+  "synced_at": "2026-10-08T18:22:53Z",
+  "synced_event": "042czxcey",
+  "synced_hash": "82b1177530e778b9",
   "url": "https://github.com/foundlings/qew"
 }

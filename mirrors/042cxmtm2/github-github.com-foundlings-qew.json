@@ -1,5 +1,5 @@
 {
-  "column": "Backlog",
+  "column": "In progress",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/176",
   "kind": "issue",
@@ -9,6 +9,7 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7GJdg",
   "number": 176,
+  "priority": "P1",
   "seen": {
     "assignee": "",
     "body": "Run the new `project ensure` against foundlings/qew board #1, verify through the GitHub API that Status options, Priority field and eight views match, re-place all items.\nScenarios (named walks, each stating the failure it prevents):\n- golden: live check output recorded as a comment on this issue",
