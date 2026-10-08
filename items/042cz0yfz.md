@@ -3,7 +3,7 @@ kind: issue
 title: Working on items you do not hold is refused
 parent: 042cz0y86
 needs: 042cz0ye0
-labels: area:authority authority
+labels: area:authority
 owner: 
 priority: 1
 created: 2026-10-08T17:48:53Z
