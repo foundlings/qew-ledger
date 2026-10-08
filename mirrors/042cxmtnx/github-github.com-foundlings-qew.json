@@ -15,13 +15,14 @@
     "comments": [],
     "labels": [
       "area:replication",
-      "replication"
+      "replication",
+      "status:Done"
     ],
     "open": false,
     "title": "qew import --from TARGET (and ad hoc --forge/--repo)"
   },
-  "synced_at": "2026-10-08T18:01:51Z",
+  "synced_at": "2026-10-08T18:28:22Z",
   "synced_event": "042cznwby",
-  "synced_hash": "75cafac1e7290d7f",
+  "synced_hash": "87f1ecab65e6ca95",
   "url": "https://github.com/foundlings/qew"
 }
