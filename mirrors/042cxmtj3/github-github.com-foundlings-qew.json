@@ -1,5 +1,5 @@
 {
-  "column": "In progress",
+  "column": "Backlog",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/107",
   "kind": "issue",
@@ -15,13 +15,13 @@
     "comments": [],
     "labels": [
       "area:graph-ready",
-      "status:In progress"
+      "status:Backlog"
     ],
     "open": true,
     "title": "qew blocked --chains explains blocked chains"
   },
-  "synced_at": "2026-10-08T18:16:50Z",
+  "synced_at": "2026-10-08T18:16:53Z",
   "synced_event": "042d06ugf",
-  "synced_hash": "f73976ed83d9fcdf",
+  "synced_hash": "113cda086c528ce2",
   "url": "https://github.com/foundlings/qew"
 }
