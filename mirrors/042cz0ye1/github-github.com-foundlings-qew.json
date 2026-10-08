@@ -1,8 +1,11 @@
 {
+  "column": "Draft",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/274",
   "kind": "issue",
-  "linked": [],
+  "linked": [
+    "042cz0ye0"
+  ],
   "node_id": "I_kwDOVBP4_s8AAAABV7SwRg",
   "number": 274,
   "seen": {
