@@ -1,0 +1,24 @@
+{
+  "column": "Ready",
+  "forge": "github",
+  "issue_url": "https://github.com/foundlings/qew/issues/272",
+  "kind": "issue",
+  "linked": [],
+  "node_id": "I_kwDOVBP4_s8AAAABV7Sjew",
+  "number": 272,
+  "seen": {
+    "assignee": "",
+    "body": "Contract: docs/specs/ledger.md, Authority and topology.\nParse `[authority] primary = target slug | \"none\"` (default none); unknown targets fail; shown by `qew status`.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: default none, named target accepted\n- refusal: unknown target or wrong type fails with the file named",
+    "comments": [],
+    "labels": [
+      "area:authority",
+      "authority"
+    ],
+    "open": true,
+    "title": "[authority] primary configuration and status"
+  },
+  "synced_at": "2026-10-08T17:49:08Z",
+  "synced_event": "042cz0yg9",
+  "synced_hash": "afdaa5c60974b0dd",
+  "url": "https://github.com/foundlings/qew"
+}
