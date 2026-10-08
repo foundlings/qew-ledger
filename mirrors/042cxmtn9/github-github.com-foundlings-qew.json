@@ -14,13 +14,14 @@
     "body": "## Behaviour\n`qew triage` is the explicit read of unapproved text: it lists drafts and approved items lacking required planning fields (for the ledger: no label of any configured required group, empty body, or a task with no parent) with each item's title, body, and a `missing` list naming what is absent. `--search TERMS` narrows by title and body. Output carries `text_findings` per item and field (source `title` or `body`) and never rewrites the text. Triage is the only list-shaped read that prints unapproved bodies.\n\n## Scenarios\n- golden: a draft with a body matching the search and one without lists only the match, with `body` and `missing`. Prevents reviewers opening each draft.\n- golden: two items missing different fields report different `missing` lists in sorted order. Prevents false completeness.\n- adversary: an unapproved body full of instructions is printed as data with findings attached and is not present in `ready`, `prime` or hook context. Prevents injection through routine channels.\n- golden: triage output is one object per line with schema_version. Prevents a contract split.\n\n## Reference coverage\nReference read-suite walk: triage golden walk searches untriaged titles and bodies (1 test); triage text-findings walks map to text-scan-annotations.\n\n## Qew today\nMissing. No triage command.",
     "comments": [],
     "labels": [
-      "area:read-side"
+      "area:read-side",
+      "status:Backlog"
     ],
     "open": true,
     "title": "Add `qew triage [--search TERMS]` to review drafts and items missing fields, with bodies and findings"
   },
-  "synced_at": "2026-10-08T17:57:14Z",
+  "synced_at": "2026-10-08T18:26:21Z",
   "synced_event": "042cxmtu5",
-  "synced_hash": "33b94def327d594e",
+  "synced_hash": "58f48473e978a193",
   "url": "https://github.com/foundlings/qew"
 }
