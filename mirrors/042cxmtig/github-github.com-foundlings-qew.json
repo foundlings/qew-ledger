@@ -8,18 +8,20 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV6_y5A",
   "number": 85,
+  "priority": "P1",
   "seen": {
     "assignee": "",
     "body": "## Behaviour\nQuote rule (shared module, identical to the reference): `Name: 'their words'` on one line, name present, at least\n12 characters of words, no placeholder (only dots or ellipses, `<...>`, TODO, TBD, placeholder, his/her/their\nwords). Entry points in the ledger: `qew create --quote`, `qew create --from-file` (global and per-item),\n`draft approve`, `draft revert`, and the apply path. Refusal is exit 2 before any item or event file is written.\nBehaviour that differs by design and is recorded here: in the ledger a draft needs no quote (an agent may file\ndrafts freely); the quote is what releases work.\n\n## Scenarios\n1. `create --quote` table: empty, too short, no name, unquoted, placeholder, dots, TODO, multi-line each exit 2 and the ledger gains no file. Prevents an unattended agent satisfying the gate with junk.\n2. `create` with no quote files a draft and writes `drafted`; with a valid quote files `approved` carrying the exact trimmed quote. Prevents approved work with no trace of the requester.\n3. `create --from-file` applies the single `--quote` to every item or none (all-or-nothing validation before the first write). Prevents half a file approved.\n\n## Reference coverage\nReference requester-quote tests merged: create without quote refused before any write, create refuses empty/short/\nunattributed/placeholder quotes (8 subcases), create renders the quote and waits for approval by default (the\nquote half; the approval gate half is dropped), plan create requires and renders the quote (quote half) - 4 of 9.\n\n## Qew today\nCode shared and correct. Test coverage: only `ok` on approve and the happy-path `--quote` on create. The eight-form table is untested.",
     "comments": [],
     "labels": [
-      "area:drafts-plans"
+      "area:drafts-plans",
+      "status:Done"
     ],
     "open": false,
     "title": "Pin the whole requester-quote refusal table on every entry that takes a quote"
   },
-  "synced_at": "2026-10-08T17:46:27Z",
+  "synced_at": "2026-10-08T18:14:43Z",
   "synced_event": "042cywnb6",
-  "synced_hash": "888556aa35888712",
+  "synced_hash": "f5ba4ab63bcd8f49",
   "url": "https://github.com/foundlings/qew"
 }

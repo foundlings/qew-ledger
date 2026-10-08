@@ -13,13 +13,13 @@
     "comments": [],
     "labels": [
       "area:drafts-plans",
-      "status:Ready"
+      "status:In progress"
     ],
     "open": true,
     "title": "Add `qew comment` so drafts and any item can be discussed without changing state"
   },
-  "synced_at": "2026-10-08T18:14:37Z",
+  "synced_at": "2026-10-08T18:14:48Z",
   "synced_event": "042d012eu",
-  "synced_hash": "b48b7e193cb20de3",
+  "synced_hash": "78c1fff3dfb287f3",
   "url": "https://github.com/foundlings/qew"
 }
