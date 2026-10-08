@@ -13,13 +13,14 @@
     "body": "## Behaviour\n`qew draft list` shows open drafts with kind, parent, priority and title, sorted parent-first then id, with `--parent ID` to scope to one epic and `--json`. Closed or approved items never appear. The reference failure to prevent is a draft no read can find: in the ledger drafts must be reachable by `draft list`, `list --state draft`, `show` and `triage` and never by `ready` or `prime`.\n\n## Scenarios\n- golden: draft list shows each draft with kind and parent, epics before their children. Prevents orphaned ideas.\n- golden: a closed draft and an approved item do not appear. Prevents noise.\n- golden: `--parent E` lists only drafts under E. Prevents scanning the whole backlog.\n- adversary: drafts never appear in `ready` or in the session-start context, while a count of drafts does. Prevents unapproved work being offered.\n\n## Reference coverage\nReference draft-read walks: draft list shows open drafts with type and parent; ignores closed or non-draft; only under a parent; overlay-mode query (forge-only, dropped) (3 mapped + 1 dropped).\n\n## Qew today\nReduced. `qew draft list` exists (cmd_draft) but there is no `--parent`, no kind/parent columns asserted, and no dedicated walk.",
     "comments": [],
     "labels": [
-      "area:read-side"
+      "area:read-side",
+      "status:Ready"
     ],
     "open": true,
     "title": "Complete `qew draft list`: parent scope, type, closed excluded, drafts findable by every read"
   },
-  "synced_at": "2026-10-08T17:57:09Z",
+  "synced_at": "2026-10-08T18:26:10Z",
   "synced_event": "042cxmtu3",
-  "synced_hash": "d507fa2a6113ce7b",
+  "synced_hash": "6aa2c12461a32d0f",
   "url": "https://github.com/foundlings/qew"
 }
