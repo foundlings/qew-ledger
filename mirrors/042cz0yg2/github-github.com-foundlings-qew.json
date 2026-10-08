@@ -1,0 +1,26 @@
+{
+  "column": "Draft",
+  "forge": "github",
+  "issue_url": "https://github.com/foundlings/qew/issues/280",
+  "kind": "issue",
+  "linked": [
+    "042cz0ydz"
+  ],
+  "node_id": "I_kwDOVBP4_s8AAAABV7TVtA",
+  "number": 280,
+  "seen": {
+    "assignee": "",
+    "body": "Contract: docs/specs/ledger.md, Authority and topology.\nPer target git remote `qew-<slug>` for both repos, pushed by sync; creating the forge repo is out of scope (must exist).\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: both repos reach a bare remote per target\n- adversary: one unreachable target does not block the others\n- refusal: missing remote URL is reported not guessed",
+    "comments": [],
+    "labels": [
+      "area:authority",
+      "authority"
+    ],
+    "open": true,
+    "title": "Code and ledger repos pushed to every forge target"
+  },
+  "synced_at": "2026-10-08T17:50:05Z",
+  "synced_event": "042cz0ygh",
+  "synced_hash": "bffbcc015d27763c",
+  "url": "https://github.com/foundlings/qew"
+}

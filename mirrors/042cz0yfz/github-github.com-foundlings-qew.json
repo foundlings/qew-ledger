@@ -1,0 +1,26 @@
+{
+  "column": "Draft",
+  "forge": "github",
+  "issue_url": "https://github.com/foundlings/qew/issues/277",
+  "kind": "issue",
+  "linked": [
+    "042cz0ye0"
+  ],
+  "node_id": "I_kwDOVBP4_s8AAAABV7TFUg",
+  "number": 277,
+  "seen": {
+    "assignee": "",
+    "body": "Contract: docs/specs/ledger.md, Authority and topology.\nevidence, comment-progress and complete require holding the item or an ancestor; completing offline is allowed with evidence.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- refusal: evidence on someone else's claimed item\n- golden: epic holder completes a descendant offline\n- adversary: a stale claim_lost owner cannot complete",
+    "comments": [],
+    "labels": [
+      "area:authority",
+      "authority"
+    ],
+    "open": true,
+    "title": "Working on items you do not hold is refused"
+  },
+  "synced_at": "2026-10-08T17:49:45Z",
+  "synced_event": "042cz0yge",
+  "synced_hash": "68dc15d6a9a2b08c",
+  "url": "https://github.com/foundlings/qew"
+}

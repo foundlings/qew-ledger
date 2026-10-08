@@ -1,0 +1,27 @@
+{
+  "column": "Draft",
+  "forge": "github",
+  "issue_url": "https://github.com/foundlings/qew/issues/276",
+  "kind": "issue",
+  "linked": [
+    "042cz0ye1",
+    "042cz0ye2"
+  ],
+  "node_id": "I_kwDOVBP4_s8AAAABV7S-BA",
+  "number": 276,
+  "seen": {
+    "assignee": "",
+    "body": "Contract: docs/specs/ledger.md, Authority and topology.\nAll-or-nothing with rollback; descendants already claimed by others refuse the whole operation.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: epic claim claims issues and tasks\n- refusal: one descendant held by another refuses everything and writes nothing\n- golden: releasing the epic releases the cascade",
+    "comments": [],
+    "labels": [
+      "area:authority",
+      "authority"
+    ],
+    "open": true,
+    "title": "Claiming an epic claims its open descendants atomically"
+  },
+  "synced_at": "2026-10-08T17:49:36Z",
+  "synced_event": "042cz0ygd",
+  "synced_hash": "c2e1045c3cfabb99",
+  "url": "https://github.com/foundlings/qew"
+}
