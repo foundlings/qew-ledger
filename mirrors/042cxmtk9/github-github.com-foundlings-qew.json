@@ -8,18 +8,20 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7EHJQ",
   "number": 148,
+  "priority": "P2",
   "seen": {
     "assignee": "",
     "body": "## Behaviour\nA task whose delivery is not in the repository (docs elsewhere, a decision) cannot be completed in qew today except through import. `qew complete ITEM --reason TEXT --no-commit WHY` records `no_commit: WHY` on the `completed` event and skips the landing proof; exactly one of evidence-on-target or `--no-commit` must hold, and a blank `WHY` is refused. `qew check` counts these like imports: `completed without code: N` (non-fatal). A reason alone never proves anything landed.\n\n## Scenarios\n- golden: claimed item, `--no-commit` with a reason; completes, event records it (prevents: forcing fake evidence for non-code work)\n- no evidence and no `--no-commit`: refused (covered by test_complete_is_refused_without_evidence)\n- both evidence and `--no-commit`, blank `WHY`: exit 2, zero events (prevents: contradictory flags silently picking one meaning)\n- check lists such items so reviewers can audit them (prevents: `--no-commit` becoming the default escape hatch)\n\n## Reference coverage\n1 reference test function(s): `test_complete_requires_a_landed_commit_or_an_explicit_no_commit`\n\n## Qew today\nMissing. Evidence-less completion is refused (covered), but the explicit alternative does not exist.",
     "comments": [],
     "labels": [
-      "area:lifecycle"
+      "area:lifecycle",
+      "status:Backlog"
     ],
     "open": true,
     "title": "Allow completion without a code change only with an explicit recorded reason"
   },
-  "synced_at": "2026-10-08T17:55:04Z",
+  "synced_at": "2026-10-08T18:20:27Z",
   "synced_event": "042cxmts5",
-  "synced_hash": "167165addcd511c1",
+  "synced_hash": "7a5fe9fc293995d7",
   "url": "https://github.com/foundlings/qew"
 }
