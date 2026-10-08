@@ -18,8 +18,8 @@
     "open": true,
     "title": "Add `--json` to `qew pr open|ready|merge` with a stable schema"
   },
-  "synced_at": "2026-10-08T17:56:24Z",
+  "synced_at": "2026-10-08T18:24:08Z",
   "synced_event": "042cxmtte",
-  "synced_hash": "8ac4f3b4642bdc6d",
+  "synced_hash": "954dcd585e6f08f5",
   "url": "https://github.com/foundlings/qew"
 }
