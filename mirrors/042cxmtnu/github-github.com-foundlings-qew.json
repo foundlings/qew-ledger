@@ -1,5 +1,5 @@
 {
-  "column": "In progress",
+  "column": "Done",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/250",
   "kind": "issue",
@@ -17,11 +17,11 @@
       "area:replication",
       "replication"
     ],
-    "open": true,
+    "open": false,
     "title": "Incremental pull: forge-side content edits become events"
   },
-  "synced_at": "2026-10-08T18:01:01Z",
+  "synced_at": "2026-10-08T18:01:21Z",
   "synced_event": "042czmha0",
-  "synced_hash": "76fdc2760ced4bab",
+  "synced_hash": "ec93680235dd700c",
   "url": "https://github.com/foundlings/qew"
 }
