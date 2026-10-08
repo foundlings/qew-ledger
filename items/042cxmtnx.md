@@ -3,7 +3,7 @@ kind: issue
 title: qew import --from TARGET (and ad hoc --forge/--repo)
 parent: 042cxmtnm
 needs: 042cxmtnn 042cxmtnu
-labels: area:replication replication
+labels: area:replication
 owner: 
 priority: 0
 created: 2026-10-08T17:20:13Z
