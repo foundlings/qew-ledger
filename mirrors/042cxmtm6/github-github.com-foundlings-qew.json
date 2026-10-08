@@ -8,6 +8,7 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7Gc8Q",
   "number": 180,
+  "priority": "P1",
   "seen": {
     "assignee": "",
     "body": "## Behaviour\nThe PR body is built from the item body (What / Why / Testing sections, optional `--what/--why/--testing/--body-file` overrides) plus the marker and the `Delivers ID` line. Item and caller text is untrusted: ANY closing keyword (`closes|fixes|resolves`, any case, with `#N`, `owner/repo#N` or an issue URL, in-line or at line start, `closed:` forms) anywhere in the final body is refused (exit 2) before the forge is called, because the ledger, not a forge side effect, completes work (see ledger.md: pull requests never carry a closing keyword). A `Part of`/`Delivers` back-reference is allowed.\n\n## Scenarios\n- golden body: item with goal/approach sections -> PR body contains the sections once, the marker once, `Delivers ID` once. Prevents: lost or duplicated provenance.\n- closing keyword adversary table: in-line `also fixes #16`, `Resolves acme/other#7`, `closed: #16`, `Closes https://host/o/r/issues/9`, `fixes o/r#16` in an item body or `--what` text are each refused with exit 2 and no forge call. Prevents: merging the PR closing unrelated issues on the forge behind qew's back.\n- no rewrite: text that merely mentions a flag or path is passed through byte for byte. Prevents: silent body mutation.\n\n## Reference coverage\nReference pull-request lifecycle walk file: golden derives title/body, closing-reference refusal table (5 cases, one test function).\n\n## Qew today\nReduced: `open_pull_request` writes a fixed body (marker + `Delivers`) and never reads item body text, so there is no section derivation and no scanner for caller-supplied text. The scanner must exist before any `--body-file`/`--what` option or item-body copy is added.",
@@ -18,8 +19,8 @@
     "open": true,
     "title": "Derive the PR body sections from the item and refuse closing references in any body text"
   },
-  "synced_at": "2026-10-08T17:55:54Z",
+  "synced_at": "2026-10-08T18:23:05Z",
   "synced_event": "042cxmtt2",
-  "synced_hash": "060a46ed76bffabc",
+  "synced_hash": "fd44a564b61d0ce5",
   "url": "https://github.com/foundlings/qew"
 }

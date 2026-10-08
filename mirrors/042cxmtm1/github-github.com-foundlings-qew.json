@@ -1,5 +1,5 @@
 {
-  "column": "Backlog",
+  "column": "Done",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/175",
   "kind": "issue",
@@ -8,19 +8,21 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7GETA",
   "number": 175,
+  "priority": "P1",
   "seen": {
     "assignee": "",
     "body": "After sync every board item has Status from the status model and Priority P0-P4 from the item priority (0-4; larger values clamp to P4 with a warning); changes are verified by reading back with bounded retry; drift is repaired on the next sync; items leaving the target's select are pruned from the board only.\nScenarios (named walks, each stating the failure it prevents):\n- golden: claim moves the card to In progress, completing moves it to Done\n- golden: priority change updates the Priority field\n- adversary: eventual-consistency lag on the forge is retried within bounds then reported, never recorded as synced\n- refusal: prune never closes an issue",
     "comments": [],
     "labels": [
       "area:project-parity",
-      "board"
+      "board",
+      "status:Done"
     ],
-    "open": true,
+    "open": false,
     "title": "Item Status and Priority projection kept in sync"
   },
-  "synced_at": "2026-10-08T17:55:46Z",
-  "synced_event": "042cxmtsx",
-  "synced_hash": "e81668d5a6b9f8e4",
+  "synced_at": "2026-10-08T18:22:44Z",
+  "synced_event": "042czx28i",
+  "synced_hash": "13fee6ef588c50bd",
   "url": "https://github.com/foundlings/qew"
 }

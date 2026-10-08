@@ -1,5 +1,5 @@
 {
-  "column": "Backlog",
+  "column": "In progress",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/176",
   "kind": "issue",
@@ -9,19 +9,21 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7GJdg",
   "number": 176,
+  "priority": "P1",
   "seen": {
     "assignee": "",
     "body": "Run the new `project ensure` against foundlings/qew board #1, verify through the GitHub API that Status options, Priority field and eight views match, re-place all items.\nScenarios (named walks, each stating the failure it prevents):\n- golden: live check output recorded as a comment on this issue",
     "comments": [],
     "labels": [
       "area:project-parity",
-      "board"
+      "board",
+      "status:In progress"
     ],
     "open": true,
     "title": "Fix org project #1 (qew board) to match the full board"
   },
-  "synced_at": "2026-10-08T17:55:49Z",
-  "synced_event": "042cxmtsy",
-  "synced_hash": "7b41c67b2068ef1b",
+  "synced_at": "2026-10-08T18:22:47Z",
+  "synced_event": "042czy46s",
+  "synced_hash": "0bf7f11024b033de",
   "url": "https://github.com/foundlings/qew"
 }
