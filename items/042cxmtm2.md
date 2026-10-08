@@ -3,7 +3,7 @@ kind: issue
 title: Fix org project #1 (qew board) to match the full board
 parent: 042cxmth3
 needs: 042cxmtky 042cxmtm1
-labels: area:project-parity board
+labels: area:project-parity area:board
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
