@@ -1,5 +1,5 @@
 {
-  "column": "Ready",
+  "column": "In progress",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/89",
   "kind": "issue",
@@ -15,13 +15,13 @@
     "comments": [],
     "labels": [
       "area:drafts-plans",
-      "status:Ready"
+      "status:In progress"
     ],
     "open": true,
     "title": "Extend `qew set` with additive labels, body files and kind changes, verified on read-back"
   },
-  "synced_at": "2026-10-08T18:15:12Z",
+  "synced_at": "2026-10-08T18:16:53Z",
   "synced_event": "042d07bf5",
-  "synced_hash": "ee9c029e77497068",
+  "synced_hash": "24c69961539ac781",
   "url": "https://github.com/foundlings/qew"
 }
