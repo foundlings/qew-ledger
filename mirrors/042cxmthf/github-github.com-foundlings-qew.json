@@ -6,12 +6,14 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV699iw",
   "number": 49,
+  "priority": "P3",
   "seen": {
     "assignee": "",
     "body": "Command inventory for `qew create`: file an item (a draft unless --quote releases it).\n\nFlags: --kind, --title, --parent, --needs, --label, --priority, --body, --body-file, --quote, --from-file, --import.\n\nEnd-to-end check (2026-10-08, scratch ledger + local forge fake, scripted run of every command): works, exit codes as documented.\n\nWalk coverage today: 8 direct test invocation(s) of `qew create`; flags never exercised by any test: --body-file.\n\nDone when: a golden scenario and the refusal/adversary scenarios for this command and each flag exist as named walks whose docstrings state the failure prevented, and the three documents (help, README, commands spec) agree.",
     "comments": [],
     "labels": [
-      "area:command-inventory"
+      "area:command-inventory",
+      "status:Ready"
     ],
     "open": true,
     "title": "Inventory and walk coverage: qew create"
