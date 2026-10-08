@@ -1,5 +1,5 @@
 {
-  "column": "Ready",
+  "column": "In progress",
   "forge": "github",
   "issue_url": "https://github.com/foundlings/qew/issues/274",
   "kind": "issue",
@@ -19,8 +19,8 @@
     "open": true,
     "title": "Atomic claim reservation on the primary forge"
   },
-  "synced_at": "2026-10-08T18:04:06Z",
-  "synced_event": "042cz0ygb",
-  "synced_hash": "d1ff5a0a2fe0251e",
+  "synced_at": "2026-10-08T18:04:44Z",
+  "synced_event": "042czst9b",
+  "synced_hash": "fb8dbc0dcf1290ba",
   "url": "https://github.com/foundlings/qew"
 }
