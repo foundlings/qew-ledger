@@ -9,19 +9,21 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7L2fg",
   "number": 255,
+  "priority": "P0",
   "seen": {
     "assignee": "",
     "body": "Contract: Replication 4,5. Read issues, PRs, labels, comments (and board column) from a forge project into ledger items with mirrors and provenance forge-import; closed issues import closed or completed(import) with --history.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: empty ledger plus a populated forge fake equals items, parents/dependencies, mirrors and board columns\n- golden: re-import is idempotent (adopts by marker or mirror, no duplicates)\n- adversary: pagination limit, malformed forge JSON and a forge that lies about numbers fail loudly with nothing partial\n- golden: ad hoc --forge gitlab --repo URL without a config target",
     "comments": [],
     "labels": [
       "area:replication",
-      "replication"
+      "replication",
+      "status:Done"
     ],
     "open": false,
     "title": "qew import --from TARGET (and ad hoc --forge/--repo)"
   },
-  "synced_at": "2026-10-08T18:01:51Z",
+  "synced_at": "2026-10-08T18:28:22Z",
   "synced_event": "042cznwby",
-  "synced_hash": "75cafac1e7290d7f",
+  "synced_hash": "87f1ecab65e6ca95",
   "url": "https://github.com/foundlings/qew"
 }

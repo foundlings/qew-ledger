@@ -9,19 +9,21 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7MMDg",
   "number": 260,
+  "priority": "P0",
   "seen": {
     "assignee": "",
     "body": "Clone the ledger into 2-3 scratch checkouts, run qew as different agents (claim, evidence, complete, comment, create), push, show convergence; make one change directly on GitHub via the API and show it imported as an event or divergence. Every finding becomes an issue and a scenario test; record what converged and what did not.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: the test drive report is recorded as a comment on this issue",
     "comments": [],
     "labels": [
       "area:replication",
-      "replication"
+      "replication",
+      "status:Backlog"
     ],
     "open": true,
     "title": "Real-world test drive against foundlings/qew-ledger and the GitHub project"
   },
-  "synced_at": "2026-10-08T17:57:57Z",
+  "synced_at": "2026-10-08T18:28:37Z",
   "synced_event": "042cxmufj",
-  "synced_hash": "563ede1a4a928ccb",
+  "synced_hash": "ee08170e248e18f4",
   "url": "https://github.com/foundlings/qew"
 }

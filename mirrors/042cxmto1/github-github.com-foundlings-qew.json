@@ -10,19 +10,21 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7MSoA",
   "number": 261,
+  "priority": "P0",
   "seen": {
     "assignee": "",
     "body": "Contract: docs/specs/ledger.md Replication, Background sync. After a write qew spawns one detached worker (ledger push + all mirror targets) with a lock, a timeout and a log in `.qew/`; foreground prints at most `sync: queued`.\nScenarios (each a named walk stating the failure it prevents):\n- golden: a write returns before the worker finishes (forge fake with a delayed response); prevents agents waiting on forges\n- adversary: concurrent writes start one worker only (lock); prevents double sync and duplicate issues\n- adversary: a failing forge leaves pending state and the next command's worker clears it\n- adversary: stale lock from a killed worker is detected by pid and cleared\n- golden: QEW_OFFLINE=1 and background_sync=false spawn nothing\n- golden: foreground output is at most one line and never contains forge text\n- golden: sync.log is bounded and visible via qew status",
     "comments": [],
     "labels": [
       "area:replication",
-      "replication"
+      "replication",
+      "status:Done"
     ],
     "open": false,
     "title": "Detached background sync after every write (token-free)"
   },
-  "synced_at": "2026-10-08T17:41:56Z",
+  "synced_at": "2026-10-08T18:28:42Z",
   "synced_event": "042cyi4bn",
-  "synced_hash": "22c40f98e55bff6f",
+  "synced_hash": "dcf8da61736ce087",
   "url": "https://github.com/foundlings/qew"
 }
