@@ -1,0 +1,11 @@
+{
+  "columns": [
+    "Draft",
+    "Ready",
+    "In progress",
+    "In review",
+    "Done"
+  ],
+  "id": "1",
+  "url": "https://github.com/orgs/foundlings/projects/1"
+}
