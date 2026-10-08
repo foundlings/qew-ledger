@@ -14,13 +14,14 @@
     "comments": [],
     "labels": [
       "area:authority",
-      "authority"
+      "authority",
+      "status:Ready"
     ],
     "open": true,
     "title": "Contradictions surface as divergences"
   },
-  "synced_at": "2026-10-08T18:04:15Z",
+  "synced_at": "2026-10-08T18:30:19Z",
   "synced_event": "042cz0ygk",
-  "synced_hash": "8b364479a0249de2",
+  "synced_hash": "95405717b13387f7",
   "url": "https://github.com/foundlings/qew"
 }
