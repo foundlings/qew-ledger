@@ -3,7 +3,7 @@ kind: issue
 title: Seven-status model: derive the board status for every item
 parent: 042cxmth3
 needs: 
-labels: area:project-parity board
+labels: area:project-parity area:board
 owner: 
 priority: 0
 created: 2026-10-08T17:20:13Z
