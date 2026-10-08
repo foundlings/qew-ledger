@@ -14,7 +14,8 @@
     "body": "`--group-by column|owner|label|epic|parent` renders sections instead of or inside columns.\nScenarios:\n- golden: group by epic lists each epic's children; prevents orphan cards\n- golden: multi-label items appear under each label; prevents hiding overlap\n- refusal: unknown group key exits 2",
     "comments": [],
     "labels": [
-      "area:board"
+      "area:board",
+      "status:Backlog"
     ],
     "open": true,
     "title": "Board grouping: column, owner, label, epic, parent"

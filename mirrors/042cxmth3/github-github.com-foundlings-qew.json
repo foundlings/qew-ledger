@@ -12,8 +12,7 @@
     "body": "Epic for area `project-parity`. Child issues carry the gaps found by the audit and the scenarios each needs.",
     "comments": [],
     "labels": [
-      "area:project-parity",
-      "status:In progress"
+      "area:project-parity"
     ],
     "open": true,
     "title": "Board parity on forges (project ensure builds the full board)"

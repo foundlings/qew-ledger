@@ -3,7 +3,7 @@ kind: issue
 title: Board grouping: column, owner, label, epic, parent
 parent: 042cxmth2
 needs: 042cxmth6
-labels: area:board
+labels: area:board status:Backlog
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
