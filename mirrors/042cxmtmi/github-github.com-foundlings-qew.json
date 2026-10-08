@@ -8,6 +8,7 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7HbJw",
   "number": 192,
+  "priority": "P3",
   "seen": {
     "assignee": "",
     "body": "## Behaviour\nMachine-readable result: merge -> `{merged: true, number, head_sha, items: [IDs], schema_version}`, ready -> `{number, ready, changed}`, open -> see pr-open-golden. Every flag is in help_text, README and commands.md, per repo rules.\n\n## Scenarios\n- merge json reports merged, number, head and covered items. Prevents: agents scraping text.\n- help/README/spec agree for the new flag (existing help walk fails otherwise).\n\n## Reference coverage\nReference pr merge walk (json reports merge and what landed), pull-request walk (trailing machine flag): 2 test functions merged here.\n\n## Qew today\nMissing: only plain lines are printed.",
