@@ -8,18 +8,20 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7CoDA",
   "number": 129,
+  "priority": "P2",
   "seen": {
     "assignee": "",
     "body": "## Behaviour\nThe declared package builds a real wheel (not an empty UNKNOWN one), installs without dependencies into a clean venv, reports the expected name, version and no runtime requirements, and the installed `qew` executable runs `--help` and `--version` and a ledger golden path (init, create, show) from a temp directory without the source tree on sys.path. A symlinked input file to a bulk-import command is refused.\n\n## Scenarios\n- Wheel build with no-isolation and pinned tools; metadata `requires` is None. Prevents publishing an empty or dependency-bearing package.\n- Installed entry point: help text and a minimal init/create/show walk. Prevents a package missing modules or data that only works from the checkout.\n- Symlinked input to the import command is refused (adapt to qew's import walk).\n\n## Reference coverage\n1 test (wheel installs executable outside checkout; its plan-apply dry-run part maps to the import walk).\n\n## Qew today\nMissing: no distribution test and `pyproject.toml` only declares the build backend (verify project metadata and entry point).",
     "comments": [],
     "labels": [
-      "area:hooks-dist"
+      "area:hooks-dist",
+      "status:Backlog"
     ],
     "open": true,
     "title": "Add an installed-wheel smoke walk: build, install in a venv outside the checkout, run the entry point"
   },
-  "synced_at": "2026-10-08T17:54:23Z",
+  "synced_at": "2026-10-08T18:18:48Z",
   "synced_event": "042cxmtrm",
-  "synced_hash": "4bc93375b0bbbfbc",
+  "synced_hash": "8fb6a692cf5ea996",
   "url": "https://github.com/foundlings/qew"
 }

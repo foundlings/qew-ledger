@@ -8,18 +8,20 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7Cz_A",
   "number": 132,
+  "priority": "P3",
   "seen": {
     "assignee": "",
     "body": "## Behaviour\nQew has no forge CI (docs/specs/releases.md), so the reference workflow gate becomes a local release-script step: the working copy commit must equal the source sha passed to the metadata script, the tree must be clean, and the package version must equal the tag.\n\n## Scenarios\n- Same commit passes; moved or dirty checkout fails with a message containing 'differs'. Prevents the build and SBOM describing different commits.\n- Version/tag mismatch fails before building.\n- Tag-name checkout is never used as the source (the local script takes the commit id).\n\n## Reference coverage\n2 workflow tests; redesigned as a local script walk because there is no workflow file in qew.\n\n## Qew today\nMissing: spec says a single local release script is ledger work not yet done.",
     "comments": [],
     "labels": [
-      "area:hooks-dist"
+      "area:hooks-dist",
+      "status:Backlog"
     ],
     "open": true,
     "title": "Verify the build checkout equals the recorded source commit before attesting"
   },
-  "synced_at": "2026-10-08T17:54:26Z",
+  "synced_at": "2026-10-08T18:19:03Z",
   "synced_event": "042cxmtrp",
-  "synced_hash": "f719688730d5770b",
+  "synced_hash": "d45ba047b0ba27f3",
   "url": "https://github.com/foundlings/qew"
 }

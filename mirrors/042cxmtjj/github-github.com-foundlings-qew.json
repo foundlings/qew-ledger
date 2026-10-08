@@ -6,18 +6,20 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV7CPSA",
   "number": 123,
+  "priority": "P1",
   "seen": {
     "assignee": "",
     "body": "## Behaviour\nEvery hook event exits 0 with empty output (explicit allow for Cursor) on empty stdin, non-JSON, JSON that is not an object, non-string command, non-object tool_input, a missing qew ledger or an internal exception. Only a deliberate refusal is non-silent.\n\n## Scenarios\n- Five malformed payloads per event: exit 0, empty output, no ledger write. Prevents a hook crash breaking every shell call.\n- Unreadable or unparseable ledger: session-start and post-tool silent (covered for session-start).\n- Injected exception inside the handler: swallowed in `cmd_hook.run` only; install/remove remain loud.\n\n## Reference coverage\n1 test (malformed input never fails the agent).\n\n## Qew today\nCovered (malformed payloads never fail the agent). Add the post-tool and exception-injection rows.",
     "comments": [],
     "labels": [
-      "area:hooks-dist"
+      "area:hooks-dist",
+      "status:Done"
     ],
     "open": false,
     "title": "Never fail the agent on malformed or hostile hook input"
   },
-  "synced_at": "2026-10-08T18:00:15Z",
+  "synced_at": "2026-10-08T18:18:17Z",
   "synced_event": "042cz90a7",
-  "synced_hash": "617c4b2010ef3297",
+  "synced_hash": "4c8c4029af166f65",
   "url": "https://github.com/foundlings/qew"
 }

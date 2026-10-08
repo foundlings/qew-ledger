@@ -6,18 +6,20 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV7Cfpw",
   "number": 127,
+  "priority": "P2",
   "seen": {
     "assignee": "",
     "body": "## Behaviour\n`qew --help` has a workflow-grouped epilog (Read, Work, Drafts, Pull requests, Mirrors, Setup) containing every top-level command and points at `qew COMMAND --help` and the drafts flow (`qew draft approve|revert`). Each group command (`draft`, `pr`, `hook`, `project`, `sync`, ...) lists all its subcommands, each with a help line. Every option and argument has help.\n\n## Scenarios\n- Epilog lists every top-level command under a group and names the draft approve/revert verbs (group coverage exists; the pointer text is untested). Prevents a command nobody can discover.\n- For each group command, `--help` shows every subcommand with a non-empty help line (current gate walks the parser, not the rendered text). Prevents invisible subcommands in the rendered output.\n- Every flag has help (covered) and every `--flag` appears in README and docs/specs/commands.md (covered).\n- A new command in no group fails (covered).\n\n## Reference coverage\n6 tests (every command in a group; help points at per-command help; subcommand groups list subcommands; every top-level has a help line; every option documented; flags in README and spec).\n\n## Qew today\nMostly covered by 4 help walks including a section-sign gate. Missing: the rendered per-group help check and the pointer text.",
     "comments": [],
     "labels": [
-      "area:hooks-dist"
+      "area:hooks-dist",
+      "status:In progress"
     ],
     "open": true,
     "title": "List subcommands of every command group with a help line and keep gates strict"
   },
-  "synced_at": "2026-10-08T18:00:57Z",
+  "synced_at": "2026-10-08T18:18:38Z",
   "synced_event": "042czkk15",
-  "synced_hash": "d8eb26689225b697",
+  "synced_hash": "c13c06431ba4819d",
   "url": "https://github.com/foundlings/qew"
 }
