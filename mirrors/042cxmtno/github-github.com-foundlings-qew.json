@@ -6,19 +6,21 @@
   "linked": [],
   "node_id": "I_kwDOVBP4_s8AAAABV7LDqQ",
   "number": 243,
+  "priority": "P0",
   "seen": {
     "assignee": "",
     "body": "Contract: Replication 8. Advisory flock on `.qew.lock` (VCS-ignored) held for the write+commit; reads never lock.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- adversary: two processes creating items concurrently both succeed with distinct ids and two commits; prevents interleaved commits and id collisions\n- refusal: lock held longer than timeout exits 3 naming the holder pid",
     "comments": [],
     "labels": [
       "area:replication",
-      "replication"
+      "replication",
+      "status:Done"
     ],
     "open": false,
     "title": "Local per-checkout write lock"
   },
-  "synced_at": "2026-10-08T17:40:08Z",
+  "synced_at": "2026-10-08T18:27:34Z",
   "synced_event": "042cxwmbr",
-  "synced_hash": "9081c09899f3eb5f",
+  "synced_hash": "743739d63c116eee",
   "url": "https://github.com/foundlings/qew"
 }

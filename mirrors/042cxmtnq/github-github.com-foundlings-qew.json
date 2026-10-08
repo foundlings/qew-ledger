@@ -10,6 +10,7 @@
   ],
   "node_id": "I_kwDOVBP4_s8AAAABV7LLYA",
   "number": 246,
+  "priority": "P0",
   "seen": {
     "assignee": "",
     "body": "Contract: Replication 2. Short timeout; unreachable remote keeps local commits; next command retries.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: two clones; A writes and pushes, B's next command fetches and sees it\n- adversary: remote unreachable (bad URL, timeout): write succeeds, commit stays local, `qew status` shows unpushed\n- adversary: real text conflict from a hand edit is reported loudly, nothing auto-resolved, writes refuse until fixed\n- golden: jj and git ledgers both replicate",
@@ -21,8 +22,8 @@
     "open": false,
     "title": "Best-effort ledger remote fetch/merge before a write and push after"
   },
-  "synced_at": "2026-10-08T17:40:11Z",
+  "synced_at": "2026-10-08T18:27:45Z",
   "synced_event": "042cy9b3u",
-  "synced_hash": "8b958621c0c6d90d",
+  "synced_hash": "4e6607c14f4e8447",
   "url": "https://github.com/foundlings/qew"
 }
