@@ -3,7 +3,7 @@ kind: issue
 title: Incremental pull: forge-side content edits become events
 parent: 042cxmtnm
 needs: 042cxmtnn 042cxmtns
-labels: area:replication replication
+labels: area:replication
 owner: 
 priority: 0
 created: 2026-10-08T17:20:13Z
