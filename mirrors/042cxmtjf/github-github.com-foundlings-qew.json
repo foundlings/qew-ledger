@@ -1,25 +1,8 @@
 {
-  "column": "Done",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/119",
+  "issue_url": "https://github.com/foundlings/qew/issues/118",
   "kind": "issue",
-  "linked": [],
-  "node_id": "I_kwDOVBP4_s8AAAABV7CAKQ",
-  "number": 119,
-  "priority": "P1",
-  "seen": {
-    "assignee": "",
-    "body": "## Behaviour\nHook install and remove work from any subdirectory of a plain git checkout, a colocated git+jj checkout and a jj-only checkout with no `.git`, always writing at the nearest ancestor holding `.git` or `.jj`, never creating a private `.git`. Outside any repository they exit 2 with `not inside a Git or jj repository` and create nothing.\n\n## Scenarios\n- jj-only root with install run from `apps/web`: files land at the root, not the subdirectory, and no `.git` appears; remove from the subdirectory works. Prevents hooks being impossible in jj-only checkouts, and the forbidden private-git workaround.\n- Colocated checkout, install from `crates/`: root wins. Prevents splitting config between nested directories.\n- Empty temp dir: exit 2, directory still empty (the outside-repository refusal exists in qew but does not check emptiness).\n\n## Reference coverage\n3 tests (the jj sections of the install walk file).\n\n## Qew today\nReduced: only the outside-repo refusal is tested; the two jj layouts are untested although `cmd_hook` supports `.jj`.",
-    "comments": [],
-    "labels": [
-      "area:hooks-dist",
-      "status:Done"
-    ],
-    "open": false,
-    "title": "Resolve the hook install root in jj-only, colocated and secondary jj workspaces; refuse outside a repo"
-  },
-  "synced_at": "2026-10-08T18:17:56Z",
-  "synced_event": "042cz7s0d",
-  "synced_hash": "4055d6de7ef47b32",
+  "node_id": "I_kwDOVCBESc8AAAABWCpeHw",
+  "number": 118,
   "url": "https://github.com/foundlings/qew"
 }

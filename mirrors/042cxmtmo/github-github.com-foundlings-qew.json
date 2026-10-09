@@ -1,27 +1,8 @@
 {
-  "column": "Backlog",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/197",
+  "issue_url": "https://github.com/foundlings/qew/issues/196",
   "kind": "issue",
-  "linked": [
-    "042cxmtmh"
-  ],
-  "node_id": "I_kwDOVBP4_s8AAAABV7H2BA",
-  "number": 197,
-  "priority": "P3",
-  "seen": {
-    "assignee": "",
-    "body": "## Behaviour\nThe reference lands (closes) issues automatically after merge. In qew completion needs recorded evidence and `qew complete`; this issue only requires that a merge outcome is actionable: the output prints, per covered item, `qew evidence ID --change CHANGE` and `qew complete ID` and names the merge commit; a merge whose item cannot yet be completed (open children) says why. No auto-completion.\n\n## Scenarios\n- merge of single-item PR prints the evidence and complete commands. Prevents: merged-but-never-completed work.\n- item with open child tasks: hint names the blocking children.\n\n## Reference coverage\nReplaces the reference landing (golden walk lands, landing failure rerun hint) with the ledger equivalent. 1 test function mapped here.\n\n## Qew today\nReduced: the success line says only 'record evidence and run `qew complete ID`'.",
-    "comments": [],
-    "labels": [
-      "area:pull-requests",
-      "status:Backlog"
-    ],
-    "open": true,
-    "title": "Decide merge-to-complete hand-off: after merge print the evidence and complete steps per item"
-  },
-  "synced_at": "2026-10-08T18:24:34Z",
-  "synced_event": "042cxmttj",
-  "synced_hash": "15b57d8a73e2e93c",
+  "node_id": "I_kwDOVCBESc8AAAABWCxQHQ",
+  "number": 196,
   "url": "https://github.com/foundlings/qew"
 }

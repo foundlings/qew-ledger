@@ -1,25 +1,8 @@
 {
-  "column": "Ready",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/66",
+  "issue_url": "https://github.com/foundlings/qew/issues/65",
   "kind": "issue",
-  "linked": [],
-  "node_id": "I_kwDOVBP4_s8AAAABV6-v6w",
-  "number": 66,
-  "priority": "P3",
-  "seen": {
-    "assignee": "",
-    "body": "Command inventory for `qew hook install`: wire Qew into agent configuration.\n\nFlags: --claude, --codex, --cursor, --opencode.\n\nEnd-to-end check (2026-10-08, scratch ledger + local forge fake, scripted run of every command): works, exit codes as documented.\n\nWalk coverage today: 8 direct test invocation(s) of `qew hook install`; flags never exercised by any test: none.\n\nDone when: a golden scenario and the refusal/adversary scenarios for this command and each flag exist as named walks whose docstrings state the failure prevented, and the three documents (help, README, commands spec) agree.",
-    "comments": [],
-    "labels": [
-      "area:command-inventory",
-      "status:Ready"
-    ],
-    "open": true,
-    "title": "Inventory and walk coverage: qew hook install"
-  },
-  "synced_at": "2026-10-08T18:14:29Z",
-  "synced_event": "042d07tgd",
-  "synced_hash": "d32506533618d431",
+  "node_id": "I_kwDOVCBESc8AAAABWCk6dQ",
+  "number": 65,
   "url": "https://github.com/foundlings/qew"
 }

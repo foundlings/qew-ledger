@@ -1,29 +1,8 @@
 {
-  "column": "Ready",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/259",
+  "issue_url": "https://github.com/foundlings/qew/issues/242",
   "kind": "issue",
-  "linked": [
-    "042cxmtnq",
-    "042cxmtnr",
-    "042cxmtnv"
-  ],
-  "node_id": "I_kwDOVBP4_s8AAAABV7MDHg",
-  "number": 259,
-  "priority": "P0",
-  "seen": {
-    "assignee": "",
-    "body": "Scenario walks with real git/jj clones against a bare remote and a forge fake: A claims and completes, B creates and comments, C works offline then reconnects; all converge to the same items, states and mirrors; includes a forge-side close producing a divergence on every clone.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: three agents converge\n- adversary: concurrent creates in the same second yield unique ids\n- adversary: offline agent writes, reconnects, merges without conflict",
-    "comments": [],
-    "labels": [
-      "area:replication",
-      "replication"
-    ],
-    "open": true,
-    "title": "Multi-agent convergence scenarios (two and three clones)"
-  },
-  "synced_at": "2026-10-08T18:28:33Z",
-  "synced_event": "042cxmufi",
-  "synced_hash": "51c1d49675ed16e3",
+  "node_id": "I_kwDOVCBESc8AAAABWC2kZg",
+  "number": 242,
   "url": "https://github.com/foundlings/qew"
 }

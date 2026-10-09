@@ -1,25 +1,8 @@
 {
-  "column": "Ready",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/69",
+  "issue_url": "https://github.com/foundlings/qew/issues/68",
   "kind": "issue",
-  "linked": [],
-  "node_id": "I_kwDOVBP4_s8AAAABV6-5gg",
-  "number": 69,
-  "priority": "P3",
-  "seen": {
-    "assignee": "",
-    "body": "Command inventory for `qew hook pre-tool`: answer the agent's pre-tool event.\n\nFlags: --agent.\n\nEnd-to-end check (2026-10-08, scratch ledger + local forge fake, scripted run of every command): works, exit codes as documented.\n\nWalk coverage today: 0 direct test invocation(s) of `qew hook pre-tool`; flags never exercised by any test: none.\n\nDone when: a golden scenario and the refusal/adversary scenarios for this command and each flag exist as named walks whose docstrings state the failure prevented, and the three documents (help, README, commands spec) agree.",
-    "comments": [],
-    "labels": [
-      "area:command-inventory",
-      "status:Ready"
-    ],
-    "open": true,
-    "title": "Inventory and walk coverage: qew hook pre-tool"
-  },
-  "synced_at": "2026-10-08T18:12:57Z",
-  "synced_event": "042cxmtpw",
-  "synced_hash": "3fa36e9a02fa02a5",
+  "node_id": "I_kwDOVCBESc8AAAABWClMHA",
+  "number": 68,
   "url": "https://github.com/foundlings/qew"
 }

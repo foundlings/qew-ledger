@@ -1,25 +1,8 @@
 {
-  "column": "Ready",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/50",
+  "issue_url": "https://github.com/foundlings/qew/issues/49",
   "kind": "issue",
-  "linked": [],
-  "node_id": "I_kwDOVBP4_s8AAAABV69__w",
-  "number": 50,
-  "priority": "P3",
-  "seen": {
-    "assignee": "",
-    "body": "Command inventory for `qew set`: change an item's header fields.\n\nFlags: --title, --parent, --needs, --labels, --priority, --body.\n\nEnd-to-end check (2026-10-08, scratch ledger + local forge fake, scripted run of every command): works, exit codes as documented.\n\nWalk coverage today: 5 direct test invocation(s) of `qew set`; flags never exercised by any test: --labels.\n\nDone when: a golden scenario and the refusal/adversary scenarios for this command and each flag exist as named walks whose docstrings state the failure prevented, and the three documents (help, README, commands spec) agree.",
-    "comments": [],
-    "labels": [
-      "area:command-inventory",
-      "status:Ready"
-    ],
-    "open": true,
-    "title": "Inventory and walk coverage: qew set"
-  },
-  "synced_at": "2026-10-08T18:11:04Z",
-  "synced_event": "042cxmtpc",
-  "synced_hash": "2b71639244f9e837",
+  "node_id": "I_kwDOVCBESc8AAAABWCjq9g",
+  "number": 49,
   "url": "https://github.com/foundlings/qew"
 }

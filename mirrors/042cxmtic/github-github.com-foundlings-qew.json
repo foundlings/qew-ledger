@@ -1,27 +1,8 @@
 {
-  "column": "Done",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/81",
+  "issue_url": "https://github.com/foundlings/qew/issues/80",
   "kind": "issue",
-  "linked": [
-    "042cxmtib"
-  ],
-  "node_id": "I_kwDOVBP4_s8AAAABV6_jyA",
-  "number": 81,
-  "priority": "P1",
-  "seen": {
-    "assignee": "",
-    "body": "## Behaviour\nPulling work from under its claimant is the accident the reference guards against and there is deliberately no\nforce flag. In the ledger model:\n- Claimed state (any owner, epics included) refuses the revert with exit 3 and the message `ID is claimed by\n  OWNER; release it first with qew release ITEM, nothing was changed` (today the generic transition text\n  `cannot reverted an item that is claimed` exits 2 and does not name the way out).\n- Work that has an open, non-draft pull request mirror (`mirrors/<ID>/<target>-pr-<N>.json`, kind pr, not\n  recorded as draft) is refused exit 2 `has an open pull request; close or merge it first`. A draft pull\n  request (for example a plan's epic pull request) is not review and does not block.\n- With `--tree`, one claimed or in-review descendant refuses the whole tree before any event is written, naming\n  that descendant.\n- A reverted plan stops being claimable; children of a reverted epic stay as they are.\n\n## Scenarios\n1. Claimed item refused, exit 3, message contains `qew release`, no events appended. Prevents silently taking work from a claimant.\n2. Claimed epic refused the same way. Prevents withdrawing a plan someone is driving.\n3. `--tree` where only the second descendant is claimed: refuses everything and names it; first descendant untouched. Prevents a half-reverted tree.\n4. Approved item with an open ready pull request mirror refused; with a draft pull request mirror accepted. Prevents withdrawing work already in review.\n5. After `qew release` the same revert succeeds. Prevents a dead-end workflow.\n\n## Reference coverage\nReference revert tests: claimed work refused and names the holder (assignee and in-progress variants), one claimed\ndescendant refuses the whole tree, epic with a derived claim refused, work in review refused (4 of 12). Assignee and\nin-progress label variants collapse to the single claimed state in the ledger.\n\n## Qew today\nReduced: claimed work is refused through the state machine at exit 2 with no hint; no pull request mirror check; no tree mode to refuse.",
-    "comments": [],
-    "labels": [
-      "area:drafts-plans",
-      "status:Done"
-    ],
-    "open": false,
-    "title": "Refuse to revert claimed work or work under review, naming `qew release`"
-  },
-  "synced_at": "2026-10-08T18:14:19Z",
-  "synced_event": "042czgobq",
-  "synced_hash": "2a8c0d8ca906791c",
+  "node_id": "I_kwDOVCBESc8AAAABWCmKFQ",
+  "number": 80,
   "url": "https://github.com/foundlings/qew"
 }

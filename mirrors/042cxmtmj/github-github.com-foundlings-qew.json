@@ -1,25 +1,8 @@
 {
-  "column": "Done",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/193",
+  "issue_url": "https://github.com/foundlings/qew/issues/192",
   "kind": "issue",
-  "linked": [],
-  "node_id": "I_kwDOVBP4_s8AAAABV7HgNQ",
-  "number": 193,
-  "priority": "P2",
-  "seen": {
-    "assignee": "",
-    "body": "## Behaviour\n`Forge.requires_status_checks(branch) -> bool` (typed; `Unsupported` where unknown) answers from branch protection or active rulesets (GitHub REST `rules/branches/{b}` and protection), GitLab protected-branch + project setting `only_allow_merge_if_pipeline_succeeds`, Forgejo branch protection `enable_status_check`. Read failures are typed forge errors, never False. Documented in forges.md.\n\n## Scenarios\n- per backend fake: protected -> True, none -> False, 403 -> ForgeAuth. Prevents: treating an unreadable rule set as 'no checks required'.\n\n## Reference coverage\nSupports pr-merge-auto and pr-merge-admin; reference rules-read tests (4) map to the command issue.\n\n## Qew today\nMissing.",
-    "comments": [],
-    "labels": [
-      "area:pull-requests",
-      "status:Done"
-    ],
-    "open": false,
-    "title": "Add forge capability: read whether the base branch requires status checks"
-  },
-  "synced_at": "2026-10-08T18:24:13Z",
-  "synced_event": "042d03o96",
-  "synced_hash": "f73598e066f1d13d",
+  "node_id": "I_kwDOVCBESc8AAAABWCw03w",
+  "number": 192,
   "url": "https://github.com/foundlings/qew"
 }

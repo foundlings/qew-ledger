@@ -1,24 +1,8 @@
 {
-  "column": "In progress",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/178",
+  "issue_url": "https://github.com/foundlings/qew/issues/177",
   "kind": "issue",
-  "linked": [],
-  "node_id": "I_kwDOVBP4_s8AAAABV7GVCw",
-  "number": 178,
-  "priority": "P1",
-  "seen": {
-    "assignee": "",
-    "body": "Epic for area `pull-requests`. Child issues carry the gaps found by the audit and the scenarios each needs.",
-    "comments": [],
-    "labels": [
-      "area:pull-requests"
-    ],
-    "open": true,
-    "title": "Pull requests: open, check, ready, merge, ownership and forge boundary"
-  },
-  "synced_at": "2026-10-08T18:22:54Z",
-  "synced_event": "042d094dt",
-  "synced_hash": "5d30dbabc3e55110",
+  "node_id": "I_kwDOVCBESc8AAAABWCvQvA",
+  "number": 177,
   "url": "https://github.com/foundlings/qew"
 }

@@ -1,27 +1,8 @@
 {
-  "column": "Done",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/118",
+  "issue_url": "https://github.com/foundlings/qew/issues/117",
   "kind": "issue",
-  "linked": [
-    "042cxmtj8"
-  ],
-  "node_id": "I_kwDOVBP4_s8AAAABV7B7AA",
-  "number": 118,
-  "priority": "P3",
-  "seen": {
-    "assignee": "",
-    "body": "## Behaviour\nNo flag means all four agents; flags (`--claude --codex --cursor --opencode`) select a subset. Output order is fixed claude, codex, cursor, opencode; each target file exists after install, and remove undoes every one including deleting the opencode plugin.\n\n## Scenarios\n- Default install: four `installed ...` lines in order and four files exist; rerun reports four `unchanged` lines; default remove undoes all. Prevents one agent silently skipped.\n- Flag subset installs only the named agents (covered).\n\n## Reference coverage\n1 test (install all covers every agent and remove all undoes it).\n\n## Qew today\nMostly covered (no flag installs all four idempotently and privately; flags select agents). Missing: output order assertion and the full remove-all assertion.",
-    "comments": [],
-    "labels": [
-      "area:hooks-dist",
-      "status:Done"
-    ],
-    "open": false,
-    "title": "Install and remove all agents with one default invocation and ordered output"
-  },
-  "synced_at": "2026-10-08T18:17:51Z",
-  "synced_event": "042cza0ak",
-  "synced_hash": "fcde6cf76e1acb72",
+  "node_id": "I_kwDOVCBESc8AAAABWCpXTw",
+  "number": 117,
   "url": "https://github.com/foundlings/qew"
 }

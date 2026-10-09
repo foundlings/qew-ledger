@@ -1,24 +1,8 @@
 {
-  "column": "Draft",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/286",
+  "issue_url": "https://github.com/foundlings/qew/issues/265",
   "kind": "issue",
-  "linked": [],
-  "node_id": "I_kwDOVBP4_s8AAAABV7aP_Q",
-  "number": 286,
-  "priority": "P2",
-  "seen": {
-    "assignee": "",
-    "body": "",
-    "comments": [],
-    "labels": [
-      "status:Draft"
-    ],
-    "open": true,
-    "title": "t"
-  },
-  "synced_at": "2026-10-08T18:30:35Z",
-  "synced_event": "042cz6qem",
-  "synced_hash": "46f1c1936a958c32",
+  "node_id": "I_kwDOVCBESc8AAAABWC5Udw",
+  "number": 265,
   "url": "https://github.com/foundlings/qew"
 }

@@ -1,25 +1,8 @@
 {
-  "column": "Done",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/111",
+  "issue_url": "https://github.com/foundlings/qew/issues/110",
   "kind": "issue",
-  "linked": [],
-  "node_id": "I_kwDOVBP4_s8AAAABV7Bhrg",
-  "number": 111,
-  "priority": "P2",
-  "seen": {
-    "assignee": "",
-    "body": "## Behaviour\n`qew hook remove` on a checkout with no agent config creates no file or directory (no `.claude`, `.codex`, `.cursor`, `.opencode/plugins`), exits 0 and prints `unchanged AGENT hook`, for each of the four agents and for the all-agents default.\n\n## Scenarios\n- Clean git checkout, remove per agent (4 subtests): directory listing identical before and after, stdout `unchanged AGENT hook`. Prevents a no-op removal littering the checkout with empty agent directories.\n\n## Reference coverage\n1 test (the reference hooks-remove-noop walk).\n\n## Qew today\nReduced. The hook v1 walk checks `unchanged claude hook` after a second remove and the safe-write foundation says removal never creates directories, but no scenario lists the checkout before and after for all four agents.",
-    "comments": [],
-    "labels": [
-      "area:hooks-dist",
-      "status:Done"
-    ],
-    "open": false,
-    "title": "Make `qew hook remove` write nothing on a hook-free checkout, for every agent"
-  },
-  "synced_at": "2026-10-08T18:17:12Z",
-  "synced_event": "042cz6mey",
-  "synced_hash": "e305cd720c03c9ee",
+  "node_id": "I_kwDOVCBESc8AAAABWCoylw",
+  "number": 110,
   "url": "https://github.com/foundlings/qew"
 }

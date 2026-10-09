@@ -1,29 +1,8 @@
 {
-  "column": "Done",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/249",
+  "issue_url": "https://github.com/foundlings/qew/issues/236",
   "kind": "issue",
-  "linked": [
-    "042cxmtnq",
-    "042cxmtns"
-  ],
-  "node_id": "I_kwDOVBP4_s8AAAABV7Levw",
-  "number": 249,
-  "priority": "P0",
-  "seen": {
-    "assignee": "",
-    "body": "Contract: Replication 6. Uncommitted files, unpushed commits, pending per target, divergences, last sync per target, offline/online; token-efficient, --json.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: clean online ledger prints one line\n- golden: every problem class appears with its count and the command that fixes it\n- golden: --json schema stable",
-    "comments": [],
-    "labels": [
-      "area:replication",
-      "replication",
-      "status:Done"
-    ],
-    "open": false,
-    "title": "qew status: replication state"
-  },
-  "synced_at": "2026-10-08T18:28:02Z",
-  "synced_event": "042cyot3q",
-  "synced_hash": "1349cd1ed840d37d",
+  "node_id": "I_kwDOVCBESc8AAAABWC115w",
+  "number": 236,
   "url": "https://github.com/foundlings/qew"
 }

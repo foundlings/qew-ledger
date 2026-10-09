@@ -1,26 +1,8 @@
 {
-  "column": "Backlog",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/163",
+  "issue_url": "https://github.com/foundlings/qew/issues/162",
   "kind": "issue",
-  "linked": [
-    "042cxmtkh"
-  ],
-  "node_id": "I_kwDOVBP4_s8AAAABV7FMgw",
-  "number": 163,
-  "priority": "P3",
-  "seen": {
-    "assignee": "",
-    "body": "## Behaviour\n`qew create --discovered-from ITEM` stores the origin as a `discovered_from` relation (a fixed optional header key or a first `discovered` event; the header schema rejects unknown keys, so it must be added deliberately), shown by `qew show` as a derived `discovered:` line on the origin. It is not a dependency and never blocks readiness. Unknown origin is refused before any write.\n\n## Scenarios\n- golden: item filed with an origin; show of both ends mentions the link, readiness unaffected (prevents: provenance lost in free text)\n- unknown or self origin: exit 2, zero files\n\n## Reference coverage\n1 reference test function(s): `test_create_golden_walk_composes_approved_work`\n\n## Qew today\nMissing.",
-    "comments": [],
-    "labels": [
-      "area:lifecycle"
-    ],
-    "open": true,
-    "title": "Record the item an issue was discovered while working on"
-  },
-  "synced_at": "2026-10-08T18:21:45Z",
-  "synced_event": "042cxmtsk",
-  "synced_hash": "fb6d466f4b985bfd",
+  "node_id": "I_kwDOVCBESc8AAAABWCtuww",
+  "number": 162,
   "url": "https://github.com/foundlings/qew"
 }

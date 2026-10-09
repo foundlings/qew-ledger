@@ -1,25 +1,8 @@
 {
-  "column": "In progress",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/102",
+  "issue_url": "https://github.com/foundlings/qew/issues/101",
   "kind": "issue",
-  "linked": [],
-  "node_id": "I_kwDOVBP4_s8AAAABV7A6Rw",
-  "number": 102,
-  "priority": "P2",
-  "seen": {
-    "assignee": "",
-    "body": "`qew export DIR` writes items/<ID>.md-compatible files and an events summary, deterministic.\nScenarios:\n- golden: export then import into an empty ledger reproduces items\n- adversary: ids that would escape the directory are refused",
-    "comments": [],
-    "labels": [
-      "area:export-import",
-      "status:In progress"
-    ],
-    "open": true,
-    "title": "qew export writes items as Markdown files with fixed headers"
-  },
-  "synced_at": "2026-10-08T18:16:22Z",
-  "synced_event": "042cz0i9e",
-  "synced_hash": "e138857365c563de",
+  "node_id": "I_kwDOVCBESc8AAAABWCn-iQ",
+  "number": 101,
   "url": "https://github.com/foundlings/qew"
 }

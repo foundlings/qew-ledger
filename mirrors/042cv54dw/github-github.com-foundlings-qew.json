@@ -1,24 +1,8 @@
 {
-  "column": "Draft",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/8",
+  "issue_url": "https://github.com/foundlings/qew/issues/7",
   "kind": "issue",
-  "linked": [],
-  "node_id": "I_kwDOVBP4_s8AAAABV6SrOg",
-  "number": 8,
-  "priority": "P3",
-  "seen": {
-    "assignee": "",
-    "body": "Add one local script that runs the release steps in docs/specs/releases.md: tests, build with the pinned tools, scripts/release_metadata.py, scripts/upload_release.py. No GitHub workflows, by owner ruling. Tag only after the owner approves.",
-    "comments": [],
-    "labels": [
-      "status:Draft"
-    ],
-    "open": true,
-    "title": "Local release script for qew 3.0.0 (no GitHub Actions)"
-  },
-  "synced_at": "2026-10-08T18:06:35Z",
-  "synced_event": "042cvatd2",
-  "synced_hash": "7940b0807b3cc6ae",
+  "node_id": "I_kwDOVCBESc8AAAABWCgq0g",
+  "number": 7,
   "url": "https://github.com/foundlings/qew"
 }

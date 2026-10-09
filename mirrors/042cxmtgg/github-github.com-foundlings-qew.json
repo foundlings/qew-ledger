@@ -1,28 +1,8 @@
 {
-  "column": "Backlog",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/15",
+  "issue_url": "https://github.com/foundlings/qew/issues/14",
   "kind": "issue",
-  "linked": [
-    "042cxmtgb",
-    "042cxmtgf"
-  ],
-  "node_id": "I_kwDOVBP4_s8AAAABV68Fcw",
-  "number": 15,
-  "priority": "P2",
-  "seen": {
-    "assignee": "",
-    "body": "## Behaviour\n`qew project status [--target T] [--json]` compares, per target, the derived column (and Priority) of every selected item with the live card and prints: `<slug>: in sync` or the drift lists `missing`, `stale_column`, `stale_priority` plus the one fix command `qew project ensure` / `qew sync`. It never writes. Exit 0 when in sync, 1 when drifted or the forge fails, 2 on a bad target; a target without a recorded/configured board says so and names `qew project ensure` (exit 2); an Unsupported forge prints 'boards unsupported' like ensure. JSON rows carry `schema_version`, `in_sync`, `missing`, `stale_column`, `stale_priority`, `fix`. Drift is advisory: forge state is never read back as truth for the ledger (sync stays push-only); the report only says the forge disagrees.\n\n## Scenarios\n- `status_reports_missing_and_stale_cards_without_writing`: board lacks one item and holds another in the wrong column; JSON lists both, no mutation issued; prevents silent unmirrored work.\n- `status_reports_in_sync_in_one_line`: nothing drifted prints the single in-sync line, exit 0; prevents noisy output for agents.\n- `status_refuses_a_missing_board_without_writing`: no board recorded and none configured: refusal names `qew project ensure`; prevents guessing a board.\n- `status_uses_the_recorded_board_without_flags`: boards/<slug>.json supplies the board; prevents requiring a title on every call.\n- `status_on_a_forge_without_boards_says_so`: Forgejo target prints 'boards unsupported', exit 0; prevents a false failure.\n\n## Reference coverage\nTests: status reports missing and stale items without writing, uses the linked project, reports in sync when nothing drifted, refuses a missing project without writing (4 tests) plus the overlap/foreign-card tests (in `board-card-reading-and-duplicates`).\n\n## Qew today\nMissing: no `project status`. The planned offline `qew board` must produce the same `missing`/`stale` vocabulary when run against recorded mirrors; keep JSON field names identical.",
-    "comments": [],
-    "labels": [
-      "area:board-admin",
-      "status:Backlog"
-    ],
-    "open": true,
-    "title": "Add `qew project status`: a read-only drift report of the board against the ledger"
-  },
-  "synced_at": "2026-10-08T18:07:23Z",
-  "synced_event": "042cxmtoc",
-  "synced_hash": "26593603137378fc",
+  "node_id": "I_kwDOVCBESc8AAAABWChFpg",
+  "number": 14,
   "url": "https://github.com/foundlings/qew"
 }

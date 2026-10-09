@@ -1,24 +1,8 @@
 {
-  "column": "In progress",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/86",
+  "issue_url": "https://github.com/foundlings/qew/issues/85",
   "kind": "issue",
-  "linked": [],
-  "node_id": "I_kwDOVBP4_s8AAAABV6_3mA",
-  "number": 86,
-  "priority": "P2",
-  "seen": {
-    "assignee": "",
-    "body": "## Behaviour\nThe reference writes the quote into the issue body under `## Requested by` so a reader sees who wanted the work.\nIn the ledger the quote lives in the `approved`/`reverted` events; it must be readable without opening event files:\n- `qew show ID` prints `released: Name: 'words'` (latest `approved` event, actor, time) and, after a revert,\n  `withdrawn: reason` with the reverting quote; `--json` has `approvals` as a list of\n  `{type, at, actor, quote, reason}`.\n- `qew show` marks drafts: first line state `draft`; live work unchanged.\n- Mirror bodies end with the `## Requested by` block from the latest approval (a cross-area requirement for the\n  sync area; this issue only pins the data `show`/`--json` expose and the rendering helper).\n\n## Scenarios\n1. Show of an approved item prints the exact quote and approver. Prevents work with no visible requester.\n2. Show of a reverted item prints the reason and the reverting quote and state draft. Prevents an unexplainable revert.\n3. Show of a plain draft says draft; show of approved unchanged apart from the released line. Prevents a draft being indistinguishable.\n\n## Reference coverage\nReference: show reports whether the issue is a draft (JSON key and text `#5 open draft`), show of live work unchanged\n(3 of 8 draft-read and draft-text), create renders quote (1 of 9). The `unrecorded` comment recovery path of the\napprove command is dropped.\n\n## Qew today\nMissing: `qew show` prints state, owner, evidence and mirrors but no approval quote or revert reason; JSON has no approvals.",
-    "comments": [],
-    "labels": [
-      "area:drafts-plans"
-    ],
-    "open": true,
-    "title": "Show who asked for an item and why it was released or withdrawn"
-  },
-  "synced_at": "2026-10-08T18:14:55Z",
-  "synced_event": "042d02v2b",
-  "synced_hash": "af94816ce590113b",
+  "node_id": "I_kwDOVCBESc8AAAABWCmjQg",
+  "number": 85,
   "url": "https://github.com/foundlings/qew"
 }

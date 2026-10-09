@@ -1,25 +1,8 @@
 {
-  "column": "Backlog",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/36",
+  "issue_url": "https://github.com/foundlings/qew/issues/35",
   "kind": "issue",
-  "linked": [],
-  "node_id": "I_kwDOVBP4_s8AAAABV69PBA",
-  "number": 36,
-  "priority": "P1",
-  "seen": {
-    "assignee": "",
-    "body": "Epic for area `board`. Child issues carry the gaps found by the audit and the scenarios each needs.",
-    "comments": [],
-    "labels": [
-      "area:board",
-      "status:Backlog"
-    ],
-    "open": true,
-    "title": "Offline board (qew board)"
-  },
-  "synced_at": "2026-10-08T18:13:54Z",
-  "synced_event": "042d07te8",
-  "synced_hash": "6ebe03acd695e18a",
+  "node_id": "I_kwDOVCBESc8AAAABWCifuw",
+  "number": 35,
   "url": "https://github.com/foundlings/qew"
 }

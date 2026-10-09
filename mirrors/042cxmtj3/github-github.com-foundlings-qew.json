@@ -1,27 +1,8 @@
 {
-  "column": "Backlog",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/107",
+  "issue_url": "https://github.com/foundlings/qew/issues/106",
   "kind": "issue",
-  "linked": [
-    "042cxmtj2"
-  ],
-  "node_id": "I_kwDOVBP4_s8AAAABV7BQqQ",
-  "number": 107,
-  "priority": "P2",
-  "seen": {
-    "assignee": "",
-    "body": "For each blocked item show the longest unmet chain to a root blocker.\nScenarios:\n- golden: chain of three\n- adversary: dangling and closed needs are named",
-    "comments": [],
-    "labels": [
-      "area:graph-ready",
-      "status:Backlog"
-    ],
-    "open": true,
-    "title": "qew blocked --chains explains blocked chains"
-  },
-  "synced_at": "2026-10-08T18:16:53Z",
-  "synced_event": "042d06ugf",
-  "synced_hash": "113cda086c528ce2",
+  "node_id": "I_kwDOVCBESc8AAAABWCob8g",
+  "number": 106,
   "url": "https://github.com/foundlings/qew"
 }

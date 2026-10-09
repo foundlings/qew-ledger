@@ -1,24 +1,8 @@
 {
-  "column": "In progress",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/37",
+  "issue_url": "https://github.com/foundlings/qew/issues/36",
   "kind": "issue",
-  "linked": [],
-  "node_id": "I_kwDOVBP4_s8AAAABV69Rmw",
-  "number": 37,
-  "priority": "P1",
-  "seen": {
-    "assignee": "",
-    "body": "Epic for area `project-parity`. Child issues carry the gaps found by the audit and the scenarios each needs.",
-    "comments": [],
-    "labels": [
-      "area:project-parity"
-    ],
-    "open": true,
-    "title": "Board parity on forges (project ensure builds the full board)"
-  },
-  "synced_at": "2026-10-08T18:09:46Z",
-  "synced_event": "042cxmtoz",
-  "synced_hash": "3a5e4a4002481683",
+  "node_id": "I_kwDOVCBESc8AAAABWCikGg",
+  "number": 36,
   "url": "https://github.com/foundlings/qew"
 }

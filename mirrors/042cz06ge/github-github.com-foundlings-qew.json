@@ -1,25 +1,8 @@
 {
-  "column": "Draft",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/270",
+  "issue_url": "https://github.com/foundlings/qew/issues/249",
   "kind": "issue",
-  "linked": [],
-  "node_id": "I_kwDOVBP4_s8AAAABV7SDgg",
-  "number": 270,
-  "priority": "P2",
-  "seen": {
-    "assignee": "",
-    "body": "Found by the drafts lane: draft revert refuses approved work whose pr mirror is not recorded as draft (draft key is not true). qew pr open now records draft; qew pr ready flips the forge flag but leaves the mirror saying draft true, and pr ready is not a ledger-writing verb in replication.verb_for, so a mirror rewrite would be uncommitted. Record draft false on ready inside a session verb.",
-    "comments": [],
-    "labels": [
-      "area:pull-requests",
-      "status:Draft"
-    ],
-    "open": true,
-    "title": "qew pr ready must record draft:false in the pr mirror (and run in a ledger session)"
-  },
-  "synced_at": "2026-10-08T18:29:08Z",
-  "synced_event": "042cz06gf",
-  "synced_hash": "9070077a74228130",
+  "node_id": "I_kwDOVCBESc8AAAABWC3bSA",
+  "number": 249,
   "url": "https://github.com/foundlings/qew"
 }

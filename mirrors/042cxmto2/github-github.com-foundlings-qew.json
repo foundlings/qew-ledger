@@ -1,25 +1,8 @@
 {
-  "column": "In progress",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/262",
+  "issue_url": "https://github.com/foundlings/qew/issues/245",
   "kind": "issue",
-  "linked": [],
-  "node_id": "I_kwDOVBP4_s8AAAABV7Ma-A",
-  "number": 262,
-  "priority": "P1",
-  "seen": {
-    "assignee": "",
-    "body": "Epic for area `vcs-hook`. Child issues carry the gaps found by the audit and the scenarios each needs.",
-    "comments": [],
-    "labels": [
-      "area:vcs-hook",
-      "status:In progress"
-    ],
-    "open": true,
-    "title": "VCS evidence hook"
-  },
-  "synced_at": "2026-10-08T18:28:52Z",
-  "synced_event": "042cxmufm",
-  "synced_hash": "223751a540645772",
+  "node_id": "I_kwDOVCBESc8AAAABWC2_fQ",
+  "number": 245,
   "url": "https://github.com/foundlings/qew"
 }

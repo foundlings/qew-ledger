@@ -1,24 +1,8 @@
 {
-  "column": "Draft",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/7",
+  "issue_url": "https://github.com/foundlings/qew/issues/6",
   "kind": "issue",
-  "linked": [],
-  "node_id": "I_kwDOVBP4_s8AAAABV6SqSA",
-  "number": 7,
-  "priority": "P3",
-  "seen": {
-    "assignee": "",
-    "body": "Sync is push-only. Report (never apply) forge-side state that disagrees with the ledger, such as an issue closed or a pull request merged around qew.",
-    "comments": [],
-    "labels": [
-      "status:Draft"
-    ],
-    "open": true,
-    "title": "Pull direction of sync: detect forge-side closes and merges"
-  },
-  "synced_at": "2026-10-08T18:06:28Z",
-  "synced_event": "042cv54gt",
-  "synced_hash": "8ea365366d622eaa",
+  "node_id": "I_kwDOVCBESc8AAAABWCgnBQ",
+  "number": 6,
   "url": "https://github.com/foundlings/qew"
 }

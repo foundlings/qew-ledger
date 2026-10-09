@@ -1,27 +1,8 @@
 {
-  "column": "Backlog",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/190",
+  "issue_url": "https://github.com/foundlings/qew/issues/189",
   "kind": "issue",
-  "linked": [
-    "042cxmtmd"
-  ],
-  "node_id": "I_kwDOVBP4_s8AAAABV7HQ8w",
-  "number": 190,
-  "priority": "P1",
-  "seen": {
-    "assignee": "",
-    "body": "## Behaviour\n`qew pr merge NUMBER` reads the PR once, applies the full gate in order, and only then calls the forge, pinned to the head it read (`merge_pull_request(number, head_sha)`, a merge commit, no squash). Refusals (zero writes): not open -> exit 2 (closed, merged distinguished); draft -> exit 2 with `run qew pr ready N`; conflicts -> exit 2; unknown mergeable (None) is told apart from conflicts (`merge state unknown, retry`); unticked checklist items -> exit 2 naming them; covered item still a draft -> exit 2 naming the item and `qew draft approve`; failing checks and pending checks told apart (both exit 3, texts `are failing` / `are pending`); `none` checks allowed. The success line names the SHA and the next step `qew complete ID`.\n\n## Scenarios\n- refusal table, each in its own subtest asserting code, text and zero merge calls: draft, open checklist item, draft covered item, conflict, unknown mergeable, closed, merged, failing checks, pending checks. Prevents: any unready merge.\n- no checks at all may merge (just pushed, no rollup). Prevents: deadlock on repos without CI.\n- golden: ready green PR merges exactly the checked head (forge sees the sha) and prints the complete hint.\n- head moved after the check: forge refuses, nothing merged, error exit 1. Prevents: merging unreviewed commits.\n- incomplete data about covered items or checks is an indeterminate failure exit 4 and no merge. Prevents: guessing readiness.\n\n## Reference coverage\nReference pr merge walk file: golden, refusals-write-nothing table (9 cases), no checks may merge, failing vs pending told apart, covered draft label refusal (appears twice in the file), incomplete closing references indeterminate. About 7 test functions.\n\n## Qew today\nReduced: `merge_pull_request` covers draft, conflict/unknown (one message, so unknown is not told apart), failing/pending (one exit 2 and message form, not distinguished by code), exact head, unrecorded; `test_merge_refuses_draft_red_conflicted_and_unrecorded_pull_requests` and the moved-head test exist. Missing: closed vs merged state messages, checklist gate (needs pr-check-command), covered-item draft check for epic PRs, golden asserting the hint text beyond 'qew complete', JSON output, indeterminate handling.",
-    "comments": [],
-    "labels": [
-      "area:pull-requests",
-      "status:Backlog"
-    ],
-    "open": true,
-    "title": "Merge refuses every unready PR with distinct messages and exit codes, writing nothing"
-  },
-  "synced_at": "2026-10-08T18:23:58Z",
-  "synced_event": "042cxmttc",
-  "synced_hash": "809301fb4ae033ca",
+  "node_id": "I_kwDOVCBESc8AAAABWCwgzA",
+  "number": 189,
   "url": "https://github.com/foundlings/qew"
 }

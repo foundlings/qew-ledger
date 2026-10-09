@@ -1,28 +1,8 @@
 {
-  "column": "In progress",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/275",
+  "issue_url": "https://github.com/foundlings/qew/issues/254",
   "kind": "issue",
-  "linked": [
-    "042cz0ye0"
-  ],
-  "node_id": "I_kwDOVBP4_s8AAAABV7S3cA",
-  "number": 275,
-  "priority": "P0",
-  "seen": {
-    "assignee": "",
-    "body": "Contract: docs/specs/ledger.md, Authority and topology.\nclaimed, push, claim_confirmed on success; rejected push fetches and writes claim_lost when another claim exists; no remote = single writer confirms at once; unreachable configured remote refuses start.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- adversary: two clones race a claim: exactly one confirmed, the other claim_lost\n- golden: single-writer ledger without remote confirms immediately\n- refusal: remote configured but unreachable refuses start",
-    "comments": [],
-    "labels": [
-      "area:authority",
-      "authority",
-      "status:In progress"
-    ],
-    "open": true,
-    "title": "Claim arbitration through the ledger remote when primary is none"
-  },
-  "synced_at": "2026-10-08T18:29:39Z",
-  "synced_event": "042d09adq",
-  "synced_hash": "1b8de3ff1a97811e",
+  "node_id": "I_kwDOVCBESc8AAAABWC38LA",
+  "number": 254,
   "url": "https://github.com/foundlings/qew"
 }

@@ -1,25 +1,8 @@
 {
-  "column": "Done",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/82",
+  "issue_url": "https://github.com/foundlings/qew/issues/81",
   "kind": "issue",
-  "linked": [],
-  "node_id": "I_kwDOVBP4_s8AAAABV6_oKQ",
-  "number": 82,
-  "priority": "P2",
-  "seen": {
-    "assignee": "",
-    "body": "## Behaviour\n`qew draft list [--parent ID] [--json]` shows open drafts (state draft; closed, approved and claimed excluded)\nordered by priority then id, each with kind and parent so a plan and its children are legible. `--parent`\nrestricts to drafts whose `parent` is that item (direct children). Scope follows the ledger: a mirror target with\n`select` does not change what the ledger lists. The list reads only item and event files, no network.\n\n## Scenarios\n1. Golden: an epic draft and a task draft under it appear with kind and parent in text and JSON. Prevents a draft no read can find.\n2. A closed draft and an approved item are not listed. Prevents stale rows hiding the real review queue.\n3. `--parent EPIC` lists only that epic's direct draft children. Prevents reviewing unrelated drafts when releasing one plan.\n4. Alias parent reference resolves; unknown parent exits 2. Prevents a typo producing an empty, plausible list.\n\n## Reference coverage\nReference draft-read tests: draft list shows open drafts with type and parent, ignores closed or non-draft,\nonly under a parent, overlay mode asks only for managed drafts (4 of 8). The overlay variant is dropped: it\nexists to filter GitHub label scope.\n\n## Qew today\nImplemented without `--parent`; no test at all for `draft list`. Text row already shows kind; JSON has parent.",
-    "comments": [],
-    "labels": [
-      "area:drafts-plans",
-      "status:Done"
-    ],
-    "open": false,
-    "title": "Give `qew draft list` a parent filter, stable shape and a walk"
-  },
-  "synced_at": "2026-10-08T18:14:25Z",
-  "synced_event": "042czh19x",
-  "synced_hash": "62b3fec8d25d95ba",
+  "node_id": "I_kwDOVCBESc8AAAABWCmPoQ",
+  "number": 81,
   "url": "https://github.com/foundlings/qew"
 }
