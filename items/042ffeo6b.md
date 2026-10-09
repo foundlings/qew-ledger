@@ -1,0 +1,11 @@
+id: 042ffeo6b
+kind: issue
+title: Attachment storage model: immutable content-addressed bytes in the item's directory, named by events
+parent: 042ffd5dc
+needs: 
+labels: 
+owner: 
+priority: 2
+created: 2026-10-09T23:12:43Z
+---
+Decision (builder, for the owner to overrule): an item owns a directory items/ID/ beside items/ID.md. Attachment BYTES are immutable files items/ID/attachments/HASH.EXT (content hash, original extension kept so images preview on the forge web view); the item NAMES them through attached/detached events (relative path with subdirectories allowed -> hash; last event by id wins). Two machines can never write the same path with different bytes, so merges stay conflict-free (the base requirement); a plain items/ID/NAME file would conflict in git on concurrent replace. Names, subdirectories and the browsable tree are derived (qew show, qew export ID DIR). Binary allowed; per-file limit 25 MiB soft warning / 100 MiB hard refusal, 500 MiB total per item (state in ledger.md); git-lfs out of scope. Ids survive migrate-ids (directory renamed with the item). Spec in docs/specs/ledger.md first; walk: two machines attach different bytes under one name and replace the same name concurrently; merge has no git conflict and the fold picks one deterministically.
