@@ -1,0 +1,1 @@
+{"actor": "887", "at": "2026-10-09T18:01:24Z", "reason": "ledger is the source of truth; forge differences came from the repo recreate", "ref": "042d41y5v", "type": "divergence_rejected"}
