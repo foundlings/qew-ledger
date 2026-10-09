@@ -1,25 +1,8 @@
 {
-  "column": "Ready",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/33",
+  "issue_url": "https://github.com/foundlings/qew/issues/32",
   "kind": "issue",
-  "linked": [],
-  "node_id": "I_kwDOVBP4_s8AAAABV69FfA",
-  "number": 33,
-  "priority": "P3",
-  "seen": {
-    "assignee": "",
-    "body": "## Behaviour\n`qew create --edit` and `qew set ITEM --edit` open the user's editor on an empty temp file in a private temp directory and use the result as the body. Rules: VISUAL then EDITOR; unset or blank refuses (exit 2) naming both variables; the command is shell-split (never run through a shell), a parse error refuses; non-zero editor exit refuses and writes nothing; an empty or whitespace-only body refuses; the temp dir is removed on every path; the body is never taken from anything but that file. `--body-file` (existing) refuses a symlink and an empty file; `qew set` with no change prints 'unchanged' and writes no event, and editing a closed item needs an explicit flag.\n\n## Scenarios\n- `edit_uses_the_editor_output_as_the_body`: fake editor script writes text; item body equals it.\n- `missing_or_blank_editor_is_refused`: neither variable set: exit 2, ledger untouched.\n- `failing_editor_or_empty_result_writes_nothing`: table: exit 1 editor, empty file.\n- `body_file_symlink_is_refused`: prevents reading through a link.\n- `set_with_no_change_writes_nothing`: no event file added.\n\n## Reference coverage\nNo dedicated reference test file (the editor module is exercised through create/set walks outside this area). Edit module rules: set requires at least one change, closed targets need a flag, body-file symlink and empty refusals.\n\n## Qew today\nMissing: no `--edit`; `set_fields` returns 'unchanged' without writing (covered); body-file symlink refusal not present (verify `--body-file` read path).",
-    "comments": [],
-    "labels": [
-      "area:board-admin",
-      "status:Ready"
-    ],
-    "open": true,
-    "title": "Add `--edit` body authoring through VISUAL/EDITOR with safe temp-file handling"
-  },
-  "synced_at": "2026-10-08T18:09:19Z",
-  "synced_event": "042cxmtov",
-  "synced_hash": "eb910482c8ca5f87",
+  "node_id": "I_kwDOVCBESc8AAAABWCiStw",
+  "number": 32,
   "url": "https://github.com/foundlings/qew"
 }

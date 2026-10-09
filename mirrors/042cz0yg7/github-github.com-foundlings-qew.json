@@ -1,32 +1,8 @@
 {
-  "column": "Backlog",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/285",
+  "issue_url": "https://github.com/foundlings/qew/issues/264",
   "kind": "issue",
-  "linked": [
-    "042cz0ye1",
-    "042cz0ye2",
-    "042cz0yg0",
-    "042cz0yg3",
-    "042cz0yg4"
-  ],
-  "node_id": "I_kwDOVBP4_s8AAAABV7T1bg",
-  "number": 285,
-  "priority": "P2",
-  "seen": {
-    "assignee": "",
-    "body": "Contract: docs/specs/ledger.md, Authority and topology.\nFork foundlings/qew-ledger into a NEW private repo with its own GitHub target and board (do not touch the real ledger); race a claim between two checkouts; verify a read-only mirror ignores forge-side edits; migrate between the two targets. File findings as issues; clean up only if the owner asks.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: the drive report is recorded as a comment on this issue",
-    "comments": [],
-    "labels": [
-      "area:authority",
-      "authority",
-      "status:Backlog"
-    ],
-    "open": true,
-    "title": "Real test drive: fork qew-ledger, claim race, read-only mirror, forge migrate"
-  },
-  "synced_at": "2026-10-08T18:30:29Z",
-  "synced_event": "042cz0ygv",
-  "synced_hash": "a98ed234306e90cc",
+  "node_id": "I_kwDOVCBESc8AAAABWC5INA",
+  "number": 264,
   "url": "https://github.com/foundlings/qew"
 }

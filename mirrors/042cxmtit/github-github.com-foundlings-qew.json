@@ -1,28 +1,8 @@
 {
-  "column": "Backlog",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/97",
+  "issue_url": "https://github.com/foundlings/qew/issues/96",
   "kind": "issue",
-  "linked": [
-    "042cxmtig",
-    "042cxmtiq"
-  ],
-  "node_id": "I_kwDOVBP4_s8AAAABV7Alvw",
-  "number": 97,
-  "priority": "P1",
-  "seen": {
-    "assignee": "",
-    "body": "## Behaviour\nReference: every line carries its own `quote` (validated before any write), `approved: true` says the quote also\nauthorizes starting, and `--draft` files every item as a draft and refuses a line with `approved: true`. Ledger\nmapping: an entry with a valid `quote` is filed approved (as `create --quote` does) unless the run is `--draft`,\nwhich files everything `drafted` and refuses any entry carrying `approved: true` (exit 2 naming `--draft`) before\nany write. Entries with no quote are drafts. One quote at the top level (`--quote`) is a default for entries without\ntheir own. Release of a draft plan is `qew draft approve EPIC --tree --quote Q`. Epic `approved` needs no\nspecial case in the ledger (an approved epic is simply not ready). The recorded quote is the item's own.\n\n## Scenarios\n1. Plan of an epic and a task filed with `--draft`: both `drafted`, none approved, none in `ready`. Prevents a draft plan leaking into ready work.\n2. A line with `approved: true` under `--draft` is refused naming `--draft`, nothing written. Prevents an approved line quietly winning.\n3. Two entries with different quotes: each approved event carries its own quote; an entry without a quote is a draft. Prevents attributing one human's words to another's request.\n4. A bad quote on line 2 refused with `line 2` before line 1 is written. Prevents a half-written plan.\n\n## Reference coverage\nReference apply-draft tests: every created issue and epic is a draft, an approved line is refused under draft before\nany write (2 of 3; dry-run draft is in apply-dry-run). Requester-quote tests: apply refuses an item without its own\nquote before any write, apply renders each item quote and gates unapproved work (the quote half; the gate half is\ndropped) - 2 of 9.\n\n## Qew today\nReduced: one `--quote` for the whole file, no per-item `quote`/`approved`, no `--draft` flag (drafts are the default only when no quote is given).",
-    "comments": [],
-    "labels": [
-      "area:drafts-plans",
-      "status:Backlog"
-    ],
-    "open": true,
-    "title": "Apply plan files with a per-item quote and a draft-by-default or --draft release rule"
-  },
-  "synced_at": "2026-10-08T18:15:55Z",
-  "synced_event": "042cxmtqp",
-  "synced_hash": "e167d53b8fd4f7ca",
+  "node_id": "I_kwDOVCBESc8AAAABWCnf2Q",
+  "number": 96,
   "url": "https://github.com/foundlings/qew"
 }

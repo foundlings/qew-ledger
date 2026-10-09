@@ -1,24 +1,8 @@
 {
-  "column": "In progress",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/31",
+  "issue_url": "https://github.com/foundlings/qew/issues/30",
   "kind": "issue",
-  "linked": [],
-  "node_id": "I_kwDOVBP4_s8AAAABV68--A",
-  "number": 31,
-  "priority": "P2",
-  "seen": {
-    "assignee": "",
-    "body": "## Behaviour\n`.qew/config.toml` accepts an optional `minimum_version = \"MAJOR.MINOR.PATCH\"` under `[qew]`. A qew older than it refuses EVERY command before any work (exit 2) naming the required and running versions and the upgrade script (`scripts/setup_user.py`). Equal or lower minimums pass; malformed values (`1.x`, `1.2`, `v1.2.3`, `1.2.3-rc1`, a number) are refused before any call. Unknown top-level keys and unknown mirror options are ignored (additive fields must not break older qew), while `schema_version` in `qew-ledger.toml` stays strict: an unsupported value is refused loudly and a missing one is read as 1. A symlinked config is refused. Qew's own repository tracks its config and a test asserts that it names qew's board and minimum version (the dogfood policy), so a change cannot unlink the board unnoticed.\n\n## Scenarios\n- `unknown_config_fields_are_ignored`: future key and future mirror option: commands still succeed; prevents every older qew failing.\n- `older_qew_than_the_minimum_is_refused_before_any_call`: message names both versions and the setup script; no forge call, no ledger read.\n- `current_and_lower_minimums_are_accepted`: boundary test.\n- `malformed_minimum_versions_are_refused`: table of five values.\n- `unsupported_ledger_schema_version_is_refused`: schema_version = 2 refused; prevents a silent misread of newer files.\n- `tracked_repository_config_links_its_own_board`: the repository's own config pins the board and minimum version; prevents card staleness for qew's own work.\n\n## Reference coverage\nTests: config walk (6: unknown fields ignored, older than minimum refused before any call, current and older accepted, malformed minimum refused, init preserves fields it does not own, mode and schema_version strict), repository config walk (1: tracked config links its own board and minimum version). The mode check is dropped (no mode field).\n\n## Qew today\nMissing. `ledger_config.load` has no minimum_version or schema check; mirror unknown options are carried through `options` (partial). No tests of config shape beyond hook tests.",
-    "comments": [],
-    "labels": [
-      "area:board-admin"
-    ],
-    "open": true,
-    "title": "Version-gate and harden the config contract: minimum_version, schema strictness, tracked policy"
-  },
-  "synced_at": "2026-10-08T18:09:07Z",
-  "synced_event": "042czdec9",
-  "synced_hash": "3b456f9db4e9932f",
+  "node_id": "I_kwDOVCBESc8AAAABWCiLOA",
+  "number": 30,
   "url": "https://github.com/foundlings/qew"
 }

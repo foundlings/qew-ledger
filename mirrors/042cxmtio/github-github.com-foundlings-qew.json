@@ -1,27 +1,8 @@
 {
-  "column": "Backlog",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/92",
+  "issue_url": "https://github.com/foundlings/qew/issues/91",
   "kind": "issue",
-  "linked": [
-    "042cxmtin"
-  ],
-  "node_id": "I_kwDOVBP4_s8AAAABV7APUA",
-  "number": 92,
-  "priority": "P3",
-  "seen": {
-    "assignee": "",
-    "body": "## Behaviour\nThe ledger has no separate plan-complete verb: `qew complete EPIC` does it (claimed epic, every child completed\nor closed, at least one child, no evidence of its own). Remaining reference guarantees to pin or add:\n- Draft epic refusal names `qew draft approve` (today the generic not-claimed text is shown).\n- Open children refusal names the count (`1 child remains open`) and lists the ids.\n- Re-running `qew complete` on an already completed epic is a clear no-op or a precise refusal naming state\n  completed; it never appends a second `completed` event (illegal transition makes `check` fail).\n- A child that is a draft blocks completion like any open child.\n- A closed-not-planned child counts as done; an epic closed instead of completed is not completable.\n\n## Scenarios\n1. Golden: claimed epic, all children completed: complete succeeds, JSON-free output `ID completed`. Prevents plan closing needing manual checks.\n2. One open child: exit 2 with count and id, no event. Prevents closing a plan with live work.\n3. Draft epic: exit 2 naming `qew draft approve`. Prevents completing an unapproved plan.\n4. Draft child under an approved epic blocks completion. Prevents hiding unreleased work.\n5. Second `qew complete` on a completed epic writes nothing and `qew check` passes. Prevents an illegal duplicate event.\n\n## Reference coverage\nReference plan-status tests: plan complete golden walk verifies all children then closes, refuses an open child without\nwriting (2 of 6); draft-state: a draft epic is never completed by plan complete (1 of 6).\n\n## Qew today\nCovered: golden epic completion and no-children refusal (flow walk), unfinished-children refusal in code. Missing: draft epic hint, rerun, draft child and a test per message.",
-    "comments": [],
-    "labels": [
-      "area:drafts-plans",
-      "status:Backlog"
-    ],
-    "open": true,
-    "title": "Pin epic completion walks: draft epic, open children, idempotent rerun"
-  },
-  "synced_at": "2026-10-08T18:17:00Z",
-  "synced_event": "042d0bt74",
-  "synced_hash": "c443c940e24b20fa",
+  "node_id": "I_kwDOVCBESc8AAAABWCnDLA",
+  "number": 91,
   "url": "https://github.com/foundlings/qew"
 }

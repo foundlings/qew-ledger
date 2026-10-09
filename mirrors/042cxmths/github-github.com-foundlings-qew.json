@@ -1,25 +1,8 @@
 {
-  "column": "Ready",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/61",
+  "issue_url": "https://github.com/foundlings/qew/issues/60",
   "kind": "issue",
-  "linked": [],
-  "node_id": "I_kwDOVBP4_s8AAAABV6-h9Q",
-  "number": 61,
-  "priority": "P3",
-  "seen": {
-    "assignee": "",
-    "body": "Command inventory for `qew close`: close work that will not be completed.\n\nFlags: --reason.\n\nEnd-to-end check (2026-10-08, scratch ledger + local forge fake, scripted run of every command): works, exit codes as documented.\n\nWalk coverage today: 2 direct test invocation(s) of `qew close`; flags never exercised by any test: none.\n\nDone when: a golden scenario and the refusal/adversary scenarios for this command and each flag exist as named walks whose docstrings state the failure prevented, and the three documents (help, README, commands spec) agree.",
-    "comments": [],
-    "labels": [
-      "area:command-inventory",
-      "status:Ready"
-    ],
-    "open": true,
-    "title": "Inventory and walk coverage: qew close"
-  },
-  "synced_at": "2026-10-08T18:14:22Z",
-  "synced_event": "042d07tgc",
-  "synced_hash": "8a571f81d9b22db9",
+  "node_id": "I_kwDOVCBESc8AAAABWCkgdg",
+  "number": 60,
   "url": "https://github.com/foundlings/qew"
 }

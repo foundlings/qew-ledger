@@ -1,27 +1,8 @@
 {
-  "column": "Backlog",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/44",
+  "issue_url": "https://github.com/foundlings/qew/issues/43",
   "kind": "issue",
-  "linked": [
-    "042cxmth6"
-  ],
-  "node_id": "I_kwDOVBP4_s8AAAABV69rCA",
-  "number": 44,
-  "priority": "P2",
-  "seen": {
-    "assignee": "",
-    "body": "`--filter` takes the same `label:X kind:X state:X priority:N` terms (spaces and, commas or) plus `owner:X`, `epic:ID`, `parent:ID`.\nScenarios:\n- golden: filter narrows cards and counts\n- refusal: malformed term exits 2; prevents an empty board that looks like no work",
-    "comments": [],
-    "labels": [
-      "area:board",
-      "status:Backlog"
-    ],
-    "open": true,
-    "title": "Board filter expressions using the select syntax"
-  },
-  "synced_at": "2026-10-08T18:10:27Z",
-  "synced_event": "042cxmtp6",
-  "synced_hash": "9f5e6662ed25a569",
+  "node_id": "I_kwDOVCBESc8AAAABWCjJHg",
+  "number": 43,
   "url": "https://github.com/foundlings/qew"
 }

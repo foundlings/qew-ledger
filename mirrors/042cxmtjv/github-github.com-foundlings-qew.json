@@ -1,24 +1,8 @@
 {
-  "column": "Ready",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/134",
+  "issue_url": "https://github.com/foundlings/qew/issues/133",
   "kind": "issue",
-  "linked": [],
-  "node_id": "I_kwDOVBP4_s8AAAABV7C9sQ",
-  "number": 134,
-  "priority": "P3",
-  "seen": {
-    "assignee": "",
-    "body": "## Behaviour\nSpec-only: docs/specs/releases.md already states no workflows. Add the pointer that the two reference workflow assertions (tag checkout uses event sha) live in the local release script issue.\n\n## Scenarios\nNone.\n\n## Reference coverage\ntest_checkout_uses_the_event_commit_not_the_movable_tag.\n\n## Qew today\nDecided in docs/specs/releases.md.",
-    "comments": [],
-    "labels": [
-      "area:hooks-dist"
-    ],
-    "open": true,
-    "title": "Record that release verification is local, not a forge workflow"
-  },
-  "synced_at": "2026-10-08T18:19:14Z",
-  "synced_event": "042cxmtrr",
-  "synced_hash": "fa8188c7ed022b30",
+  "node_id": "I_kwDOVCBESc8AAAABWCqt4A",
+  "number": 133,
   "url": "https://github.com/foundlings/qew"
 }

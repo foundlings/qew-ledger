@@ -1,25 +1,8 @@
 {
-  "column": "Ready",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/72",
+  "issue_url": "https://github.com/foundlings/qew/issues/71",
   "kind": "issue",
-  "linked": [],
-  "node_id": "I_kwDOVBP4_s8AAAABV6_CmQ",
-  "number": 72,
-  "priority": "P3",
-  "seen": {
-    "assignee": "",
-    "body": "Command inventory for `qew project ensure`: create the Draft / Ready / In progress / In review / Done board on each target.\n\nFlags: --target.\n\nEnd-to-end check (2026-10-08, scratch ledger + local forge fake, scripted run of every command): works, exit codes as documented.\n\nWalk coverage today: 1 direct test invocation(s) of `qew project ensure`; flags never exercised by any test: none.\n\nDone when: a golden scenario and the refusal/adversary scenarios for this command and each flag exist as named walks whose docstrings state the failure prevented, and the three documents (help, README, commands spec) agree.",
-    "comments": [],
-    "labels": [
-      "area:command-inventory",
-      "status:Ready"
-    ],
-    "open": true,
-    "title": "Inventory and walk coverage: qew project ensure"
-  },
-  "synced_at": "2026-10-08T18:13:17Z",
-  "synced_event": "042cxmtpz",
-  "synced_hash": "2740c626f91c0e4d",
+  "node_id": "I_kwDOVCBESc8AAAABWClZug",
+  "number": 71,
   "url": "https://github.com/foundlings/qew"
 }

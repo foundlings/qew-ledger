@@ -1,28 +1,8 @@
 {
-  "column": "Done",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/254",
+  "issue_url": "https://github.com/foundlings/qew/issues/239",
   "kind": "issue",
-  "linked": [
-    "042cxmtnv"
-  ],
-  "node_id": "I_kwDOVBP4_s8AAAABV7Lxzg",
-  "number": 254,
-  "priority": "P0",
-  "seen": {
-    "assignee": "",
-    "body": "Contract: Replication 4. accept applies the forge value through the normal gates and writes divergence_accepted; reject keeps ledger state, writes divergence_rejected, next push restores the forge.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- refusal: accepting a forge close as completed without evidence is refused by the gate\n- refusal: accepting a draft release requires a human quote\n- golden: reject restores the forge issue on the next push\n- golden: accept of a reopen/close applies and propagates to other targets",
-    "comments": [],
-    "labels": [
-      "area:replication",
-      "replication",
-      "status:Done"
-    ],
-    "open": false,
-    "title": "qew accept and qew reject resolve a divergence"
-  },
-  "synced_at": "2026-10-08T18:28:17Z",
-  "synced_event": "042czng6q",
-  "synced_hash": "dfbfd6770a2c865b",
+  "node_id": "I_kwDOVCBESc8AAAABWC2OKA",
+  "number": 239,
   "url": "https://github.com/foundlings/qew"
 }

@@ -1,25 +1,8 @@
 {
-  "column": "Done",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/106",
+  "issue_url": "https://github.com/foundlings/qew/issues/105",
   "kind": "issue",
-  "linked": [],
-  "node_id": "I_kwDOVBP4_s8AAAABV7BMLA",
-  "number": 106,
-  "priority": "P2",
-  "seen": {
-    "assignee": "",
-    "body": "Dependency edges and parent edges as text, Graphviz dot and Mermaid; deterministic order.\nScenarios:\n- golden: each format for a diamond graph\n- adversary: titles with quotes and newlines are escaped in dot and mermaid",
-    "comments": [],
-    "labels": [
-      "area:graph-ready",
-      "status:Done"
-    ],
-    "open": false,
-    "title": "qew graph --format text|dot|mermaid"
-  },
-  "synced_at": "2026-10-08T18:16:44Z",
-  "synced_event": "042d06e04",
-  "synced_hash": "5680e35a73fcd5c8",
+  "node_id": "I_kwDOVCBESc8AAAABWCoW2A",
+  "number": 105,
   "url": "https://github.com/foundlings/qew"
 }

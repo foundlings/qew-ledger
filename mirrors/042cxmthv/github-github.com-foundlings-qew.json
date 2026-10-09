@@ -1,25 +1,8 @@
 {
-  "column": "Ready",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/64",
+  "issue_url": "https://github.com/foundlings/qew/issues/63",
   "kind": "issue",
-  "linked": [],
-  "node_id": "I_kwDOVBP4_s8AAAABV6-qbA",
-  "number": 64,
-  "priority": "P3",
-  "seen": {
-    "assignee": "",
-    "body": "Command inventory for `qew draft approve`: release drafts with a human's quoted words.\n\nFlags: --tree, --quote.\n\nEnd-to-end check (2026-10-08, scratch ledger + local forge fake, scripted run of every command): works, exit codes as documented.\n\nWalk coverage today: 1 direct test invocation(s) of `qew draft approve`; flags never exercised by any test: --tree.\n\nDone when: a golden scenario and the refusal/adversary scenarios for this command and each flag exist as named walks whose docstrings state the failure prevented, and the three documents (help, README, commands spec) agree.",
-    "comments": [],
-    "labels": [
-      "area:command-inventory",
-      "status:Ready"
-    ],
-    "open": true,
-    "title": "Inventory and walk coverage: qew draft approve"
-  },
-  "synced_at": "2026-10-08T18:12:30Z",
-  "synced_event": "042cxmtpr",
-  "synced_hash": "e6622224d1c4abbc",
+  "node_id": "I_kwDOVCBESc8AAAABWCkuvQ",
+  "number": 63,
   "url": "https://github.com/foundlings/qew"
 }

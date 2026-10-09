@@ -1,28 +1,8 @@
 {
-  "column": "Done",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/258",
+  "issue_url": "https://github.com/foundlings/qew/issues/241",
   "kind": "issue",
-  "linked": [
-    "042cxmtnr"
-  ],
-  "node_id": "I_kwDOVBP4_s8AAAABV7L9aQ",
-  "number": 258,
-  "priority": "P0",
-  "seen": {
-    "assignee": "",
-    "body": "Contract: Replication 5.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: empty forge fake rebuilt with issues, links, board\n- golden: idempotent second run changes nothing\n- adversary: forge down halfway resumes without duplicates (marker adoption)",
-    "comments": [],
-    "labels": [
-      "area:replication",
-      "replication",
-      "status:Done"
-    ],
-    "open": false,
-    "title": "qew restore --to TARGET recreates forge state from the ledger alone"
-  },
-  "synced_at": "2026-10-08T18:28:27Z",
-  "synced_event": "042czobb2",
-  "synced_hash": "7a380485c53e6362",
+  "node_id": "I_kwDOVCBESc8AAAABWC2dww",
+  "number": 241,
   "url": "https://github.com/foundlings/qew"
 }

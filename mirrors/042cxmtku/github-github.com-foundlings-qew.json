@@ -1,26 +1,8 @@
 {
-  "column": "Backlog",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/168",
+  "issue_url": "https://github.com/foundlings/qew/issues/167",
   "kind": "issue",
-  "linked": [
-    "042cxmtkt"
-  ],
-  "node_id": "I_kwDOVBP4_s8AAAABV7Fgsg",
-  "number": 168,
-  "priority": "P1",
-  "seen": {
-    "assignee": "",
-    "body": "The checked head must be covered by an evidence event of the item before merge.\nScenarios:\n- refusal: no evidence blocks merge\n- golden: evidence recorded then merge passes",
-    "comments": [],
-    "labels": [
-      "area:merge-gate"
-    ],
-    "open": true,
-    "title": "qew pr merge refuses without recorded evidence for the linked item"
-  },
-  "synced_at": "2026-10-08T18:22:11Z",
-  "synced_event": "042cxmtsq",
-  "synced_hash": "cdd7c117da4a5760",
+  "node_id": "I_kwDOVCBESc8AAAABWCuMag",
+  "number": 167,
   "url": "https://github.com/foundlings/qew"
 }

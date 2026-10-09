@@ -1,27 +1,8 @@
 {
-  "column": "Ready",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/204",
+  "issue_url": "https://github.com/foundlings/qew/issues/203",
   "kind": "issue",
-  "linked": [
-    "042cxmtmu"
-  ],
-  "node_id": "I_kwDOVBP4_s8AAAABV7IeQg",
-  "number": 204,
-  "priority": "P1",
-  "seen": {
-    "assignee": "",
-    "body": "## Behaviour\n`qew ready` returns at most 30 items by default in priority order (lower number first, then stable id order), reports `total` and `truncated`, and warns on stderr when it truncated. `--limit N` changes the bound; `--limit 0` returns everything. The bound exists so an agent session never silently swallows a 500-item ready list. Negative or non-integer limits are a usage error (exit 2).\n\n## Scenarios\n- golden: 31 ready items, default run prints 30, `total` is 31, `truncated` is true and stderr says so. Prevents agent context growing without bound.\n- golden: `--limit 0` on the same ledger prints all 31, `truncated` false. Prevents a caller that wants everything being capped.\n- refusal: `--limit -1` and `--limit abc` exit 2 before reading the ledger. Prevents a nonsense bound slicing the list from the wrong end.\n\n## Reference coverage\nReference ready walk: default limit bounded and reports truncation; zero limit returns all (2 tests).\n\n## Qew today\nMissing. `qew ready` prints every ready item with no limit, total or truncation signal.",
-    "comments": [],
-    "labels": [
-      "area:read-side",
-      "status:Ready"
-    ],
-    "open": true,
-    "title": "Bound `qew ready` with a default limit, --limit 0 for all, and truncation reporting"
-  },
-  "synced_at": "2026-10-08T18:25:13Z",
-  "synced_event": "042czzkcv",
-  "synced_hash": "c88c39241b0c191c",
+  "node_id": "I_kwDOVCBESc8AAAABWCx_ZA",
+  "number": 203,
   "url": "https://github.com/foundlings/qew"
 }

@@ -1,25 +1,8 @@
 {
-  "column": "Done",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/108",
+  "issue_url": "https://github.com/foundlings/qew/issues/107",
   "kind": "issue",
-  "linked": [],
-  "node_id": "I_kwDOVBP4_s8AAAABV7BVUQ",
-  "number": 108,
-  "priority": "P1",
-  "seen": {
-    "assignee": "",
-    "body": "Within a priority, items that unblock the most dependents (or deepest chain) come first; ties by id.\nScenarios:\n- golden: deterministic order\n- prevents starvation of items that unblock others",
-    "comments": [],
-    "labels": [
-      "area:graph-ready",
-      "status:Done"
-    ],
-    "open": false,
-    "title": "qew ready orders by priority then dependency depth"
-  },
-  "synced_at": "2026-10-08T18:16:56Z",
-  "synced_event": "042czin7x",
-  "synced_hash": "9e7c92cdc591a05a",
+  "node_id": "I_kwDOVCBESc8AAAABWCoipQ",
+  "number": 107,
   "url": "https://github.com/foundlings/qew"
 }

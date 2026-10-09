@@ -1,25 +1,8 @@
 {
-  "column": "Ready",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/59",
+  "issue_url": "https://github.com/foundlings/qew/issues/58",
   "kind": "issue",
-  "linked": [],
-  "node_id": "I_kwDOVBP4_s8AAAABV6-cAA",
-  "number": 59,
-  "priority": "P3",
-  "seen": {
-    "assignee": "",
-    "body": "Command inventory for `qew reopen`: reopen completed or closed work.\n\nFlags: none.\n\nEnd-to-end check (2026-10-08, scratch ledger + local forge fake, scripted run of every command): works, exit codes as documented.\n\nWalk coverage today: 1 direct test invocation(s) of `qew reopen`; flags never exercised by any test: none.\n\nDone when: a golden scenario and the refusal/adversary scenarios for this command and each flag exist as named walks whose docstrings state the failure prevented, and the three documents (help, README, commands spec) agree.",
-    "comments": [],
-    "labels": [
-      "area:command-inventory",
-      "status:Ready"
-    ],
-    "open": true,
-    "title": "Inventory and walk coverage: qew reopen"
-  },
-  "synced_at": "2026-10-08T18:11:59Z",
-  "synced_event": "042cxmtpm",
-  "synced_hash": "8a5966d4ac6cda38",
+  "node_id": "I_kwDOVCBESc8AAAABWCkYUw",
+  "number": 58,
   "url": "https://github.com/foundlings/qew"
 }

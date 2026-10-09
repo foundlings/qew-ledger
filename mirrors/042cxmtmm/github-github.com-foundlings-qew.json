@@ -1,27 +1,8 @@
 {
-  "column": "Backlog",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/195",
+  "issue_url": "https://github.com/foundlings/qew/issues/194",
   "kind": "issue",
-  "linked": [
-    "042cxmtmg"
-  ],
-  "node_id": "I_kwDOVBP4_s8AAAABV7HqSA",
-  "number": 195,
-  "priority": "P3",
-  "seen": {
-    "assignee": "",
-    "body": "## Behaviour\n`--admin` merges past branch protection (pending/failing check gate) and prints `admin merge: REASON`; `--reason` is required with it (exit 2 before any call) and is exit 2 without it. It never bypasses the draft, conflict, checklist, covered-draft or ownership rules. The reason is recorded as a ledger `field`-style audit comment on the covered items so the bypass is reviewable. Forges without a bypass raise `Unsupported`.\n\n## Scenarios\n- admin without reason: exit 2, zero calls. Prevents: silent bypass.\n- admin skips pending checks, prints reason, merge call carries the bypass. Prevents: blocked emergency docs-only merge.\n- admin still refuses draft, open checklist items, conflicts, covered draft, other author: each exit 2/3, zero merges. Prevents: admin as a master key.\n- contradictory options (`--auto --admin`, `--reason` alone): exit 2 before any call.\n\n## Reference coverage\nReference pr merge walk file: admin needs reason, admin skips check rule, admin still refuses drafts, admin refuses every readiness rule, contradictory options. 5 test functions.\n\n## Qew today\nMissing: no flag; qew's own rules say `--admin` is part of the working flow.",
-    "comments": [],
-    "labels": [
-      "area:pull-requests",
-      "status:Backlog"
-    ],
-    "open": true,
-    "title": "Add `qew pr merge --admin --reason TEXT`: bypass the check rule only"
-  },
-  "synced_at": "2026-10-08T18:24:25Z",
-  "synced_event": "042cxmtth",
-  "synced_hash": "5970dd800e82eaf8",
+  "node_id": "I_kwDOVCBESc8AAAABWCxCWw",
+  "number": 194,
   "url": "https://github.com/foundlings/qew"
 }

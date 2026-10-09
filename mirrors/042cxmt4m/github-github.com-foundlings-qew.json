@@ -1,24 +1,8 @@
 {
-  "column": "In progress",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/9",
+  "issue_url": "https://github.com/foundlings/qew/issues/8",
   "kind": "issue",
-  "linked": [],
-  "node_id": "I_kwDOVBP4_s8AAAABV670AA",
-  "number": 9,
-  "priority": "P1",
-  "seen": {
-    "assignee": "",
-    "body": "Epic for area `board-admin`. Child issues carry the gaps found by the audit and the scenarios each needs.",
-    "comments": [],
-    "labels": [
-      "area:board-admin"
-    ],
-    "open": true,
-    "title": "Board, campaign, config and admin parity"
-  },
-  "synced_at": "2026-10-08T18:06:41Z",
-  "synced_event": "042cxmto6",
-  "synced_hash": "ae98cac0896608f9",
+  "node_id": "I_kwDOVCBESc8AAAABWCgu1A",
+  "number": 8,
   "url": "https://github.com/foundlings/qew"
 }

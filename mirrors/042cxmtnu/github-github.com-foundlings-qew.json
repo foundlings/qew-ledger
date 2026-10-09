@@ -1,29 +1,8 @@
 {
-  "column": "Done",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/250",
+  "issue_url": "https://github.com/foundlings/qew/issues/237",
   "kind": "issue",
-  "linked": [
-    "042cxmtnn",
-    "042cxmtns"
-  ],
-  "node_id": "I_kwDOVBP4_s8AAAABV7LlRg",
-  "number": 250,
-  "priority": "P0",
-  "seen": {
-    "assignee": "",
-    "body": "Contract: Replication 4. Title/body/label edits and new comments made outside qew become `field`/`commented` events with provenance `forge`; then pushed to the other targets.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: label added on target A appears in the ledger and on target B\n- adversary: hostile title/comment text is stored as data, rendered escaped, never executed or used as a path\n- golden: re-pull with no changes writes nothing (idempotent)\n- adversary: forge down mid-pull records nothing partial",
-    "comments": [],
-    "labels": [
-      "area:replication",
-      "replication",
-      "status:Done"
-    ],
-    "open": false,
-    "title": "Incremental pull: forge-side content edits become events"
-  },
-  "synced_at": "2026-10-08T18:28:06Z",
-  "synced_event": "042czmha0",
-  "synced_hash": "44f9e9ee9406688e",
+  "node_id": "I_kwDOVCBESc8AAAABWC191g",
+  "number": 237,
   "url": "https://github.com/foundlings/qew"
 }

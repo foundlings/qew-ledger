@@ -1,25 +1,8 @@
 {
-  "column": "In progress",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/184",
+  "issue_url": "https://github.com/foundlings/qew/issues/183",
   "kind": "issue",
-  "linked": [],
-  "node_id": "I_kwDOVBP4_s8AAAABV7Gyaw",
-  "number": 184,
-  "priority": "P1",
-  "seen": {
-    "assignee": "",
-    "body": "## Behaviour\nWithout `--head`, the head is derived from the checkout: git needs a named branch (not detached), a clean tree, a matching upstream and zero ahead/behind; jj (a `.jj` found before `.git`) uses the single bookmark at `@` (or `@-` when `@` is empty) that must equal `NAME@origin`, and git is never run there. `--head BRANCH` skips derivation (the caller has pushed; names starting with `-` or containing newline/quote/backslash are refused). A failed probe names its argv and exit status. A branch that names a different ledger item than the one opened is refused with both ids; a branch that names no item is accepted when the item is explicit.\n\n## Scenarios\n- unpushed branch: git branch ahead of upstream -> exit 3 'must exactly match its upstream', no forge call. Prevents: a PR for commits the forge cannot see.\n- explicit head skips probes: `--head feat/x` with a broken git succeeds. Prevents: derivation failures blocking a caller who knows the branch.\n- branch names no item with explicit item accepted; branch naming another item refused with both ids and no forge call. Prevents: a PR attached to the wrong item.\n- detached HEAD and failing probe: exit 3, message names the `--head` escape hatch and the failing argv with its exit status. Prevents: opaque errors.\n- jj workspace uses its bookmark and never runs git (a git shim that fails when `.jj` exists). Prevents: the shared colocated git HEAD being touched.\n- jj bookmark ahead of origin refused; jj failed probe names `jj bookmark list` and exit status. Prevents: PR from a stale remote bookmark.\n\n## Reference coverage\nReference pull-request lifecycle walk file: not-pushed seam, explicit head, explicit issue + unnumbered branch, neither issue nor numbered branch, unrelated head, failed git probe, three jj walks. 9 test functions (several fold into this and pr-open-golden).\n\n## Qew today\nReduced: `vcs.synced_branch` implements git and jj derivation, the `--head` validation and the probe error text, but no test exercises it (tests/test_pr_walk.py passes `--head` directly). Missing: the branch-names-another-item check (qew ids are ULID-like, so the rule is 'branch contains a different known item alias'), and all fake-git/fake-jj walks.",
-    "comments": [],
-    "labels": [
-      "area:pull-requests",
-      "status:In progress"
-    ],
-    "open": true,
-    "title": "Derive and verify the pushed head branch (git and jj), with explicit `--head` and issue/branch checks"
-  },
-  "synced_at": "2026-10-08T18:23:25Z",
-  "synced_event": "042d07rdo",
-  "synced_hash": "fa214eb6c0ca637f",
+  "node_id": "I_kwDOVCBESc8AAAABWCv4PQ",
+  "number": 183,
   "url": "https://github.com/foundlings/qew"
 }

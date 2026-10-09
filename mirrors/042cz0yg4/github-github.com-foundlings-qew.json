@@ -1,28 +1,8 @@
 {
-  "column": "Ready",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/282",
+  "issue_url": "https://github.com/foundlings/qew/issues/261",
   "kind": "issue",
-  "linked": [
-    "042cz0ydz"
-  ],
-  "node_id": "I_kwDOVBP4_s8AAAABV7Tj8w",
-  "number": 282,
-  "priority": "P2",
-  "seen": {
-    "assignee": "",
-    "body": "Contract: docs/specs/ledger.md, Authority and topology.\nNew ledger identity with lineage; items and events kept; mirrors, boards, claims, divergences dropped; re-merge into origin refused.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: forked ledger has the same items, no mirrors or owners, forked_from set\n- refusal: merging the fork back into the origin is refused\n- golden: fork with --primary points at a fresh target",
-    "comments": [],
-    "labels": [
-      "area:authority",
-      "authority",
-      "status:Ready"
-    ],
-    "open": true,
-    "title": "qew ledger fork --to REMOTE [--primary TARGET]"
-  },
-  "synced_at": "2026-10-08T18:30:15Z",
-  "synced_event": "042d0zd0e",
-  "synced_hash": "75a47cbb55365308",
+  "node_id": "I_kwDOVCBESc8AAAABWC4yBQ",
+  "number": 261,
   "url": "https://github.com/foundlings/qew"
 }

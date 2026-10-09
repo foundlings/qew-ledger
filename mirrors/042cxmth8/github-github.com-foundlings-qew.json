@@ -1,27 +1,8 @@
 {
-  "column": "Backlog",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/42",
+  "issue_url": "https://github.com/foundlings/qew/issues/41",
   "kind": "issue",
-  "linked": [
-    "042cxmth6"
-  ],
-  "node_id": "I_kwDOVBP4_s8AAAABV69jMQ",
-  "number": 42,
-  "priority": "P2",
-  "seen": {
-    "assignee": "",
-    "body": "`--sort priority|updated|created|title[:desc]` like GitHub Projects boards; updated derives from the newest event.\nScenarios:\n- golden: each key orders cards as documented\n- refusal: unknown sort key exits 2 naming valid keys; prevents silent default ordering",
-    "comments": [],
-    "labels": [
-      "area:board",
-      "status:Backlog"
-    ],
-    "open": true,
-    "title": "Board sorting: priority, updated, created, title"
-  },
-  "synced_at": "2026-10-08T18:10:15Z",
-  "synced_event": "042cxmtp4",
-  "synced_hash": "46e0f97207263e7d",
+  "node_id": "I_kwDOVCBESc8AAAABWCi-tQ",
+  "number": 41,
   "url": "https://github.com/foundlings/qew"
 }

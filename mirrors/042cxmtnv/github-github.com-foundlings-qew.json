@@ -1,28 +1,8 @@
 {
-  "column": "Done",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/252",
+  "issue_url": "https://github.com/foundlings/qew/issues/238",
   "kind": "issue",
-  "linked": [
-    "042cxmtnu"
-  ],
-  "node_id": "I_kwDOVBP4_s8AAAABV7LtPA",
-  "number": 252,
-  "priority": "P0",
-  "seen": {
-    "assignee": "",
-    "body": "Contract: Replication 4. Closed/reopened/assignee/board column changes on the forge never override ledger state.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: issue closed on GitHub creates one divergence, ledger state unchanged, shown by status\n- adversary: a forge-side PR merge around qew creates a divergence and never completes the item\n- golden: the same divergence is not duplicated on the next pull",
-    "comments": [],
-    "labels": [
-      "area:replication",
-      "replication",
-      "status:Done"
-    ],
-    "open": false,
-    "title": "Forge-side state changes become forge_divergence events"
-  },
-  "synced_at": "2026-10-08T18:28:12Z",
-  "synced_event": "042czn0fi",
-  "synced_hash": "41f605dbb8ded35c",
+  "node_id": "I_kwDOVCBESc8AAAABWC2GOA",
+  "number": 238,
   "url": "https://github.com/foundlings/qew"
 }

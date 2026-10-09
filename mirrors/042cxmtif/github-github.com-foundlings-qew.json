@@ -1,24 +1,8 @@
 {
-  "column": "In progress",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/84",
+  "issue_url": "https://github.com/foundlings/qew/issues/83",
   "kind": "issue",
-  "linked": [],
-  "node_id": "I_kwDOVBP4_s8AAAABV6_vKw",
-  "number": 84,
-  "priority": "P2",
-  "seen": {
-    "assignee": "",
-    "body": "## Behaviour\nDrafts are filed to be discussed. The ledger needs an append-only `comment` event (new type in ledger.md;\nlegal from every state including draft and closed) written by `qew comment ITEM (--body TEXT | --body-file F)`.\nExactly one body source is required and must be non-blank; `-` reads stdin. The event stores the text as data\nonly (never executed or turned into a path), shows in `qew show` in order with its actor and time, and does not\nchange the fold. Mirrors may render comments; that belongs to sync.\n\n## Scenarios\n1. Golden: comment on a draft appends a `comment` event, output `commented ID`, state still draft. Prevents discussion needing a state change.\n2. `--body-file` and stdin variants store the file text verbatim. Prevents a quietly altered body.\n3. Missing, blank, or both `--body` and `--body-file`: exit 2, nothing written. Prevents a comment that silently drops its body.\n4. Comment on completed and closed items works and `qew check` still passes. Prevents the audit trail being frozen by state.\n\n## Reference coverage\nReference draft-read tests: comment adds the body, comment reads a body file, comment refuses missing/empty/double\nbody before any call (3 of 8).\n\n## Qew today\nMissing: no `comment` command and no `comment` event type in `ledger_event.py`; the spec's event list has none.",
-    "comments": [],
-    "labels": [
-      "area:drafts-plans"
-    ],
-    "open": true,
-    "title": "Add `qew comment` so drafts and any item can be discussed without changing state"
-  },
-  "synced_at": "2026-10-08T18:14:48Z",
-  "synced_event": "042d012eu",
-  "synced_hash": "78c1fff3dfb287f3",
+  "node_id": "I_kwDOVCBESc8AAAABWCmY5w",
+  "number": 83,
   "url": "https://github.com/foundlings/qew"
 }

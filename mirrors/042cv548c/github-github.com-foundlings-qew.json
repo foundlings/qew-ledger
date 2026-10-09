@@ -1,24 +1,8 @@
 {
-  "column": "Draft",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/4",
+  "issue_url": "https://github.com/foundlings/qew/issues/3",
   "kind": "issue",
-  "linked": [],
-  "node_id": "I_kwDOVBP4_s8AAAABV6SnFQ",
-  "number": 4,
-  "priority": "P1",
-  "seen": {
-    "assignee": "",
-    "body": "forge_github board calls (createProjectV2, createProjectV2Field, updateProjectV2Field input shapes) were written against a local fake from memory. Run `qew project ensure` against a scratch repo and fix any drift; capture the real shapes in tests/fake_github.py.",
-    "comments": [],
-    "labels": [
-      "status:Draft"
-    ],
-    "open": true,
-    "title": "Verify the GitHub Projects v2 GraphQL shapes against real GitHub"
-  },
-  "synced_at": "2026-10-08T18:06:11Z",
-  "synced_event": "042cv54gq",
-  "synced_hash": "3ea6c64bc1008569",
+  "node_id": "I_kwDOVCBESc8AAAABWCgbNw",
+  "number": 3,
   "url": "https://github.com/foundlings/qew"
 }

@@ -1,27 +1,8 @@
 {
-  "column": "Backlog",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/109",
+  "issue_url": "https://github.com/foundlings/qew/issues/108",
   "kind": "issue",
-  "linked": [
-    "042cxmtj2"
-  ],
-  "node_id": "I_kwDOVBP4_s8AAAABV7BZvg",
-  "number": 109,
-  "priority": "P2",
-  "seen": {
-    "assignee": "",
-    "body": "Orphans, cross-epic parents, depth limits, needs on closed items are reported with counts.\nScenarios:\n- refusal: each invariant has a named failing ledger",
-    "comments": [],
-    "labels": [
-      "area:graph-ready",
-      "status:Backlog"
-    ],
-    "open": true,
-    "title": "qew check graph invariants parity"
-  },
-  "synced_at": "2026-10-08T18:17:03Z",
-  "synced_event": "042d072h1",
-  "synced_hash": "6f4622b191759acc",
+  "node_id": "I_kwDOVCBESc8AAAABWCom0A",
+  "number": 108,
   "url": "https://github.com/foundlings/qew"
 }

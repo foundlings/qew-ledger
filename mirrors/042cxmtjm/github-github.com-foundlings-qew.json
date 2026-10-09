@@ -1,25 +1,8 @@
 {
-  "column": "Ready",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/125",
+  "issue_url": "https://github.com/foundlings/qew/issues/124",
   "kind": "issue",
-  "linked": [],
-  "node_id": "I_kwDOVBP4_s8AAAABV7CYFw",
-  "number": 125,
-  "priority": "P3",
-  "seen": {
-    "assignee": "",
-    "body": "## Behaviour\nQew-specific (no reference counterpart): one line after `git push` or `jj git push` for claimed items of the current actor lacking evidence; nothing otherwise.\n\n## Scenarios\nCovered: reminder with a claim lacking evidence; silent without claims or outside a repo; another actor's claim ignored.\n\n## Reference coverage\nNone (qew-only). Listed so the audit accounts for the three qew post-tool walks.\n\n## Qew today\nCovered.",
-    "comments": [],
-    "labels": [
-      "area:hooks-dist",
-      "status:Ready"
-    ],
-    "open": true,
-    "title": "Keep the post-push evidence reminder bounded and owner-scoped"
-  },
-  "synced_at": "2026-10-08T18:18:28Z",
-  "synced_event": "042cxmtrh",
-  "synced_hash": "0769f1bf4f78412e",
+  "node_id": "I_kwDOVCBESc8AAAABWCp9dw",
+  "number": 124,
   "url": "https://github.com/foundlings/qew"
 }

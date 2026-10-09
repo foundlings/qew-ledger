@@ -1,24 +1,8 @@
 {
-  "column": "Draft",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/5",
+  "issue_url": "https://github.com/foundlings/qew/issues/4",
   "kind": "issue",
-  "linked": [],
-  "node_id": "I_kwDOVBP4_s8AAAABV6SoJA",
-  "number": 5,
-  "priority": "P2",
-  "seen": {
-    "assignee": "",
-    "body": "ledger.md Hooks: on push or merge in the code repo, a change citing a ledger ID must have its evidence recorded. Add a git pre-push / jj equivalent installed by `qew hook install`.",
-    "comments": [],
-    "labels": [
-      "status:Draft"
-    ],
-    "open": true,
-    "title": "Implement the VCS hook for evidence on push"
-  },
-  "synced_at": "2026-10-08T18:06:16Z",
-  "synced_event": "042cv54gr",
-  "synced_hash": "8c5239a8891b7075",
+  "node_id": "I_kwDOVCBESc8AAAABWCgfHg",
+  "number": 4,
   "url": "https://github.com/foundlings/qew"
 }

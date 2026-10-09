@@ -1,25 +1,8 @@
 {
-  "column": "Backlog",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/47",
+  "issue_url": "https://github.com/foundlings/qew/issues/46",
   "kind": "issue",
-  "linked": [],
-  "node_id": "I_kwDOVBP4_s8AAAABV6933g",
-  "number": 47,
-  "priority": "P1",
-  "seen": {
-    "assignee": "",
-    "body": "Epic for area `command-inventory`. Child issues carry the gaps found by the audit and the scenarios each needs.",
-    "comments": [],
-    "labels": [
-      "area:command-inventory",
-      "status:Backlog"
-    ],
-    "open": true,
-    "title": "Command inventory: every command and flag verified and walked"
-  },
-  "synced_at": "2026-10-08T18:10:45Z",
-  "synced_event": "042cxmtp9",
-  "synced_hash": "59ee63144a2275da",
+  "node_id": "I_kwDOVCBESc8AAAABWCjcug",
+  "number": 46,
   "url": "https://github.com/foundlings/qew"
 }

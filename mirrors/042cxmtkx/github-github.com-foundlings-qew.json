@@ -1,27 +1,8 @@
 {
-  "column": "Backlog",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/171",
+  "issue_url": "https://github.com/foundlings/qew/issues/170",
   "kind": "issue",
-  "linked": [
-    "042cxmtku"
-  ],
-  "node_id": "I_kwDOVBP4_s8AAAABV7Fvpg",
-  "number": 171,
-  "priority": "P2",
-  "seen": {
-    "assignee": "",
-    "body": "After `qew pr merge`, `qew land PR` records evidence of the merge head and completes the claimed item if gates pass.\nScenarios:\n- golden: merge then land completes\n- refusal: land of an unmerged PR refused",
-    "comments": [],
-    "labels": [
-      "area:merge-gate",
-      "status:Backlog"
-    ],
-    "open": true,
-    "title": "qew land completes items whose PR merged"
-  },
-  "synced_at": "2026-10-08T18:22:30Z",
-  "synced_event": "042cxmtst",
-  "synced_hash": "a0f3f099569b6e14",
+  "node_id": "I_kwDOVCBESc8AAAABWCuexw",
+  "number": 170,
   "url": "https://github.com/foundlings/qew"
 }

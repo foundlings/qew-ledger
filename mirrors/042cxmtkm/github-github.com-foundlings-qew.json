@@ -1,25 +1,8 @@
 {
-  "column": "Ready",
   "forge": "github",
-  "issue_url": "https://github.com/foundlings/qew/issues/160",
+  "issue_url": "https://github.com/foundlings/qew/issues/159",
   "kind": "issue",
-  "linked": [],
-  "node_id": "I_kwDOVBP4_s8AAAABV7FBeg",
-  "number": 160,
-  "priority": "P2",
-  "seen": {
-    "assignee": "",
-    "body": "## Behaviour\nThe project rules and the reference name `create --draft` explicitly. In qew a create without `--quote` is already a draft, but the flag does not exist, so the documented invocation fails. Add `--draft` as an explicit statement of intent: it files a draft (`drafted` event, never `approved`), and combined with `--quote` it is a usage error (exit 2, before any write) instead of silently choosing one meaning. Epic drafts: `qew create --kind epic --draft`; a draft epic accepts `--parent` for itself but the plan-create rule `no --children on a draft plan` belongs to the plan area.\n\n## Scenarios\n- `create --draft`: item is draft, never ready or startable, event is `drafted` only (prevents: draft treated as live work)\n- `create --draft --quote Q`: exit 2 naming both flags, zero files (prevents: contradictory flags silently approving)\n- draft epic with draft children via `--parent`: whole subtree drafts (prevents: mixed states under one plan)\n\n## Reference coverage\n2 reference test function(s): `test_create_draft_files_work_marked_draft_and_never_approved`, `test_draft_with_approved_or_needs_approval_is_refused_before_any_call`\n\n## Qew today\nReduced. Draft is the default and covered by ledger walk test_golden_walk_from_draft_to_ready_to_blocked (`drafts are never ready`), but `--draft` is rejected as an unknown argument.",
-    "comments": [],
-    "labels": [
-      "area:lifecycle",
-      "status:Ready"
-    ],
-    "open": true,
-    "title": "Accept `qew create --draft` and refuse contradictions with `--quote`"
-  },
-  "synced_at": "2026-10-08T18:21:28Z",
-  "synced_event": "042cxmtsh",
-  "synced_hash": "34c8951eb763dfb4",
+  "node_id": "I_kwDOVCBESc8AAAABWCtdCw",
+  "number": 159,
   "url": "https://github.com/foundlings/qew"
 }
