@@ -8,4 +8,4 @@ owner:
 priority: 2
 created: 2026-10-09T19:35:43Z
 ---
-Santa measured 25-35 creates/min with forge_concurrency 4 until GitHub's secondary limit blocked content creation at 498 creates (~25 min). Pace creates proactively under a configurable rate (default under 80/min and 500/hour) instead of hitting the wall, shared across workers, and report the pace. Needs a walk with a fake that blocks after N creates per window.
+Pace creates per forge backend, not globally: GitHub.com defaults to 70 creates/min and 450/hour (GitHub's content-creation limits are about 80/min and 500/hour); GitHub Enterprise Server, Forgejo, Gitea and GitLab default to no pacing because their limits differ or are configurable. Override per [[mirror]] with create_per_minute / create_per_hour (0 = unlimited). One pacer shared by all workers. When the wait would exceed the sync's time budget the sync stops (paced) and a rerun continues. Owner: 'this depends on limits specific by forge backend ... GHE ... forgejo instances etc won't'.
