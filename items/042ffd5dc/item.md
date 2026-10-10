@@ -7,6 +7,7 @@ labels:
 owner: 
 priority: 2
 created: 2026-10-09T23:11:50Z
+evidence_absent: children: all 13 children finished
 ---
 Owner request (relayed by Santa 2026-10-10, verbatim): 'I still need more in the qew files like data strucutes images etc like we have in phases, I don't like the -ledger format the way it works at the moment that it doesn't have directories to put down multiple files in items or have subdirectories, attachmenrs etc. qew has no way to record any of that and it desperately needs to. ... we probably need a qew migration for both ledgers aswell to the new format and then the important script later etc for the phases'.
 
