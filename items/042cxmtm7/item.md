@@ -7,6 +7,7 @@ labels: area:pull-requests
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: lkkplpsu
 ---
 ## Behaviour
 `qew pr open --body-file FILE` carries a `## Progress` checklist of `- [ ] text <!-- pr-progress:ID -->` lines into the PR body unchanged (still scanned for closing references). Without a body file the PR has no checklist. Markers are the stable address `qew pr check` uses.

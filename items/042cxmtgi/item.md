@@ -7,6 +7,7 @@ labels: area:board-admin
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: pwpxwtor
 ---
 ## Behaviour
 After `qew sync` or `qew project ensure` places cards, re-read the board and compare each placed card's column/priority with what was written. Eventual consistency is tolerated: retry mismatching reads a fixed small number of times (reference: 5 retries over about 20 seconds, scaled down by an environment variable for tests) and print one stderr warning per failed attempt 'board verification attempt 3/6 failed: item X; retrying'. A malformed read fails immediately. A persistent mismatch names each missing item/field, prints nothing on stdout, and exits non-zero (3 = verification failure) WITHOUT recording the mirror column (so the next sync repairs it). Only mismatched reads are retried, never the writes.

@@ -7,6 +7,7 @@ labels: area:board-admin
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: mkykouts
 ---
 ## Behaviour
 Extend `forge.Forge` with `read_board_cards(board) -> tuple[Card]` (card id, repository, issue number, column, priority), Unsupported where the forge cannot list. Reading rules every consumer (project status, prune, the offline board's comparison) shares: (1) a card whose issue belongs to ANOTHER repository is ignored and never stands in for a missing local card, because an organization board holds several repositories whose numbers collide; (2) the same card id listed twice is a pagination overlap while cards are being added and counts once; (3) two different card ids for one issue are a real duplicate and a typed error naming both ids (exit 1); (4) a listing that exceeds the page cap raises rather than truncating (existing rule).

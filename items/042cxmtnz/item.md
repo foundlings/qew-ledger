@@ -7,6 +7,7 @@ labels: area:replication
 owner: 
 priority: 0
 created: 2026-10-08T17:20:13Z
+evidence: mqxxtwpkvwwt
 ---
 Scenario walks with real git/jj clones against a bare remote and a forge fake: A claims and completes, B creates and comments, C works offline then reconnects; all converge to the same items, states and mirrors; includes a forge-side close producing a divergence on every clone.
 Scenarios (each a named walk whose docstring states the failure it prevents):

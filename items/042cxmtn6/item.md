@@ -7,6 +7,7 @@ labels: area:read-side
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: yqnpnuuzymmv
 ---
 ## Behaviour
 The first show line names the state so a draft is never read as live: `ID draft ...` versus `ID approved ...` (the ledger state is already authoritative; the first line must carry it with kind and title). JSON carries `draft: true|false`. Epic progress text counts drafts separately (`0/3 completed, 2 drafts`); a draft epic reports `(draft epic)`, is never offered as completable, and its completion command is null. Output for live work is unchanged and has no draft wording.

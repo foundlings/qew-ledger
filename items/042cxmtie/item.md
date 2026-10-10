@@ -7,6 +7,7 @@ labels: area:drafts-plans
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: ulnyzsnt
 ---
 ## Behaviour
 State comes only from the event fold. Walks must pin that every consumer agrees a draft is not workable:

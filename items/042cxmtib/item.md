@@ -7,6 +7,7 @@ labels: area:drafts-plans
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: xyslyokq
 ---
 ## Behaviour
 `qew draft revert ITEM... [--tree] --reason TEXT --quote Q` returns approved, unclaimed work to draft.

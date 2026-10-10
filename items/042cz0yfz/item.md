@@ -7,6 +7,7 @@ labels: area:authority
 owner: 
 priority: 1
 created: 2026-10-08T17:48:53Z
+evidence: uwuzoqtp
 ---
 Contract: docs/specs/ledger.md, Authority and topology.
 evidence, comment-progress and complete require holding the item or an ancestor; completing offline is allowed with evidence.

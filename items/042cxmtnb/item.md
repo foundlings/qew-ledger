@@ -7,6 +7,7 @@ labels: area:read-side
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: lrxtvrzrqrow
 ---
 ## Behaviour
 Graph derivation must be linear in nodes plus edges, iterative (no recursion limit), and independent of path counts. The cycle finder is iterative already; what is unproven is behaviour on adversarial shapes. A layered diamond with 40 layers has 2^40 paths, a 3000-long need chain overflows a recursive search, and a 5000-item ledger must still read fast from files with no index (the ledger spec decided no index is built).

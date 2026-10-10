@@ -7,6 +7,7 @@ labels: area:merge-gate
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: lkkplpsu
 ---
 After `qew pr merge`, `qew land PR` records evidence of the merge head and completes the claimed item if gates pass.
 Scenarios:

@@ -7,6 +7,7 @@ labels:
 owner: 
 priority: 2
 created: 2026-10-09T18:21:48Z
+evidence: zmoqpwotvzyw ykmzoszzvznq
 ---
 Owner 2026-10-09: upgrade qew with complete type hints and a type checker; brew-upgrade Python to 3.15 and use 3.15's typing features (https://docs.python.org/3/library/typing.html). Its own pull request, after the Santa items (close reasons, sync speed, parallel writes).
 

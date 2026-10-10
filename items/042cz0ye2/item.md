@@ -7,6 +7,7 @@ labels: area:authority
 owner: 
 priority: 0
 created: 2026-10-08T17:48:53Z
+evidence: uwuluxru
 ---
 Contract: docs/specs/ledger.md, Authority and topology.
 claimed, push, claim_confirmed on success; rejected push fetches and writes claim_lost when another claim exists; no remote = single writer confirms at once; unreachable configured remote refuses start.

@@ -7,6 +7,7 @@ labels: area:pull-requests
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: lkkplpsu
 ---
 ## Behaviour
 `qew pr open` for an approved item requires the caller to hold the item's claim (derived from events), or the item to be draft. The pr mirror records `opener` (actor login) and the item ids it covers, so later `ready`/`merge`/`check` can apply the ownership rule (see pr-owner-rule).

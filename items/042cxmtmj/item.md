@@ -7,6 +7,7 @@ labels: area:pull-requests
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: uuznntwp
 ---
 ## Behaviour
 `Forge.requires_status_checks(branch) -> bool` (typed; `Unsupported` where unknown) answers from branch protection or active rulesets (GitHub REST `rules/branches/{b}` and protection), GitLab protected-branch + project setting `only_allow_merge_if_pipeline_succeeds`, Forgejo branch protection `enable_status_check`. Read failures are typed forge errors, never False. Documented in forges.md.

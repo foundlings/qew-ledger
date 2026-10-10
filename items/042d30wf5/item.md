@@ -7,5 +7,6 @@ labels: area:identity
 owner: 
 priority: 0
 created: 2026-10-08T19:10:31Z
+evidence: kyzxpqvy
 ---
 Owner requirement: the old identity must appear in no repository. Provide scripts/rewrite-identity.sh wrapping git-filter-repo: replace text in files and commit messages, authors and committers, across all refs, for a git repo or a colocated jj repo (re-init jj afterwards), with a dry-run report listing remaining occurrences. Scenario: a fixture repo with the old name in events, messages and author fields ends with zero occurrences and `qew check` still passes.

@@ -7,6 +7,7 @@ labels: area:hooks-dist
 owner: 
 priority: 3
 created: 2026-10-08T17:20:13Z
+evidence: rtlnrlyw
 ---
 ## Behaviour
 No flag means all four agents; flags (`--claude --codex --cursor --opencode`) select a subset. Output order is fixed claude, codex, cursor, opencode; each target file exists after install, and remove undoes every one including deleting the opencode plugin.

@@ -7,6 +7,7 @@ labels: area:read-side
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: yqnpnuuzymmv
 ---
 ## Behaviour
 `show` prints and returns: header fields, state, owner, `blocked_by` and `blocking` as objects `{id, state, title}` (not bare ids), `parent` and `children` the same way, evidence, mirrors, comments (see item-comments), body. For an epic it names `next`, the highest-priority ready child (id, priority, title), in the text form as `next: ID pN title`. Related items are looked up locally so a dangling edge is reported as `missing` rather than hidden. Unknown reference exits 2; ambiguous short alias lists the candidates.

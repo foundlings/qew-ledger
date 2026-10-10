@@ -7,6 +7,7 @@ labels: area:pull-requests
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: lkkplpsu
 ---
 ## Behaviour
 The PR body is built from the item body (What / Why / Testing sections, optional `--what/--why/--testing/--body-file` overrides) plus the marker and the `Delivers ID` line. Item and caller text is untrusted: ANY closing keyword (`closes|fixes|resolves`, any case, with `#N`, `owner/repo#N` or an issue URL, in-line or at line start, `closed:` forms) anywhere in the final body is refused (exit 2) before the forge is called, because the ledger, not a forge side effect, completes work (see ledger.md: pull requests never carry a closing keyword). A `Part of`/`Delivers` back-reference is allowed.

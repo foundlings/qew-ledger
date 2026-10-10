@@ -7,6 +7,7 @@ labels: area:pull-requests
 owner: 
 priority: 3
 created: 2026-10-08T17:20:13Z
+evidence: lkkplpsu
 ---
 ## Behaviour
 `--admin` merges past branch protection (pending/failing check gate) and prints `admin merge: REASON`; `--reason` is required with it (exit 2 before any call) and is exit 2 without it. It never bypasses the draft, conflict, checklist, covered-draft or ownership rules. The reason is recorded as a ledger `field`-style audit comment on the covered items so the bypass is reviewable. Forges without a bypass raise `Unsupported`.

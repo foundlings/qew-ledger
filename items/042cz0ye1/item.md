@@ -7,6 +7,7 @@ labels: area:authority
 owner: 
 priority: 0
 created: 2026-10-08T17:48:53Z
+evidence: uwuluxru
 ---
 Contract: docs/specs/ledger.md, Authority and topology.
 `start` posts a claim comment on the mirrored issue, re-reads comments, earliest claim comment wins; release posts a release comment. Uses create_comment/list_comments only. Unreachable primary or missing mirror refuses.

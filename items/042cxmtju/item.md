@@ -7,6 +7,7 @@ labels: area:hooks-dist
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: pmytyxoosnrz
 ---
 ## Behaviour
 Overlaps the lifecycle area; listed here because the reference test file name contains release. Releasing a claim frees the item for others and records who, which lane and why in the ledger event; ledger-first means no forge labels or comments.

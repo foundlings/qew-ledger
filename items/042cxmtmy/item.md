@@ -7,6 +7,7 @@ labels: area:read-side
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: tyqqmllz
 ---
 ## Behaviour
 `qew list` accepts `--kind`, `--state`, `--label` (repeatable, every label must match), `--owner NAME` (the claimant derived from claim events), `--author NAME` (the actor of the creating event), `--parent ID` and `--limit`. Matching of labels and names is ASCII-case-insensitive (the forge mirrors fold them, so a filter that does not fold hides real work) but never Unicode-folds: a lookalike label such as one using the Kelvin sign must not match the plain label. Rows carry sorted `labels` and the derived `owner`. A filter that matches nothing prints nothing and exits 0.

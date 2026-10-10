@@ -7,6 +7,7 @@ labels: area:pull-requests
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: lkkplpsu
 ---
 ## Behaviour
 Each subcommand/flag added by the issues above has a `--help` line, a README entry and a `docs/specs/commands.md` entry, and `pr check` joins the epilog group. The forges.md spec lists the new `Forge` capabilities and their Unsupported cases. The existing help walk is the gate.

@@ -7,5 +7,6 @@ labels:
 owner: 
 priority: 1
 created: 2026-10-08T16:29:39Z
+evidence_absent: children: all 6 children finished
 ---
 Work remaining after the v1 ledger rewrite landed on branch v1-ledger (draft PR foundlings/qew#1).

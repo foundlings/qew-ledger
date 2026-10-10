@@ -7,6 +7,7 @@ labels: area:lifecycle
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: lyrtzqmu
 ---
 ## Behaviour
 Today a change id that does not resolve in the checkout and a change that resolves but is not an ancestor both print `not an ancestor`, exit 2. The reference separates: a commit or branch that cannot be found is a refusal naming both; malformed or inconsistent data (a comparison about a different commit, missing status, invalid associated pull-request data) is indeterminate, exit 4, and nothing is written. In the ledger: evidence recorded with a different vcs than the checkout stays exit 3 (covered), a missing target branch stays exit 3 (covered in code), an unresolved change id gets its own message `unknown to this checkout`, and unreadable pr-mirror data used for the PR list is exit 4.

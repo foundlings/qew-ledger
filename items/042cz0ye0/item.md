@@ -7,6 +7,7 @@ labels: area:authority
 owner: 
 priority: 0
 created: 2026-10-08T17:48:53Z
+evidence: xvrrtysx
 ---
 Contract: docs/specs/ledger.md, Authority and topology.
 A `claimed` event named by `claim_lost` is ignored by the fold; `claim_confirmed` is informational; check validates refs.

@@ -7,6 +7,7 @@ labels: area:lifecycle
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: lyrtzqmu
 ---
 ## Behaviour
 `qew close ITEM --reason not_planned|duplicate|superseded` today records only the enum. The reference forces the caller to choose and to name the other item: duplicate needs `--of ITEM`, superseded needs `--by ITEM` (stored on the `closed` event, validated to exist, not the item itself, one disposition only); free-text rationale goes in `--note TEXT`. Calling `close` with `--reason` carrying a free sentence is refused with a message listing the three values. Finished work is never closed as abandoned by default, and `qew close` refuses a `completed` reason with a message naming `qew complete` and `qew close --delivered-by` (see `close-delivered`). Closing a claimed item clears the owner (the fold does this today) and children are not closed implicitly.

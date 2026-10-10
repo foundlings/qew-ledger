@@ -7,6 +7,7 @@ labels: area:hooks-dist
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: xxklssuy
 ---
 ## Behaviour
 `scripts/upload_release.py` calls the forge CLI as `release upload TAG FILES... --repo REPO --clobber` with the host taken from the server URL environment variable, port retained; a URL that is not an HTTPS origin (credentials, path, query, fragment) is refused.

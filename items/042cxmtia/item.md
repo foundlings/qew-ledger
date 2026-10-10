@@ -7,6 +7,7 @@ labels: area:drafts-plans
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: vuvqukwu
 ---
 ## Behaviour
 `draft approve`, `draft revert` and `create --quote` all call the shared quote check. The guarantee to pin with

@@ -7,6 +7,7 @@ labels: area:lifecycle
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: vokrmouv
 ---
 ## Behaviour
 After a pull request merges, `qew land PR_NUMBER [--target T] [--json]` completes the items it delivered. Items come from the ledger's own `pr` mirror records for that pull request (and the items linked by `qew pr open`), never from PR title or body text (untrusted). Each such item still claimed by the caller is completed exactly as `qew complete` would, with the merge commit (pinned in the pr mirror or read from the forge) as landing proof; `--json` prints `{state, landed, held, clean}`. Idempotent and safe from a hook: a second run finds nothing to do and exits 0.

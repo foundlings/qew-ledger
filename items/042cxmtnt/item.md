@@ -7,6 +7,7 @@ labels: area:replication
 owner: 
 priority: 0
 created: 2026-10-08T17:20:13Z
+evidence: xplotmropmkl
 ---
 Contract: Replication 6. Uncommitted files, unpushed commits, pending per target, divergences, last sync per target, offline/online; token-efficient, --json.
 Scenarios (each a named walk whose docstring states the failure it prevents):

@@ -7,6 +7,7 @@ labels: area:replication
 owner: 
 priority: 0
 created: 2026-10-08T17:20:13Z
+evidence: qlusuzvz
 ---
 Contract: Replication 5.
 Scenarios (each a named walk whose docstring states the failure it prevents):

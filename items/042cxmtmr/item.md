@@ -7,6 +7,7 @@ labels: area:pull-requests
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: kqrknkok
 ---
 ## Behaviour
 Reads of pull requests, checks, labels and issue lists complete every page up to `MAX_PAGES` and raise `ForgeRejected` beyond it or when a Link leaves the API root; they never return a truncated list as if complete. Check-run folding (GitHub combined status plus all check runs) counts every page: one failing check on page two makes the PR `failing`. A GraphQL error body is a typed failure with the server message, not a default value.

@@ -7,6 +7,7 @@ labels: area:board-admin
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: rsrmurwp ynzrmwqk
 ---
 ## Behaviour
 `qew project ensure` makes sure each board has the five columns in order, and repairs by editing in place: options qew does not own (for example a hand-made 'Parked' column) are KEPT after the canonical ones with their ids, colors and descriptions; a canonical option that exists with the wrong position is moved without changing its id (an id-dropping rewrite empties the column of its cards); an already-correct field is not rewritten at all (idempotent, zero writes); a legacy-named option that qew used to own is renamed in place (keeping id and cards) or dropped when its replacement already exists; a foreign option with a malformed shape fails loudly instead of being silently deleted. Forges without a repair path (GitLab labels, Forgejo) keep their typed Unsupported behaviour.

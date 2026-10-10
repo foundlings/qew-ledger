@@ -7,6 +7,7 @@ labels: area:drafts-plans
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: wusmzrpq kmrvrqzl
 ---
 ## Behaviour
 Reference graph invariant: an edge is validated against the complete graph before it is written, and a bad edge

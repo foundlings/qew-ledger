@@ -7,6 +7,7 @@ labels: area:branches
 owner: 
 priority: 1
 created: 2026-10-08T19:31:25Z
+evidence: souswoppxxto
 ---
 Owner report: merged branches are not cleaned up, and the remotes have piled up branches (foundlings alone has 440).
 

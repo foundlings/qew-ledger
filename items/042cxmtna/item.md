@@ -7,6 +7,7 @@ labels: area:read-side
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: tyqqmllz
 ---
 ## Behaviour
 `blocked` lists open approved or claimed work with at least one unmet need and explains only those needs that are still unmet. JSON carries `blocked_by: [{id, state, title}]` (not bare ids), text carries `<- short ids`. Needs that are completed are not listed; a closed (not completed) or dangling need is listed as unmet, with state `closed` or `missing`. Drafts are never listed, since their gate is approval, not a need.

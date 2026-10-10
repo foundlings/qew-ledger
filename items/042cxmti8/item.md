@@ -7,6 +7,7 @@ labels: area:drafts-plans
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: xyslyokq
 ---
 ## Behaviour
 `qew draft approve ITEM... [--tree] --quote Q` appends one `approved` event per draft it releases and must be

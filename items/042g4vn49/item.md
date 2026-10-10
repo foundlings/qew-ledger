@@ -7,6 +7,7 @@ labels:
 owner: 
 priority: 2
 created: 2026-10-10T07:32:02Z
+evidence: vptznmsnntrm ornkxwnxqtmw
 ---
 Owner order relayed by Santa (verbatim): 'when it finds items they are in the normal queue. draft is for humans when I request a draft. omfg. everything else is either backlog or ready'. Today every qew create by an agent is a draft that only a human's quote releases (CLAUDE.md: 'Work that is not human-approved is a draft').
 

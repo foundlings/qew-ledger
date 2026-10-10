@@ -7,6 +7,7 @@ labels: area:replication
 owner: 
 priority: 0
 created: 2026-10-08T20:53:30Z
+evidence: oymppymt
 ---
 Owner question: sync should only fetch what changed on the forge since the last time, using 'modified since', not list everything every run.
 

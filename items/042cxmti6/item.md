@@ -7,6 +7,7 @@ labels: area:command-inventory
 owner: 
 priority: 3
 created: 2026-10-08T17:20:13Z
+evidence: qywskxnzlumw
 ---
 Command inventory for `qew pr merge`: merge a ready, conflict-free, green pull request at its checked head.
 

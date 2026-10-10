@@ -7,6 +7,7 @@ labels: area:hooks-dist
 owner: 
 priority: 3
 created: 2026-10-08T17:20:13Z
+evidence: rtlnrlyw
 ---
 ## Behaviour
 `qew hook install|remove --json` prints a stable object per agent: action (`installed|removed|unchanged`), agent, `schema_version`, and `trust_required` for Codex. With several agents the object carries an `agents` list in the fixed order claude, codex, cursor, opencode. Human output stays one line per agent, with the Codex trust line `review and trust it with /hooks before it will run`.

@@ -7,6 +7,7 @@ labels: area:board-admin
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: pwpxwtor
 ---
 ## Behaviour
 Boards carry a second single-select field, Priority, with options P0..P4 (ledger `priority: N`, lower is sooner). `project ensure` creates or repairs it with the same keep-foreign-options rule as Status; `place_on_board` (or a new `set_board_priority`) writes only the values that differ; a priority change in the ledger moves the card's Priority on the next sync. A priority outside the board's options is a typed rejection before any write. Forges without fields skip it as Unsupported.

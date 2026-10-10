@@ -7,6 +7,7 @@ labels: area:board-admin
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: vwpqsxkq
 ---
 ## Behaviour
 `.qew/config.toml` accepts an optional `minimum_version = "MAJOR.MINOR.PATCH"` under `[qew]`. A qew older than it refuses EVERY command before any work (exit 2) naming the required and running versions and the upgrade script (`scripts/setup_user.py`). Equal or lower minimums pass; malformed values (`1.x`, `1.2`, `v1.2.3`, `1.2.3-rc1`, a number) are refused before any call. Unknown top-level keys and unknown mirror options are ignored (additive fields must not break older qew), while `schema_version` in `qew-ledger.toml` stays strict: an unsupported value is refused loudly and a missing one is read as 1. A symlinked config is refused. Qew's own repository tracks its config and a test asserts that it names qew's board and minimum version (the dogfood policy), so a change cannot unlink the board unnoticed.

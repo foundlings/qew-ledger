@@ -7,6 +7,7 @@ labels: area:read-side
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: swlnmnxn
 ---
 ## Behaviour
 Ready means: approved (a human's quote exists), unclaimed, not an epic, not a draft, not closed or completed, and every need completed. The reference proves each class is held back, including the rule that an unrelated gate outranks claim and blocker so a human sees that a decision is owed. In the ledger the equivalent gates are: draft (never ready even if a later `field` event or label looks like approval), reverted work (back to draft), claimed work, a need that is open, claimed, draft, closed (closed does not count as done) or dangling, and an epic (only its children are ready). The derived answer must not depend on label spelling or on forge state.

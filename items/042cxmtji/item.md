@@ -7,6 +7,7 @@ labels: area:hooks-dist
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: utnmomos
 ---
 ## Behaviour
 Each agent receives only its documented shape: Claude and Codex `hookSpecificOutput` with the event name; Cursor `{permission, user_message, agent_message}` (explicit allow always) and `{additional_context}` at session start, nothing for the after-shell event; opencode plain text with exit 2 for deny and no JSON braces.

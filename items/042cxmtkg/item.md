@@ -7,6 +7,7 @@ labels: area:lifecycle
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: lyrtzqmu
 ---
 ## Behaviour
 When `qew complete` or `qew close` finishes the last open child of an epic, qew appends the epic's `completed` event in the same command (actor recorded, reason `all N children finished`) provided the epic is open, has at least one child, and every child is completed or closed. An epic with any open child is never auto-completed; an epic nobody claimed still completes (no explicit claim needed). The child event is written first, so a failure of the epic step leaves the child done and prints a warning naming the explicit `qew complete EPIC`, exit 0, never failing the user's command. `qew complete EPIC` stays as the explicit path.

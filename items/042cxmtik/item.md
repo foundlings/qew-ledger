@@ -7,6 +7,7 @@ labels: area:drafts-plans
 owner: 
 priority: 3
 created: 2026-10-08T17:20:13Z
+evidence: pvppxykq
 ---
 ## Behaviour
 `set` today replaces `labels` wholesale and the body only from a literal string. Reference `set` covers title, body

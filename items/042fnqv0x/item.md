@@ -7,5 +7,6 @@ labels:
 owner: 
 priority: 2
 created: 2026-10-10T01:42:09Z
+evidence: skvokuunymyx pwuqpkkotsxv
 ---
 References like owner/repo#123 in imported text are recorded as links on the item (display only, never followed, never turned into edges) and shown by qew show; qew check validates the syntax only.

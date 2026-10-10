@@ -7,6 +7,7 @@ labels:
 owner: 
 priority: 2
 created: 2026-10-10T02:31:10Z
+evidence: lnpryvklzpom qzxqormswsvt
 ---
 Today ANY 5xx on ANY forge call raises ForgeUnavailable and stops the whole target (no retry). A single GitHub 500 stopped two foundlings rounds. GitHub can also 500 for a longer stretch (incident), so a fixed retry count is wrong both ways.
 

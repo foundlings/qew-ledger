@@ -7,6 +7,7 @@ labels: area:lifecycle
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: xtvoqoko
 ---
 ## Behaviour
 Sync replaces a mirrored issue's label set with the item's labels plus `qew:STATE`, `kind:KIND`, `priority:N`, and the reference derives an authorship label from the writer only. A caller-supplied label in a reserved namespace (`qew:*`, `kind:*`, `priority:*`, `author:*`, `in-progress`) would collide or forge authorship, so `create --label` and `set --add-label/--labels` refuse them (exit 2, before any write). The author of an item is derived from the first event's actor (`qew show` prints `author:`), never from a flag; an actor name that cannot form a mirror label (whitespace, comma, empty) is refused at the first write (today `QEW_ACTOR` is unvalidated and flows into events and mirror labels).

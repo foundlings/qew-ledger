@@ -7,6 +7,7 @@ labels: area:drafts-plans
 owner: 
 priority: 3
 created: 2026-10-08T17:20:13Z
+evidence: ulnyzsnt
 ---
 ## Behaviour
 The ledger has no separate plan-complete verb: `qew complete EPIC` does it (claimed epic, every child completed

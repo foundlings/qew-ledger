@@ -7,6 +7,7 @@ labels: area:pull-requests
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: lkkplpsu
 ---
 ## Behaviour
 `ready`, `merge` and `check` act only on a PR the caller opened, or whose covered items the caller holds ALL claims on (claims derived from `claimed`/`released` events; the lane building a plan holds its integration item while the planner opened the PR). Otherwise exit 3 naming the opener and both ways forward: take over the items (`qew start ITEM --take-over --reason TEXT`) or, for merge only, `--other-author --reason TEXT`. `--other-author` requires `--reason` (exit 2 before any call), prints `merging LOGIN's pull request: REASON`, and NEVER overrides readiness rules. A PR that covers no item, an unclaimed item, an item claimed by someone else, or only some claimed all refuse. The covered items come from the ledger pr mirror, not from forge text.

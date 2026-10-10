@@ -7,6 +7,7 @@ labels: area:export-import
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: osnuookw
 ---
 `qew export DIR` writes items/<ID>.md-compatible files and an events summary, deterministic.
 Scenarios:

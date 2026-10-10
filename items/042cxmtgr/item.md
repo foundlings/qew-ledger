@@ -7,6 +7,7 @@ labels: area:board-admin
 owner: 
 priority: 3
 created: 2026-10-08T17:20:13Z
+evidence: qnzunwuk
 ---
 ## Behaviour
 `qew check --json` prints one object: `schema_version`, `valid`, `cycles` (each cycle listed once, rotated so its smallest id comes first and closed back on it, list sorted), `contradictions` and `text_findings`. Contradictions that remain representable in the ledger: a claimed epic (epics are never claimed), a child of a completed epic that is not done, a completed item with open needs. Multiple priorities or kinds are unrepresentable in the header and need no check. Writes nothing.

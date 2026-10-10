@@ -7,6 +7,7 @@ labels: area:project-parity area:board
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: oswllzqk
 ---
 GitLab: board with lists for each Status as scoped labels `board::<Status>` and priority labels; Forgejo: unsupported board, state labels carry the same statuses.
 Scenarios (named walks, each stating the failure it prevents):

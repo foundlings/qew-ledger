@@ -7,6 +7,7 @@ labels: area:lifecycle
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: lkpulxlt
 ---
 ## Behaviour
 Reference `set` updates title, body (non-empty, from file), priority, kind, labels (add/remove) and parent (including removing it) and verifies the result. In qew: refuse any set on a completed or closed item unless `--closed` (exit 2, names the flag); add `--body-file`, `--add-label`/`--remove-label` (today `--labels` replaces the set), `--no-parent`, `--kind`; refuse reserved label namespaces (see `create-reserved-labels`); refuse an empty or multi-line title and an empty body replacement; re-read the item after the write and fail loudly if the header differs (partial write). Each change appends a `field` event with old and new (covered). Applying the same values again prints `unchanged`.

@@ -7,6 +7,7 @@ labels: area:drafts-plans
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: wttrnnpk
 ---
 ## Behaviour
 `--dry-run` runs the full validation, performs no write and no network call, and prints the operation list in

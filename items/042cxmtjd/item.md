@@ -7,6 +7,7 @@ labels: area:hooks-dist
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: wuvqumvm
 ---
 ## Behaviour
 The hook config foundation: atomic same-directory temp file, flush plus fsync, atomic replace, directory fsync; temp file removed on failure; symlinked root, directory component or target file refused (`symlink`); no-op does not rewrite; new directories 0700 and files 0600, existing file mode preserved; removal never creates directories; unmarked managed file never overwritten or deleted.

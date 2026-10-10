@@ -7,6 +7,7 @@ labels: area:replication
 owner: 
 priority: 0
 created: 2026-10-08T17:20:13Z
+evidence: lnuzmstzrsxv
 ---
 Contract: docs/specs/ledger.md Replication 1. Commit exactly the paths a command wrote, message `qew: <verb> <ID> [by <actor>]`; detect jj (colocated) vs git; atomic with rollback.
 Scenarios (each a named walk whose docstring states the failure it prevents):

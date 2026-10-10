@@ -7,6 +7,7 @@ labels: area:board-admin
 owner: 
 priority: 3
 created: 2026-10-08T17:20:13Z
+evidence: vvrwklmp
 ---
 ## Behaviour
 Completing an epic (`qew complete EPIC`) is the qew form of closing a milestone. Walks to add: golden complete of an epic whose children are all done (no own evidence); refusal with a count when children are open ('1 open child'), written nothing; refusal for an epic with no children ('no completed work'); completing an already completed epic is a quiet no-op with `changed: false` rather than an error or a second event; duplicate-title ambiguity does not arise because epics are addressed by id.

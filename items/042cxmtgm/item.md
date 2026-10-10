@@ -7,6 +7,7 @@ labels: area:board-admin
 owner: 
 priority: 3
 created: 2026-10-08T17:20:13Z
+evidence: tqytunkz
 ---
 ## Behaviour
 When `place_on_board` finds the board has no column of that name (a board made before a column existed), the failure line must say how to repair it: 'board has no `Draft` column; run `qew project ensure`'. The same applies to a partial `qew draft approve` / `qew sync` failure: stderr lists what is left and ends with the command that refreshes the mirrors (`qew sync`), never a bare error. Exit codes unchanged; the offline work is not rolled back.

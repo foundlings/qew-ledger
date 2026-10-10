@@ -7,6 +7,7 @@ labels: area:read-side
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: rumoopxukttr
 ---
 ## Behaviour
 A reply is a comment by someone other than the viewer, not by a bot (actor type bot or a `[bot]` suffix), not a machine marker (claim or release markers written by qew itself), and at or after the window start (inclusive). Comparison of logins is case-insensitive. Excerpts replace control characters with spaces so item text never reaches the terminal raw.

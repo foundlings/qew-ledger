@@ -7,6 +7,7 @@ labels: area:lifecycle
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: lyrtzqmu
 ---
 ## Behaviour
 A task whose delivery is not in the repository (docs elsewhere, a decision) cannot be completed in qew today except through import. `qew complete ITEM --reason TEXT --no-commit WHY` records `no_commit: WHY` on the `completed` event and skips the landing proof; exactly one of evidence-on-target or `--no-commit` must hold, and a blank `WHY` is refused. `qew check` counts these like imports: `completed without code: N` (non-fatal). A reason alone never proves anything landed.

@@ -7,6 +7,7 @@ labels: area:read-side
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: lkwvxzzuxwpk
 ---
 ## Behaviour
 `qew triage` is the explicit read of unapproved text: it lists drafts and approved items lacking required planning fields (for the ledger: no label of any configured required group, empty body, or a task with no parent) with each item's title, body, and a `missing` list naming what is absent. `--search TERMS` narrows by title and body. Output carries `text_findings` per item and field (source `title` or `body`) and never rewrites the text. Triage is the only list-shaped read that prints unapproved bodies.

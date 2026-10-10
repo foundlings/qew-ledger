@@ -7,6 +7,7 @@ labels: area:authority
 owner: 
 priority: 2
 created: 2026-10-08T17:48:53Z
+evidence: zukwvupp
 ---
 Contract: docs/specs/ledger.md, Authority and topology.
 Per target git remote `qew-<slug>` for both repos, pushed by sync; creating the forge repo is out of scope (must exist).

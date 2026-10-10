@@ -7,6 +7,7 @@ labels: area:read-side
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: tyqqmllz
 ---
 ## Behaviour
 Beyond lifecycle state, list rows carry a derived `work_state`: `ready`, `claimed`, `blocked`, `plan` (epic), `needs_decision` (a draft awaiting a human) and `closed`/`completed`. Default order is actionable first: ready, then blocked, then claimed, then plans, then the rest; within a class priority then id. A stuck item that is both claimed and blocked reports the more urgent class deterministically (documented). `--state` still filters on lifecycle state; `--work-state` filters on the derived class.

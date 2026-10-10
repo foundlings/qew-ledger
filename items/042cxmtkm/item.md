@@ -7,6 +7,7 @@ labels: area:lifecycle
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: lkpulxlt
 ---
 ## Behaviour
 The project rules and the reference name `create --draft` explicitly. In qew a create without `--quote` is already a draft, but the flag does not exist, so the documented invocation fails. Add `--draft` as an explicit statement of intent: it files a draft (`drafted` event, never `approved`), and combined with `--quote` it is a usage error (exit 2, before any write) instead of silently choosing one meaning. Epic drafts: `qew create --kind epic --draft`; a draft epic accepts `--parent` for itself but the plan-create rule `no --children on a draft plan` belongs to the plan area.

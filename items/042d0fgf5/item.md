@@ -7,6 +7,7 @@ labels: drive-finding area:replication
 owner: 
 priority: 0
 created: 2026-10-08T18:17:46Z
+evidence: kzsmtkur
 ---
 Seen live: several checkouts each run a background worker against foundlings/qew at once; each has its own sync lock, so two workers can both miss the marker and both create the issue for one item.
 

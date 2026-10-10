@@ -7,6 +7,7 @@ labels: area:hooks-dist
 owner: 
 priority: 3
 created: 2026-10-08T17:20:13Z
+evidence: rqvnrumn
 ---
 ## Behaviour
 Spec-only: docs/specs/hooks.md already says Claude and Codex entries are one guarded `command` string with no `args`. Add the explicit decision that the reference's exec-form entry (command plus args) is rejected because older agent versions mis-handle it and a bare missing binary would exit 2 and block every shell call.

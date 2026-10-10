@@ -7,6 +7,7 @@ labels: area:authority
 owner: 
 priority: 2
 created: 2026-10-08T17:48:53Z
+evidence: pnuvtxrt
 ---
 Contract: docs/specs/ledger.md, Authority and topology.
 Two effective claims or conflicting terminal states found in a merged ledger appear in qew status and resolve via accept/reject.

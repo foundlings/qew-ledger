@@ -7,6 +7,7 @@ labels: area:read-side
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: swlnmnxn
 ---
 ## Behaviour
 Every read command (`ready`, `list`, `blocked`, `show`, `draft list`, `search`, `triage`, `inbox`, `prime`, `check`) has a machine form with a stable, documented shape. The reference emits an envelope for bounded answers (`items`, `total`, `truncated`, `schema_version`) and newline-delimited rows (one JSON object per line, each with `schema_version`) for open-ended lists, with keys in sorted order and compact separators so output is byte-stable and token-cheap. In the ledger model `qew ready|list|blocked|graph` currently print one bare JSON array without a version, so a field can never be added or renamed safely. Decide and record in docs/specs/commands.md: which commands are envelope and which are NDJSON, the `schema_version` integer per shape, sorted keys, and that a refusal or indeterminate read prints nothing on stdout and a one-line reason on stderr with the documented exit code (1 invalid ledger, 2 refusal or usage, 3 environment). Absent optional data is omitted, not null-filled, unless a column is part of the fixed shape.

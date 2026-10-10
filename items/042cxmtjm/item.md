@@ -7,6 +7,7 @@ labels: area:hooks-dist
 owner: 
 priority: 3
 created: 2026-10-08T17:20:13Z
+evidence: rqvnrumn
 ---
 ## Behaviour
 Qew-specific (no reference counterpart): one line after `git push` or `jj git push` for claimed items of the current actor lacking evidence; nothing otherwise.

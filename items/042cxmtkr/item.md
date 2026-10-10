@@ -7,6 +7,7 @@ labels: area:lifecycle
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: lkpulxlt
 ---
 ## Behaviour
 Agent loops parse results, not prose. Reference write commands accept `--json`, also placed before the command, and print an object with `schema_version`, the item id and the new state: create (`{id, state, schema_version}` per item), set (`changed`), start (`state: started`, plus `lane`, `workspace`, `kind` when given), complete, close, reopen, release, block, unblock, land. Human output stays one terse line. Pin each schema in a test, and list it in docs/specs/commands.md. The reference's stderr reconciliation hint for boards is dropped (the ledger is the board source).

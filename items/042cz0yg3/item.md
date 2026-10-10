@@ -7,6 +7,7 @@ labels: area:authority
 owner: 
 priority: 2
 created: 2026-10-08T17:48:53Z
+evidence: lzuputsr
 ---
 Contract: docs/specs/ledger.md, Authority and topology.
 Restore the ledger onto the target, verify counts, switch primary, demote old primary to read-only (or --remove-old). Idempotent, resumable.

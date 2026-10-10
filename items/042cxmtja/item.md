@@ -7,6 +7,7 @@ labels: area:hooks-dist
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: wlskzyqr
 ---
 ## Behaviour
 Install and remove fail with exit 2 and leave the file byte-identical when the agent config has the wrong shape: Claude event node not a list (`PreToolUse must be a list`, also SessionStart/PostToolUse), Codex `hooks` not an object, Cursor `version` not 1 (`unsupported Cursor hooks version`), unparseable JSON, opencode target present without Qew's marker (`not managed by Qew`). Messages name the file and the offending node.

@@ -7,6 +7,7 @@ labels: area:board-admin
 owner: 
 priority: 3
 created: 2026-10-08T17:20:13Z
+evidence: pyyunzxq nmkwrlyz
 ---
 ## Behaviour
 Per-target option `milestones = true`: an epic is mirrored as a forge milestone (title, description with the approving human's quote, optional due date from a new `due` header key) and its approved child issues are assigned to it. Forge interface: `ensure_milestone(spec) -> Milestone`, `assign_milestone(number, milestone)`, Unsupported where absent (Forgejo and GitLab each map to their own milestone API). Rules: reconcile description/due date only on drift; a repeat run writes nothing and reports unchanged; a closed milestone is not reopened by sync unless the epic is reopened; an item already in a different milestone is refused (never silently moved out of its campaign); only approved, non-draft epics become milestones; every write is read back and verified; the milestone is closed when the epic is completed and only if it has no open attached issues.

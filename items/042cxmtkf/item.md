@@ -7,6 +7,7 @@ labels: area:lifecycle
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: lyrtzqmu
 ---
 ## Behaviour
 An epic that has a claimed direct child is in progress, and its holders are exactly the actors of those children. In the ledger this is DERIVED in the read model (`qew show`, `qew list`, the sync mirror state), never stored, so the reference's reconcile-after-every-command machinery disappears. Rules: only open direct non-epic children count (not `needs` edges, grandchildren or child epics); when none is claimed the derived claim is empty; a completed or closed epic shows nothing derived; several holders are all listed; an epic with no claimed child is untouched. Sync pushes the derived assignee set and In progress column to the mirror (covered by the sync area); the derived claim is never a stored `claimed` event.

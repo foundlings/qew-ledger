@@ -7,6 +7,7 @@ labels: area:hooks-dist
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: wysxusny
 ---
 ## Behaviour
 `qew --help` has a workflow-grouped epilog (Read, Work, Drafts, Pull requests, Mirrors, Setup) containing every top-level command and points at `qew COMMAND --help` and the drafts flow (`qew draft approve|revert`). Each group command (`draft`, `pr`, `hook`, `project`, `sync`, ...) lists all its subcommands, each with a help line. Every option and argument has help.

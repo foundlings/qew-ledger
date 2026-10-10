@@ -7,6 +7,7 @@ labels: area:pull-requests
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: lkkplpsu
 ---
 ## Behaviour
 `qew pr open ITEM` opens a draft pull request on the item's issue mirror target, writes `mirrors/<ID>/<target>-pr-<N>.json` only after the forge accepted the create, and prints one terse line (`ID pr #N URL (draft)`). The PR is assigned to its opener (forge login from the actor) so a board and a reader see whose it is. `--json` prints a stable object (`item`, `number`, `url`, `draft`, `schema_version`). The PR title comes from the item title; the body carries the `<!-- qew:ID -->` marker and a short derived summary, never a closing keyword.

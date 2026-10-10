@@ -7,6 +7,7 @@ labels: area:board-admin
 owner: 
 priority: 3
 created: 2026-10-08T17:20:13Z
+evidence: zrsmmolo
 ---
 ## Behaviour
 `qew create --edit` and `qew set ITEM --edit` open the user's editor on an empty temp file in a private temp directory and use the result as the body. Rules: VISUAL then EDITOR; unset or blank refuses (exit 2) naming both variables; the command is shell-split (never run through a shell), a parse error refuses; non-zero editor exit refuses and writes nothing; an empty or whitespace-only body refuses; the temp dir is removed on every path; the body is never taken from anything but that file. `--body-file` (existing) refuses a symlink and an empty file; `qew set` with no change prints 'unchanged' and writes no event, and editing a closed item needs an explicit flag.

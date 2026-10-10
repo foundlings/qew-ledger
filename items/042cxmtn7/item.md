@@ -7,6 +7,7 @@ labels: area:read-side
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: lkwvxzzuxwpk
 ---
 ## Behaviour
 `qew draft list` shows open drafts with kind, parent, priority and title, sorted parent-first then id, with `--parent ID` to scope to one epic and `--json`. Closed or approved items never appear. The reference failure to prevent is a draft no read can find: in the ledger drafts must be reachable by `draft list`, `list --state draft`, `show` and `triage` and never by `ready` or `prime`.

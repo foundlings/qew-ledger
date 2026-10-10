@@ -7,6 +7,7 @@ labels: drive-finding area:replication
 owner: 
 priority: 2
 created: 2026-10-08T18:17:46Z
+evidence: tmmkwmsx
 ---
 qew status printed 21 divergence lines after one pull. Cap the default output (first 10 plus `... N more`), keep --json complete, group identical field changes, and keep the total under a byte budget.
 

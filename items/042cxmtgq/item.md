@@ -7,6 +7,7 @@ labels: area:board-admin
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: yslzlnry
 ---
 ## Behaviour
 Titles come from ledger files that other contributors, imports and forges can write, and `qew hook session-start` / `qew ready` feed them to an agent. Text output must never let a title speak to the agent: collapse whitespace and newlines, drop non-printable characters, byte-bound the title (96 bytes plus an ellipsis), quote it when printed beside a runnable command, and withhold it entirely (`[title withheld: zero_width]`, JSON `title: null` plus `text_findings`) when it contains zero-width, bidirectional-override or control characters. `qew check` reports a `text_findings` entry for every approved item whose title carries such characters (a finding, exit 1 like other problems). One shared helper, used by every command and the hook.

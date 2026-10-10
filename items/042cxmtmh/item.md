@@ -7,6 +7,7 @@ labels: area:pull-requests
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: lkkplpsu
 ---
 ## Behaviour
 After a forge merge call, re-read the PR; if it still reads open, wait about one second and read once more; if still not merged report exit 3 'merge not visible' (the forge call returned ok but nothing landed). The success line is printed only after the PR is `merged`. Because the ledger completes through `qew complete`, no automatic landing is performed here; the output carries the exact command to run (`qew complete ID`), and for epic PRs lists every covered item.

@@ -7,6 +7,7 @@ labels: area:board-admin
 owner: 
 priority: 3
 created: 2026-10-08T17:20:13Z
+evidence: vyxowtny
 ---
 ## Behaviour
 The reference had to fix a bug where its single checkout-wide mode, board link and claim cap were applied to a foreign `--repo` (a backfill wanted 1154 issues instead of 310; 1916 foreign cards on one board). Qew's per-target model prevents this structurally (`boards/<slug>.json`, per-mirror `select`, `project`), so only walks are needed to keep it so: (1) two targets with different repos each use their own recorded board id; (2) a target without `select` mirrors all items but a `select` on another target is never applied to it; (3) `qew project ensure --target B` never writes `boards/A.json`; (4) a code-repo-wide limit such as a future claim cap in `[code]` is read from the code repo config and never from a mirror's repository; (5) a repository URL that differs only in case or `.git` suffix is the same target (casefolded slug), so a board is not duplicated.

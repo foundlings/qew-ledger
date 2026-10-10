@@ -7,6 +7,7 @@ labels: area:lifecycle
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: wusmzrpq
 ---
 ## Behaviour
 One shared validator for every command that writes an edge. Before a file or event is written: referenced items exist, no self edge, the new `needs` graph has no cycle (including through the new item), the parent kind hierarchy holds (epic > issue > task, task directly under epic allowed; `qew check` enforces it today but create and set do not), and priority is a non-negative integer. Today `qew set --needs X` or `--parent Y` writes first and only `qew check` finds a cycle or illegal parent afterwards, leaving a broken ledger committed to a shared branch.

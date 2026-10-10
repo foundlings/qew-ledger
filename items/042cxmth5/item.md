@@ -7,6 +7,7 @@ labels: area:board
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: xkvmwvkx
 ---
 Behaviour: status derived exactly as in the status-model issue (project-parity); board config lives in `boards/<name>.json` style ledger files (one file per board: columns, default sort/group/filter), no forge needed.
 Scenarios:

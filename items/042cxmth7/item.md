@@ -7,6 +7,7 @@ labels: area:board
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: xkvmwvkx
 ---
 Compact one-line-per-column output for agents.
 Scenarios:

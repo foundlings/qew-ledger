@@ -7,6 +7,7 @@ labels: area:read-side
 owner: 
 priority: 3
 created: 2026-10-08T17:20:13Z
+evidence: lkwvxzzuxwpk
 ---
 ## Behaviour
 `qew check` stays fatal on schema, cycle, dangling and illegal-state problems and gains advisory (non-fatal) notes shaped like the reference `graph check` report: `cycles`, `contradictions` (an epic that is claimed, an item both approved and with a draft marker label, a priority outside the allowed range), and `text_findings` per item and field. `--json` prints `{valid, cycles, contradictions, text_findings, schema_version}`. Exit 1 only for fatal problems; advisory notes alone exit 0.

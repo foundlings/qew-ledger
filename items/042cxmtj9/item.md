@@ -7,6 +7,7 @@ labels: area:hooks-dist
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: wlskzyqr
 ---
 ## Behaviour
 For each agent install and remove touch only Qew-owned entries. Foreign entries in the same event list, unrelated top-level keys (permissions, theme, `version`) and unrelated plugin files survive byte-for-byte in meaning. Qew's own earlier entries (earlier shell-hook generation, `qew prime`, exec-form and unguarded command strings) are replaced on install and deleted on remove. When removal empties an event list or the hooks node the empty container is pruned; Cursor keeps `version: 1`.

@@ -7,6 +7,7 @@ labels: area:board
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: xkvmwvkx
 ---
 Columns the seven statuses Draft / Backlog / Ready / Needs approval / In progress / In review / Done, cards with id, title, owner, priority, labels; width-aware text layout, no color codes when not a TTY.
 Scenarios:

@@ -7,6 +7,7 @@ labels: area:project-parity area:board
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: rsrmurwp
 ---
 Run the new `project ensure` against foundlings/qew board #1, verify through the GitHub API that Status options, Priority field and eight views match, re-place all items.
 Scenarios (named walks, each stating the failure it prevents):

@@ -7,6 +7,7 @@ labels: area:read-side
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: lkwvxzzuxwpk
 ---
 ## Behaviour
 Explicit reads attach `text_findings` listing each affected source (`title`, `body`, `comment` with index and author, `label`), as sparse objects `{"source": "body", "zero_width": true}`. Human output appends a bracketed note on the row (`[title: contains confusable characters; body: contains zero-width characters]`) or a `text findings:` block in `show` with `comment 2 (@author)`. Items with no findings carry no `text_findings` key and no bracket. Text is shown as is (never rewritten), but control characters are replaced when printed in a terminal row.

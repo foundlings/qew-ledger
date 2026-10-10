@@ -7,6 +7,7 @@ labels: area:lifecycle
 owner: 
 priority: 3
 created: 2026-10-08T17:20:13Z
+evidence: lkpulxlt
 ---
 ## Behaviour
 `qew create --discovered-from ITEM` stores the origin as a `discovered_from` relation (a fixed optional header key or a first `discovered` event; the header schema rejects unknown keys, so it must be added deliberately), shown by `qew show` as a derived `discovered:` line on the origin. It is not a dependency and never blocks readiness. Unknown origin is refused before any write.

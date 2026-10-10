@@ -7,6 +7,7 @@ labels: area:board-admin
 owner: 
 priority: 3
 created: 2026-10-08T17:20:13Z
+evidence: zzuwzrzw
 ---
 ## Behaviour
 The reference had `adopt`, `author backfill`, `area ensure`, `project prune` and mode flags because a forge was the store. Qew must not grow lookalikes. Pin by a walk that `qew --help` lists none of `adopt`, `author`, `area`, `campaign` (the replacements are `qew sync`, derived author, header labels, epics) and that the hook guard still refuses direct forge label, milestone, board and project edits with advice naming the qew command to use instead. (Existing guard: hook_guard `_MILESTONE_ADVICE`.)

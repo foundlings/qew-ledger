@@ -7,6 +7,7 @@ labels: area:drafts-plans
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: tutktyws
 ---
 ## Behaviour
 `qew block ITEM --on BLOCKER` appends BLOCKER to ITEM's `needs`; `qew unblock ITEM --from BLOCKER` removes it.

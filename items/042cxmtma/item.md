@@ -7,6 +7,7 @@ labels: area:pull-requests
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: lkkplpsu
 ---
 ## Behaviour
 Without `--head`, the head is derived from the checkout: git needs a named branch (not detached), a clean tree, a matching upstream and zero ahead/behind; jj (a `.jj` found before `.git`) uses the single bookmark at `@` (or `@-` when `@` is empty) that must equal `NAME@origin`, and git is never run there. `--head BRANCH` skips derivation (the caller has pushed; names starting with `-` or containing newline/quote/backslash are refused). A failed probe names its argv and exit status. A branch that names a different ledger item than the one opened is refused with both ids; a branch that names no item is accepted when the item is explicit.

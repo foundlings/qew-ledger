@@ -7,5 +7,6 @@ labels:
 owner: 
 priority: 3
 created: 2026-10-08T16:29:39Z
+evidence: 94835d328925a5388f337b56816f5af11bb10951
 ---
 The old model had `qew comment`; the ledger has no free-text events. Decide whether a `commented` event type belongs in the schema and mirror it as a forge comment.

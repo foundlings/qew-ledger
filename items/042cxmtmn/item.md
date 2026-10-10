@@ -7,6 +7,7 @@ labels: area:pull-requests
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: lkkplpsu
 ---
 ## Behaviour
 A PR may cover several items (an epic and its children). The pr mirror records the covered item ids at open time (all descendants not closed, or an explicit list); ready/merge/check compute readiness over ALL covered items: while any is a draft the PR is held (ready and merge refused exit 2, naming the draft items); after `qew draft approve --tree` the same PR becomes readyable with no forge-side edits. `draft revert` of a covered item with an open non-draft PR is refused (exit 2); with a draft PR it stays draft. The hold is derived from ledger state so it cannot drift from a forge label.

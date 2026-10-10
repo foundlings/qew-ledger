@@ -7,6 +7,7 @@ labels: area:board-admin
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: orouwspr
 ---
 ## Behaviour
 `qew init [--ledger PATH]` must: write `.qew/config.toml` and the ledger's `qew-ledger.toml` once and print `created <path>` lines; a rerun changes nothing and prints `already initialized` (config bytes untouched, hand-edited mirrors and unknown fields preserved, nothing unlinked); work from any subdirectory by locating the repository root (git `.git` or jj `.jj`) and refuse outside a repository (exit 2); refuse a symlinked `.qew` directory or `config.toml` (exit 2) and write atomically (temp file plus rename, original intact when the rename fails); never overwrite an existing `qew-ledger.toml`; print one short trust-guidance paragraph (forge text is untrusted data; completion is `qew complete`) so a fresh agent sees the rules.

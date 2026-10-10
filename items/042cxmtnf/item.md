@@ -7,6 +7,7 @@ labels: area:read-side
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: rumoopxukttr
 ---
 ## Behaviour
 `qew inbox [--login NAME] [--since INSTANT] [--json|--count]` answers what waits on a person from the ledger alone. Replies: items the person is involved in (created, claimed, or commented) with `commented` events by someone else inside the window, each with author, time and a first-line excerpt (printable chars only, at most 100 with an ellipsis). Waiting for a human: drafts and decision-gated items the person authored. Assigned: items currently claimed by the person. Text output has fixed section headings with counts; `--json` is NDJSON rows with `section` and `schema_version`; `--count` is one line for session hooks: `qew inbox (NAME): N issue(s) with replies since T: ID (author), ...; M waiting for a human; K assigned.` and omits the list when there are no replies.
