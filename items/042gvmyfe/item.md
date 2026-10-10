@@ -7,5 +7,6 @@ labels:
 owner: 
 priority: 2
 created: 2026-10-10T16:17:48Z
+evidence: wrnpmpuxvluw uwspnslzvorr
 ---
 Santa, bug in 6.3.0: qew pr open TASK refuses because the mirror selects only epics and issues (no issue mirror), so qew pr merge N then refuses (PR not recorded), and the agent guard leaves only QEW_ALLOW_FORGE_BYPASS=1. Expected: the PR opens and merges through qew; record the PR on the task and take the issue number (for the body reference) and the target from the nearest mirrored ancestor, as task claims do since 5.1.1. An item the mirror DOES select but has not synced yet still asks for qew sync.
