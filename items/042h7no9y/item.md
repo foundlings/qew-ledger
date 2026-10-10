@@ -7,5 +7,6 @@ labels:
 owner: 
 priority: 2
 created: 2026-10-10T20:23:13Z
+evidence: qslwvuyu
 ---
 Specs claimed no runtime dependencies although qew needs Python 3.15; releases.md described a flow nobody uses; drafts.md and ledger.md had outdated decisions.
