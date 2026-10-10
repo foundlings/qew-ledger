@@ -1,0 +1,11 @@
+id: 042g89w9k
+kind: issue
+title: Bulk set and bulk evidence manifests: qew set --manifest (labels, priority, gated) and qew evidence --manifest
+parent: 
+needs: 
+labels: 
+owner: 
+priority: 2
+created: 2026-10-10T08:41:36Z
+---
+Santa (foundlings), carrying owner direction: nothing is draft; items are Backlog, Ready, Gated, In progress or Done; 4,000+ items need gated labels and #2290 history needs evidence. Exists: needs:approval label = the Needs approval column and excluded from qew ready (set one item at a time with qew set --add-label); qew complete --manifest (5.1.0) completes without evidence on a human's quote. Proposed (needs owner go): (1) qew set --manifest FILE [--dry-run]: JSON Lines {item, add_label?, remove_label?, priority?}, every row checked first, one commit, unchanged rows no-ops, same as the other manifests. (2) qew evidence --manifest FILE [--dry-run]: rows {item, change_ids[]}, one commit, so that a later complete (single, or manifest) proves delivery on main. Not proposed: bulk claims on behalf of other actors (a claim is the claimer's own statement and the arbiter's reservation; agents run qew start themselves).
