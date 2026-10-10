@@ -7,5 +7,6 @@ labels:
 owner: 
 priority: 2
 created: 2026-10-10T20:10:19Z
+evidence: kvynpzrnqrtl rptnuqunukrt
 ---
 Foundlings: 26 of 29 open epics have claimed or completed children but sit in Ready/Backlog because tasks are ledger-only; 146 gated items, 4 mirrored.
