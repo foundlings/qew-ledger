@@ -1,0 +1,13 @@
+id: 042ggn1fm
+kind: issue
+title: Strict evidence: every completion cites resolvable change ids or a typed absence, shown in the item header
+parent: 
+needs: 
+labels: 
+owner: 
+priority: 2
+created: 2026-10-10T11:32:01Z
+---
+Owner words relayed verbatim by Santa: 'can we make the agent build a strict mode that changes need to have jj IDs/git hashes or a deliberate absence recorded? the evidence can be multiple hashes/IDs. that strict mode probably needs to be the default as well ... the evidence was supposed to be header only but you get what I want anyway ... the qew agent should implement it, build it and then raise the MSRV ... both qews and foundlings ledgers should have the evidence ids'.
+
+Plan: (1) item header keys evidence (ids as cited: jj change ids on jj, git hashes otherwise) and evidence_absent (kind: reason; kinds no-code, historical, superseded-by:ITEM, children); events stay the history. schema_version 4. (2) strict by default ([evidence] strict = false opts out): complete needs >=1 id that resolves AND is an ancestor of the target and is not the commit recording the completion, or a typed absence (--absent KIND --reason TEXT; --no-commit WHY is absence no-code); epics finished by children get absence children. (3) every path: complete, complete --manifest rows (change_ids or absent), close --delivered-by, accept of a forge close and imports (absence historical). (4) qew check validates header vs events and, in the deep check with the code repo, resolves and reachability; (5) qew migrate-layout takes 1-3 straight to 4 and backfills completed items from their evidence events, re-resolving; none resolve -> absence historical with the reason the importer or bulk path recorded; dry-run first. (6) release, migrate qew-ledger, tell Santa for foundlings.
