@@ -7,6 +7,7 @@ labels: area:lifecycle
 owner: 
 priority: 3
 created: 2026-10-08T17:20:13Z
+evidence: lkpulxlt
 ---
 ## Behaviour
 In the reference, a merge that never passed through an agent closes the forge issue but leaves a claim and a Done card. In the ledger the claim lives in events, so the equivalent stale state is: an item still `claimed` while a recorded `pr` mirror for it is merged (observed by `qew pr merge`/`qew sync`, or by a `merged` field written into the pr mirror), or a claimed item with no activity beyond a configured age. `qew check` prints a non-fatal note `claimed but its pull request merged: IDS` with the fix command (`qew land PR`), `qew list --state claimed --json` may carry a `stale` flag, and nothing is written. Open claimed items with no merged pull request and completed items are never stale.

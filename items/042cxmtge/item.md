@@ -7,6 +7,7 @@ labels: area:board-admin
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: pyzqpwku
 ---
 ## Behaviour
 A mirror's `project` is a positive integer (board number), accepted from the config or from `boards/<target>.json`. It survives a board rename. Validation happens at config load, before any network call: a title string, a numeric string used as a title, 0, a negative number, a boolean or a float is refused (exit 1/2, message 'project must be a positive board number'). A number that no board has is refused WITHOUT creating a new board (the checkout would silently drift). When `project_title` is also given and differs from the linked board's current title, refuse with a conflict naming both (never reconcile a different board). A target with neither `project` nor a recorded board creates one titled by `project_title`, default the repo name (qew's deliberate difference from the reference, which demands a title); an empty `project_title` is refused.

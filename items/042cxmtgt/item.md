@@ -7,6 +7,7 @@ labels: area:board-admin
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: xlzpxuxl
 ---
 ## Behaviour
 Sync overwrites an issue's labels with the item's labels plus `qew:STATE`, `kind:KIND`, `priority:N`. A ledger label in those namespaces would either be shadowed or would spoof state on the forge (an item labelled `qew:approved` while still a draft). Refuse, with exit 2 and the word 'reserved', BEFORE any write, every label whose casefolded name starts with `qew:`, `kind:`, `priority:` or `author:` (the derived author label, see `item-author-derivation`), on `qew create --label`, `qew set --labels`, and every `--from-file` / `--import` item (dry-run validation too). Also refuse, with the same discipline: names longer than 50 characters, leading/trailing spaces, control characters or newlines, commas, empty names (whitespace and comma checks exist; extend). `qew check` flags the same labels already present in files (hand-edited or merged).

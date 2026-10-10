@@ -7,6 +7,7 @@ labels: area:hooks-dist
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: xxklssuy
 ---
 ## Behaviour
 `scripts/release_metadata.py` writes a deterministic SPDX 2.3 document (name, creation time normalized to UTC from an offset timestamp, package name/version/license/purl, DESCRIBES relationship) and SHA256SUMS listing every dist artifact plus the SBOM in sorted order. Symlinks and non-regular files in dist are refused; checksums inside dist are refused (they would upload as a duplicate); version and source sha are validated.

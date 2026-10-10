@@ -7,6 +7,7 @@ labels:
 owner: 
 priority: 2
 created: 2026-10-10T07:22:20Z
+evidence: vlktmmwxvrok xnyzqvoqpkln
 ---
 Requested by Santa for foundlings (owner order relayed: items outside open phases must become DONE, #570/measure-board.py; 4,208 items; 710 mirrored). Today qew complete is one item per call, needs a claim and evidence.
 

@@ -7,6 +7,7 @@ labels: area:lifecycle
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: vokrmouv
 ---
 ## Behaviour
 Adversary walks for `qew land`: another actor's claim is reported with the exact `qew complete ITEM --take-over` command and never touched (exit 0); an unmerged or closed PR is a quiet no-op (exit 0); an item whose pull request merged into a non-target branch (a stacked branch) is reported `still open` and left alone because the merge is not on the configured target; an unreadable or truncated list of linked items, or a merged PR without a valid merge commit id, is indeterminate (exit 4) and writes nothing; a non-positive or non-numeric PR number is exit 2 before any ledger or forge access.

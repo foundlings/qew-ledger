@@ -7,6 +7,7 @@ labels: area:board-admin
 owner: 
 priority: 3
 created: 2026-10-08T17:20:13Z
+evidence: strmyrxk
 ---
 ## Behaviour
 Two mirror targets may point at one organization board. `qew project prune --target T --from OWNER/REPO` deletes exactly the cards whose issue belongs to the named repository (exact, case-insensitive match; never a prefix such as acme/other-two), then re-reads and fails with an indeterminate error if any remain. Refuses before any call: a malformed source (`other`, `a/b/c`, empty, spaces) and the target's own repository. Deleting a card never touches an issue. Nothing to remove prints `removed 0` and issues no delete. Forge Board interface gains `remove_from_board(board, card)`; Unsupported elsewhere.

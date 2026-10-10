@@ -7,6 +7,7 @@ labels: area:pull-requests
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: lkkplpsu
 ---
 ## Behaviour
 Ticks `- [ ]` lines of a recorded PR's body outside code fences, addressed by `<!-- pr-progress:ID -->` marker, else by 1-based position (`@N` when a marker already uses N). Unknown ids and duplicate ids are exit 2 before any write. The body is re-read immediately before the write and the write is skipped (exit 3) if the body changed since the first read (no compare-and-set exists on forges; the residual window is documented); the result is read back and verified, and a write that did not stick is exit 3. The rest of the body, including line endings, is preserved byte for byte. An already-ticked item writes nothing. `--list` prints each item and whether it is ticked, writes nothing. The command is listed in the `--help` epilog group, README and commands.md.

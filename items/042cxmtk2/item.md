@@ -7,6 +7,7 @@ labels: area:lifecycle
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: lyrtzqmu
 ---
 ## Behaviour
 `qew complete ITEM --reason TEXT` appends a `completed` event carrying the reason, the full commit ids proven landed on the target branch (shortened input is resolved to the full id) and the numbers of merged pull requests recorded in the item's `pr` mirrors for those commits (reference closing comment: `Landed: commit <sha> on <branch>`, `PR: #N`). `qew show` prints it. Input defences before any read or write, exit 2: empty or whitespace reason; a change id that is not hex/jj id (covered by `valid_change`); a branch name that is empty, starts with `-` or contains `...`. `--landed-on BRANCH` may override the configured target for stacked branches. The tip itself counts as landed.

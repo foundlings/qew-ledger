@@ -7,6 +7,7 @@ labels: area:hooks-dist
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: utnmomos
 ---
 ## Behaviour
 Every hook event exits 0 with empty output (explicit allow for Cursor) on empty stdin, non-JSON, JSON that is not an object, non-string command, non-object tool_input, a missing qew ledger or an internal exception. Only a deliberate refusal is non-silent.

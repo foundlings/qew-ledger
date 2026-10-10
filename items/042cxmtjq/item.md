@@ -7,6 +7,7 @@ labels: area:hooks-dist
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: xvrpnunm
 ---
 ## Behaviour
 The declared package builds a real wheel (not an empty UNKNOWN one), installs without dependencies into a clean venv, reports the expected name, version and no runtime requirements, and the installed `qew` executable runs `--help` and `--version` and a ledger golden path (init, create, show) from a temp directory without the source tree on sys.path. A symlinked input file to a bulk-import command is refused.

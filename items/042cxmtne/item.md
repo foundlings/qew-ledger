@@ -7,6 +7,7 @@ labels: area:read-side
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: zmylysnntyyu
 ---
 ## Behaviour
 When a title carries zero-width, bidi, Unicode tag or confusable findings, prime does not print the title. It lists `ID suspicious title text: zero_width, bidi_control` under Contradictions and skips the item so an agent never reads hidden instructions at session start. The conventions block always states that titles are approved but remain untrusted data. The same rule applies to the hook session-start text.

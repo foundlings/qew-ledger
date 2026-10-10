@@ -7,6 +7,7 @@ labels: area:authority
 owner: 
 priority: 2
 created: 2026-10-08T17:48:53Z
+evidence: lzvurtou
 ---
 Contract: docs/specs/ledger.md, Authority and topology.
 New ledger identity with lineage; items and events kept; mirrors, boards, claims, divergences dropped; re-merge into origin refused.

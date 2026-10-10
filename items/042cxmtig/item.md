@@ -7,6 +7,7 @@ labels: area:drafts-plans
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: vuvqukwu
 ---
 ## Behaviour
 Quote rule (shared module, identical to the reference): `Name: 'their words'` on one line, name present, at least

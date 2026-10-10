@@ -7,6 +7,7 @@ labels: area:board-admin
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: nkvovosw
 ---
 ## Behaviour
 In qew an epic is the campaign/milestone. Add counts to epic rows of `qew list --kind epic` / `qew show`: children open, children done, `completable` (not closed, at least one child, no open child), and the exact `qew complete EPIC` command only when completable. Terse text, JSON rows carry `schema_version`. Hostile titles are never echoed next to a runnable command: see `output-untrusted-text`. Closed epics are excluded from the default listing; a named epic shows even if closed.

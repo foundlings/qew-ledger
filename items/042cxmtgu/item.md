@@ -7,6 +7,7 @@ labels: area:board-admin
 owner: 
 priority: 3
 created: 2026-10-08T17:20:13Z
+evidence: ynxmurrs
 ---
 ## Behaviour
 The reference's `area ensure` command is dropped (labels live in item headers, forges get them from sync) but its two guarantees remain for sync: a label that already exists on the forge is NEVER recoloured, re-described or deleted by sync (a team tuned it), and a label sync must create gets a neutral colour (`EDEDED`) and a short fixed description. After creating missing labels the backend confirms the labels exist; one that did not persist is a typed indeterminate failure of that item, not a silent success.

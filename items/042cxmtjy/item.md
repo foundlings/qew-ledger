@@ -7,6 +7,7 @@ labels: area:lifecycle
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: opppyqtx
 ---
 ## Behaviour
 `qew start ITEM` must distinguish its refusals the way agent loops need: claimed by someone else (exit 3, names the holder and the take-over command), already claimed by the caller (exit 5, idempotent success signal for loops, no event written), not startable because draft or unmet needs (exit 2, names the needs), unknown item (exit 2). Refusals write nothing. The claimed event records the actor. Document the exit codes (0 ok, 1 invalid ledger, 2 refusal or usage, 3 ownership conflict or environment, 4 indeterminate, 5 already yours, 6 claim cap) in docs/specs/commands.md and the `--help` epilog.

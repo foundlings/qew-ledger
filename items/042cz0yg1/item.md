@@ -7,6 +7,7 @@ labels: area:authority
 owner: 
 priority: 2
 created: 2026-10-08T17:48:53Z
+evidence: xmtwznyx
 ---
 Contract: docs/specs/ledger.md, Authority and topology.
 Schema gains `tracks:` and `pr:` (ledger ids); forge numbers and URLs never appear in item files; `qew show` resolves links to forge URLs from mirrors/.

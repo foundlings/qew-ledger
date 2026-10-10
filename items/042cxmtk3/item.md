@@ -7,6 +7,7 @@ labels: area:lifecycle
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: lyrtzqmu
 ---
 ## Behaviour
 `qew complete ITEM --take-over --reason TEXT` proves the completion evidence first, then completes work another actor holds, recording `taken_over_from` and the completer on the `completed` event (the reference appends `Taken over from LOGIN by CALLER` to the closing comment). Refused before any write when no other actor holds the item (2) or evidence fails. It also clears a claim left behind when a forge closed the mirrored issue first (see `stale-claims-report`).

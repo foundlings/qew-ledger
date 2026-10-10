@@ -7,6 +7,7 @@ labels: area:board-admin
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: lyzzommk
 ---
 ## Behaviour
 `qew inbox [--login L] [--count] [--json]` reads only the ledger. Sections: `waiting` (draft items authored by L, i.e. waiting for a human to approve), `assigned` (items currently claimed by L; open, derived from claim events). Replies from forge comments are out of scope until the ledger models comments (list in dropped). `--count` prints one line for the session-start hook and conflicts with `--json` (exit 2); an invalid login is refused (exit 2); login defaults to the configured actor. Titles go through the shared untrusted-text helper. JSON rows carry `schema_version` and `section`. No state is kept.

@@ -7,6 +7,7 @@ labels: area:replication
 owner: 
 priority: 0
 created: 2026-10-08T17:20:13Z
+evidence: qlusuzvz
 ---
 Contract: Replication 4,5. Read issues, PRs, labels, comments (and board column) from a forge project into ledger items with mirrors and provenance forge-import; closed issues import closed or completed(import) with --history.
 Scenarios (each a named walk whose docstring states the failure it prevents):

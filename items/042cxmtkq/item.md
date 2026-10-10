@@ -7,6 +7,7 @@ labels: area:lifecycle
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: zmpyzrrm
 ---
 ## Behaviour
 `qew comment ITEM (--body TEXT | --body-file FILE)` appends a `comment` event with the text and the actor (CLAUDE.md names `qew comment` for discussing drafts). Exactly one of body and body-file; empty or whitespace-only is refused; a symlinked body file is refused; text is stored as data, size-bounded, and never evaluated. Works on any state including draft, completed and closed. `qew show` prints the ten most recent comments (and `--json` all of them), truncating with a count. Event schema gains `comment` (allowed in every state, no transition).

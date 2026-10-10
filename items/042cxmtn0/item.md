@@ -7,6 +7,7 @@ labels: area:read-side
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: swlnmnxn
 ---
 ## Behaviour
 Reads validate before printing: an unparseable item file, malformed event, unknown header key, duplicate id, or truncated header makes `list`, `ready`, `blocked`, `show`, `graph`, `prime`, `inbox` refuse (exit 1, nothing on stdout) naming the file. This is the ledger form of the reference rule that a truncated or incomplete page never produces a guessed answer. A single bad item must not be skipped silently, and a read must not hide the bad file by listing the rest.

@@ -7,6 +7,7 @@ labels: area:lifecycle
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: opppyqtx
 ---
 ## Behaviour
 `qew complete` must refuse work the caller does not hold: claimed by another actor is exit 3 naming `--take-over` (see `take-over-complete`); unclaimed (approved) work is refused naming `qew start`; already completed work is refused with no second event, so a retry after a successful completion does not append a duplicate (the reference refuses a closed issue nobody claimed as exit 3 `no claim to complete`, never reports it done). Today `qew complete` checks only that the item is claimed, so any actor can complete another actor's claimed item.

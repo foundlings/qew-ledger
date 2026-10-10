@@ -7,6 +7,7 @@ labels: area:pull-requests
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: lkkplpsu
 ---
 ## Behaviour
 `--auto` lets a PR with pending checks merge once they pass, but only when the base branch requires status checks (branch protection or an active ruleset); otherwise the forge would merge at once and skip CI, so it is refused (exit 3 'would merge immediately'). Rules that cannot be read are an indeterminate failure (exit 4), never assumed. After enabling, the PR is re-read and must show auto-merge enabled, else exit 3. The output names the follow-up (`qew complete`). A forge without auto-merge raises `Unsupported` and exits with a clear line. `--auto` with `--admin` is exit 2 before any call.

@@ -7,6 +7,7 @@ labels: area:pull-requests
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: lkkplpsu
 ---
 ## Behaviour
 `qew pr merge NUMBER` reads the PR once, applies the full gate in order, and only then calls the forge, pinned to the head it read (`merge_pull_request(number, head_sha)`, a merge commit, no squash). Refusals (zero writes): not open -> exit 2 (closed, merged distinguished); draft -> exit 2 with `run qew pr ready N`; conflicts -> exit 2; unknown mergeable (None) is told apart from conflicts (`merge state unknown, retry`); unticked checklist items -> exit 2 naming them; covered item still a draft -> exit 2 naming the item and `qew draft approve`; failing checks and pending checks told apart (both exit 3, texts `are failing` / `are pending`); `none` checks allowed. The success line names the SHA and the next step `qew complete ID`.

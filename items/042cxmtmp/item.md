@@ -7,6 +7,7 @@ labels: area:pull-requests
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: lkkplpsu
 ---
 ## Behaviour
 Every forge call has a bounded timeout (default 30 s, the `urllib_transport` timeout; configurable through the `timeout` mirror option, YAGNI otherwise) and failures are typed: unreachable or timed out -> `ForgeUnavailable`, missing token -> `ForgeAuth` before any request. The pr commands (`open`, `ready`, `merge`) print one stderr line with the target and the cause and exit 1, never a Python traceback. The mirror-slug lookup for a recorded pr whose mirror left the config is a typed refusal, not `StopIteration`. A token resolved from `gh auth token` fails closed when the helper hangs or is missing (falls to ForgeAuth).

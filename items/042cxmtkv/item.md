@@ -7,6 +7,7 @@ labels: area:merge-gate
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: lkkplpsu
 ---
 Merging an item claimed by someone else is refused unless the claim was taken over with a reason.
 Scenarios:

@@ -7,6 +7,7 @@ labels:
 owner: 
 priority: 2
 created: 2026-10-10T11:32:01Z
+evidence: yrqqpmntzpwt psnpkxuzrotr
 ---
 Owner words relayed verbatim by Santa: 'can we make the agent build a strict mode that changes need to have jj IDs/git hashes or a deliberate absence recorded? the evidence can be multiple hashes/IDs. that strict mode probably needs to be the default as well ... the evidence was supposed to be header only but you get what I want anyway ... the qew agent should implement it, build it and then raise the MSRV ... both qews and foundlings ledgers should have the evidence ids'.
 

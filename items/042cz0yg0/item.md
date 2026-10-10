@@ -7,6 +7,7 @@ labels: area:authority
 owner: 
 priority: 1
 created: 2026-10-08T17:48:53Z
+evidence: kkrlvmnm
 ---
 Contract: docs/specs/ledger.md, Authority and topology.
 Every non-primary target is one-way: pull ignores its edits (optionally flags a state edit as a divergence); `qew mirror add FORGE REPO [--read-only]`, `qew mirror remove TARGET`, `qew mirror list` edit config.

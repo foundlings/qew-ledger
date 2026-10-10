@@ -7,6 +7,7 @@ labels: area:read-side
 owner: 
 priority: 3
 created: 2026-10-08T17:20:13Z
+evidence: lkwvxzzuxwpk
 ---
 ## Behaviour
 Routine reads (`ready`, `prime`, hook context) never emit item bodies; bodies appear only via `qew show ITEM` or `qew list --bodies`, both explicit inspection actions, and only for approved work in `--bodies` (drafts via `show` or `triage`). Output is annotated with text findings and never rewritten.

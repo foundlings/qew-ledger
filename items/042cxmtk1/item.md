@@ -7,6 +7,7 @@ labels: area:lifecycle
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: opppyqtx
 ---
 ## Behaviour
 Taking over work another actor holds is a deliberate act. `qew start ITEM --take-over --reason TEXT` checks the item may start (not draft, no unmet needs, not completed or closed), then appends a forced `released` event (previous owner, reason, taker) and a `claimed` event for the caller, both in one command. Without the flag another actor's claim stays exit 3. Refused before any write: `--take-over` without `--reason` (2); nothing to take over because the item is unclaimed or the caller already holds it (2); an item that may not start (2), so the claim is never freed and then stranded.

@@ -7,6 +7,7 @@ labels: area:board-admin
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: tzkypnzv
 ---
 ## Behaviour
 `qew project status [--target T] [--json]` compares, per target, the derived column (and Priority) of every selected item with the live card and prints: `<slug>: in sync` or the drift lists `missing`, `stale_column`, `stale_priority` plus the one fix command `qew project ensure` / `qew sync`. It never writes. Exit 0 when in sync, 1 when drifted or the forge fails, 2 on a bad target; a target without a recorded/configured board says so and names `qew project ensure` (exit 2); an Unsupported forge prints 'boards unsupported' like ensure. JSON rows carry `schema_version`, `in_sync`, `missing`, `stale_column`, `stale_priority`, `fix`. Drift is advisory: forge state is never read back as truth for the ledger (sync stays push-only); the report only says the forge disagrees.

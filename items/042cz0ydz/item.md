@@ -7,6 +7,7 @@ labels: area:authority
 owner: 
 priority: 0
 created: 2026-10-08T17:48:53Z
+evidence: xvrrtysx
 ---
 Contract: docs/specs/ledger.md, Authority and topology.
 Parse `[authority] primary = target slug | "none"` (default none); unknown targets fail; shown by `qew status`.

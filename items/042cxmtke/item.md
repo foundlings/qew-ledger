@@ -7,6 +7,7 @@ labels: area:lifecycle
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: lyrtzqmu
 ---
 ## Behaviour
 `qew reopen ITEM --reason TEXT` records why work is required again on the `reopened` event; the fold already clears the owner so no stale claim survives. Reopening an item that is already open (draft, approved, claimed) is a write-free no-op, exit 0, output `unchanged ITEM (already open)` (reference), instead of today's exit 2 refusal; a completed item that other completed items depend on reopens and its dependents become blocked again (derived). Reopen returns to approved, never to claimed.

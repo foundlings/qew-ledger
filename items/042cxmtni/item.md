@@ -7,6 +7,7 @@ labels: area:read-side
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: rumoopxukttr
 ---
 ## Behaviour
 An unparseable comment time, a comment without a body, an item without a title, or an event stream that cannot be read to the window start fails the inbox with exit 1 and empty stdout. The ledger has no search paging, so the reference paging adversaries (label churn burying a reply, older comment pages hidden behind a last-N cut, missing cursor) reduce to one rule: the inbox scans every event of every candidate item, never a tail slice.

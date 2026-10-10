@@ -7,6 +7,7 @@ labels: area:lifecycle
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: opppyqtx
 ---
 ## Behaviour
 Lane-aware start and release: a start on an item the caller already holds exits 3 naming the holding lane (or `without a lane`), also when `--lane` is omitted; it exits 5 only for the same lane, or for a lane-less start on a lane-less claim. Release of a lane claim by a different `--lane` is exit 3 unless `--force`. The lane guards `start` and `release` only; `complete`, `close`, `reopen` and `pr` do not check it (good-faith tooling, not access control; state this in the spec).

@@ -7,6 +7,7 @@ labels: area:board-admin
 owner: 
 priority: 3
 created: 2026-10-08T17:20:13Z
+evidence: msszqtwq
 ---
 ## Behaviour
 The reference labels issues `author:LOGIN` from the opener GitHub records and later needs `author backfill`. In the ledger the author is a fact already: the `actor` of the item's first event. Expose it: `qew list --author LOGIN` (case-insensitive), `qew show` prints `author`, imports keep the actor of the imported first event, and sync adds the label `author:LOGIN` to the mirrored issue. The author is never taken from a typed argument (no `--author` on create). An actor that cannot be a label (space, comma, over 50 characters) is a typed failure before any write, naming the item; an item whose first event has no actor shows 'unknown' and gets no label (not a guess). Items that already carry a manual `author:` label on the forge are not retagged. No backfill command is needed.

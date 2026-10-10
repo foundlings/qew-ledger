@@ -7,6 +7,7 @@ labels: area:pull-requests
 owner: 
 priority: 3
 created: 2026-10-08T17:20:13Z
+evidence: lkkplpsu
 ---
 ## Behaviour
 Machine-readable result: merge -> `{merged: true, number, head_sha, items: [IDs], schema_version}`, ready -> `{number, ready, changed}`, open -> see pr-open-golden. Every flag is in help_text, README and commands.md, per repo rules.

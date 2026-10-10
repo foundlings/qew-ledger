@@ -7,6 +7,7 @@ labels: area:read-side
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: tyqqmllz
 ---
 ## Behaviour
 `qew ready` returns at most 30 items by default in priority order (lower number first, then stable id order), reports `total` and `truncated`, and warns on stderr when it truncated. `--limit N` changes the bound; `--limit 0` returns everything. The bound exists so an agent session never silently swallows a 500-item ready list. Negative or non-integer limits are a usage error (exit 2).

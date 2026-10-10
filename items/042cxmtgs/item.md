@@ -7,6 +7,7 @@ labels: area:board-admin
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: ntxvlqvt
 ---
 ## Behaviour
 `find_issue(marker)` is the crash-recovery path: after a crash it adopts the forge issue carrying `<!-- qew:ID -->` instead of creating a duplicate. Today every backend uses a substring test, so an untrusted issue body that merely QUOTES the marker (or an unrelated issue on a shared repo) is adopted and then overwritten by the next sync. Rules, shared by all three backends via one helper: the marker must be the first line of the body or stand alone on its own line; the id inside must match the item's id exactly and be well formed (malformed or case-altered ids never match); an issue that is a pull request is skipped (exists); at most one match: two issues carrying the marker is a typed error naming both numbers, not a pick-the-first; a match whose opener differs from the token's user is reported (warning, not refused) since a collaborator may legitimately have created it. A dry run (`qew sync --dry-run`) lists would-adopt without writing.

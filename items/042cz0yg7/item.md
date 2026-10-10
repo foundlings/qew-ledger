@@ -7,6 +7,7 @@ labels: area:authority
 owner: 
 priority: 2
 created: 2026-10-08T17:48:53Z
+evidence: nlzvllvqqmzn
 ---
 Contract: docs/specs/ledger.md, Authority and topology.
 Fork foundlings/qew-ledger into a NEW private repo with its own GitHub target and board (do not touch the real ledger); race a claim between two checkouts; verify a read-only mirror ignores forge-side edits; migrate between the two targets. File findings as issues; clean up only if the owner asks.

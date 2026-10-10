@@ -7,6 +7,7 @@ labels: drive-finding area:replication
 owner: 
 priority: 0
 created: 2026-10-08T18:19:49Z
+evidence: mzyzmozu
 ---
 Seen live: after three scratch checkouts and the shared checkout synced foundlings/qew, the shared ledger's main bookmark was conflicted (mirrors/<ID>/<target>.json 2-sided conflict) and pushes were refused. Cause: every sync rewrote the mirror file (synced_at, synced_event, synced_hash, seen, linked, column), so two machines edit the same file.
 

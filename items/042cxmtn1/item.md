@@ -7,6 +7,7 @@ labels: area:read-side
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: vywrlusoxowu
 ---
 ## Behaviour
 A small module (no third-party dependency, not coupled to the ledger or any forge) returns sparse, stable findings for one string: `zero_width` (U+200B, U+200C, U+200D, U+2060, U+FEFF), `bidi_control` (U+061C, U+200E, U+200F, U+202A-202E, U+2066-2069), `unicode_tags` (U+E0000-E007F), `confusable` (ASCII-lookalike ranges: fullwidth letters and digits, mathematical alphanumerics, Roman numeral forms, ligatures; Greek and Cyrillic only when the same string also holds ASCII letters or digits). Legitimate emoji are exempt: joiner sequences with at least two emoji bases, variation selectors and skin tone modifiers on emoji bases, keycaps on [0-9#*], and tag sequences only when they spell a recommended subdivision flag (England, Scotland, Wales). Vocabulary is pinned to a reviewed Unicode release with its source snapshot hashes in the module, never read from the host's Unicode database, so findings are identical on every machine. Findings are advisory: text is never normalized, hidden or rejected.

@@ -7,6 +7,7 @@ labels: area:lifecycle
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: lyrtzqmu
 ---
 ## Behaviour
 When a commit that nobody claimed delivered an item, the reference lets `close --delivered-by SHA --landed-on BRANCH` record it as completed with the same landing proof as `complete`; half a proof (one flag), or an unlanded commit, is refused before any write. In qew the `completed` state needs a claim; add a close disposition `delivered` (or allow `qew complete --deliverer` from approved) that requires landed evidence, stores it and reaches `completed` so dependents unblock. Without it, work shipped outside qew can only be closed as not planned, which wrongly keeps dependents blocked.

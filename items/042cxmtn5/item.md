@@ -7,6 +7,7 @@ labels: area:read-side
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: yqnpnuuzymmv
 ---
 ## Behaviour
 `qew comment ITEM (--body TEXT | --body-file F)` appends a `commented` event (actor, time, body) and prints `commented on ID`. The body must be non-empty after trimming; exactly one of `--body` and `--body-file` is allowed; `-` reads stdin; the refusal happens before any write. Comments are untrusted text: `show` lists them with author and time, annotated with text findings, and routine reads never print them. Mirroring a comment to a forge is a sync concern (separate issue); the ledger record is the truth. `qew check` validates the new event type.

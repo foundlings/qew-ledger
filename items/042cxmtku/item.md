@@ -7,6 +7,7 @@ labels: area:merge-gate
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: lkkplpsu
 ---
 The checked head must be covered by an evidence event of the item before merge.
 Scenarios:

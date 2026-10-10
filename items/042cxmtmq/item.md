@@ -7,6 +7,7 @@ labels: area:pull-requests
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: uuznntwp
 ---
 ## Behaviour
 Mirror `repo` and `api` values are validated at config load: scheme http/https only, no credentials or query/fragment in the URL, owner and repo path segments limited to the forge character set (GitLab allows nested groups); anything else is refused (exit 2) before any request. Forge text (titles, bodies, error detail) is never used as a path, command or URL to follow (Link headers leaving the API root are refused, already enforced for GitHub). PR numbers are positive integers validated before use in a URL path.

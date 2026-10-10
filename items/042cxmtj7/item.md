@@ -7,6 +7,7 @@ labels: area:hooks-dist
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: wlskzyqr
 ---
 ## Behaviour
 `qew hook remove` on a checkout with no agent config creates no file or directory (no `.claude`, `.codex`, `.cursor`, `.opencode/plugins`), exits 0 and prints `unchanged AGENT hook`, for each of the four agents and for the all-agents default.

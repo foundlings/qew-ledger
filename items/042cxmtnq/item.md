@@ -7,6 +7,7 @@ labels: area:replication
 owner: 
 priority: 0
 created: 2026-10-08T17:20:13Z
+evidence: tnvolyzl
 ---
 Contract: Replication 2. Short timeout; unreachable remote keeps local commits; next command retries.
 Scenarios (each a named walk whose docstring states the failure it prevents):

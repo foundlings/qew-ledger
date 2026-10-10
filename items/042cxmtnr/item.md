@@ -7,6 +7,7 @@ labels: area:replication
 owner: 
 priority: 0
 created: 2026-10-08T17:20:13Z
+evidence: tmuqzlvtpqmz
 ---
 Contract: Replication 3. Time budget, per-target isolation, pending derived from event ids (no outbox files).
 Scenarios (each a named walk whose docstring states the failure it prevents):

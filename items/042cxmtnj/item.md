@@ -7,6 +7,7 @@ labels: area:read-side
 owner: 
 priority: 3
 created: 2026-10-08T17:20:13Z
+evidence: uykmxylkznot
 ---
 ## Behaviour
 When `qew create` or `qew set --body` is given Markdown prose, a high-precision detector reports tokens that look like commands or paths but are not inside backticks or fenced blocks: long flags (`--name`), absolute or dot paths, `qew ...` subcommands, `git`, `gh`, `python -m` and `pipx` invocations. Each prints `warning: unmarked code-shaped text: TOKEN` to stderr, deduplicated and in order of appearance; the write still succeeds (advisory). Fence handling accepts three-backtick and tilde fences, ignores indentation, and treats an unclosed fence as code to the end. Purpose: agents quoting commands unmarked in an item body makes later readers (and agents) treat them as instructions.

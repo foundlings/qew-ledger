@@ -7,6 +7,7 @@ labels: area:lifecycle
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: lkpulxlt
 ---
 ## Behaviour
 `qew block ITEM --on DEP` adds DEP to ITEM's `needs`; `qew unblock ITEM --from DEP` removes it. Each is idempotent (an existing or absent edge is `unchanged`, exit 0), appends a `field` audit event with old and new needs, and refuses before any write: a self edge, an unknown item, a transitive cycle (names the cycle), and a completed or closed ITEM unless `--closed` (the reference demands the override to protect finished work). Today only `qew set --needs` exists, which replaces the whole list, so an edge add from a stale view silently drops a concurrently added edge.

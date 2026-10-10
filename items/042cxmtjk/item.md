@@ -7,6 +7,7 @@ labels: area:hooks-dist
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: vkxurlus
 ---
 ## Behaviour
 The reference auto-landed the closed items after `gh pr merge N`. In qew a raw merge is refused by pre-tool, and the ledger is the source of truth, so the post-tool hook must instead handle merges that happen anyway (merge via `qew pr merge`, the forge UI, auto-merge): after a successful `qew pr merge N` run by the agent, post-tool prints one line naming the items whose evidence is now merged and the exact `qew complete ITEM` command; it never completes anything itself (a human or agent completion stays explicit) and never acts on a PR that is not merged.

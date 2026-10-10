@@ -7,6 +7,7 @@ labels: area:drafts-plans
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: ytospwsp
 ---
 ## Behaviour
 `qew plan status [EPIC] [--json]` rolls up the direct children of one epic, or of every open epic when none is

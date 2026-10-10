@@ -7,6 +7,7 @@ labels: area:replication
 owner: 
 priority: 0
 created: 2026-10-08T17:20:13Z
+evidence: vpsrvqkt
 ---
 Contract: Replication 4. Title/body/label edits and new comments made outside qew become `field`/`commented` events with provenance `forge`; then pushed to the other targets.
 Scenarios (each a named walk whose docstring states the failure it prevents):

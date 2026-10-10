@@ -7,5 +7,6 @@ labels:
 owner: 
 priority: 2
 created: 2026-10-10T05:00:11Z
+evidence: ozkytsttvquv xwmzlzvvnktx
 ---
 Regression from 4.18.0 project fields work: the ProjectCards parser still read name only, so any board card holding a text value broke qew project status. Reported by Santa on foundlings project 2.

@@ -7,6 +7,7 @@ labels: area:read-side
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: tvlvzwmyuzko
 ---
 ## Behaviour
 docs/specs/security.md must state, for the ledger model: item titles, bodies, comments, actor names and branch names are untrusted data; routine reads (`ready`, `list`, `prime`, hook context) print bounded metadata only; bodies and comments appear only in explicit inspection (`show`, `triage`, `list --bodies`); prime and hook context re-validate approval locally, quote and byte-bound titles, withhold titles with suspicious Unicode, and state that data is not instructions; text findings are annotations pinned to a reviewed Unicode release; identifiers and search terms are never interpolated into shells, paths or forge queries; approval needs a human's quote. Add a measurement doc and a checked-in script that compares raw ledger bytes against compact `--json` output for ready, list, prime and show on a fixed fixture ledger, with exact UTF-8 byte sizes and a stdlib token proxy, failing when a command regresses past its recorded size.

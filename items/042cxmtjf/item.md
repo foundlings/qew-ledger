@@ -7,6 +7,7 @@ labels: area:hooks-dist
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: wlskzyqr
 ---
 ## Behaviour
 Hook install and remove work from any subdirectory of a plain git checkout, a colocated git+jj checkout and a jj-only checkout with no `.git`, always writing at the nearest ancestor holding `.git` or `.jj`, never creating a private `.git`. Outside any repository they exit 2 with `not inside a Git or jj repository` and create nothing.

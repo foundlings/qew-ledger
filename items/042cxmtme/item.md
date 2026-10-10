@@ -7,6 +7,7 @@ labels: area:pull-requests
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: lkkplpsu
 ---
 ## Behaviour
 `qew pr ready NUMBER [--target T]` marks the caller's recorded draft PR ready, then re-reads the PR and verifies it is no longer a draft (still a draft afterwards is an indeterminate failure, exit 4, never success). A merged or closed PR is exit 2 and writes nothing. An already-ready PR is reported unchanged and writes nothing. A non-positive number is exit 2 before any ledger or forge call. A PR whose covered items include a draft is refused (exit 2). The command stays discoverable as a subcommand of `qew pr`.

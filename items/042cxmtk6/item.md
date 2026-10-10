@@ -7,6 +7,7 @@ labels: area:lifecycle
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: opppyqtx
 ---
 ## Behaviour
 Agent fleets run many lanes under one actor; an idle loop must not claim more work than can run. `.qew/config.toml` accepts a positive integer cap. `qew start` counts the caller's currently claimed items from the fold after the availability checks and refuses at the cap with exit 6 before any event (count is per actor because the config is shared by everyone in the repo). Without a cap no count is read. A malformed cap (0, negative, string, boolean, float) is invalid configuration, exit 2, naming the key, before any ledger access. Claims left by dead lanes count until released. In a ledger the count is exact for one checkout; merged branches can briefly exceed it, which the spec states.

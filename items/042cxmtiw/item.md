@@ -7,6 +7,7 @@ labels: area:drafts-plans
 owner: 
 priority: 3
 created: 2026-10-08T17:20:13Z
+evidence: kpvzkqlz
 ---
 ## Behaviour
 Reference refuses a viewer login that cannot be a label (GitHub text is untrusted) and refuses a hand-written

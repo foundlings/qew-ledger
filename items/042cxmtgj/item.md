@@ -7,6 +7,7 @@ labels: area:board-admin
 owner: 
 priority: 3
 created: 2026-10-08T17:20:13Z
+evidence: rsrmurwp ynzrmwqk
 ---
 ## Behaviour
 GitHub boards get views Kanban (board layout, the default view renamed), Table, Ready (`status:Ready`), Blocked (`is:blocked`), Active (`status:"In progress"`), Review (`status:"In review"`), Drafts (`status:Draft`) and Roadmap (roadmap layout). Missing views are created, wrong layout or filter is repaired, views qew does not own are never touched, and a view already scoped by hand is left alone (no update call). When the mirror has a `select` expression whose terms are labels, every qew view filter is prefixed with the equivalent `label:` filter so an unrelated issue that reaches the board stays out of qew's views (the reference's overlay scoping; a mirror selecting everything adds no prefix). Other forges: Unsupported, not faked.

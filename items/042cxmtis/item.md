@@ -7,6 +7,7 @@ labels: area:drafts-plans
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: qvztzwnr
 ---
 ## Behaviour
 GitHub writes are not atomic, so the reference keeps a checkpoint file, a plan digest and a provenance marker per

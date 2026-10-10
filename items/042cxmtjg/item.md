@@ -7,6 +7,7 @@ labels: area:hooks-dist
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: yyxqtxwu
 ---
 ## Behaviour
 Where qew shells out to a tool that needs a git context (repository URL inference for evidence and PR commands), a jj secondary workspace with no `.git` resolves the real git store through the workspace pointer file and the main repository's `store/git_target`, passing it as the git directory. An unresolvable pointer fails loudly (exit 3) naming what could not be resolved. A plain git checkout is left to the tool's own inference.

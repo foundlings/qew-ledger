@@ -7,6 +7,7 @@ labels: area:lifecycle
 owner: 
 priority: 3
 created: 2026-10-08T17:20:13Z
+evidence: lkpulxlt
 ---
 ## Behaviour
 When a body (or comment) contains command-, flag- or path-shaped text that is not inside backticks or a fence, `create`, `set --body` and `comment` print `warning: unmarked code-shaped text: X` on stderr per finding and write the body byte-for-byte as given (exit 0). It is a hint, not a gate.

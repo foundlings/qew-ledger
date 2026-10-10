@@ -7,6 +7,7 @@ labels: area:authority
 owner: 
 priority: 3
 created: 2026-10-08T17:48:53Z
+evidence: wtknmoyz
 ---
 Contract: docs/specs/ledger.md, Authority and topology.
 GitHub and Forgejo/Gitea get full scenarios for every authority feature; GitLab is not extended (documented, existing tests only).

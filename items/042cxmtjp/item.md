@@ -7,6 +7,7 @@ labels: area:hooks-dist
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: xxklssuy
 ---
 ## Behaviour
 `scripts/setup_user.py` creates a virtualenv under XDG data home, installs the checkout, and symlinks `qew` into `~/.local/bin`; rerun is idempotent; it warns when the directory is not on PATH; refuses to replace any file it does not own (exit 2); unsupported OS exits 2; failed environment/install commands exit 3.

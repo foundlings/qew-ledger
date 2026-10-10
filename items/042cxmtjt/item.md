@@ -7,6 +7,7 @@ labels: area:hooks-dist
 owner: 
 priority: 3
 created: 2026-10-08T17:20:13Z
+evidence: rmvlwpmq
 ---
 ## Behaviour
 Qew has no forge CI (docs/specs/releases.md), so the reference workflow gate becomes a local release-script step: the working copy commit must equal the source sha passed to the metadata script, the tree must be clean, and the package version must equal the tag.

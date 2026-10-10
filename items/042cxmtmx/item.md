@@ -7,6 +7,7 @@ labels: area:read-side
 owner: 
 priority: 3
 created: 2026-10-08T17:20:13Z
+evidence: swlnmnxn
 ---
 ## Behaviour
 Text rows are `ID STATE pN kind title [@owner]`, ordered by priority then by sortable id, identically for ready, list and blocked, so output order is deterministic across counter, letters and time id modes. The row must never contain control characters from an item title (see text-scan issues); the row for a long title is not truncated by ready but is bounded in prime.

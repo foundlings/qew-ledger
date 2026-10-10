@@ -7,6 +7,7 @@ labels: area:board-admin
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: wtpqppvs ytnnyxvt
 ---
 ## Behaviour
 The column of an item on a target board is a pure function of the ledger snapshot (no network). Precedence, highest first: completed or closed -> Done (even if it was once a draft); draft -> Draft before every other rule; an epic is never Ready (it is not startable): it shows In progress while at least one open non-epic direct child is claimed, Done when completed/closed, Draft while a draft, otherwise it waits in Draft (qew has no Backlog column; record that decision in docs/specs/forges.md); approved, unclaimed, every need completed -> Ready; approved but blocked -> Draft (the column set is fixed at five); claimed -> In progress; claimed and an OPEN pull request mirror exists -> In review. A pull request mirror whose recorded state is merged or closed does NOT keep the item In review. The same function feeds `qew sync` and the planned offline `qew board`, so there is one implementation (`sync_plan.column`).

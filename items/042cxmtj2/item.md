@@ -7,6 +7,7 @@ labels: area:graph-ready
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: omslnoop
 ---
 Dependency edges and parent edges as text, Graphviz dot and Mermaid; deterministic order.
 Scenarios:

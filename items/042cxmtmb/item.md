@@ -7,6 +7,7 @@ labels: area:pull-requests
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: uuznntwp
 ---
 ## Behaviour
 `RemotePullRequest` gains `body` and `author` (forge login); `Forge` gains `update_pull_request_body(number, body)` (idempotent, returns the re-read PR) and `PullRequestSpec` gains `assignee`. GitHub uses `PATCH /pulls/N`, Forgejo `PATCH /pulls/N`, GitLab `PUT /merge_requests/iid` (description). A null body reads as empty; any other mistyped field is `ForgeRejected`. Anything a forge lacks raises `Unsupported`, never faked. Documented in docs/specs/forges.md.

@@ -7,6 +7,7 @@ labels: area:drafts-plans
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: nkqlvnso
 ---
 ## Behaviour
 Decide whether the plan-file workflow is a separate `qew apply FILE [--draft] [--dry-run] [--json]` or stays

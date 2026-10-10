@@ -7,6 +7,7 @@ labels: area:identity
 owner: 
 priority: 0
 created: 2026-10-08T19:10:31Z
+evidence: qqsvopms
 ---
 The owner's OS login leaked into the ledgers as event actors, claim owners and commit messages (`qew: start ID by <login>`). The identity must be the configured VCS user (git config user.name, else jj user.name), never $USER.
 

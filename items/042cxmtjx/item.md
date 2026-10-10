@@ -7,6 +7,7 @@ labels: area:lifecycle
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: opppyqtx
 ---
 ## Behaviour
 Two writers on different branches may each append a `claimed` event for the same approved item. After the branches merge, the fold sees a second `claimed` from state claimed, which is an illegal transition, so the whole ledger becomes invalid and `qew check` fails for everyone. The reference guarantees that two racers agree on one winner (the oldest claim) and the loser is told. In the ledger model: the fold must pick the oldest `claimed` event (event-ID order) as the owner and treat later claims on a still-claimed item as a recorded lost race, not corruption; `qew check` reports it as a non-fatal note naming the losing actor; `qew start` re-reads the folded state after its write and exits 3 naming the winner when it lost (so the loser does not believe it holds the claim). A claim after a `released` or `reopened` event starts a new claim period. A forged or out-of-period claim never moves the owner.

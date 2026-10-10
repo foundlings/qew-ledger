@@ -7,6 +7,7 @@ labels: area:lifecycle
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: opppyqtx
 ---
 ## Behaviour
 `qew release ITEM --reason TEXT [--force]` frees a claim without closing the work. The `released` event records the reason, the releasing actor and the previous owner. Releasing a claim held by another actor is refused (exit 3) unless `--force`; a forced release is marked as forced in the event. Releasing an item that is not claimed is refused (exit 2) with nothing written. `--reason` is mandatory so a recovered claim leaves an audit trail. Lane rules live in `lane-claim-guard`.

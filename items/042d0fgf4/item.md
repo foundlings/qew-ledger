@@ -7,6 +7,7 @@ labels: drive-finding area:replication
 owner: 
 priority: 0
 created: 2026-10-08T18:17:46Z
+evidence: mzyzmozu
 ---
 Seen live on foundlings/qew (3 checkouts, board project 1): sync_plan.labels() emits `status:<column>` but forge_pull's managed-prefix list only knew qew:, kind:, priority:, so every column change looked like a human label edit and produced `forge_divergence` events (21 open after one pass).
 

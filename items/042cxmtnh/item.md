@@ -7,6 +7,7 @@ labels: area:read-side
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: rumoopxukttr
 ---
 ## Behaviour
 `--since` is a UTC instant `YYYY-MM-DDTHH:MM:SSZ` or a date (midnight UTC); anything else (yesterday, impossible dates, offsets, space separator, empty) is a usage error (exit 2) before any read. Default window is the last 7 days relative to now with no persisted state. `--login` defaults to the configured actor (git/jj identity or env); a login must match the forge login charset (letters, digits, hyphen, optional `[bot]`) so it can never smuggle a query qualifier into a forge-side lookup. These shared instant helpers live in one small module, also used by timestamps in events (invalid event time is a loud ledger error).

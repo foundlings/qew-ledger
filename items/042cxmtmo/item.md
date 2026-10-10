@@ -7,6 +7,7 @@ labels: area:pull-requests
 owner: 
 priority: 3
 created: 2026-10-08T17:20:13Z
+evidence: lkkplpsu
 ---
 ## Behaviour
 The reference lands (closes) issues automatically after merge. In qew completion needs recorded evidence and `qew complete`; this issue only requires that a merge outcome is actionable: the output prints, per covered item, `qew evidence ID --change CHANGE` and `qew complete ID` and names the merge commit; a merge whose item cannot yet be completed (open children) says why. No auto-completion.

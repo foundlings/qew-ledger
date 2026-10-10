@@ -7,6 +7,7 @@ labels: area:hooks-dist
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: utnmomos
 ---
 ## Behaviour
 The generated plugin pipes the bash tool's command to `qew hook pre-tool|post-tool --agent opencode` with a fixed executable and argv, and appends hook text to the tool output. A deny (exit 2, reason on stdout) throws to block the tool call; any other qew failure, a missing qew binary or non-bash tools must never throw.

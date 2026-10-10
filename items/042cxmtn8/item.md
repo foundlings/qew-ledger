@@ -7,6 +7,7 @@ labels: area:read-side
 owner: 
 priority: 2
 created: 2026-10-08T17:20:13Z
+evidence: kuzsrksvxzyo
 ---
 ## Behaviour
 `qew search TERM...` is a local, offline substring search over ids, titles and labels of approved, non-draft items (all words must match, case-insensitively). Bodies and comments are never searched or printed by `search`; draft and unapproved text is reachable only through `triage`. Results are ordered by match quality (exact title match, then word-boundary, then substring) then priority then id. A cap (default 30, `--limit`) prints a stderr warning `search results capped`. An empty result prints a one-line hint on stderr to try `qew triage --search`. Search terms are data: never evaluated or passed to a shell.

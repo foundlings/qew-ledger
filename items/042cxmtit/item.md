@@ -7,6 +7,7 @@ labels: area:drafts-plans
 owner: 
 priority: 1
 created: 2026-10-08T17:20:13Z
+evidence: xkwvwmrp
 ---
 ## Behaviour
 Reference: every line carries its own `quote` (validated before any write), `approved: true` says the quote also
