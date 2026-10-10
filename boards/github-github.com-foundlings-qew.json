@@ -4,6 +4,7 @@
     "Backlog",
     "Ready",
     "Needs approval",
+    "Gated",
     "In progress",
     "In review",
     "Done"
