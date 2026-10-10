@@ -7,5 +7,6 @@ labels:
 owner: 
 priority: 2
 created: 2026-10-10T19:53:14Z
+evidence: qlvnqvkrvyxz utvnzpyqkvny
 ---
 Foundlings field sync: 489 updates failed on GraphQL API rate limit already exceeded; pr ready sat behind the sync worker.
