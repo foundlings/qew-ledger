@@ -7,5 +7,6 @@ labels:
 owner: 
 priority: 2
 created: 2026-10-10T20:07:42Z
+evidence: punmzmvy lyntkwms
 ---
 Foundlings: 22,487 items have creator qew-import and carry author:qew-import. Add a reviewed bulk correction event (append-only), a via field for the tool, and --as for future imports.
