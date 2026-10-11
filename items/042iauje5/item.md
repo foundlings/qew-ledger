@@ -7,5 +7,6 @@ labels:
 owner: 
 priority: 2
 created: 2026-10-11T09:23:04Z
+evidence: wpzsyntq kwnzvmum
 ---
 Foundlings: a snapshot reads 165k files and takes 17-27 s. Cache raw item and event texts in .qew/snapshot.db; re-read only entries whose stat signature changed. Design measured in the session; target up to 500k files.
