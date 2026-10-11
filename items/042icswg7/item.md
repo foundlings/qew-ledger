@@ -3,7 +3,7 @@ kind: issue
 title: Large git ledgers: set core.untrackedCache at creation and on open (fsmonitor and splitIndex measured, not recommended)
 parent: 
 needs: 
-labels: needs:approval
+labels: 
 owner: 
 priority: 2
 created: 2026-10-11T10:02:56Z
