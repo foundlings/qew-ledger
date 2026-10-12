@@ -1,0 +1,1 @@
+{"absent": "no-code", "absent_reason": "Operational ledger history repair only: described existing empty ancestor yzxzupxr; ordinary qew writes now push automatically.", "actor": "887", "at": "2026-10-12T18:33:54Z", "reason": "Verified automatic push via qew start: unpushed=0 remote=ok; repair evidence recorded in item comment.", "type": "completed"}
