@@ -7,6 +7,7 @@ labels: area:pull-requests
 owner: 
 priority: 1
 created: 2026-10-11T22:36:29Z
+evidence: ylymkzxmkyll wlkzsvpxurnr
 ---
 Current need: Foundlings PR #4402 gained discovered tasks 042jcak6d and 042jcot9f after opening. The required per-item Progress markers cannot be added through qew 6.12.0: pr help offers open/check/ready/label/close/sync/merge; check offers tick/list/drop only. The command-level negative control qew pr body --help exits 2 with invalid choice, while qew pr check --help succeeds. No forge bypass was used.
 
