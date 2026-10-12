@@ -1,0 +1,11 @@
+{
+  "forge": "github",
+  "head": "fix-ledger-empty-checkpoint",
+  "items": [
+    "042m3sj1p"
+  ],
+  "kind": "pr",
+  "number": 492,
+  "opener": "887",
+  "url": "https://github.com/foundlings/qew"
+}
