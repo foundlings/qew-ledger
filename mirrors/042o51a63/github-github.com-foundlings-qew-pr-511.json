@@ -1,0 +1,11 @@
+{
+  "forge": "github",
+  "head": "claim-release-once",
+  "items": [
+    "042o51a63"
+  ],
+  "kind": "pr",
+  "number": 511,
+  "opener": "887",
+  "url": "https://github.com/foundlings/qew"
+}
