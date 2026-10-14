@@ -7,5 +7,6 @@ labels:
 owner: 
 priority: 2
 created: 2026-10-14T19:20:54Z
+evidence: smsvrxqqtmyn ulttwmvqwylw
 ---
 Add a Closed Status option beside Done; sync_plan.column puts closed items there, completed stay in Done. project ensure adds the option to existing boards; existing closed cards move on the next sync.
