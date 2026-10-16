@@ -7,5 +7,6 @@ labels:
 owner: 
 priority: 2
 created: 2026-10-16T07:32:15Z
+evidence: kmuknkqnqrkx qtzwtoyykktt
 ---
 comment_sync.pull turns every forge comment into a ledger comment, including the qew:claim and qew:release markers qew posts itself; they are arbitration, not discussion, and clutter qew show. Skip them on pull. Santa asked.
