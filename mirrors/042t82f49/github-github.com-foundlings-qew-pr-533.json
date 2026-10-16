@@ -1,0 +1,11 @@
+{
+  "forge": "github",
+  "head": "pull-skips-claim-comments",
+  "items": [
+    "042t82f49"
+  ],
+  "kind": "pr",
+  "number": 533,
+  "opener": "887",
+  "url": "https://github.com/foundlings/qew"
+}
