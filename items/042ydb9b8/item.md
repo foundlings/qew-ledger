@@ -8,5 +8,6 @@ owner:
 priority: 2
 created: 2026-10-18T20:52:24Z
 discovered_from: 042ybwsg8
+evidence: sovuuotylqsq xynyosxyrowu
 ---
 Seen on a first sync of foundlings from a second machine: about 98 POST .../sub_issues returned 422, several for the same parent. _sub_issue calls pace() before each call, so every attempt, failed or not, counts against GitHub's create windows (70 a minute, 450 an hour); a refusal records no parent_number, so the next sync tries the same child again. The workers then slept on the hourly window with no output, so the sync looked hung for up to an hour. Wanted: a 422 from the sub-issue call is recorded (do not retry the same parent/child until the ledger parent moves), it does not count as a create, and a pace wait longer than a minute says so on stderr with the time it ends.
