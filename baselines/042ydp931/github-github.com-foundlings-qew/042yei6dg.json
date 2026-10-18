@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "In review",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -15,7 +15,7 @@
     "title": "Cache the committed baselines in snapshot.db, refreshed incrementally when a pull changes them",
     "type": ""
   },
-  "synced_at": "2026-10-18T21:00:15Z",
-  "synced_event": "042ydpnch",
-  "synced_hash": "4261ebaf0ee16328"
+  "synced_at": "2026-10-18T21:16:52Z",
+  "synced_event": "042yei874",
+  "synced_hash": "5e8fedb71443e60e"
 }
