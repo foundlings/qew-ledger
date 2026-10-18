@@ -1,0 +1,21 @@
+{
+  "cmap": {},
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "",
+    "comments": [
+      "6250789187"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "qew pr check and pr body take --on-behalf-of ACTOR, like pr label",
+    "type": ""
+  },
+  "synced_at": "2026-10-18T14:07:40Z",
+  "synced_event": "042xtha0a",
+  "synced_hash": "ddd20aef30083572"
+}

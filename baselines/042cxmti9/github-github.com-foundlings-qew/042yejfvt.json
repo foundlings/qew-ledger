@@ -1,0 +1,23 @@
+{
+  "column": "Done",
+  "linked": [
+    "042cxmti8"
+  ],
+  "parent_number": 75,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Behaviour\nApprove and revert write one event file per item. If a write fails after the first (disk error, permission, a\nconcurrent writer that took the same event id), the command exits 3 and prints `approved: ID...; not approved:\nID...; rerun the same command to finish`, plus `qew sync` as the way to refresh mirrors. Each written event is\nread back (the folded state must be the intended one) and a mismatch is exit 3, never reported as success.\nThis mirrors the reference guarantee that a partial run is never left for the user to guess at. Because a rerun\nskips items already moved (see draft-approve-targets), the printed advice is true.\n\n## Scenarios\n1. Fault injection: second event write fails in a three-item `--tree` approve; exit 3, stderr lists the approved and the not-approved ids and says to rerun, rerun finishes the rest. Prevents a half-released plan with no map of what is left.\n2. Same walk for `draft revert`: stderr lists `reverted:` and `not reverted:`. Prevents a half-withheld plan.\n3. Read-back mismatch: an appended event that folds to a different state (hand-planted illegal event file) is exit 3, not `approved`. Prevents reporting success for a move that did not take effect.\n4. The failure message names `qew sync` as the mirror refresh. Prevents boards staying stale after a partial move.\n\n## Reference coverage\nReference approve tests: failure after the first write lists what is left, partial failure names the board refresh,\nedit that did not stick is reported (3 of 14). Reference revert tests: failure after the first write lists what is\nleft, edit that did not stick is reported (2 of 12). The failed-comment test (approve) has no ledger analogue: the\n`approved` event itself carries the quote, so there is no second write that can be lost (see dropped).\n\n## Qew today\nMissing entirely: events are appended in a plain loop, any exception aborts with a traceback-free error but no list of what was and was not written; no read-back.",
+    "comments": [],
+    "labels": [
+      "area:drafts-plans"
+    ],
+    "open": false,
+    "title": "Report approved and remaining items when a multi-item draft move fails midway",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:45Z",
+  "synced_event": "042e46gaw",
+  "synced_hash": "f271ee0e4418c757"
+}

@@ -1,0 +1,19 @@
+{
+  "column": "Done",
+  "linked": [],
+  "parent_number": 1,
+  "priority": "P3",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "The old model had `qew comment`; the ledger has no free-text events. Decide whether a `commented` event type belongs in the schema and mirror it as a forge comment.",
+    "comments": [],
+    "labels": [],
+    "open": false,
+    "title": "Add qew comment and an audit trail for discussion",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:11Z",
+  "synced_event": "042e41aab",
+  "synced_hash": "71ebf49a4b0ecbf8"
+}

@@ -1,0 +1,23 @@
+{
+  "column": "Done",
+  "linked": [
+    "042cxmtgb"
+  ],
+  "parent_number": 8,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Behaviour\nA card's column depends on other items: completing or closing a need moves its dependents from Draft to Ready; claiming or releasing a child moves the parent epic card. `qew sync --item ID` (and `--dry-run --item`) must therefore also place the cards of items whose derived column changed because of ID, not only ID's own card. Each affected card is written once and only when its column differs. A full `qew sync` already covers all items; the gap is the targeted form.\n\n## Scenarios\n- `completing_a_need_moves_its_dependent_to_ready`: sync --item NEED places NEED in Done and dependent in Ready; prevents dependents stuck in Draft.\n- `claiming_a_child_moves_the_epic_card`: epic card moves to In progress and back on release; prevents a stale epic.\n- `unchanged_cards_are_not_rewritten`: second targeted sync issues no board write.\n\n## Reference coverage\nTests: complete also moves the cards of issues it unblocks (two status writes in order), start moves the claimed card to In progress; spec: targeted card sync after mutations.\n\n## Qew today\nReduced. `sync_target` with `only` skips every other item (`chosen` filter), so targeted sync leaves dependents stale. `test_boards_get_the_column_for_the_state...` covers the single-card move only.",
+    "comments": [],
+    "labels": [
+      "area:board-admin"
+    ],
+    "open": false,
+    "title": "Make `qew sync --item` refresh the cards its change moves (dependents and the parent epic)",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:44Z",
+  "synced_event": "042e42757",
+  "synced_hash": "0062ed3620265ab0"
+}

@@ -1,0 +1,20 @@
+{
+  "column": "Done",
+  "linked": [],
+  "priority": "P1",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Epic for area `drafts-plans`. Child issues carry the gaps found by the audit and the scenarios each needs.",
+    "comments": [],
+    "labels": [
+      "area:drafts-plans"
+    ],
+    "open": false,
+    "title": "Drafts, plan files, plan rollups and graph invariants",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:04:48Z",
+  "synced_event": "042e46b9k",
+  "synced_hash": "43df427c227556f7"
+}

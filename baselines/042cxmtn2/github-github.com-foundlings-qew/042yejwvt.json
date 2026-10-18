@@ -1,0 +1,23 @@
+{
+  "column": "Done",
+  "linked": [
+    "042cxmtmu"
+  ],
+  "parent_number": 201,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Behaviour\n`show` prints and returns: header fields, state, owner, `blocked_by` and `blocking` as objects `{id, state, title}` (not bare ids), `parent` and `children` the same way, evidence, mirrors, comments (see item-comments), body. For an epic it names `next`, the highest-priority ready child (id, priority, title), in the text form as `next: ID pN title`. Related items are looked up locally so a dangling edge is reported as `missing` rather than hidden. Unknown reference exits 2; ambiguous short alias lists the candidates.\n\n## Scenarios\n- golden: show of an item with a need, a dependent, a parent and a child prints each with state and title in JSON. Prevents an agent opening four more items to understand one.\n- golden: show of an epic with two approved children names the lower-priority-number child as `next`. Prevents agents guessing where to start.\n- refusal: show of an unknown or ambiguous reference exits 2 and names the candidates. Prevents acting on the wrong item.\n- adversary: a need that no longer exists prints `missing`, not an empty slot. Prevents a hidden dangling edge.\n\n## Reference coverage\nReference read-suite walks: show golden walk exposes only the numbered issue (blocked_by, blocking, parent, children, comments); show plan names its next workable child (2 tests).\n\n## Qew today\nReduced. Show prints ids only for needs/children/blocks, no titles or states, no `next`. Covered: `test_show_resolves_a_short_alias_and_reports_derived_edges`.",
+    "comments": [],
+    "labels": [
+      "area:read-side"
+    ],
+    "open": false,
+    "title": "Make `qew show` report related items with state and title, plus the next workable child of an epic",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:53Z",
+  "synced_event": "042f05qco",
+  "synced_hash": "44d976a892a377c5"
+}

@@ -1,0 +1,23 @@
+{
+  "column": "Done",
+  "linked": [
+    "042cxmth6"
+  ],
+  "parent_number": 35,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "`--sort priority|updated|created|title[:desc]` like GitHub Projects boards; updated derives from the newest event.\nScenarios:\n- golden: each key orders cards as documented\n- refusal: unknown sort key exits 2 naming valid keys; prevents silent default ordering",
+    "comments": [],
+    "labels": [
+      "area:board"
+    ],
+    "open": false,
+    "title": "Board sorting: priority, updated, created, title",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:06:07Z",
+  "synced_event": "042f055cb",
+  "synced_hash": "94d3659959d6d570"
+}

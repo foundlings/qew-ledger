@@ -1,0 +1,27 @@
+{
+  "cmap": {
+    "6092767657": {
+      "ledger": "042fq4j97",
+      "sha": "41a04ccf02d47ce5"
+    }
+  },
+  "column": "Done",
+  "linked": [],
+  "parent_number": 374,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "On import, read the body edit history (GraphQL userContentEdits) and record body_revision events (editor, time, text hash and text up to a limit, provenance forge-import); the current body stays the item body. Not mirrored back.",
+    "comments": [
+      "6092767657"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "Issue body edit history imported at import time",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:41Z",
+  "synced_event": "042fqcx9u",
+  "synced_hash": "45720b5fc18bf149"
+}

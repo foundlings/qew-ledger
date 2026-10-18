@@ -1,0 +1,21 @@
+{
+  "column": "Done",
+  "linked": [],
+  "parent_number": 46,
+  "priority": "P3",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Command inventory for `qew list`: list items.\n\nFlags: --kind, --state, --label, --json.\n\nEnd-to-end check (2026-10-08, scratch ledger + local forge fake, scripted run of every command): works, exit codes as documented.\n\nWalk coverage today: 2 direct test invocation(s) of `qew list`; flags never exercised by any test: --state.\n\nDone when: a golden scenario and the refusal/adversary scenarios for this command and each flag exist as named walks whose docstrings state the failure prevented, and the three documents (help, README, commands spec) agree.",
+    "comments": [],
+    "labels": [
+      "area:command-inventory"
+    ],
+    "open": false,
+    "title": "Inventory and walk coverage: qew list",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:16Z",
+  "synced_event": "042e44i0k",
+  "synced_hash": "4d0eecc8dcb96572"
+}

@@ -1,0 +1,23 @@
+{
+  "column": "Done",
+  "linked": [
+    "042cxmth5"
+  ],
+  "parent_number": 35,
+  "priority": "P1",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Columns the seven statuses Draft / Backlog / Ready / Needs approval / In progress / In review / Done, cards with id, title, owner, priority, labels; width-aware text layout, no color codes when not a TTY.\nScenarios:\n- golden: five columns with cards; prevents unreadable output\n- adversary: titles with control characters or bidi marks are shown escaped; prevents terminal injection\n- golden: empty ledger renders empty columns with counts",
+    "comments": [],
+    "labels": [
+      "area:board"
+    ],
+    "open": false,
+    "title": "qew board renders the kanban in the terminal",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:58Z",
+  "synced_event": "042f0520p",
+  "synced_hash": "95fbacce68e20a7b"
+}

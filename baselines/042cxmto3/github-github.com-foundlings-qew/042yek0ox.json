@@ -1,0 +1,21 @@
+{
+  "column": "Done",
+  "linked": [],
+  "parent_number": 245,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "On push, a change citing a ledger ID must have its evidence recorded or the push is refused with the exact qew command; installed by `qew hook install`.\nScenarios:\n- golden: cited id with evidence passes\n- refusal: cited id without evidence blocks\n- adversary: hook is bypassable only by removing it, which is itself visible in the diff",
+    "comments": [],
+    "labels": [
+      "area:vcs-hook"
+    ],
+    "open": false,
+    "title": "A git pre-push / jj equivalent records evidence",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:36Z",
+  "synced_event": "042e4iqdc",
+  "synced_hash": "c3479f1dd5f4e717"
+}

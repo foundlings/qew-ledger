@@ -1,0 +1,21 @@
+{
+  "column": "Done",
+  "linked": [],
+  "parent_number": 165,
+  "priority": "P1",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "No flag, env var, event hand-edit or provenance value lets `complete` skip claim, children or evidence; hand-edited events fail `qew check`.\nScenarios:\n- adversary: completed event written by hand without evidence fails check\n- adversary: provenance import written outside --import is refused at check\n- refusal: complete on a draft, unclaimed, blocked or closed item",
+    "comments": [],
+    "labels": [
+      "area:merge-gate"
+    ],
+    "open": false,
+    "title": "qew complete can never bypass a gate",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:32Z",
+  "synced_event": "042e4d7do",
+  "synced_hash": "77d20d475921ba49"
+}

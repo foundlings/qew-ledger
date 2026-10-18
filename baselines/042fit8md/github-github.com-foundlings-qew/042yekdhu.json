@@ -1,0 +1,21 @@
+{
+  "column": "Done",
+  "linked": [],
+  "parent_number": 342,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Owner 2026-10-10: 'can we make the phase letter mode for epics the new default?'. A ledger without id_mode gets epic = letters, issue and task = base35-time; qew init writes the table explicitly. Explicit settings (qew's own ledger, foundlings) are unchanged. Letters are not merge-safe for concurrent epic creation on two machines (a loud git conflict, not silent): epics are rare and human-made.",
+    "comments": [
+      "6091839161"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "Epic letter ids are the default id_mode: epic letters, issue and task base35-time",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:40Z",
+  "synced_event": "042fkrk13",
+  "synced_hash": "9158a910e0943264"
+}

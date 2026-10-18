@@ -1,0 +1,20 @@
+{
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Problem\n\nexists forge=missing divergences stay open after the issue is recreated and a full pull sees it.\n\n## Fix\n\nA full pull drops an exists/missing divergence whose issue is present, noting it in the output.\n\n## Done when\n\nA walk shows the divergence gone after the issue returns, without qew resolve.",
+    "comments": [
+      "6077055328"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "A forge=missing divergence clears when the issue exists again",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:02Z",
+  "synced_event": "042e66p7p",
+  "synced_hash": "8467ac16b5939fdd"
+}

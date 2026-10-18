@@ -1,0 +1,19 @@
+{
+  "column": "Done",
+  "linked": [],
+  "parent_number": 1,
+  "priority": "P1",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "forge_github board calls (createProjectV2, createProjectV2Field, updateProjectV2Field input shapes) were written against a local fake from memory. Run `qew project ensure` against a scratch repo and fix any drift; capture the real shapes in tests/fake_github.py.",
+    "comments": [],
+    "labels": [],
+    "open": false,
+    "title": "Verify the GitHub Projects v2 GraphQL shapes against real GitHub",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:11Z",
+  "synced_event": "042e4153w",
+  "synced_hash": "ea70887bcb6c83f7"
+}

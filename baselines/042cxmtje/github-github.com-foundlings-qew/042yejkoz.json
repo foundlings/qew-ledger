@@ -1,0 +1,23 @@
+{
+  "column": "Done",
+  "linked": [
+    "042cxmtj8"
+  ],
+  "parent_number": 109,
+  "priority": "P3",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Behaviour\nNo flag means all four agents; flags (`--claude --codex --cursor --opencode`) select a subset. Output order is fixed claude, codex, cursor, opencode; each target file exists after install, and remove undoes every one including deleting the opencode plugin.\n\n## Scenarios\n- Default install: four `installed ...` lines in order and four files exist; rerun reports four `unchanged` lines; default remove undoes all. Prevents one agent silently skipped.\n- Flag subset installs only the named agents (covered).\n\n## Reference coverage\n1 test (install all covers every agent and remove all undoes it).\n\n## Qew today\nMostly covered (no flag installs all four idempotently and privately; flags select agents). Missing: output order assertion and the full remove-all assertion.",
+    "comments": [],
+    "labels": [
+      "area:hooks-dist"
+    ],
+    "open": false,
+    "title": "Install and remove all agents with one default invocation and ordered output",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:48Z",
+  "synced_event": "042e49ffq",
+  "synced_hash": "c5daf9a9bebfcd82"
+}

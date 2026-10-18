@@ -1,0 +1,23 @@
+{
+  "column": "Done",
+  "linked": [
+    "042cxmth6"
+  ],
+  "parent_number": 35,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "`--group-by column|owner|label|epic|parent` renders sections instead of or inside columns.\nScenarios:\n- golden: group by epic lists each epic's children; prevents orphan cards\n- golden: multi-label items appear under each label; prevents hiding overlap\n- refusal: unknown group key exits 2",
+    "comments": [],
+    "labels": [
+      "area:board"
+    ],
+    "open": false,
+    "title": "Board grouping: column, owner, label, epic, parent",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:06:07Z",
+  "synced_event": "042f05699",
+  "synced_hash": "030ccd1281c3787f"
+}

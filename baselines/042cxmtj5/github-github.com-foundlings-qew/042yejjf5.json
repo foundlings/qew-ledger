@@ -1,0 +1,23 @@
+{
+  "column": "Done",
+  "linked": [
+    "042cxmtj2"
+  ],
+  "parent_number": 104,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Orphans, cross-epic parents, depth limits, needs on closed items are reported with counts.\nScenarios:\n- refusal: each invariant has a named failing ledger",
+    "comments": [],
+    "labels": [
+      "area:graph-ready"
+    ],
+    "open": false,
+    "title": "qew check graph invariants parity",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:48Z",
+  "synced_event": "042e48r7q",
+  "synced_hash": "f986b0a8a12f5a37"
+}

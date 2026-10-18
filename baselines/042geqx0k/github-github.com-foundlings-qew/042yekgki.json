@@ -1,0 +1,26 @@
+{
+  "cmap": {
+    "6096748831": {
+      "ledger": "042ger4bk",
+      "sha": "d2ed4ff4fdb84f7c"
+    }
+  },
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Owner: 'you should auto fix divergences!! argh!'. A forge-side change the ledger did not make (a human closing or editing a mirrored issue) is a forge_divergence that waited for qew accept/reject forever. New [replication] divergences = \"ledger\" (default) | \"report\": with ledger, sync rejects each open divergence right after the pull (the ledger is the source of truth), so the same sync pushes the ledger value back and records divergence_rejected with the reason auto; contested claims stay arbitrated as before. report keeps the old behavior.",
+    "comments": [
+      "6096748831"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "Sync settles divergences by itself: the ledger wins unless the mirror is set to report",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:08Z",
+  "synced_event": "042gfdfbw",
+  "synced_hash": "608ae4be86d1a27d"
+}

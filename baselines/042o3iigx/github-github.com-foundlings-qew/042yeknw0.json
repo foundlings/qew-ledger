@@ -1,0 +1,26 @@
+{
+  "cmap": {
+    "6152358666": {
+      "ledger": "042o3js6b",
+      "sha": "cb35ce63e3f396aa"
+    }
+  },
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Watchman cuts a jj snapshot of a 171k-file ledger from 2.0 s to 0.44 s; every qew commit pays it. Add qew doctor [--fix], warn on init, document in CLAUDE.md.",
+    "comments": [
+      "6152358666"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "qew doctor and init warn when a jj ledger runs without watchman",
+    "type": ""
+  },
+  "synced_at": "2026-10-13T18:37:07Z",
+  "synced_event": "042o41bh0",
+  "synced_hash": "441e24595cd5f2fd"
+}

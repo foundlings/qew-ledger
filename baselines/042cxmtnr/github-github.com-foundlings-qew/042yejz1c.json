@@ -1,0 +1,24 @@
+{
+  "column": "Done",
+  "linked": [
+    "042cxmtnn",
+    "042cxmtnp"
+  ],
+  "parent_number": 229,
+  "priority": "P0",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Contract: Replication 3. Time budget, per-target isolation, pending derived from event ids (no outbox files).\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: claim in the ledger updates the issue and board column on all targets without running sync\n- adversary: forge A down mid-sync: B still updated, write succeeds, pending shown for A, later command catches up\n- golden: an item with no mirror file is pending and gets created\n- prevents: a second command re-sending already synced items (idempotent)",
+    "comments": [],
+    "labels": [
+      "area:replication"
+    ],
+    "open": false,
+    "title": "Opportunistic push of affected items to every mirror target after a write",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:55Z",
+  "synced_event": "042e4hv4h",
+  "synced_hash": "8e0197059b96a164"
+}

@@ -1,0 +1,23 @@
+{
+  "column": "Done",
+  "linked": [
+    "042cz0ydz"
+  ],
+  "parent_number": 250,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Contract: docs/specs/ledger.md, Authority and topology.\nPer target git remote `qew-<slug>` for both repos, pushed by sync; creating the forge repo is out of scope (must exist).\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: both repos reach a bare remote per target\n- adversary: one unreachable target does not block the others\n- refusal: missing remote URL is reported not guessed",
+    "comments": [],
+    "labels": [
+      "area:authority"
+    ],
+    "open": false,
+    "title": "Code and ledger repos pushed to every forge target",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:57Z",
+  "synced_event": "042e4jn1f",
+  "synced_hash": "b6bd5d30e0ab73b3"
+}

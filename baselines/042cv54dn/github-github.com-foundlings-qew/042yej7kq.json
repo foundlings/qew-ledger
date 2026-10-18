@@ -1,0 +1,19 @@
+{
+  "column": "Done",
+  "linked": [],
+  "parent_number": 1,
+  "priority": "P3",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Sync is push-only. Report (never apply) forge-side state that disagrees with the ledger, such as an issue closed or a pull request merged around qew.",
+    "comments": [],
+    "labels": [],
+    "open": false,
+    "title": "Pull direction of sync: detect forge-side closes and merges",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:11Z",
+  "synced_event": "042e41cbf",
+  "synced_hash": "6cbe4f42e08fdc7b"
+}

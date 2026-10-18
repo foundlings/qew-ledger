@@ -1,0 +1,26 @@
+{
+  "cmap": {
+    "6152907143": {
+      "ledger": "042o51obc",
+      "sha": "5f373323ad831c55"
+    }
+  },
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "6.21.0 shipped with test_epic_claim_walk failing: _start_epic released its reservations and the session withdrew them again. Released claims leave the posted list.",
+    "comments": [
+      "6152907143"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "claim withdrawal released an epic's reservation twice (gate failure shipped in 6.21.0)",
+    "type": ""
+  },
+  "synced_at": "2026-10-13T19:02:27Z",
+  "synced_event": "042o59t3p",
+  "synced_hash": "afeba6c5f2fc58be"
+}

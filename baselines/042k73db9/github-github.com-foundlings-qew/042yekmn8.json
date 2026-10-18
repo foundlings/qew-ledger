@@ -1,0 +1,26 @@
+{
+  "cmap": {
+    "6120126515": {
+      "ledger": "042k75i5b",
+      "sha": "ff31b565c01666c5"
+    }
+  },
+  "column": "Done",
+  "linked": [],
+  "priority": "P0",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Problem\n\nQEW_LEDGER=A run from a checkout of repo B synced A's items into B's forge repository (foundlings items filed as foundlings/qew #484 and #485). Refuse the mismatch; add qew mirror rehome ITEM --from TARGET to close the stray issue and forget its record.\n\n## Done when\n\nA mismatched QEW_LEDGER is refused (exit 2) when the config has mirrors; qew mirror rehome closes the stray issue with a pointer, forgets the record, and the next sync files it in the configured target.",
+    "comments": [
+      "6120126515"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "Mirror targets come from the cwd repo's config even when QEW_LEDGER names another ledger; add mirror rehome",
+    "type": ""
+  },
+  "synced_at": "2026-10-12T08:02:55Z",
+  "synced_event": "042k7fmd6",
+  "synced_hash": "e81a563e234c7b79"
+}

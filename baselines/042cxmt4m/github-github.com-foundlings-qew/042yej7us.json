@@ -1,0 +1,20 @@
+{
+  "column": "Done",
+  "linked": [],
+  "priority": "P1",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Epic for area `board-admin`. Child issues carry the gaps found by the audit and the scenarios each needs.",
+    "comments": [],
+    "labels": [
+      "area:board-admin"
+    ],
+    "open": false,
+    "title": "Board, campaign, config and admin parity",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:04:47Z",
+  "synced_event": "042e41i94",
+  "synced_hash": "c43bb3723baeefe4"
+}

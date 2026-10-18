@@ -1,0 +1,21 @@
+{
+  "column": "Done",
+  "linked": [],
+  "parent_number": 46,
+  "priority": "P3",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Command inventory for `qew draft revert`: return approved, unclaimed work to draft.\n\nFlags: --reason, --quote.\n\nEnd-to-end check (2026-10-08, scratch ledger + local forge fake, scripted run of every command): works, exit codes as documented.\n\nWalk coverage today: 2 direct test invocation(s) of `qew draft revert`; flags never exercised by any test: none.\n\nDone when: a golden scenario and the refusal/adversary scenarios for this command and each flag exist as named walks whose docstrings state the failure prevented, and the three documents (help, README, commands spec) agree.",
+    "comments": [],
+    "labels": [
+      "area:command-inventory"
+    ],
+    "open": false,
+    "title": "Inventory and walk coverage: qew draft revert",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:19Z",
+  "synced_event": "042e45g13",
+  "synced_hash": "2f51d5855a88948a"
+}

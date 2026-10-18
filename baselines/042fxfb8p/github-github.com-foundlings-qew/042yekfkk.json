@@ -1,0 +1,27 @@
+{
+  "cmap": {
+    "6094014618": {
+      "ledger": "042fxi7ez",
+      "sha": "cf7ac8c8ac720f34"
+    }
+  },
+  "column": "Done",
+  "linked": [],
+  "parent_number": 374,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Regression from 4.18.0 project fields work: the ProjectCards parser still read name only, so any board card holding a text value broke qew project status. Reported by Santa on foundlings project 2.",
+    "comments": [
+      "6094014618"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "project status fails on a board with a text field (value.name)",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:42Z",
+  "synced_event": "042fxjbcj",
+  "synced_hash": "c5f2a7965f0e4dc2"
+}

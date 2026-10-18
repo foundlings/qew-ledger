@@ -1,0 +1,23 @@
+{
+  "column": "Done",
+  "linked": [
+    "042cxmtnr"
+  ],
+  "parent_number": 229,
+  "priority": "P0",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Contract: Replication 5.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: empty forge fake rebuilt with issues, links, board\n- golden: idempotent second run changes nothing\n- adversary: forge down halfway resumes without duplicates (marker adoption)",
+    "comments": [],
+    "labels": [
+      "area:replication"
+    ],
+    "open": false,
+    "title": "qew restore --to TARGET recreates forge state from the ledger alone",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:06:05Z",
+  "synced_event": "042e4id5z",
+  "synced_hash": "bb40343936d23a2a"
+}

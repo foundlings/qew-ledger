@@ -1,0 +1,23 @@
+{
+  "column": "Done",
+  "linked": [
+    "042cxmtjr"
+  ],
+  "parent_number": 109,
+  "priority": "P3",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Behaviour\nQew has no forge CI (docs/specs/releases.md), so the reference workflow gate becomes a local release-script step: the working copy commit must equal the source sha passed to the metadata script, the tree must be clean, and the package version must equal the tag.\n\n## Scenarios\n- Same commit passes; moved or dirty checkout fails with a message containing 'differs'. Prevents the build and SBOM describing different commits.\n- Version/tag mismatch fails before building.\n- Tag-name checkout is never used as the source (the local script takes the commit id).\n\n## Reference coverage\n2 workflow tests; redesigned as a local script walk because there is no workflow file in qew.\n\n## Qew today\nMissing: spec says a single local release script is ledger work not yet done.",
+    "comments": [],
+    "labels": [
+      "area:hooks-dist"
+    ],
+    "open": false,
+    "title": "Verify the build checkout equals the recorded source commit before attesting",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:49Z",
+  "synced_event": "042e4af8q",
+  "synced_hash": "b98eb24914dec377"
+}

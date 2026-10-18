@@ -1,0 +1,26 @@
+{
+  "cmap": {
+    "6148724791": {
+      "ledger": "042ntz283",
+      "sha": "5180e30c61d1e33f"
+    }
+  },
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Santa: pre-tool for jj git push exceeded the caller's 10 s cap under contention. Cause: vcs_check runs jj log without --ignore-working-copy (snapshot, working-copy lock) and without a timeout. Decision must be read-only and bounded, with a could-not-decide reason.",
+    "comments": [
+      "6148724791"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "hook pre-tool: the jj git push decision snapshots the working copy and has no time bound",
+    "type": ""
+  },
+  "synced_at": "2026-10-13T15:22:35Z",
+  "synced_event": "042nuhsds",
+  "synced_hash": "3f0884f4e22c8f08"
+}

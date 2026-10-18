@@ -1,0 +1,18 @@
+{
+  "column": "Closed",
+  "linked": [],
+  "priority": "P3",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Problem\n\nqew import DIR and create --from-file stop at the first refusal (one label over 50 characters out of 1614) and write nothing, so a large import needs one retry per problem class.\n\n## Fix\n\nValidation collects problems across the whole plan and prints them grouped with counts (bounded), still exiting 2 with nothing written.\n\n## Done when\n\nA walk with three kinds of bad entries sees all three named in one run.",
+    "comments": [],
+    "labels": [],
+    "open": false,
+    "title": "Import and plan validation names every problem, not only the first",
+    "type": ""
+  },
+  "synced_at": "2026-10-14T19:30:53Z",
+  "synced_event": "042gep963",
+  "synced_hash": "93754579d95b7393"
+}
