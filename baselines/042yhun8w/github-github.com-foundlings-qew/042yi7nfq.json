@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In review",
+  "column": "In progress",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -15,7 +15,7 @@
     "title": "A read that races a writer reports the new item as an orphan and refuses with 'ledger is not readable'",
     "type": ""
   },
-  "synced_at": "2026-10-18T22:31:53Z",
+  "synced_at": "2026-10-18T22:32:24Z",
   "synced_event": "042yi6ufi",
-  "synced_hash": "203caccaf7041284"
+  "synced_hash": "444dd9d2c97408b4"
 }
