@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -11,11 +11,11 @@
       "6254841360"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "Commit baselines for items whose sync state is only local on upgrade",
     "type": ""
   },
-  "synced_at": "2026-10-18T20:53:24Z",
-  "synced_event": "042ydc308",
-  "synced_hash": "b37659ae6c7a797e"
+  "synced_at": "2026-10-18T20:53:32Z",
+  "synced_event": "042ydd1gt",
+  "synced_hash": "4b3a749041c60182"
 }
