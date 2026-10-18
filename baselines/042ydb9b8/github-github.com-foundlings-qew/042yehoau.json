@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -11,11 +11,11 @@
       "6255024175"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "Sub-issue calls refused with 422 burn the create budget and are retried every sync; the pace wait prints nothing",
     "type": ""
   },
-  "synced_at": "2026-10-18T21:16:26Z",
-  "synced_event": "042yegmce",
-  "synced_hash": "efeeffd9b0c19805"
+  "synced_at": "2026-10-18T21:16:34Z",
+  "synced_event": "042yehjbn",
+  "synced_hash": "943ee56559951f7c"
 }
