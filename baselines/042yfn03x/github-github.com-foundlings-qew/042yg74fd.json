@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -11,11 +11,11 @@
       "6255479666"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "A jj ledger write fails when the working copy sits beside main: commit refuses to move the bookmark sideways",
     "type": ""
   },
-  "synced_at": "2026-10-18T21:51:08Z",
-  "synced_event": "042yg618y",
-  "synced_hash": "25e2672365def65e"
+  "synced_at": "2026-10-18T21:51:16Z",
+  "synced_event": "042yg70as",
+  "synced_hash": "469c532735228b4c"
 }
