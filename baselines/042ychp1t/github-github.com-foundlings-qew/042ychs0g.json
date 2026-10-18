@@ -1,0 +1,18 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "6.31.0 commits a baseline only when an item's sync state changes, so a machine upgraded with existing local .qew/state never commits baselines for unchanged items and a clone still starts without them. At the start of a sync, write a committed baseline for every mirrored item that has legacy local state and no committed baseline.",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "Commit baselines for items whose sync state is only local on upgrade",
+    "type": ""
+  },
+  "synced_at": "2026-10-18T20:35:47Z",
+  "synced_event": "042ychp33",
+  "synced_hash": "1bfcdeda8a347eb5"
+}
