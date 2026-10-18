@@ -1,18 +1,21 @@
 {
-  "column": "Ready",
+  "cmap": {},
+  "column": "In progress",
   "linked": [],
   "priority": "P2",
   "seen": {
     "assignee": "",
     "assignees": [],
     "body": "A baseline update deletes the old baselines/ID/TARGET file and adds a new one with nearly the same text, so git's rename detection pairs them and two machines updating the same item produce rename/rename and delete conflicts (DD, AU, UA). only_mirrors then runs git checkout --theirs on paths that have no their-version, fails and leaves .git/MERGE_HEAD with the merge half done; qew pr merge exits 3. Merge with no rename detection and resolve a leftover conflict per file (take theirs, or remove the path when theirs deleted it).",
-    "comments": [],
+    "comments": [
+      "6256524820"
+    ],
     "labels": [],
     "open": true,
     "title": "A git ledger merge of two machines' baseline updates conflicts on renames and leaves the clone mid-merge",
     "type": ""
   },
-  "synced_at": "2026-10-18T23:30:40Z",
-  "synced_event": "042ym2hc6",
-  "synced_hash": "cd882a9649df6f8c"
+  "synced_at": "2026-10-18T23:31:08Z",
+  "synced_event": "042ym33cn",
+  "synced_hash": "7d4f6daf8254eb51"
 }
