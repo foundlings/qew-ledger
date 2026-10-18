@@ -1,0 +1,23 @@
+{
+  "column": "Done",
+  "linked": [
+    "042cxmtii"
+  ],
+  "parent_number": 75,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Behaviour\n`qew block ITEM --on BLOCKER` appends BLOCKER to ITEM's `needs`; `qew unblock ITEM --from BLOCKER` removes it.\nBoth resolve aliases, validate the whole graph first (graph-write-validation), are no-ops when the edge already\nis (not) there (exit 0, `unchanged`), write one `field` audit event, and read the result back. A closed ITEM needs\n`--closed`. Rationale: `set --needs` replaces the full list, so two writers adding different blockers rewrite the\nsame header line and collide; the edge commands make the change minimal and the audit event precise. Update\n`--help`, README and `docs/specs/commands.md` together (the three-place rule).\n\n## Scenarios\n1. Golden block: edge added, item moves from ready to blocked, output and `--json` name both ids. Prevents a dependency that does not gate readiness.\n2. Block twice is a no-op (no second event). Prevents audit noise and redundant rewrites.\n3. Block that would close a cycle refused before write; self block refused. Prevents corrupt graphs.\n4. Golden unblock removes the edge and the item becomes ready; unblock of an absent edge is a no-op. Prevents wrongly resurrecting needs.\n5. Closed item: block and unblock refuse without `--closed`, work with it. Prevents silent edits of finished work.\n\n## Reference coverage\nReference graph-write tests: block golden walk adds and verifies edge, block seam walk refuses transitive cycle,\nunblock golden walk removes and verifies edge, block refusal walk requires closed override, unblock golden walk allows\nexplicit closed target (5 of 26; the cycle one is shared with graph-write-validation).\n\n## Qew today\nMissing: no `block`/`unblock` commands; only the replace-all `set --needs`.",
+    "comments": [],
+    "labels": [
+      "area:drafts-plans"
+    ],
+    "open": false,
+    "title": "Add `qew block` and `qew unblock` for incremental, idempotent dependency edits",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:46Z",
+  "synced_event": "042e4764s",
+  "synced_hash": "27775e293bdcb559"
+}

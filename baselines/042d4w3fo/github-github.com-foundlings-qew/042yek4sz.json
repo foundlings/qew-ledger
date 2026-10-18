@@ -1,0 +1,20 @@
+{
+  "column": "Closed",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "<!-- qew-duplicate -->\n\n## Behaviour\n`--since` is a UTC instant `YYYY-MM-DDTHH:MM:SSZ` or a date (midnight UTC); anything else (yesterday, impossible dates, offsets, space separator, empty) is a usage error (exit 2) before any read. Default window is the last 7 days relative to now with no persisted state. `--login` defaults to the configured actor (git/jj identity or env); a login must match the forge login charset (letters, digits, hyphen, optional `[bot]`) so it can never smuggle a query qualifier into a forge-side lookup. These shared instant helpers live in one small module, also used by timestamps in events (invalid event time is a loud ledger error).\n\n## Scenarios\n- refusal: five malformed `--since` values each exit 2 and read nothing. Prevents a wrong window silently dropping replies.\n- golden: `--since 2026-10-07` is midnight UTC and the output header says so. Prevents timezone ambiguity.\n- golden: with no flags the window is seven days and the login is the configured actor. Prevents an unscoped inbox.\n- adversary: `--login 'alice label:secret'` exits 2 before any read. Prevents qualifier injection when the inbox is mirrored to a forge query.\n\n## Reference coverage\nReference inbox walks: malformed since is usage error; date since means midnight UTC; defaults to authenticated user and seven days; login cannot inject search qualifiers (4 tests).\n\n## Qew today\nMissing.\n\n---\n042cxmtnh \u00b7 approved \u00b7 issue\nParent: #202\nBlocked by: #228",
+    "comments": [],
+    "labels": [
+      "area:read-side"
+    ],
+    "open": false,
+    "title": "Validate inbox --since and --login, with documented defaults and no qualifier injection",
+    "type": ""
+  },
+  "synced_at": "2026-10-14T19:30:33Z",
+  "synced_event": "042e4m8bd",
+  "synced_hash": "80b3769a6baba052"
+}

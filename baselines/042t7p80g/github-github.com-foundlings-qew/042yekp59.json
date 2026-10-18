@@ -1,0 +1,26 @@
+{
+  "cmap": {
+    "6210347003": {
+      "ledger": "042t7pp65",
+      "sha": "aa42ae99f5a94d2b"
+    }
+  },
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "qew start and release post comments that are only an HTML comment (<!-- qew:claim ITEM OWNER NONCE -->). GitHub hides it and shows 'No description provided.' Add a visible line after the marker; holder() still reads the marker.",
+    "comments": [
+      "6210347003"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "Claim and release comments render as empty cards on GitHub",
+    "type": ""
+  },
+  "synced_at": "2026-10-16T07:31:06Z",
+  "synced_event": "042t80c8d",
+  "synced_hash": "9e5bf7c80113fced"
+}

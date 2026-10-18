@@ -1,0 +1,22 @@
+{
+  "column": "Done",
+  "linked": [],
+  "parent_number": 36,
+  "priority": "P0",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Decision: the board has seven Status values (this supersedes the five-column text in the brief). Derivation, first match wins: completed/closed -> Done; draft -> Draft; epic -> In progress only while a direct child is claimed, else Backlog; label `needs:approval` -> Needs approval (outranks claim, review, blockers); not triaged (missing kind or priority) -> Draft; open linked PR mirror -> In review; claimed -> In progress; approved with every need completed -> Ready; else Backlog.\nStatus options: Draft (GRAY) 'Not workable yet: drafts, and work missing approval, a type or a priority'; Backlog (GREEN) 'Approved but blocked, deferred, or a planning container'; Ready (BLUE) 'Qew reports this work as actionable now'; Needs approval (PINK) 'Waiting for a human to authorize the work before it may start'; In progress (YELLOW) 'Claimed and actively being implemented'; In review (PURPLE) 'Implementation has an open linked pull request'; Done (ORANGE) 'Closed and completed'.\nScenarios (named walks, each stating the failure it prevents):\n- golden: one ledger per status shows the expected column\n- adversary: needs:approval on a claimed item still shows Needs approval\n- golden: an epic is Backlog until a child is claimed, then In progress\n- prevents the offline board, the sync projection and `qew ready` disagreeing about the same item",
+    "comments": [],
+    "labels": [
+      "area:board",
+      "area:project-parity"
+    ],
+    "open": false,
+    "title": "Seven-status model: derive the board status for every item",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:15Z",
+  "synced_event": "042e43j71",
+  "synced_hash": "7ee6bd139302f438"
+}

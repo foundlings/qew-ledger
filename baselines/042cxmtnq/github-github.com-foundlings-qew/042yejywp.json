@@ -1,0 +1,25 @@
+{
+  "column": "Done",
+  "linked": [
+    "042cxmtnn",
+    "042cxmtno",
+    "042cxmtnp"
+  ],
+  "parent_number": 229,
+  "priority": "P0",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Contract: Replication 2. Short timeout; unreachable remote keeps local commits; next command retries.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: two clones; A writes and pushes, B's next command fetches and sees it\n- adversary: remote unreachable (bad URL, timeout): write succeeds, commit stays local, `qew status` shows unpushed\n- adversary: real text conflict from a hand edit is reported loudly, nothing auto-resolved, writes refuse until fixed\n- golden: jj and git ledgers both replicate",
+    "comments": [],
+    "labels": [
+      "area:replication"
+    ],
+    "open": false,
+    "title": "Best-effort ledger remote fetch/merge before a write and push after",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:55Z",
+  "synced_event": "042e4hser",
+  "synced_hash": "ab309a64e9b61831"
+}

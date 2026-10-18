@@ -1,0 +1,27 @@
+{
+  "cmap": {
+    "6096013429": {
+      "ledger": "042g9v094",
+      "sha": "f7e8c862a7276089"
+    }
+  },
+  "column": "Done",
+  "linked": [],
+  "parent_number": 374,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Found by qew sync on qew's own ledger: mirror github-github.com-foundlings-qew-pr-1 names a pull request that does not exist on GitHub; the review read answers 404 and the whole pull reports failed on every sync. A 404 on the review reads means the PR is gone: skip it and remember it as read.",
+    "comments": [
+      "6096013429"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "PR review import: a tracked pull request that is gone (404) fails every pull",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:43Z",
+  "synced_event": "042ga2igo",
+  "synced_hash": "d24c4fb74e8e4b07"
+}

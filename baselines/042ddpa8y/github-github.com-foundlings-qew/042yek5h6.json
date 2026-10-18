@@ -1,0 +1,18 @@
+{
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "",
+    "comments": [],
+    "labels": [],
+    "open": false,
+    "title": "Offline claim override with a primary forge: provisional claim that sync reconciles (confirm or claim_lost) for private offline work",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:04:55Z",
+  "synced_event": "042e4moa0",
+  "synced_hash": "aa01faf87383b243"
+}

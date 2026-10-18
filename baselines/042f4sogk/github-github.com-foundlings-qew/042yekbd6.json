@@ -1,0 +1,20 @@
+{
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Pace creates per forge backend, not globally: GitHub.com defaults to 70 creates/min and 450/hour (GitHub's content-creation limits are about 80/min and 500/hour); GitHub Enterprise Server, Forgejo, Gitea and GitLab default to no pacing because their limits differ or are configurable. Override per [[mirror]] with create_per_minute / create_per_hour (0 = unlimited). One pacer shared by all workers. When the wait would exceed the sync's time budget the sync stops (paced) and a rerun continues. Owner: 'this depends on limits specific by forge backend ... GHE ... forgejo instances etc won't'.",
+    "comments": [
+      "6089355903"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "Bulk sync paces forge creates under GitHub's content-creation limits (about 80 per minute, 500 per hour)",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:04Z",
+  "synced_event": "042f9kk3s",
+  "synced_hash": "e80df3809f918ed6"
+}

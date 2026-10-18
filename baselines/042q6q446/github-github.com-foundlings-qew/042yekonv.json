@@ -1,0 +1,26 @@
+{
+  "cmap": {
+    "6176434337": {
+      "ledger": "042q6qi8v",
+      "sha": "6cd8fdd08bd427d5"
+    }
+  },
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Add a Closed Status option beside Done; sync_plan.column puts closed items there, completed stay in Done. project ensure adds the option to existing boards; existing closed cards move on the next sync.",
+    "comments": [
+      "6176434337"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "Board shows a Closed column for work closed without delivery (not planned, duplicate, superseded)",
+    "type": ""
+  },
+  "synced_at": "2026-10-14T19:29:26Z",
+  "synced_event": "042q74ngd",
+  "synced_hash": "63533be01737101b"
+}

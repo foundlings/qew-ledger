@@ -1,0 +1,21 @@
+{
+  "column": "Closed",
+  "linked": [],
+  "parent_number": 75,
+  "priority": "P3",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Behaviour\nReference `create` and plan lines build the body from `where`, `problem`/`goal`, `fix`/`approach`, `done-when`,\n`discovered-from`, with an ambiguity refusal when both `problem` and `goal` (or `fix` and `approach`) are given, an\n`--edit` flow that runs `$EDITOR` without a shell, and warnings for unmarked code-shaped text. This is optional\nauthoring convenience; confirm there is a current requirement before building (YAGNI). If built in the ledger\nmodel: sections render as plain Markdown headings in the body; `done-when` entries become child `task` items\n(the spec forbids inline checkboxes); `discovered-from` becomes a `needs`-free provenance line naming the item;\n`$EDITOR` is split with shlex and executed without a shell; warnings go to stderr and never alter the body.\n\n## Scenarios\n1. Composed body: goal, approach and done-when produce the headings and child tasks; `discovered-from` line present. Prevents free-form, unreadable work text.\n2. `--problem` with `--goal` refused exit 2, no call. Prevents two framings of one item.\n3. `EDITOR=\"python editor.py ; touch marker\"`: marker is never created and the edited text becomes the body. Prevents shell injection from an environment value.\n4. Body mentioning `qew ready --limit 5` and `./plans/work.jsonl` produces stderr warnings and an unchanged stored body. Prevents untrusted text being silently turned into commands.\n\n## Reference coverage\nReference graph-write: create golden walk composes approved work, create seam walk refuses ambiguous body, create editor\ngolden walk uses editor body without a shell, create warns about unmarked code without altering the body (4 of 26).\n\n## Qew today\nMissing: `create` has `--body`/`--body-file` only; no structured fields, no editor, no warnings.",
+    "comments": [],
+    "labels": [
+      "area:drafts-plans"
+    ],
+    "open": false,
+    "title": "Compose structured work bodies and warn about unmarked code text",
+    "type": ""
+  },
+  "synced_at": "2026-10-14T19:30:59Z",
+  "synced_event": "042e47yfe",
+  "synced_hash": "a809740e1b23ddba"
+}

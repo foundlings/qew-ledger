@@ -1,0 +1,26 @@
+{
+  "cmap": {
+    "6152788668": {
+      "ledger": "042o4qbfk",
+      "sha": "a04b28b1c039e1aa"
+    }
+  },
+  "column": "Done",
+  "linked": [],
+  "priority": "P0",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Santa (foundlings): a dry run of start rows left 20 claims on the primary that nothing in the ledger holds; start then refuses 'already claimed by X on the primary' and release/take-over say not claimed. Rollback only undoes ledger files. Fix: dry run never writes the primary; a failing batch withdraws what it posted; release --force clears a primary claim the ledger does not hold.",
+    "comments": [
+      "6152788668"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "batch --dry-run and a failing batch leave start claims on the primary forge; release --force cannot clear them",
+    "type": ""
+  },
+  "synced_at": "2026-10-13T18:56:36Z",
+  "synced_event": "042o4zr7s",
+  "synced_hash": "a520f7d748ea562f"
+}

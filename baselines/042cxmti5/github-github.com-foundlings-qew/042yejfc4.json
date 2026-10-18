@@ -1,0 +1,21 @@
+{
+  "column": "Done",
+  "linked": [],
+  "parent_number": 46,
+  "priority": "P3",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Command inventory for `qew pr ready`: mark a draft pull request ready for review.\n\nFlags: --target.\n\nEnd-to-end check (2026-10-08, scratch ledger + local forge fake, scripted run of every command): works, exit codes as documented.\n\nWalk coverage today: 1 direct test invocation(s) of `qew pr ready`; flags never exercised by any test: none.\n\nDone when: a golden scenario and the refusal/adversary scenarios for this command and each flag exist as named walks whose docstrings state the failure prevented, and the three documents (help, README, commands spec) agree.",
+    "comments": [],
+    "labels": [
+      "area:command-inventory"
+    ],
+    "open": false,
+    "title": "Inventory and walk coverage: qew pr ready",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:22Z",
+  "synced_event": "042e4652w",
+  "synced_hash": "1a1ac18f3df2623e"
+}

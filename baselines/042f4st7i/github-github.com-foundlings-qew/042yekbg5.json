@@ -1,0 +1,20 @@
+{
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "GitHub's 'secondary rate limit ... temporarily blocked from content creation' blocks last several minutes; qew said retry after 60s. Honour Retry-After when given; with none, back off several minutes (escalating on repeats) and print the time at which a rerun is likely to work. Walk: fake answers 403 secondary-limit text without Retry-After; assert the longer wait is recorded and printed.",
+    "comments": [
+      "6089356244"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "A secondary-limit 403 backs off longer than 60 seconds and prints the realistic resume time",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:04Z",
+  "synced_event": "042f9kkbp",
+  "synced_hash": "9ccf2c7492da518f"
+}

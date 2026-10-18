@@ -1,0 +1,18 @@
+{
+  "column": "Done",
+  "linked": [],
+  "priority": "P1",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Work remaining after the v1 ledger rewrite landed on branch v1-ledger (draft PR foundlings/qew#1).",
+    "comments": [],
+    "labels": [],
+    "open": false,
+    "title": "qew v1 follow-ups",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:04:47Z",
+  "synced_event": "042e410f1",
+  "synced_hash": "248b8ca3434f1931"
+}

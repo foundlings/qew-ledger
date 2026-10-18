@@ -1,0 +1,21 @@
+{
+  "column": "Done",
+  "linked": [],
+  "parent_number": 134,
+  "priority": "P1",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Behaviour\n`qew start ITEM` must distinguish its refusals the way agent loops need: claimed by someone else (exit 3, names the holder and the take-over command), already claimed by the caller (exit 5, idempotent success signal for loops, no event written), not startable because draft or unmet needs (exit 2, names the needs), unknown item (exit 2). Refusals write nothing. The claimed event records the actor. Document the exit codes (0 ok, 1 invalid ledger, 2 refusal or usage, 3 ownership conflict or environment, 4 indeterminate, 5 already yours, 6 claim cap) in docs/specs/commands.md and the `--help` epilog.\n\n## Scenarios\n- golden: approved, unblocked item is claimed, output names item and actor, one `claimed` event (prevents: silent no-op)\n- another actor's claim: exit 3, stderr names the holder, no event written (prevents: stealing a claim by a plain start)\n- own claim again: exit 5, no second event (prevents: loops treating a sibling's claim as theirs, and duplicate events)\n- draft, blocked and completed items: exit 2 with the reason, no event (covered)\n\n## Reference coverage\n3 reference test function(s): `test_start_golden_walk_claims_and_verifies_ready_work`, `test_start_seam_walk_refuses_someone_elses_claim`, `test_start_refuses_approval_gated_work_without_writing`\n\n## Qew today\nReduced. The flow walk test_start_refuses_drafts_double_claims_and_blocked_work covers drafts, blocked work and a second actor, but every refusal is exit 2: no exit 3 vs 5 distinction, no idempotent own-claim path (own claim currently exits 2 as claimed), no exit-code documentation. Approval-gated work: see dropped (draft model).",
+    "comments": [],
+    "labels": [
+      "area:lifecycle"
+    ],
+    "open": false,
+    "title": "Make `qew start` report who holds the claim and keep distinct exit codes",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:30Z",
+  "synced_event": "042e4atgp",
+  "synced_hash": "0faf5e3c2deb5633"
+}

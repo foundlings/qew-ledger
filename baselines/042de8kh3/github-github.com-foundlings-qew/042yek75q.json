@@ -1,0 +1,20 @@
+{
+  "column": "Closed",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "<!-- qew-duplicate -->\n\nContract: Replication 7. auto_commit/auto_push/auto_forge_sync/timeout_s with defaults; QEW_OFFLINE=1.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: defaults on; each switch off disables exactly its step\n- refusal: unknown key or wrong type fails with the file named\n- golden: QEW_OFFLINE=1 makes zero network calls (fake forge and remote record none) yet still commits locally\n\n---\n042cxmtnp \u00b7 approved \u00b7 issue\nParent: #239",
+    "comments": [],
+    "labels": [
+      "area:replication"
+    ],
+    "open": false,
+    "title": "[replication] config and QEW_OFFLINE",
+    "type": ""
+  },
+  "synced_at": "2026-10-14T19:30:44Z",
+  "synced_event": "042e4ni4g",
+  "synced_hash": "2fc45a0815ae6896"
+}

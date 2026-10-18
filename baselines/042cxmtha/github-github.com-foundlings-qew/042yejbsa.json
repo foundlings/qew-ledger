@@ -1,0 +1,23 @@
+{
+  "column": "Done",
+  "linked": [
+    "042cxmth6"
+  ],
+  "parent_number": 35,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "`--filter` takes the same `label:X kind:X state:X priority:N` terms (spaces and, commas or) plus `owner:X`, `epic:ID`, `parent:ID`.\nScenarios:\n- golden: filter narrows cards and counts\n- refusal: malformed term exits 2; prevents an empty board that looks like no work",
+    "comments": [],
+    "labels": [
+      "area:board"
+    ],
+    "open": false,
+    "title": "Board filter expressions using the select syntax",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:06:07Z",
+  "synced_event": "042f0576u",
+  "synced_hash": "1c7b64d6339db172"
+}

@@ -1,0 +1,20 @@
+{
+  "column": "Closed",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "",
+    "comments": [],
+    "labels": [
+      "area:x"
+    ],
+    "open": false,
+    "title": "scratch",
+    "type": ""
+  },
+  "synced_at": "2026-10-14T19:30:54Z",
+  "synced_event": "042h2ow4o",
+  "synced_hash": "ce62333afd9449e7"
+}

@@ -1,0 +1,23 @@
+{
+  "column": "Done",
+  "linked": [
+    "042cxmth5"
+  ],
+  "parent_number": 35,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Compact one-line-per-column output for agents.\nScenarios:\n- golden: counts match `qew list --state` totals; prevents drift between views",
+    "comments": [],
+    "labels": [
+      "area:board"
+    ],
+    "open": false,
+    "title": "qew board columns prints only columns and counts",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:58Z",
+  "synced_event": "042f0532k",
+  "synced_hash": "7542eed153fab86e"
+}

@@ -1,0 +1,26 @@
+{
+  "cmap": {
+    "6100583227": {
+      "ledger": "042h0xefe",
+      "sha": "91f76b8d77a07780"
+    }
+  },
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Owner-approved via Santa (msg-qew-fields). Fields are first-class ledger data (schema 5), config maps them to board fields, CLI parity (create/set/show/list/search/filter, set --manifest, create --from-file), migrate-layout, label prune through sync.",
+    "comments": [
+      "6100583227"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "Item fields: named key/value data mirrored to project-board fields; field-replaced labels stop mirroring; sync prunes unused forge labels",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T18:25:38Z",
+  "synced_event": "042h1vz21",
+  "synced_hash": "fb952519964b445e"
+}

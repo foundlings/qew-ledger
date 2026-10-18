@@ -1,0 +1,20 @@
+{
+  "column": "Done",
+  "linked": [],
+  "priority": "P1",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Problem\n\nqew sync --dry-run says nothing to sync when every mirrored issue is missing on the forge, because it compares only event ids and mirror files.\n\n## Fix\n\nA dry run reads the forge listing and reports the recreate it would perform.\n\n## Done when\n\nA walk empties the fake forge and the dry run lists create lines for every item.",
+    "comments": [
+      "6077052084"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "sync --dry-run reports the creates a recreated forge repo needs",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:02Z",
+  "synced_event": "042e66a9n",
+  "synced_hash": "2efdad951c9e1d4c"
+}

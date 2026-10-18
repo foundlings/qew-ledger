@@ -1,0 +1,23 @@
+{
+  "column": "Done",
+  "linked": [
+    "042cxmtiq"
+  ],
+  "parent_number": 75,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Behaviour\nDecide whether the plan-file workflow is a separate `qew apply FILE [--draft] [--dry-run] [--json]` or stays\n`create --from-file`; either way there is one documented path. Add to the repo: a plan-files section in\n`docs/specs/commands.md` (or a new `docs/specs/plan-files.md`) stating fields, rules, dry-run, rerun marker and\ndraft rule; README text for implemented behaviour only; a `--help` line for every flag and the command in a group\nof the `qew --help` epilog. A walk fails when a flag has no help line or is missing from README or spec. Add the\ndrafts rules (human quote only, tree approval, revert guards, no force flag) as a short `docs/specs/drafts.md`.\nApply field names are English and follow the header keys (`needs`, `parent`, `labels`, `priority`, `ref`).\n\n## Scenarios\n1. Help walk: every apply/draft/plan flag has a help line, README and spec mention. Prevents undocumented flags.\n2. A plan file example in the spec is parsed by the real validator in a test. Prevents a spec that rots.\n\n## Reference coverage\nReference docs: plan-files.md (fields, dry-run, checkpoint, provenance marker) and drafts.md (model, commands,\nboard, plan pull requests, pull request flow). Pull request and board sections belong to other areas.\n\n## Qew today\n`docs/specs/commands.md` documents `draft` and `create --from-file`; there is no plan-file or drafts spec.",
+    "comments": [],
+    "labels": [
+      "area:drafts-plans"
+    ],
+    "open": false,
+    "title": "Decide `qew apply` versus `create --from-file` and align help, README and specs",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:47Z",
+  "synced_event": "042e4801q",
+  "synced_hash": "e18b15d262ea1631"
+}

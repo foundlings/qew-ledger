@@ -1,0 +1,26 @@
+{
+  "cmap": {
+    "6173897322": {
+      "ledger": "042q06o14",
+      "sha": "1fa6e6bea74201e1"
+    }
+  },
+  "column": "Done",
+  "linked": [],
+  "priority": "P1",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Problem\n\nqew sync pushes every selected item to every mirror. On a big ledger the first sync, or a schema change, writes thousands of issues and cards at once, runs into forge limits and gets stuck.\n\n## Fix\n\nsync gains --since DATE, --author NAME, --owner NAME, --tree ITEM and --limit N (intersecting, parents first); they use the targeted pass, which reads no whole board and prunes nothing. An unscoped sync whose pending writes exceed [replication] sync_limit (default 300) is refused with the count and the options unless --all is given. The background worker syncs its queued items and logs the refusal.\n\n## Done when\n\nEach filter narrows the writes; an over-limit sync without --all exits 2 naming the count and --all; --all and --dry-run still work; the worker keeps mirroring queued items.",
+    "comments": [
+      "6173897322"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "qew sync is scoped: --all, --since, --author, --owner, --tree, --limit; a large unscoped sync is refused",
+    "type": ""
+  },
+  "synced_at": "2026-10-14T17:15:14Z",
+  "synced_event": "042q0ji1v",
+  "synced_hash": "4d1884ad3773de1b"
+}

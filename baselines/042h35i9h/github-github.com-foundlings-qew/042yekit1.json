@@ -1,0 +1,26 @@
+{
+  "cmap": {
+    "6100999951": {
+      "ledger": "042h35q8d",
+      "sha": "7bbd508ba9e39a7e"
+    }
+  },
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "6.4.1 stranded the foundlings fleet: schema 4 refused, and the migration refused under four logins' live claims.",
+    "comments": [
+      "6100999951"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "Schema 4 ledgers stay usable until migrated; migrate-layout 4 to 5 keeps other logins' claims",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T18:52:19Z",
+  "synced_event": "042h36qcj",
+  "synced_hash": "564fa32f562854ef"
+}

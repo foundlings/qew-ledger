@@ -1,0 +1,26 @@
+{
+  "cmap": {
+    "6179269145": {
+      "ledger": "042qe1r0a",
+      "sha": "91815fd1a422b699"
+    }
+  },
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "foundlings: rudolph merges every PR, elves open and claim them; land refuses held items so 15 merged PRs stay claimed. Add qew land N --integrator --reason TEXT: completes the held items of a merged PR on the take-over path, reason recorded on each item. Reported by foundlings (Santa).",
+    "comments": [
+      "6179269145"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "qew land --integrator: the merger lands PRs whose items another actor claimed",
+    "type": ""
+  },
+  "synced_at": "2026-10-14T21:59:14Z",
+  "synced_event": "042qegfc2",
+  "synced_hash": "7f584a777c2329d0"
+}

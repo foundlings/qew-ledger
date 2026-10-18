@@ -1,0 +1,18 @@
+{
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "",
+    "comments": [],
+    "labels": [],
+    "open": false,
+    "title": "Ten-agent stress walk: parallel creates/claims/evidence/completes on one ledger with kill -9 at random points converge with no stale blocker, no duplicate ids, clean history",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:00Z",
+  "synced_event": "042e4oq70",
+  "synced_hash": "4f6300d51fdb5307"
+}

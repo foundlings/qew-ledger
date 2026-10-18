@@ -1,0 +1,20 @@
+{
+  "column": "Done",
+  "linked": [],
+  "priority": "P1",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Epic for area `vcs-hook`. Child issues carry the gaps found by the audit and the scenarios each needs.",
+    "comments": [],
+    "labels": [
+      "area:vcs-hook"
+    ],
+    "open": false,
+    "title": "VCS evidence hook",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:04:49Z",
+  "synced_event": "042f05v15",
+  "synced_hash": "ced7067fb677cf11"
+}

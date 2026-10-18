@@ -1,0 +1,19 @@
+{
+  "column": "Done",
+  "linked": [],
+  "parent_number": 1,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Rewrite item IDs and every reference to time-mode IDs and record the old IDs as `aliases:` in the header. Requested by the owner; deliberately not v1.",
+    "comments": [],
+    "labels": [],
+    "open": false,
+    "title": "Add qew migrate-ids --to time",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:11Z",
+  "synced_event": "042e41240",
+  "synced_hash": "559b90b47096342a"
+}

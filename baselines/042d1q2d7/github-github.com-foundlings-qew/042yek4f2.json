@@ -1,0 +1,20 @@
+{
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "",
+    "comments": [],
+    "labels": [
+      "area:board"
+    ],
+    "open": false,
+    "title": "qew comment is missing so live verification output cannot be recorded on an issue",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:04:52Z",
+  "synced_event": "042e4ksad",
+  "synced_hash": "9a5970dc8d5f15ac"
+}

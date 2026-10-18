@@ -1,0 +1,23 @@
+{
+  "column": "Done",
+  "linked": [
+    "042cxmth5"
+  ],
+  "parent_number": 35,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "`qew board create|list|set` manage named board files in the ledger; merge-safe (one file per board).\nScenarios:\n- golden: two branches add different boards and merge cleanly\n- refusal: duplicate board name refused",
+    "comments": [],
+    "labels": [
+      "area:board"
+    ],
+    "open": false,
+    "title": "qew board config files: create, list, set default view",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:59Z",
+  "synced_event": "042f05acm",
+  "synced_hash": "0782f257371ca29f"
+}

@@ -1,0 +1,20 @@
+{
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "",
+    "comments": [],
+    "labels": [
+      "area:board"
+    ],
+    "open": false,
+    "title": "Board sync reads each card with three API calls; read the whole board once per sync",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:04:52Z",
+  "synced_event": "042e4kq1i",
+  "synced_hash": "e0772f7aa9fa531a"
+}

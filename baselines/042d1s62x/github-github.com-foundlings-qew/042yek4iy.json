@@ -1,0 +1,20 @@
+{
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "",
+    "comments": [],
+    "labels": [
+      "area:project-parity"
+    ],
+    "open": false,
+    "title": "GitHub rate limits: cached project structure, one board listing per sync, Retry-After backoff in the sync worker, retry_after in qew status",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:04:52Z",
+  "synced_event": "042e4kxau",
+  "synced_hash": "0cafdc9cda4db406"
+}

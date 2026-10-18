@@ -1,0 +1,20 @@
+{
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "",
+    "comments": [],
+    "labels": [
+      "area:board"
+    ],
+    "open": false,
+    "title": "Two claimed epics (042cxmtmt, 042cz0y86) make qew check fail and block qew sync for every lane",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:04:52Z",
+  "synced_event": "042e4kv1b",
+  "synced_hash": "9fdbffde900e0f8c"
+}

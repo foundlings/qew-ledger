@@ -1,0 +1,21 @@
+{
+  "cmap": {},
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "",
+    "comments": [
+      "6236838206"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "Pin the Needs approval projection: a claimed epic waiting on a human, and leaving the column on accept",
+    "type": ""
+  },
+  "synced_at": "2026-10-17T16:40:52Z",
+  "synced_event": "042w0g8fg",
+  "synced_hash": "abef42fa4a57445c"
+}
