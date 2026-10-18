@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -11,11 +11,11 @@
       "6256524820"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "A git ledger merge of two machines' baseline updates conflicts on renames and leaves the clone mid-merge",
     "type": ""
   },
-  "synced_at": "2026-10-18T23:45:47Z",
-  "synced_event": "042ymsj5i",
-  "synced_hash": "7d4f6daf8254eb51"
+  "synced_at": "2026-10-18T23:45:56Z",
+  "synced_event": "042ymtj72",
+  "synced_hash": "843c27d5c30bb03f"
 }
