@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "In review",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -15,7 +15,7 @@
     "title": "Declare schema 7 for the committed baselines layout so an older qew refuses the ledger",
     "type": ""
   },
-  "synced_at": "2026-10-18T21:18:23Z",
-  "synced_event": "042yekig5",
-  "synced_hash": "c8d66ee2e6b9918d"
+  "synced_at": "2026-10-18T21:25:43Z",
+  "synced_event": "042yeyc33",
+  "synced_hash": "07bdbd6f6f399ab1"
 }
