@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "In review",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -15,7 +15,7 @@
     "title": "qew land completes only the items in the pull request record, not the ones its Progress boxes name",
     "type": ""
   },
-  "synced_at": "2026-10-19T07:43:09Z",
-  "synced_event": "042za6qge",
-  "synced_hash": "6534e9b36ac6ddf6"
+  "synced_at": "2026-10-19T07:51:36Z",
+  "synced_event": "042zamb8j",
+  "synced_hash": "52b4b95fe03c8b5b"
 }
