@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -11,11 +11,11 @@
       "6262247609"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "qew land completes only the items in the pull request record, not the ones its Progress boxes name",
     "type": ""
   },
-  "synced_at": "2026-10-19T07:52:08Z",
-  "synced_event": "042zamb8j",
-  "synced_hash": "6534e9b36ac6ddf6"
+  "synced_at": "2026-10-19T07:52:17Z",
+  "synced_event": "042zanbd2",
+  "synced_hash": "d7b798869ab46d0e"
 }
