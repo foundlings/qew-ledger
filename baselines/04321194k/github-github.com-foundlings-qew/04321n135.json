@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In review",
+  "column": "In progress",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -15,7 +15,7 @@
     "title": "qew cannot resolve a landed change when the target bookmark is conflicted or the evidence change id is divergent",
     "type": ""
   },
-  "synced_at": "2026-10-20T16:31:33Z",
+  "synced_at": "2026-10-20T16:32:02Z",
   "synced_event": "04321m9d0",
-  "synced_hash": "e65a0b2ce5705245"
+  "synced_hash": "ac8a0e1c9cc6c3a6"
 }
