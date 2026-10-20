@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "In review",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -15,7 +15,7 @@
     "title": "qew list --recent [N] and --since: the newest items first, by creation time",
     "type": ""
   },
-  "synced_at": "2026-10-20T15:19:06Z",
-  "synced_event": "0431y1w66",
-  "synced_hash": "36451010338e49dc"
+  "synced_at": "2026-10-20T15:29:29Z",
+  "synced_event": "0431yjv7q",
+  "synced_hash": "313667b70a481fbd"
 }
