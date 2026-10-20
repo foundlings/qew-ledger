@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -11,11 +11,11 @@
       "6295651249"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "qew cannot resolve a landed change when the target bookmark is conflicted or the evidence change id is divergent",
     "type": ""
   },
-  "synced_at": "2026-10-20T16:32:02Z",
-  "synced_event": "04321m9d0",
-  "synced_hash": "ac8a0e1c9cc6c3a6"
+  "synced_at": "2026-10-20T16:32:10Z",
+  "synced_event": "04321n527",
+  "synced_hash": "2fa9fc76376d2006"
 }
