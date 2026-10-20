@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -11,11 +11,11 @@
       "6294329705"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "qew list --recent [N] and --since: the newest items first, by creation time",
     "type": ""
   },
-  "synced_at": "2026-10-20T15:29:58Z",
-  "synced_event": "0431yjv7q",
-  "synced_hash": "36451010338e49dc"
+  "synced_at": "2026-10-20T15:30:07Z",
+  "synced_event": "0431yks89",
+  "synced_hash": "4892f0d442961201"
 }
