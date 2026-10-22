@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "In review",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -15,7 +15,7 @@
     "title": "A ledger push or fetch timeout reads as unreachable, defaults to 5s, and unpushed work grows silently",
     "type": ""
   },
-  "synced_at": "2026-10-22T20:45:23Z",
-  "synced_event": "0436f3dfr",
-  "synced_hash": "9dede362be3ee284"
+  "synced_at": "2026-10-22T20:53:59Z",
+  "synced_event": "0436fi988",
+  "synced_hash": "fc910ab8854a2fea"
 }
