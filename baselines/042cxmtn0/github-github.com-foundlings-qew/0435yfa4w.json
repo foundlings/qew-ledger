@@ -15,7 +15,7 @@
     "title": "Make every read refuse a partially readable ledger instead of listing what it could parse",
     "type": ""
   },
-  "synced_at": "2026-10-10T13:05:35Z",
-  "synced_event": "042e4fy4y",
-  "synced_hash": ""
+  "synced_at": "2026-10-22T15:05:44Z",
+  "synced_event": "0435yf9wt",
+  "synced_hash": "8647db16742bc235"
 }
