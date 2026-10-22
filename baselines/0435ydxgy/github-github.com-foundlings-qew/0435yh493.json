@@ -1,18 +1,21 @@
 {
-  "column": "In review",
+  "cmap": {},
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
     "assignee": "",
     "assignees": [],
     "body": "## Problem\n\nRelease 6.35.0 merged the RED test commit only; qew pull is missing from the release.\n\n## Fix\n\nMerge the GREEN commit of 0435xmzf1 and release 6.35.1.",
-    "comments": [],
+    "comments": [
+      "6344024812"
+    ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "6.35.0 shipped only the RED commit of qew pull",
     "type": ""
   },
-  "synced_at": "2026-10-22T15:05:27Z",
-  "synced_event": "0435yf67v",
-  "synced_hash": "821687e763a98e88"
+  "synced_at": "2026-10-22T15:06:41Z",
+  "synced_event": "0435yh2ab",
+  "synced_hash": "ca90c2db9c17ebad"
 }
