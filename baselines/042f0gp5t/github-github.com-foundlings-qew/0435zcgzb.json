@@ -14,7 +14,7 @@
     "title": "Sync must keep the forge close reason: a completed issue pulled stays completed, duplicates close as duplicate, and wrongly not-planned imports are repaired",
     "type": ""
   },
-  "synced_at": "2026-10-22T15:04:59Z",
-  "synced_event": "0435yg4t6",
-  "synced_hash": ""
+  "synced_at": "2026-10-22T15:23:24Z",
+  "synced_event": "0435zcgsq",
+  "synced_hash": "41c66c709a375e33"
 }

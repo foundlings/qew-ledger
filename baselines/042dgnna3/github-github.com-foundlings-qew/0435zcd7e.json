@@ -12,7 +12,7 @@
     "title": "Cross-platform advisory locks (POSIX flock, Windows LockFileEx) in one module: kernel-released on death, no stale-lock cleanup, holder info for diagnostics only",
     "type": ""
   },
-  "synced_at": "2026-10-22T15:04:56Z",
-  "synced_event": "0435yg0pf",
-  "synced_hash": ""
+  "synced_at": "2026-10-22T15:23:20Z",
+  "synced_event": "0435zcd1z",
+  "synced_hash": "4bfe5e5a6924d30f"
 }
