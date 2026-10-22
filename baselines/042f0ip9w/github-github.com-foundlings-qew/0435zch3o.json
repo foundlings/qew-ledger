@@ -14,7 +14,7 @@
     "title": "A full first sync of a big repo is still about one issue per minute: find the per-create cost with QEW_TRACE and remove it",
     "type": ""
   },
-  "synced_at": "2026-10-22T15:04:59Z",
-  "synced_event": "0435yg4y5",
-  "synced_hash": ""
+  "synced_at": "2026-10-22T15:23:24Z",
+  "synced_event": "0435zch0d",
+  "synced_hash": "45d68f3bc5f3d689"
 }

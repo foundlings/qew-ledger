@@ -12,7 +12,7 @@
     "title": "Crash orphans: write-ahead create intent plus mirror-wins duplicate closing, so a leftover issue beyond the newest 100 never becomes a twin",
     "type": ""
   },
-  "synced_at": "2026-10-22T15:04:55Z",
-  "synced_event": "0435yg0fg",
-  "synced_hash": ""
+  "synced_at": "2026-10-22T15:23:20Z",
+  "synced_event": "0435zccy9",
+  "synced_hash": "bff3574ce6ab9f34"
 }
