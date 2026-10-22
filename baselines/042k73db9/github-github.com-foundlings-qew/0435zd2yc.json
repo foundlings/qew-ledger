@@ -20,7 +20,7 @@
     "title": "Mirror targets come from the cwd repo's config even when QEW_LEDGER names another ledger; add mirror rehome",
     "type": ""
   },
-  "synced_at": "2026-10-22T15:05:15Z",
-  "synced_event": "0435ygt8k",
-  "synced_hash": ""
+  "synced_at": "2026-10-22T15:23:39Z",
+  "synced_event": "0435zd2x8",
+  "synced_hash": "e81a563e234c7b79"
 }
