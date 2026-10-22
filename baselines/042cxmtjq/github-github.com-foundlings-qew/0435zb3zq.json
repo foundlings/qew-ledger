@@ -17,7 +17,7 @@
     "title": "Add an installed-wheel smoke walk: build, install in a venv outside the checkout, run the entry point",
     "type": ""
   },
-  "synced_at": "2026-10-22T15:06:08Z",
-  "synced_event": "0435yerj8",
-  "synced_hash": ""
+  "synced_at": "2026-10-22T15:24:18Z",
+  "synced_event": "0435zb3su",
+  "synced_hash": "a95780775d2ef4b7"
 }
