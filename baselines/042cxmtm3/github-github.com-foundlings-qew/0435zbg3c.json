@@ -1,0 +1,24 @@
+{
+  "column": "Done",
+  "linked": [
+    "042cxmth4"
+  ],
+  "parent_number": 36,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "GitLab: board with lists for each Status as scoped labels `board::<Status>` and priority labels; Forgejo: unsupported board, state labels carry the same statuses.\nScenarios (named walks, each stating the failure it prevents):\n- golden: GitLab fake board lists match the seven statuses\n- refusal: Forgejo ensure is unsupported and says so",
+    "comments": [],
+    "labels": [
+      "area:board",
+      "area:project-parity"
+    ],
+    "open": false,
+    "title": "Boards on GitLab (scoped label board) and Forgejo (labels)",
+    "type": ""
+  },
+  "synced_at": "2026-10-22T15:06:11Z",
+  "synced_event": "0435yf2s5",
+  "synced_hash": ""
+}

@@ -1,0 +1,23 @@
+{
+  "column": "Done",
+  "linked": [
+    "042cxmtmg"
+  ],
+  "parent_number": 177,
+  "priority": "P3",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Behaviour\n`--admin` merges past branch protection (pending/failing check gate) and prints `admin merge: REASON`; `--reason` is required with it (exit 2 before any call) and is exit 2 without it. It never bypasses the draft, conflict, checklist, covered-draft or ownership rules. The reason is recorded as a ledger `field`-style audit comment on the covered items so the bypass is reviewable. Forges without a bypass raise `Unsupported`.\n\n## Scenarios\n- admin without reason: exit 2, zero calls. Prevents: silent bypass.\n- admin skips pending checks, prints reason, merge call carries the bypass. Prevents: blocked emergency docs-only merge.\n- admin still refuses draft, open checklist items, conflicts, covered draft, other author: each exit 2/3, zero merges. Prevents: admin as a master key.\n- contradictory options (`--auto --admin`, `--reason` alone): exit 2 before any call.\n\n## Reference coverage\nReference pr merge walk file: admin needs reason, admin skips check rule, admin still refuses drafts, admin refuses every readiness rule, contradictory options. 5 test functions.\n\n## Qew today\nMissing: no flag; qew's own rules say `--admin` is part of the working flow.",
+    "comments": [],
+    "labels": [
+      "area:pull-requests"
+    ],
+    "open": false,
+    "title": "Add `qew pr merge --admin --reason TEXT`: bypass the check rule only",
+    "type": ""
+  },
+  "synced_at": "2026-10-22T15:06:21Z",
+  "synced_event": "0435yf6wa",
+  "synced_hash": ""
+}

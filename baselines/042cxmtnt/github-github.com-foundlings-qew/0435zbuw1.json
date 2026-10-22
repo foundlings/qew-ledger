@@ -1,0 +1,24 @@
+{
+  "column": "Done",
+  "linked": [
+    "042cxmtnq",
+    "042cxmtns"
+  ],
+  "parent_number": 229,
+  "priority": "P0",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Contract: Replication 6. Uncommitted files, unpushed commits, pending per target, divergences, last sync per target, offline/online; token-efficient, --json.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: clean online ledger prints one line\n- golden: every problem class appears with its count and the command that fixes it\n- golden: --json schema stable",
+    "comments": [],
+    "labels": [
+      "area:replication"
+    ],
+    "open": false,
+    "title": "qew status: replication state",
+    "type": ""
+  },
+  "synced_at": "2026-10-22T15:06:23Z",
+  "synced_event": "0435yfh2i",
+  "synced_hash": ""
+}

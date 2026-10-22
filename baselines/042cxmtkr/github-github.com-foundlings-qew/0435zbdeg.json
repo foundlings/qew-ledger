@@ -1,0 +1,21 @@
+{
+  "column": "Done",
+  "linked": [],
+  "parent_number": 134,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Behaviour\nAgent loops parse results, not prose. Reference write commands accept `--json`, also placed before the command, and print an object with `schema_version`, the item id and the new state: create (`{id, state, schema_version}` per item), set (`changed`), start (`state: started`, plus `lane`, `workspace`, `kind` when given), complete, close, reopen, release, block, unblock, land. Human output stays one terse line. Pin each schema in a test, and list it in docs/specs/commands.md. The reference's stderr reconciliation hint for boards is dropped (the ledger is the board source).\n\n## Scenarios\n- start with the flag before the command and after it: identical JSON with `schema_version` 1 (prevents: agents guessing flag position)\n- create json for a batch returns an array in input order with ids and states (prevents: parsing stdout lines)\n- error paths keep the plain stderr message and exit code (prevents: JSON mode hiding failures)\n\n## Reference coverage\n2 reference test function(s): `test_global_machine_flags_render_versioned_lifecycle_json`, `test_json_create_also_names_the_reconciliation_command_on_stderr`\n\n## Qew today\nReduced. `--json` exists on show, list, ready, blocked and graph only; write commands print prose.",
+    "comments": [],
+    "labels": [
+      "area:lifecycle"
+    ],
+    "open": false,
+    "title": "Give every write command a versioned `--json` result",
+    "type": ""
+  },
+  "synced_at": "2026-10-22T15:05:40Z",
+  "synced_event": "0435yezp6",
+  "synced_hash": ""
+}

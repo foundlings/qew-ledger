@@ -1,0 +1,21 @@
+{
+  "column": "Done",
+  "linked": [],
+  "parent_number": 109,
+  "priority": "P3",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Behaviour\nSpec-only: docs/specs/releases.md already states no workflows. Add the pointer that the two reference workflow assertions (tag checkout uses event sha) live in the local release script issue.\n\n## Scenarios\nNone.\n\n## Reference coverage\ntest_checkout_uses_the_event_commit_not_the_movable_tag.\n\n## Qew today\nDecided in docs/specs/releases.md.",
+    "comments": [],
+    "labels": [
+      "area:hooks-dist"
+    ],
+    "open": false,
+    "title": "Record that release verification is local, not a forge workflow",
+    "type": ""
+  },
+  "synced_at": "2026-10-22T15:05:37Z",
+  "synced_event": "0435yesqr",
+  "synced_hash": ""
+}

@@ -1,0 +1,23 @@
+{
+  "column": "Done",
+  "linked": [
+    "042cxmtiy"
+  ],
+  "parent_number": 100,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Stable JSON schema equal to what `create --from-file` accepts.\nScenarios:\n- golden: round trip equality",
+    "comments": [],
+    "labels": [
+      "area:export-import"
+    ],
+    "open": false,
+    "title": "qew export --json and create --from-file round trip",
+    "type": ""
+  },
+  "synced_at": "2026-10-22T15:06:06Z",
+  "synced_event": "0435yeiw2",
+  "synced_hash": ""
+}
