@@ -14,7 +14,7 @@
     "title": "Forge writes run in parallel: a bounded worker pool for sync, restore and migrate with shared rate-limit backoff",
     "type": ""
   },
-  "synced_at": "2026-10-10T13:05:03Z",
-  "synced_event": "042f3rj03",
-  "synced_hash": ""
+  "synced_at": "2026-10-22T15:05:00Z",
+  "synced_event": "0435yg51p",
+  "synced_hash": "9cd3693747ee5198"
 }
