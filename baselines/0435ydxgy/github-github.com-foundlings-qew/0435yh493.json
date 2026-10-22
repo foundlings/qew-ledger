@@ -1,5 +1,5 @@
 {
-  "column": "Ready",
+  "column": "In review",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -12,7 +12,7 @@
     "title": "6.35.0 shipped only the RED commit of qew pull",
     "type": ""
   },
-  "synced_at": "2026-10-22T15:04:53Z",
-  "synced_event": "0435ydxh5",
-  "synced_hash": "d1e90b05a3195640"
+  "synced_at": "2026-10-22T15:05:27Z",
+  "synced_event": "0435yf67v",
+  "synced_hash": "821687e763a98e88"
 }
