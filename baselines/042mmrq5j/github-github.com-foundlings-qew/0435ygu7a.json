@@ -20,7 +20,7 @@
     "title": "Pre-tool hook costs a full CLI import per Bash call; install cannot leave PreToolUse alone",
     "type": ""
   },
-  "synced_at": "2026-10-13T00:57:58Z",
-  "synced_event": "042mn5p3o",
-  "synced_hash": ""
+  "synced_at": "2026-10-22T15:05:16Z",
+  "synced_event": "0435ygu5c",
+  "synced_hash": "ce4d957da8278e82"
 }

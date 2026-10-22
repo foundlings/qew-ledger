@@ -20,7 +20,7 @@
     "title": "A large attachment is never committed on a jj ledger: jj refuses to snapshot a new file over snapshot.max-new-file-size, and check does not see it",
     "type": ""
   },
-  "synced_at": "2026-10-11T10:33:06Z",
-  "synced_event": "042ie3y34",
-  "synced_hash": ""
+  "synced_at": "2026-10-22T15:05:12Z",
+  "synced_event": "0435ygqx4",
+  "synced_hash": "bb763022cc93b399"
 }
