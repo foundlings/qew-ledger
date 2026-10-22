@@ -20,7 +20,7 @@
     "title": "A pull request's covered items are frozen at open: pr check --add must extend them and pr sync --items must repair them",
     "type": ""
   },
-  "synced_at": "2026-10-22T15:05:18Z",
-  "synced_event": "0435ygwd8",
-  "synced_hash": ""
+  "synced_at": "2026-10-22T15:23:41Z",
+  "synced_event": "0435zd5vs",
+  "synced_hash": "068c2d8036961653"
 }
