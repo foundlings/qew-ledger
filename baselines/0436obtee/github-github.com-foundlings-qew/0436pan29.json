@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In review",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -11,11 +11,11 @@
       "6353668544"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "Conflict output says routine ledger conflicts are the agent's to resolve",
     "type": ""
   },
-  "synced_at": "2026-10-22T23:52:35Z",
-  "synced_event": "0436p9c6q",
-  "synced_hash": "b511e3638451a73f"
+  "synced_at": "2026-10-22T23:53:32Z",
+  "synced_event": "0436paocv",
+  "synced_hash": "efbafa5118f7f84c"
 }
