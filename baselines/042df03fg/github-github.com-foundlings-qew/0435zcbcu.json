@@ -12,7 +12,7 @@
     "title": "Board follows the ledger implicitly: item-scoped background sync within seconds of a write (no manual sync/project sync); forge-filed issues land in Backlog",
     "type": ""
   },
-  "synced_at": "2026-10-22T15:04:54Z",
-  "synced_event": "0435yfz13",
-  "synced_hash": ""
+  "synced_at": "2026-10-22T15:23:19Z",
+  "synced_event": "0435zcb8a",
+  "synced_hash": "c1182d24ccb37d5d"
 }

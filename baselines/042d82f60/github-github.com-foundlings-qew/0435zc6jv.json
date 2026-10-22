@@ -14,7 +14,7 @@
     "title": "Incremental pull: sync asks the forge only for issues and comments modified since the last pull",
     "type": ""
   },
-  "synced_at": "2026-10-22T15:04:48Z",
-  "synced_event": "0435yfugv",
-  "synced_hash": ""
+  "synced_at": "2026-10-22T15:23:14Z",
+  "synced_event": "0435zc6e2",
+  "synced_hash": "cb2f599cf588389a"
 }

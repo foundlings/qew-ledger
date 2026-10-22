@@ -12,7 +12,7 @@
     "title": "Agent-facing sync conflict handling: list every conflict (ledger merge, divergence, lost claim) and resolve it by command",
     "type": ""
   },
-  "synced_at": "2026-10-22T15:04:49Z",
-  "synced_event": "0435yfv70",
-  "synced_hash": ""
+  "synced_at": "2026-10-22T15:23:15Z",
+  "synced_event": "0435zc7hq",
+  "synced_hash": "86b685636651f593"
 }
