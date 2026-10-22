@@ -14,7 +14,7 @@
     "title": "A sync whose last mirror writes were checkpointed leaves its ledger commit unpushed",
     "type": ""
   },
-  "synced_at": "2026-10-22T15:05:03Z",
-  "synced_event": "0435ygbax",
-  "synced_hash": ""
+  "synced_at": "2026-10-22T15:23:28Z",
+  "synced_event": "0435zcoxa",
+  "synced_hash": "c51950bc7681d5f7"
 }
