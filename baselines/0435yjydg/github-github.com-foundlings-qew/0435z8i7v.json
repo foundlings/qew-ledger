@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "In review",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -15,7 +15,7 @@
     "title": "Claim arbiter reported unreachable during qew sync, leaving claims provisional",
     "type": ""
   },
-  "synced_at": "2026-10-22T15:08:39Z",
-  "synced_event": "0435ym2gf",
-  "synced_hash": "28aa480eed41919a"
+  "synced_at": "2026-10-22T15:21:40Z",
+  "synced_event": "0435z8j4t",
+  "synced_hash": "aee99d33d10e274b"
 }
