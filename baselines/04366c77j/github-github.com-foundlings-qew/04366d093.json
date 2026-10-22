@@ -1,18 +1,21 @@
 {
-  "column": "Ready",
+  "cmap": {},
+  "column": "In progress",
   "linked": [],
   "priority": "P2",
   "seen": {
     "assignee": "",
     "assignees": [],
     "body": "## Problem\n\nqew sync is the only way to send ledger changes to the forge, and a bare call reads the whole board, merges, pushes and prints a lot: an agent that wanted to push one close pays for all of it, and a human closing an issue by hand still needs a full sync\n\n## Done when\n\nqew push writes only pending items (targeted read, no whole-board listing, no pruning) and prints one line; a bare qew sync exits 2 naming push, pull and the options; any option keeps today's sync; the background worker is unaffected",
-    "comments": [],
+    "comments": [
+      "6347375642"
+    ],
     "labels": [],
     "open": true,
     "title": "qew push sends pending changes to the forge; a bare qew sync is refused with exit 2",
     "type": ""
   },
-  "synced_at": "2026-10-22T17:46:46Z",
-  "synced_event": "04366c7bk",
-  "synced_hash": "9cdabdccaaac3994"
+  "synced_at": "2026-10-22T17:47:13Z",
+  "synced_event": "04366cxaw",
+  "synced_hash": "90792871f6aa2a4a"
 }
