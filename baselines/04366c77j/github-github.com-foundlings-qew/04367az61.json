@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -11,11 +11,11 @@
       "6347375642"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "qew push sends pending changes to the forge; a bare qew sync is refused with exit 2",
     "type": ""
   },
-  "synced_at": "2026-10-22T17:47:13Z",
-  "synced_event": "04366cxaw",
-  "synced_hash": "90792871f6aa2a4a"
+  "synced_at": "2026-10-22T18:07:30Z",
+  "synced_event": "04367cgbo",
+  "synced_hash": "e5a1d1f90c46cd09"
 }
