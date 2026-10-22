@@ -20,7 +20,7 @@
     "title": "A local SQLite cache of the ledger's files, validated by stat, makes every command's whole-ledger read cheap",
     "type": ""
   },
-  "synced_at": "2026-10-11T09:47:44Z",
-  "synced_event": "042ibti7e",
-  "synced_hash": ""
+  "synced_at": "2026-10-22T15:05:11Z",
+  "synced_event": "0435ygpqf",
+  "synced_hash": "d1e02b7f35005697"
 }
