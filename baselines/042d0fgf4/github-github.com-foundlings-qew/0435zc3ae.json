@@ -1,0 +1,21 @@
+{
+  "column": "Done",
+  "linked": [],
+  "priority": "P0",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Seen live on foundlings/qew (3 checkouts, board project 1): sync_plan.labels() emits `status:<column>` but forge_pull's managed-prefix list only knew qew:, kind:, priority:, so every column change looked like a human label edit and produced `forge_divergence` events (21 open after one pass).\n\nFix: one list of managed prefixes shared by labels() and user_labels(); a mechanical walk proving every label labels() can emit is excluded from user_labels(); existing label divergences of this kind rejected.\n\nScenario: managed labels never read back as human edits (prevents divergence floods).",
+    "comments": [],
+    "labels": [
+      "area:replication",
+      "drive-finding"
+    ],
+    "open": false,
+    "title": "Drive finding: forge labels added by the projection (status:*) are read back as human edits and flood divergences",
+    "type": ""
+  },
+  "synced_at": "2026-10-22T15:04:45Z",
+  "synced_event": "0435yfqdm",
+  "synced_hash": ""
+}

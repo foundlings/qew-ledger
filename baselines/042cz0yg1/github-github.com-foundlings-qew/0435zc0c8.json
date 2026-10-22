@@ -1,0 +1,21 @@
+{
+  "column": "Done",
+  "linked": [],
+  "parent_number": 250,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Contract: docs/specs/ledger.md, Authority and topology.\nSchema gains `tracks:` and `pr:` (ledger ids); forge numbers and URLs never appear in item files; `qew show` resolves links to forge URLs from mirrors/.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: show prints the issue URL from the mirror index\n- refusal: a header containing a URL or number fails check\n- golden: adding a forge target rewrites no item file",
+    "comments": [],
+    "labels": [
+      "area:authority"
+    ],
+    "open": false,
+    "title": "Item headers carry ledger-level links only (tracks, pr)",
+    "type": ""
+  },
+  "synced_at": "2026-10-22T15:05:47Z",
+  "synced_event": "0435yfo0e",
+  "synced_hash": ""
+}

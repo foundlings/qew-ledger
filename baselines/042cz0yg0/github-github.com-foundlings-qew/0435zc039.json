@@ -1,0 +1,23 @@
+{
+  "column": "Done",
+  "linked": [
+    "042cz0ydz"
+  ],
+  "parent_number": 250,
+  "priority": "P1",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Contract: docs/specs/ledger.md, Authority and topology.\nEvery non-primary target is one-way: pull ignores its edits (optionally flags a state edit as a divergence); `qew mirror add FORGE REPO [--read-only]`, `qew mirror remove TARGET`, `qew mirror list` edit config.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: edit on a secondary mirror is not imported\n- golden: mirror add/list/remove round trip leaves other config untouched\n- refusal: removing the primary is refused",
+    "comments": [],
+    "labels": [
+      "area:authority"
+    ],
+    "open": false,
+    "title": "Secondary mirrors are read-only and qew mirror add/remove/list",
+    "type": ""
+  },
+  "synced_at": "2026-10-22T15:06:17Z",
+  "synced_event": "0435yfnvc",
+  "synced_hash": ""
+}

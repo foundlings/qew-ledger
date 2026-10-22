@@ -1,0 +1,18 @@
+{
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "",
+    "comments": [],
+    "labels": [],
+    "open": false,
+    "title": "Board card appears within ~5s of a write: profile and cut the background item sync (live: 39s)",
+    "type": ""
+  },
+  "synced_at": "2026-10-22T15:04:54Z",
+  "synced_event": "0435yfzwp",
+  "synced_hash": ""
+}

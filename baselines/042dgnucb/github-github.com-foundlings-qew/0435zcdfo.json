@@ -1,0 +1,18 @@
+{
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "",
+    "comments": [],
+    "labels": [],
+    "open": false,
+    "title": "Idempotent writes: retried commands never duplicate (create --key, start/complete/evidence/comment repeat safely, event ids deterministic per intent)",
+    "type": ""
+  },
+  "synced_at": "2026-10-22T15:04:56Z",
+  "synced_event": "0435yg0zh",
+  "synced_hash": ""
+}

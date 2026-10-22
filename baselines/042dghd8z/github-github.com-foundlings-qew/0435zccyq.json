@@ -1,0 +1,18 @@
+{
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "",
+    "comments": [],
+    "labels": [],
+    "open": false,
+    "title": "Crash orphans: write-ahead create intent plus mirror-wins duplicate closing, so a leftover issue beyond the newest 100 never becomes a twin",
+    "type": ""
+  },
+  "synced_at": "2026-10-22T15:04:55Z",
+  "synced_event": "0435yg0fg",
+  "synced_hash": ""
+}

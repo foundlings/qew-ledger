@@ -1,0 +1,23 @@
+{
+  "column": "Done",
+  "linked": [
+    "042cz0ydz"
+  ],
+  "parent_number": 250,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Contract: docs/specs/ledger.md, Authority and topology.\nNew ledger identity with lineage; items and events kept; mirrors, boards, claims, divergences dropped; re-merge into origin refused.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: forked ledger has the same items, no mirrors or owners, forked_from set\n- refusal: merging the fork back into the origin is refused\n- golden: fork with --primary points at a fresh target",
+    "comments": [],
+    "labels": [
+      "area:authority"
+    ],
+    "open": false,
+    "title": "qew ledger fork --to REMOTE [--primary TARGET]",
+    "type": ""
+  },
+  "synced_at": "2026-10-22T15:06:18Z",
+  "synced_event": "0435yfohn",
+  "synced_hash": ""
+}

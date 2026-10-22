@@ -1,0 +1,21 @@
+{
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "qew status printed 21 divergence lines after one pull. Cap the default output (first 10 plus `... N more`), keep --json complete, group identical field changes, and keep the total under a byte budget.\n\nScenario: 200 divergences print under 2 KB; --json lists all.",
+    "comments": [],
+    "labels": [
+      "area:replication",
+      "drive-finding"
+    ],
+    "open": false,
+    "title": "Drive finding: qew status prints every open divergence (unbounded output)",
+    "type": ""
+  },
+  "synced_at": "2026-10-22T15:04:45Z",
+  "synced_event": "0435yfqxk",
+  "synced_hash": ""
+}

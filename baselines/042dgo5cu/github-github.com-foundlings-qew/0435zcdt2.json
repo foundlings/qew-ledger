@@ -1,0 +1,18 @@
+{
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "",
+    "comments": [],
+    "labels": [],
+    "open": false,
+    "title": "Crashed git/jj leaves repo-level locks (index.lock, jj working-copy lock): detect stale ones, wait with backoff, name the holder, never silently delete",
+    "type": ""
+  },
+  "synced_at": "2026-10-22T15:04:56Z",
+  "synced_event": "0435yg1mv",
+  "synced_hash": ""
+}
