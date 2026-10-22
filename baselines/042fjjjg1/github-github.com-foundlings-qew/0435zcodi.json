@@ -1,0 +1,26 @@
+{
+  "cmap": {
+    "6094428921": {
+      "ledger": "042g09zfi",
+      "sha": "29af5d6a32acd770"
+    }
+  },
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Found 2026-10-10 as the ~18 percent flake of test_offline_claim_walk (ledger-remote walk): ids minted in the same second order at random across machines, so a rival's pushed claim can sort before the provisional one. The fold then already marks the provisional claim contested, claim_reconcile.provisional_claims only listed claims that hold the item, so sync reported 'no mirror targets configured' with exit 0 and never wrote claim_lost. Fix (done on branch claim-order): provisional_claims also lists provisional claims the fold marks contested, so they settle as lost (exit 3). Deterministic walk added; the old flaky walk passes 40 of 40. Draft: needs the owner's approval to merge.",
+    "comments": [
+      "6094428921"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "An offline claim whose rival's event id sorts earlier is skipped by sync instead of recorded as lost",
+    "type": ""
+  },
+  "synced_at": "2026-10-22T15:05:02Z",
+  "synced_event": "0435ygb0f",
+  "synced_hash": ""
+}

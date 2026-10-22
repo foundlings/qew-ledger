@@ -1,0 +1,26 @@
+{
+  "cmap": {
+    "6157518196": {
+      "ledger": "042oiw13d",
+      "sha": "3f64575d8852f4e1"
+    }
+  },
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Santa (foundlings 042oidxb2): a PreToolUse merge hook needs qew's cheap refusals first. Read-only, same exit codes and messages, --json lists the refusals.",
+    "comments": [
+      "6157518196"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "qew pr merge N --check runs every merge refusal without merging",
+    "type": ""
+  },
+  "synced_at": "2026-10-22T15:05:19Z",
+  "synced_event": "0435ygwfh",
+  "synced_hash": ""
+}

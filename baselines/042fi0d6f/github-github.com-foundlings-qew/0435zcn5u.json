@@ -1,0 +1,20 @@
+{
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Santa 2026-10-10 (foundlings, 1871 mirrors): qew status kept pending=2 after a sync that reported unchanged 1871. The two were WP-AAV-06 (newest event divergence_accepted) and 042ezifgw (newest event commented): the fingerprint was unchanged so the sync skipped them, but never recorded the newest event as synced, and pending is derived from synced_event != newest event. Fix: in the unchanged branch record synced_event.",
+    "comments": [
+      "6091394148"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "A clean sync leaves pending=N: events that change nothing on the forge never advance synced_event",
+    "type": ""
+  },
+  "synced_at": "2026-10-22T15:05:02Z",
+  "synced_event": "0435yg9nx",
+  "synced_hash": ""
+}

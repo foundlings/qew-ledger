@@ -1,0 +1,21 @@
+{
+  "cmap": {},
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "",
+    "comments": [
+      "6236864295"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "Document the needs:approval label (Needs approval column) in README and commands spec",
+    "type": ""
+  },
+  "synced_at": "2026-10-22T15:05:22Z",
+  "synced_event": "0435ygzco",
+  "synced_hash": ""
+}

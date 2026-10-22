@@ -1,0 +1,26 @@
+{
+  "cmap": {
+    "6102440918": {
+      "ledger": "042hbav4r",
+      "sha": "27fedb659d0979ab"
+    }
+  },
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Santa: every agent acts for the GitHub login 887; the forge refuses elf5.",
+    "comments": [
+      "6102440918"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "The forge assignee is the human: [forge] login for claims and pull requests",
+    "type": ""
+  },
+  "synced_at": "2026-10-22T15:05:10Z",
+  "synced_event": "0435ygnv6",
+  "synced_hash": ""
+}

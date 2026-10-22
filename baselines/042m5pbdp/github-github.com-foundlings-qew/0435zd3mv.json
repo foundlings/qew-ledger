@@ -1,0 +1,26 @@
+{
+  "cmap": {
+    "6131056683": {
+      "ledger": "042m5qn8e",
+      "sha": "5f928c91e7bc4333"
+    }
+  },
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Publish the tested empty-checkpoint ledger push fix as 6.14.1. Review specs and README for affected behavior, bump package and repository minimum_version, run the full gate, install the release, push main and tag, publish release notes, and verify qew-ledger is caught up.",
+    "comments": [
+      "6131056683"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "Release 6.14.1 with automatic ledger push prevention and minimum version 6.14.1",
+    "type": ""
+  },
+  "synced_at": "2026-10-22T15:05:15Z",
+  "synced_event": "0435ygtsq",
+  "synced_hash": ""
+}

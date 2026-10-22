@@ -1,0 +1,26 @@
+{
+  "cmap": {
+    "6102140941": {
+      "ledger": "042h9jo8f",
+      "sha": "6fe2bd59d15d2a3d"
+    }
+  },
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Owner: without the board I cannot tell ready, in progress or gated from the issue list. Labels derived from the same status as the column, off on finish, never written to the ledger; opt-in strip of non-qew labels from closed PRs.",
+    "comments": [
+      "6102140941"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "Derived status labels: in-progress, gated and ready follow the board column; strip labels from closed pull requests",
+    "type": ""
+  },
+  "synced_at": "2026-10-22T15:05:10Z",
+  "synced_event": "0435ygngu",
+  "synced_hash": ""
+}

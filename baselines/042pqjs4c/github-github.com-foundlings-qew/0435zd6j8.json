@@ -1,0 +1,26 @@
+{
+  "cmap": {
+    "6170044604": {
+      "ledger": "042pqt4cz",
+      "sha": "a92ca7fb6b435d51"
+    }
+  },
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "",
+    "comments": [
+      "6170044604"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "start on a parentless task under a select that excludes tasks hints at sync instead of naming the cause",
+    "type": ""
+  },
+  "synced_at": "2026-10-22T15:05:19Z",
+  "synced_event": "0435ygwic",
+  "synced_hash": ""
+}

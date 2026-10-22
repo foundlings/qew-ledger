@@ -1,0 +1,31 @@
+{
+  "cmap": {
+    "6130273144": {
+      "ledger": "042m3bmfu",
+      "sha": "5b2c5de5991f9952"
+    },
+    "6130285329": {
+      "ledger": "042m3c5gz",
+      "sha": "617b29599bba107d"
+    }
+  },
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Behavior: qew writes push the ledger to origin automatically. Adversary: an empty ancestor without a description causes jj to reject every later push. Repair the existing ancestor description without squashing history; sync and verify zero unpushed changes.",
+    "comments": [
+      "6130273144",
+      "6130285329"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "Restore qew-ledger automatic pushes blocked by an undescribed jj ancestor",
+    "type": ""
+  },
+  "synced_at": "2026-10-22T15:05:15Z",
+  "synced_event": "0435ygtf2",
+  "synced_hash": ""
+}
