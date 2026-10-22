@@ -1,0 +1,21 @@
+{
+  "column": "Done",
+  "linked": [],
+  "parent_number": 109,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Behaviour\n`qew --version` prints `qew X.Y.Z` (the installed package version), exits 0, touches no ledger, no network and no forge, and works outside any repository.\n\n## Scenarios\n- Outside a repo: stdout matches `^qew \\d+\\.\\d+\\.\\d+\\n$`, no subprocess or HTTP call recorded. Prevents users being unable to identify the installed build or the command needing credentials.\n- Version equals the package metadata and the release tag check in the release issue.\n\n## Reference coverage\n1 test (version flag).\n\n## Qew today\nMissing: no `--version` option in `cli.py`, no test.",
+    "comments": [],
+    "labels": [
+      "area:hooks-dist"
+    ],
+    "open": false,
+    "title": "Add `qew --version` printing the package version offline",
+    "type": ""
+  },
+  "synced_at": "2026-10-22T15:05:36Z",
+  "synced_event": "0435yeqoj",
+  "synced_hash": ""
+}

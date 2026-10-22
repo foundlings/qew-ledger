@@ -1,0 +1,21 @@
+{
+  "column": "Done",
+  "linked": [],
+  "parent_number": 104,
+  "priority": "P1",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Within a priority, items that unblock the most dependents (or deepest chain) come first; ties by id.\nScenarios:\n- golden: deterministic order\n- prevents starvation of items that unblock others",
+    "comments": [],
+    "labels": [
+      "area:graph-ready"
+    ],
+    "open": false,
+    "title": "qew ready orders by priority then dependency depth",
+    "type": ""
+  },
+  "synced_at": "2026-10-22T15:05:32Z",
+  "synced_event": "0435yek6x",
+  "synced_hash": ""
+}

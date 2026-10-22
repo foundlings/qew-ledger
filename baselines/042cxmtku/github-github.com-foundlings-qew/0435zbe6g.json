@@ -1,0 +1,23 @@
+{
+  "column": "Done",
+  "linked": [
+    "042cxmtkt"
+  ],
+  "parent_number": 165,
+  "priority": "P1",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "The checked head must be covered by an evidence event of the item before merge.\nScenarios:\n- refusal: no evidence blocks merge\n- golden: evidence recorded then merge passes",
+    "comments": [],
+    "labels": [
+      "area:merge-gate"
+    ],
+    "open": false,
+    "title": "qew pr merge refuses without recorded evidence for the linked item",
+    "type": ""
+  },
+  "synced_at": "2026-10-22T15:06:11Z",
+  "synced_event": "0435yf0jg",
+  "synced_hash": ""
+}

@@ -1,0 +1,23 @@
+{
+  "column": "Done",
+  "linked": [
+    "042cxmtmh"
+  ],
+  "parent_number": 177,
+  "priority": "P3",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Behaviour\nMachine-readable result: merge -> `{merged: true, number, head_sha, items: [IDs], schema_version}`, ready -> `{number, ready, changed}`, open -> see pr-open-golden. Every flag is in help_text, README and commands.md, per repo rules.\n\n## Scenarios\n- merge json reports merged, number, head and covered items. Prevents: agents scraping text.\n- help/README/spec agree for the new flag (existing help walk fails otherwise).\n\n## Reference coverage\nReference pr merge walk (json reports merge and what landed), pull-request walk (trailing machine flag): 2 test functions merged here.\n\n## Qew today\nMissing: only plain lines are printed.",
+    "comments": [],
+    "labels": [
+      "area:pull-requests"
+    ],
+    "open": false,
+    "title": "Add `--json` to `qew pr open|ready|merge` with a stable schema",
+    "type": ""
+  },
+  "synced_at": "2026-10-22T15:06:29Z",
+  "synced_event": "0435yf649",
+  "synced_hash": ""
+}

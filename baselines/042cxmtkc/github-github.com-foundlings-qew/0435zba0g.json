@@ -1,0 +1,21 @@
+{
+  "column": "Done",
+  "linked": [],
+  "parent_number": 134,
+  "priority": "P1",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Behaviour\n`qew close ITEM --reason not_planned|duplicate|superseded` today records only the enum. The reference forces the caller to choose and to name the other item: duplicate needs `--of ITEM`, superseded needs `--by ITEM` (stored on the `closed` event, validated to exist, not the item itself, one disposition only); free-text rationale goes in `--note TEXT`. Calling `close` with `--reason` carrying a free sentence is refused with a message listing the three values. Finished work is never closed as abandoned by default, and `qew close` refuses a `completed` reason with a message naming `qew complete` and `qew close --delivered-by` (see `close-delivered`). Closing a claimed item clears the owner (the fold does this today) and children are not closed implicitly.\n\n## Scenarios\n- duplicate and superseded: event stores the other item id, `qew show` of both ends mentions the link (prevents: an unexplained duplicate)\n- no disposition, a free-text reason, `--completed`: exit 2 naming the right commands, zero events (prevents: finished work recorded as not planned)\n- superseded by itself, unknown item, or two dispositions: exit 2, zero events (prevents: loops and contradictory records)\n- close of a claimed item returns the owner to nobody and the item leaves `qew list --state claimed` (covered by fold)\n\n## Reference coverage\n5 reference test function(s): `test_close_walk_preserves_duplicate_and_abandoned_reasons`, `test_close_without_a_disposition_never_defaults_to_abandoned`, `test_close_completed_is_refused_and_names_the_replacement_commands`, `test_close_superseded_by_links_the_replacement_and_closes_as_completed`, `test_close_superseded_by_refuses_itself_and_every_other_disposition`\n\n## Qew today\nReduced. The flow walk covers an invalid reason and a valid close/ready/reopen cycle. The enum has no linked item, no note, no self-reference refusal, and no guidance for `completed`.",
+    "comments": [],
+    "labels": [
+      "area:lifecycle"
+    ],
+    "open": false,
+    "title": "Require a disposition on `qew close` and record the linked item",
+    "type": ""
+  },
+  "synced_at": "2026-10-22T15:05:38Z",
+  "synced_event": "0435yewad",
+  "synced_hash": ""
+}
