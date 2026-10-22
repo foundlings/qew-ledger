@@ -1,0 +1,18 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Goal\n\nAfter a multi-item qew push --item the ledger remote should be caught up (unpushed=0) without a second push. Seen by wolf on 6.36.2: a second push said nothing pending and then status showed unpushed=0; likely the mirror-record commit lands after the ledger push. Reproduce with a multi-item push against a ledger remote, assert unpushed=0 after one push.",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "qew push --item with several items can leave unpushed above 0 until a second push",
+    "type": ""
+  },
+  "synced_at": "2026-10-22T23:54:38Z",
+  "synced_event": "0436pcmg1",
+  "synced_hash": "4b3315063815e1d4"
+}
