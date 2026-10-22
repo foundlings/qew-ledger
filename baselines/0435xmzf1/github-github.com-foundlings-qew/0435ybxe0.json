@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "In review",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -15,7 +15,7 @@
     "title": "qew pull: fetch-only ledger update, and reads fetch on a miss",
     "type": ""
   },
-  "synced_at": "2026-10-22T14:49:00Z",
-  "synced_event": "0435xnf2z",
-  "synced_hash": "9039cfaa965a3ba9"
+  "synced_at": "2026-10-22T15:03:14Z",
+  "synced_event": "0435ybz3o",
+  "synced_hash": "b164a6f647103e4f"
 }
