@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -11,11 +11,11 @@
       "6344125434"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "Inconsistent claim view: start says claimed by 887, take-over and complete say unclaimed (04354zbgp)",
     "type": ""
   },
-  "synced_at": "2026-10-22T15:09:51Z",
-  "synced_event": "0435yo3gw",
-  "synced_hash": ""
+  "synced_at": "2026-10-22T15:23:52Z",
+  "synced_event": "0435zde1c",
+  "synced_hash": "af8400099bc21af6"
 }
