@@ -1,0 +1,26 @@
+{
+  "cmap": {
+    "6101558767": {
+      "ledger": "042h67g4e",
+      "sha": "0f8f490b9324d788"
+    }
+  },
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Foundlings field sync: 489 updates failed on GraphQL API rate limit already exceeded; pr ready sat behind the sync worker.",
+    "comments": [
+      "6101558767"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "Sync waits out GraphQL and REST rate limits instead of failing items, and yields the ledger lock to waiting verbs",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T20:06:42Z",
+  "synced_event": "042h6tnbq",
+  "synced_hash": ""
+}

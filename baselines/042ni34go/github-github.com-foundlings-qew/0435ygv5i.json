@@ -1,0 +1,26 @@
+{
+  "cmap": {
+    "6144551208": {
+      "ledger": "042ni4g2s",
+      "sha": "22acbf1fd93f54af"
+    }
+  },
+  "column": "Done",
+  "linked": [],
+  "priority": "P1",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Problem\n\nfoundlings/qew #484 and #485 were closed by qew mirror rehome but their cards stayed In progress on the shared board; project status ignores cards the ledger does not mirror and there is no way to remove them (prune refuses the board's own repo).\n\n## Done when\n\nproject status reports orphan cards of the board's own repository; project prune --orphans removes them and verifies; rehome tells where the card goes.",
+    "comments": [
+      "6144551208"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "Board cards of closed stray issues stay in In progress and project status reports in sync",
+    "type": ""
+  },
+  "synced_at": "2026-10-13T11:47:28Z",
+  "synced_event": "042niz2ga",
+  "synced_hash": ""
+}

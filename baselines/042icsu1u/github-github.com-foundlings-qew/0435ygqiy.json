@@ -1,0 +1,26 @@
+{
+  "cmap": {
+    "6108574562": {
+      "ledger": "042ih6o5o",
+      "sha": "7dea34e75398bab3"
+    }
+  },
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "After the snapshot cache (6.9.0) and the jj fix (6.9.1) the remaining cost of a read on foundlings is parsing 142k events (about 2.3 s) and 22.5k items (about 1 s), plus stat validation. Options measured or noted: valid_actor and per-event validation overhead, lazy parsing (fold needs state only), caching the folded state per item in snapshot.db (skips event parse for unchanged items), never pickle a parsed object cache (a swapped file would run code). Acceptance: warm read of the foundlings copy under 2 s; no change in what any command prints.",
+    "comments": [
+      "6108574562"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "Parsing a 22k-item ledger takes about 3 s of every read: parse events and items faster or not at all",
+    "type": ""
+  },
+  "synced_at": "2026-10-11T11:41:10Z",
+  "synced_event": "042ih7t3b",
+  "synced_hash": ""
+}

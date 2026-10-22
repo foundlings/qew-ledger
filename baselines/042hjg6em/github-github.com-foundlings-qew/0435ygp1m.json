@@ -1,0 +1,26 @@
+{
+  "cmap": {
+    "6103729168": {
+      "ledger": "042hjhz20",
+      "sha": "83b37438f898bed7"
+    }
+  },
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Foundlings: #2434 #2433 #2432 #2429 #2428 #2424 have no ledger record and cannot be closed.",
+    "comments": [
+      "6103729168"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "qew pr close --item ID --reason: adopt and close an unrecorded unmerged legacy pull request",
+    "type": ""
+  },
+  "synced_at": "2026-10-11T00:25:31Z",
+  "synced_event": "042hjhz20",
+  "synced_hash": ""
+}

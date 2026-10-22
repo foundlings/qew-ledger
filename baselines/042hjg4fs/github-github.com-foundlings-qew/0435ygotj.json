@@ -1,0 +1,26 @@
+{
+  "cmap": {
+    "6103728103": {
+      "ledger": "042hjggc1",
+      "sha": "758339d6f72fe565"
+    }
+  },
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Foundlings: qew release ADF held the lock 4+ minutes.",
+    "comments": [
+      "6103728103"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "Releasing or starting an epic reads the whole ledger once per descendant; reads wait for writers; snapshot reads are serial",
+    "type": ""
+  },
+  "synced_at": "2026-10-11T00:25:20Z",
+  "synced_event": "042hjhhg2",
+  "synced_hash": ""
+}

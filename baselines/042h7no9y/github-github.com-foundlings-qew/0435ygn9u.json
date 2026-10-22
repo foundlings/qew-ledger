@@ -1,0 +1,26 @@
+{
+  "cmap": {
+    "6101815766": {
+      "ledger": "042h7oq35",
+      "sha": "fa47f268793b6750"
+    }
+  },
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Specs claimed no runtime dependencies although qew needs Python 3.15; releases.md described a flow nobody uses; drafts.md and ledger.md had outdated decisions.",
+    "comments": [
+      "6101815766"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "Specs: the interpreter is a runtime requirement, the release steps are the real ones, and stale passages fixed; releases reread the specs",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T21:01:14Z",
+  "synced_event": "042h7ppfg",
+  "synced_hash": ""
+}

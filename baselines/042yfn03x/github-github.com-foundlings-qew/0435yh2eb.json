@@ -1,0 +1,21 @@
+{
+  "cmap": {},
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Seen on foundlings-ledger after the schema 7 sync: qew start failed with 'ledger commit failed, the write was rolled back: Refusing to move bookmark backwards or sideways: main'. main sat on a merge commit while the working copy's ancestry was a side chain of about ten qew commits (evidence, pr-open) that main did not contain, so commit()'s bookmark set main -r @- was not a forward move, and every later write added to the chain and rolled back. commit() must merge the chain into main (jj new main @-) instead of refusing, the way fetch-merge already merges diverged sides.",
+    "comments": [
+      "6255479666"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "A jj ledger write fails when the working copy sits beside main: commit refuses to move the bookmark sideways",
+    "type": ""
+  },
+  "synced_at": "2026-10-18T21:51:16Z",
+  "synced_event": "042yg70as",
+  "synced_hash": ""
+}

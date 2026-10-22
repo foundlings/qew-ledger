@@ -1,0 +1,18 @@
+{
+  "column": "Closed",
+  "linked": [],
+  "priority": "P1",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Problem\n\nqew pr open writes no closing keyword, so no pull request shows in the Development sidebar of the issues it implements; the only GitHub link is a closing reference (body keyword or addCloseIssueReferences), which closes the issue on merge. No repo-level API option stops that.\n\n## Done when\n\npr open/check link each Progress item; a forge closure caused by a linked PR is expected, not a divergence, and the item is completed with evidence; parents get a non-closing Part of line; a repair command backfills open PRs.",
+    "comments": [],
+    "labels": [],
+    "open": false,
+    "title": "Link a pull request to the items it delivers on the forge (Development sidebar) without losing qew's completion rule",
+    "type": ""
+  },
+  "synced_at": "2026-10-14T19:30:56Z",
+  "synced_event": "042neo7c7",
+  "synced_hash": ""
+}

@@ -1,0 +1,26 @@
+{
+  "cmap": {
+    "6113723574": {
+      "ledger": "042ja4sdi",
+      "sha": "4d0fd3461e44dd7f"
+    }
+  },
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Problem\n\nqew evidence refuses items claimed by another actor; the integrator needs a round trip with the elf per cited item\n\n## Done when\n\nqew evidence ID --change X --on-behalf-of ACTOR works only when ACTOR holds the claim and records both actors; claims unchanged",
+    "comments": [
+      "6113723574"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "Record evidence on behalf of the claim holder",
+    "type": ""
+  },
+  "synced_at": "2026-10-11T21:12:00Z",
+  "synced_event": "042jajtdb",
+  "synced_hash": ""
+}

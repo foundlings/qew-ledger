@@ -1,0 +1,21 @@
+{
+  "cmap": {},
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "",
+    "comments": [
+      "6246770872"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "qew pr body N --body-file FILE: replace a pull request body, keeping the Progress boxes and their ticks",
+    "type": ""
+  },
+  "synced_at": "2026-10-18T07:00:23Z",
+  "synced_event": "042x7js1b",
+  "synced_hash": ""
+}
