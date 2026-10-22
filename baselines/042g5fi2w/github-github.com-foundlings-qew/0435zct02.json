@@ -20,7 +20,7 @@
     "title": "qew start refuses a ledger-only task: claims must arbitrate through the nearest mirrored ancestor",
     "type": ""
   },
-  "synced_at": "2026-10-22T15:05:05Z",
-  "synced_event": "0435ygg05",
-  "synced_hash": ""
+  "synced_at": "2026-10-22T15:23:29Z",
+  "synced_event": "0435zcswh",
+  "synced_hash": "d89db13d928caa93"
 }
