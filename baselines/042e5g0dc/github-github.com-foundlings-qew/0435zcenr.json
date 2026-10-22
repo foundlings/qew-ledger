@@ -1,0 +1,20 @@
+{
+  "column": "Done",
+  "linked": [],
+  "priority": "P1",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Problem\n\nAfter the forge repo is deleted and recreated, every mirrored issue 404s: sync reports one failure per item and records a divergence per item; only a hand-run qew restore recovers.\n\n## Fix\n\nWhen a full pull finds a complete listing with none of the mirrored issues present, sync forgets those mirrors and recreates them (the restore path), reporting one line, without recording divergences.\n\n## Done when\n\nA walk deletes every issue on the fake forge, runs plain qew sync, and sees all issues recreated, mirrors renumbered, no conflicts.",
+    "comments": [
+      "6077048634"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "A plain sync recovers when the forge repo was recreated",
+    "type": ""
+  },
+  "synced_at": "2026-10-22T15:04:57Z",
+  "synced_event": "0435yg2cr",
+  "synced_hash": ""
+}

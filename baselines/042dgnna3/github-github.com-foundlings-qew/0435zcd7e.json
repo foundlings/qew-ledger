@@ -1,0 +1,18 @@
+{
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "",
+    "comments": [],
+    "labels": [],
+    "open": false,
+    "title": "Cross-platform advisory locks (POSIX flock, Windows LockFileEx) in one module: kernel-released on death, no stale-lock cleanup, holder info for diagnostics only",
+    "type": ""
+  },
+  "synced_at": "2026-10-22T15:04:56Z",
+  "synced_event": "0435yg0pf",
+  "synced_hash": ""
+}

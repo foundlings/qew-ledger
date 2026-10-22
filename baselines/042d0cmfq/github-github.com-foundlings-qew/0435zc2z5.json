@@ -1,0 +1,20 @@
+{
+  "column": "Closed",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "",
+    "comments": [],
+    "labels": [
+      "drive"
+    ],
+    "open": false,
+    "title": "drive: created offline by agent c",
+    "type": ""
+  },
+  "synced_at": "2026-10-22T15:04:45Z",
+  "synced_event": "0435yfq3m",
+  "synced_hash": ""
+}

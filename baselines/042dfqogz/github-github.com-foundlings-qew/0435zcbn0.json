@@ -1,0 +1,18 @@
+{
+  "column": "Closed",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "",
+    "comments": [],
+    "labels": [],
+    "open": false,
+    "title": "board latency probe 2 (delete me)",
+    "type": ""
+  },
+  "synced_at": "2026-10-22T15:04:54Z",
+  "synced_event": "0435yfz8m",
+  "synced_hash": ""
+}

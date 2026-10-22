@@ -1,0 +1,18 @@
+{
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "",
+    "comments": [],
+    "labels": [],
+    "open": false,
+    "title": "Labels get colors and priority labels are P0..P4 (not priority:N) on every forge",
+    "type": ""
+  },
+  "synced_at": "2026-10-22T15:04:50Z",
+  "synced_event": "0435yfvde",
+  "synced_hash": ""
+}
