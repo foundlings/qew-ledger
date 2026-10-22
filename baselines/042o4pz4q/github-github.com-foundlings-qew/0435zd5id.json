@@ -20,7 +20,7 @@
     "title": "batch --dry-run and a failing batch leave start claims on the primary forge; release --force cannot clear them",
     "type": ""
   },
-  "synced_at": "2026-10-22T15:05:18Z",
-  "synced_event": "0435ygvxy",
-  "synced_hash": ""
+  "synced_at": "2026-10-22T15:23:41Z",
+  "synced_event": "0435zd5gh",
+  "synced_hash": "a520f7d748ea562f"
 }
