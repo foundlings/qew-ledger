@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -11,11 +11,11 @@
       "6348308394"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "A targeted qew push/sync --item settles every open divergence of the target, one full ledger snapshot each, and stalls on a big ledger",
     "type": ""
   },
-  "synced_at": "2026-10-22T18:33:41Z",
-  "synced_event": "04368nk63",
-  "synced_hash": "40be67379602b30d"
+  "synced_at": "2026-10-22T18:43:59Z",
+  "synced_event": "043695309",
+  "synced_hash": "2022628e080141b8"
 }
