@@ -1,0 +1,26 @@
+{
+  "cmap": {
+    "6143388629": {
+      "ledger": "042neo23u",
+      "sha": "8eaf9559136b1e52"
+    }
+  },
+  "column": "Done",
+  "linked": [],
+  "priority": "P1",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Problem\n\nqew create --kind epic --parent ADG fails: a epic cannot sit under a epic. GitHub sub-issues nest to eight levels and foundlings' closeout epic ADG cannot contain its phase epics; needs-edges fake it and show as blocked-by.\n\n## Done when\n\nAn epic may have an epic parent; cycles are refused; the mirror sets the sub-issue relation; progress and completable roll up across nested epics.",
+    "comments": [
+      "6143388629"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "An epic can sit under an epic (nested epics), mirrored as sub-issues, with rolled-up progress",
+    "type": ""
+  },
+  "synced_at": "2026-10-22T15:05:16Z",
+  "synced_event": "0435ygu9h",
+  "synced_hash": ""
+}

@@ -1,0 +1,26 @@
+{
+  "cmap": {
+    "6179519087": {
+      "ledger": "042qeu56e",
+      "sha": "4125a4ff36f61a2c"
+    }
+  },
+  "column": "Done",
+  "linked": [],
+  "priority": "P1",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "land runs pr_record.require_owner before its own per-item holder check, so a caller who did not open the PR is refused (exit 3, 'no open item') when every covered item is complete, and --integrator is refused when it holds none of the claims. Land checks each item's holder itself; skip the PR-level rule. All complete: print 'nothing to land: all covered items complete', exit 0. Reported by foundlings on 13 PRs (#4459).",
+    "comments": [
+      "6179519087"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "qew land is refused for a non-opener: nothing-open PRs exit 3 and --integrator cannot land another actor's items",
+    "type": ""
+  },
+  "synced_at": "2026-10-22T15:05:20Z",
+  "synced_event": "0435ygxof",
+  "synced_hash": ""
+}

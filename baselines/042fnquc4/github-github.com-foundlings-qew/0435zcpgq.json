@@ -1,0 +1,27 @@
+{
+  "cmap": {
+    "6092454714": {
+      "ledger": "042fojx1o",
+      "sha": "ab6adf4e16e078a1"
+    }
+  },
+  "column": "Done",
+  "linked": [],
+  "parent_number": 374,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "For each open or merged pull request the item is tracked by, pull the reviews and review comments (REST pulls/N/reviews and pulls/N/comments) and import them as commented events on the first covered item with provenance forge, a remote_ref per review or review comment, the review state (approved, changes requested, commented) in the text header, and file/line for inline comments. Idempotent by remote_ref; only open PRs and PRs merged since the last pull are re-read; pacing and read limits as for issues.",
+    "comments": [
+      "6092454714"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "PR reviews imported as comments on the covered item",
+    "type": ""
+  },
+  "synced_at": "2026-10-22T15:05:51Z",
+  "synced_event": "0435ygc9n",
+  "synced_hash": ""
+}

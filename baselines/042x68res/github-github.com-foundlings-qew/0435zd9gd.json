@@ -1,0 +1,21 @@
+{
+  "cmap": {},
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "",
+    "comments": [
+      "6246606513"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "qew pr draft N: the inverse of pr ready, same ownership rules",
+    "type": ""
+  },
+  "synced_at": "2026-10-22T15:05:23Z",
+  "synced_event": "0435ygzuq",
+  "synced_hash": ""
+}
