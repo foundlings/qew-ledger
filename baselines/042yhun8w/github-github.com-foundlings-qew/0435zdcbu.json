@@ -15,7 +15,7 @@
     "title": "A read that races a writer reports the new item as an orphan and refuses with 'ledger is not readable'",
     "type": ""
   },
-  "synced_at": "2026-10-22T15:05:25Z",
-  "synced_event": "0435yh2ni",
-  "synced_hash": ""
+  "synced_at": "2026-10-22T15:23:48Z",
+  "synced_event": "0435zdc9m",
+  "synced_hash": "5a5b06c3ddd5ae2b"
 }

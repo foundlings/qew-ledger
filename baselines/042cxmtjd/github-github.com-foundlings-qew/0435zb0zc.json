@@ -15,7 +15,7 @@
     "title": "Close the safe-write foundation test gaps (modes, root symlink, tmp cleanup, fsync order)",
     "type": ""
   },
-  "synced_at": "2026-10-22T15:05:34Z",
-  "synced_event": "0435yeo8u",
-  "synced_hash": ""
+  "synced_at": "2026-10-22T15:23:57Z",
+  "synced_event": "0435zb0sf",
+  "synced_hash": "9f510ece2f9b1f02"
 }
