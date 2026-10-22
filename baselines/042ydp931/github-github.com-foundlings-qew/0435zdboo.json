@@ -15,7 +15,7 @@
     "title": "Cache the committed baselines in snapshot.db, refreshed incrementally when a pull changes them",
     "type": ""
   },
-  "synced_at": "2026-10-22T15:05:24Z",
-  "synced_event": "0435yh1ru",
-  "synced_hash": ""
+  "synced_at": "2026-10-22T15:23:47Z",
+  "synced_event": "0435zdbhu",
+  "synced_hash": "e64d6adac0d2cc6d"
 }
