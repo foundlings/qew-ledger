@@ -17,7 +17,7 @@
     "title": "qew restore --to TARGET recreates forge state from the ledger alone",
     "type": ""
   },
-  "synced_at": "2026-10-10T13:06:05Z",
-  "synced_event": "042e4id5z",
-  "synced_hash": ""
+  "synced_at": "2026-10-22T15:06:24Z",
+  "synced_event": "0435yfio5",
+  "synced_hash": "bb40343936d23a2a"
 }
