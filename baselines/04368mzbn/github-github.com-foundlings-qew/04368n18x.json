@@ -1,0 +1,18 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Problem\n\nsettle_automatically rejects every open divergence of the target through reject(), which rebuilds the whole snapshot per divergence (2.6s on foundlings' 23k items); a push of one item with many open divergences runs for minutes (wolf: 25 snapshots in 90s, recover 69 files)\n\n## Done when\n\nsettling reads the ledger once for all divergences, and a targeted pass settles only the touched items' divergences; a push of one item is not slowed by divergences on other items",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "A targeted qew push/sync --item settles every open divergence of the target, one full ledger snapshot each, and stalls on a big ledger",
+    "type": ""
+  },
+  "synced_at": "2026-10-22T18:33:16Z",
+  "synced_event": "04368mzgm",
+  "synced_hash": "5d13be72508a0761"
+}
