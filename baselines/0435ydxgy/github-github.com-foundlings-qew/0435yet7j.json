@@ -1,5 +1,7 @@
 {
+  "column": "Ready",
   "linked": [],
+  "priority": "P2",
   "seen": {
     "assignee": "",
     "assignees": [],
