@@ -14,7 +14,7 @@
     "title": "A clean sync leaves pending=N: events that change nothing on the forge never advance synced_event",
     "type": ""
   },
-  "synced_at": "2026-10-10T13:05:06Z",
-  "synced_event": "042fid2e7",
-  "synced_hash": ""
+  "synced_at": "2026-10-22T15:05:02Z",
+  "synced_event": "0435yg9nx",
+  "synced_hash": "b0f09f30df8c0958"
 }

@@ -20,7 +20,7 @@
     "title": "A transient 5xx on one sub-issue call must not stop the whole sync",
     "type": ""
   },
-  "synced_at": "2026-10-10T13:05:07Z",
-  "synced_event": "042g1mie3",
-  "synced_hash": ""
+  "synced_at": "2026-10-22T15:05:04Z",
+  "synced_event": "0435ygeck",
+  "synced_hash": "6dedd0761aa287ba"
 }
