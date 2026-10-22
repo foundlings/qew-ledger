@@ -15,7 +15,7 @@
     "title": "Derive and verify the pushed head branch (git and jj), with explicit `--head` and issue/branch checks",
     "type": ""
   },
-  "synced_at": "2026-10-22T15:05:42Z",
-  "synced_event": "0435yf4hq",
-  "synced_hash": ""
+  "synced_at": "2026-10-22T15:24:04Z",
+  "synced_event": "0435zbhuh",
+  "synced_hash": "2ea1a8f9b7212265"
 }
