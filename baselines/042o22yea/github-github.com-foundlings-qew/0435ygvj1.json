@@ -20,7 +20,7 @@
     "title": "qew batch --manifest: many mutations under one lock, one snapshot and one commit",
     "type": ""
   },
-  "synced_at": "2026-10-13T18:37:28Z",
-  "synced_event": "042o41v95",
-  "synced_hash": ""
+  "synced_at": "2026-10-22T15:05:17Z",
+  "synced_event": "0435ygvid",
+  "synced_hash": "c51fa9fbf4aa1e86"
 }

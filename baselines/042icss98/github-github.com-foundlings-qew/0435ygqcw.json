@@ -20,7 +20,7 @@
     "title": "Write commands scan the whole working copy: jj commit, the recovery check and the write-session fetch cost seconds on a 165k-file ledger",
     "type": ""
   },
-  "synced_at": "2026-10-11T11:32:40Z",
-  "synced_event": "042igmnh3",
-  "synced_hash": ""
+  "synced_at": "2026-10-22T15:05:12Z",
+  "synced_event": "0435ygqc9",
+  "synced_hash": "6fb0bb618f764c19"
 }

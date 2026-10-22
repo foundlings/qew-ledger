@@ -20,7 +20,7 @@
     "title": "GitHub GraphQL calls never hit the 500,000-node cap silently: adaptive page size, loud named failure, project item cap",
     "type": ""
   },
-  "synced_at": "2026-10-14T17:07:09Z",
-  "synced_event": "042q05q21",
-  "synced_hash": ""
+  "synced_at": "2026-10-22T15:05:19Z",
+  "synced_event": "0435ygwx1",
+  "synced_hash": "22904b629e9b4a21"
 }
