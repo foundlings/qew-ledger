@@ -1,0 +1,24 @@
+{
+  "column": "Done",
+  "linked": [
+    "042cxmtky"
+  ],
+  "parent_number": 36,
+  "priority": "P1",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "When the target mirror is an overlay (select narrows items), every view filter is prefixed with the managed-label filter (`label:qew:managed`) so human issues stay out; repository mode (select empty) leaves filters bare. Items synced carry the `qew:managed` label.\nScenarios (named walks, each stating the failure it prevents):\n- golden: overlay mirror prefixes all eight filters\n- golden: repository mode leaves filters bare\n- prevents human-owned issues appearing on qew's board",
+    "comments": [],
+    "labels": [
+      "area:board",
+      "area:project-parity"
+    ],
+    "open": false,
+    "title": "Managed-label filter on every view",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:06:01Z",
+  "synced_event": "042e4decv",
+  "synced_hash": ""
+}

@@ -1,0 +1,25 @@
+{
+  "column": "Done",
+  "linked": [
+    "042cxmtnq",
+    "042cxmtnr",
+    "042cxmtnv"
+  ],
+  "parent_number": 229,
+  "priority": "P0",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Scenario walks with real git/jj clones against a bare remote and a forge fake: A claims and completes, B creates and comments, C works offline then reconnects; all converge to the same items, states and mirrors; includes a forge-side close producing a divergence on every clone.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: three agents converge\n- adversary: concurrent creates in the same second yield unique ids\n- adversary: offline agent writes, reconnects, merges without conflict",
+    "comments": [],
+    "labels": [
+      "area:replication"
+    ],
+    "open": false,
+    "title": "Multi-agent convergence scenarios (two and three clones)",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:06:11Z",
+  "synced_event": "042e4ifch",
+  "synced_hash": ""
+}

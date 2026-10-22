@@ -1,0 +1,21 @@
+{
+  "column": "Done",
+  "linked": [],
+  "parent_number": 109,
+  "priority": "P1",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Behaviour\nOverlaps the lifecycle area; listed here because the reference test file name contains release. Releasing a claim frees the item for others and records who, which lane and why in the ledger event; ledger-first means no forge labels or comments.\n\n## Scenarios\n- Golden: release records actor, lane and reason; item returns to ready; text and `--json` output (state released, lane, by).\n- Unclaimed item refused without writing; closed item refused without writing.\n- Another actor's claim refused with a message naming the holder and `--force`; forced release records the releaser.\n- A lane-scoped claim cannot be released without naming that lane; forcing from another lane records that in the event. Prevents sibling lanes freeing live work.\n- Empty or whitespace reason refused before any write.\n- A reason cannot forge or terminate another record (no marker injection in event text; JSON-escaped).\n- Malformed claim record in the ledger does not block release but warns on stderr (qew: `qew check` reports instead).\n- Post-write verification: item still claimed afterwards fails loudly (exit 3).\n- Stale claim state with no holder is releasable.\n\n## Reference coverage\n13 tests in the reference release walk file, merged into the scenarios above.\n\n## Qew today\n`qew release` exists; only a single golden call in the flow walk. Everything else needs scenarios (coordinate with the lifecycle audit so work is not filed twice).",
+    "comments": [],
+    "labels": [
+      "area:hooks-dist"
+    ],
+    "open": false,
+    "title": "Check `qew release` (give up a claim) against the reference claim-release guarantees",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:29Z",
+  "synced_event": "042e4aicv",
+  "synced_hash": ""
+}

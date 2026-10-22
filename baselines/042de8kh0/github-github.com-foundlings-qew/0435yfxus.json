@@ -1,0 +1,20 @@
+{
+  "column": "Closed",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "<!-- qew-duplicate -->\n\nContract: Replication 8. Advisory flock on `.qew.lock` (VCS-ignored) held for the write+commit; reads never lock.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- adversary: two processes creating items concurrently both succeed with distinct ids and two commits; prevents interleaved commits and id collisions\n- refusal: lock held longer than timeout exits 3 naming the holder pid\n\n---\n042cxmtno \u00b7 approved \u00b7 issue\nParent: #239",
+    "comments": [],
+    "labels": [
+      "area:replication"
+    ],
+    "open": false,
+    "title": "Local per-checkout write lock",
+    "type": ""
+  },
+  "synced_at": "2026-10-14T19:30:43Z",
+  "synced_event": "042e4nga4",
+  "synced_hash": ""
+}

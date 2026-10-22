@@ -1,0 +1,23 @@
+{
+  "column": "Done",
+  "linked": [
+    "042cxmtkt"
+  ],
+  "parent_number": 165,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Merging an item claimed by someone else is refused unless the claim was taken over with a reason.\nScenarios:\n- refusal: foreign claim blocks merge\n- golden: explicit takeover event then merge",
+    "comments": [],
+    "labels": [
+      "area:merge-gate"
+    ],
+    "open": false,
+    "title": "Taking over another actor's claim before merging",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:51Z",
+  "synced_event": "042e4d49y",
+  "synced_hash": ""
+}

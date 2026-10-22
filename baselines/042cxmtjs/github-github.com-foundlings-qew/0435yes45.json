@@ -1,0 +1,21 @@
+{
+  "column": "Done",
+  "linked": [],
+  "parent_number": 109,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Behaviour\n`scripts/upload_release.py` calls the forge CLI as `release upload TAG FILES... --repo REPO --clobber` with the host taken from the server URL environment variable, port retained; a URL that is not an HTTPS origin (credentials, path, query, fragment) is refused.\n\n## Scenarios\n- Enterprise host reaches the CLI as its host variable plus fixed argv (covered).\n- Non-default port retained (covered).\n- NEW: refused URLs (http scheme, userinfo, path, query) exit nonzero and never invoke the CLI. Prevents sending a token to an attacker-chosen host.\n- Forge-specific upload for non-GitHub mirrors is a separate decision.\n\n## Reference coverage\n2 tests.\n\n## Qew today\nCovered 2/2; refusals missing.",
+    "comments": [],
+    "labels": [
+      "area:hooks-dist"
+    ],
+    "open": false,
+    "title": "Pin the upload script's host and fixed arguments",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:28Z",
+  "synced_event": "042e4adby",
+  "synced_hash": ""
+}

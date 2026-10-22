@@ -1,0 +1,21 @@
+{
+  "column": "Done",
+  "linked": [],
+  "parent_number": 201,
+  "priority": "P1",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Behaviour\nReads validate before printing: an unparseable item file, malformed event, unknown header key, duplicate id, or truncated header makes `list`, `ready`, `blocked`, `show`, `graph`, `prime`, `inbox` refuse (exit 1, nothing on stdout) naming the file. This is the ledger form of the reference rule that a truncated or incomplete page never produces a guessed answer. A single bad item must not be skipped silently, and a read must not hide the bad file by listing the rest.\n\n## Scenarios\n- refusal: one corrupt item file among ten good ones makes `qew list` and `qew ready` exit 1 with stdout empty and the file named. Prevents a partial ready queue.\n- refusal: a dangling event directory for a missing item fails the read the same way. Prevents orphan history being ignored.\n- golden: after the file is repaired the same commands succeed unchanged. Prevents a sticky cache of the failure.\n\n## Reference coverage\nReference read-suite walks: list refuses incomplete pages; list refuses truncated blocker and assignee pages (2 tests). Reference ready walk truncated-blocker refusal and prime nested-pagination refusal map here (2 tests). Forge pagination itself is dropped.\n\n## Qew today\nPartially covered by `qew check` tests (unknown key, malformed event) which exercise `check`, not the read commands; hook session-start silence on unreadable ledger is covered. No walk shows read commands refuse.",
+    "comments": [],
+    "labels": [
+      "area:read-side"
+    ],
+    "open": false,
+    "title": "Make every read refuse a partially readable ledger instead of listing what it could parse",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:35Z",
+  "synced_event": "042e4fy4y",
+  "synced_hash": ""
+}

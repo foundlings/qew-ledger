@@ -1,0 +1,18 @@
+{
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Draft. PRs #288 and #289 were opened by an earlier qew pr open whose assignee step failed, so no mirror records them; re-opening from the same head fails. Needs a marker-based find_pull_request for open, and a qew pr close command.",
+    "comments": [],
+    "labels": [],
+    "open": false,
+    "title": "qew pr: adopt an existing pull request for a head, and close one (orphans after a crash between forge accept and mirror write)",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:04:52Z",
+  "synced_event": "042e4kn33",
+  "synced_hash": ""
+}

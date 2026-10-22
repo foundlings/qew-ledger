@@ -1,0 +1,21 @@
+{
+  "column": "Done",
+  "linked": [],
+  "parent_number": 109,
+  "priority": "P1",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Behaviour\nPre-tool refuses forge bypasses structurally (tokenized, never executed) and stays silent for reads, quoted text, empty or unterminated input. Qew refuses instead of warns (a ledger-first design decision) so every expectation below is a deny with the qew command named.\n\n## Scenarios\n- Write matrix: issue create/edit/close/reopen/comment, `pr create` is NOT refused in qew (decision recorded), chained `git status && gh issue edit 3`, and env-prefixed absolute path `FOO=1 /opt/homebrew/bin/gh issue edit 3` are each denied and name the matching qew command (`qew set`, `qew create`, `qew complete`, `qew reopen`). Prevents a prefix or chain evading the guard.\n- Merge forms `gh pr merge 3 --merge`, `--auto 3`, bare `gh pr merge` are denied pointing at `qew pr merge` or its ledger equivalent; `--disable-auto` is allowed and silent. Prevents auto-merge landing with pending checks, and over-blocking its cancellation.\n- Reads and quoted text silent: `gh issue view|list`, `gh pr view`, `echo \"gh issue edit 3\"`, `ls -la`, unterminated `'quote`, empty command. Prevents a noisy guard that trains agents to ignore it.\n- Outside a Qew-managed repository nothing is refused and no call is made.\n- Advice matches the blocked action (covered).\n\n## Reference coverage\n6 pre-shell tests merged here (raw writes warn; raw merge pointed at pr merge; disable-auto silent; reads and quoted silent; outside repo silent; advice naming).\n\n## Qew today\nLargely covered by the hook v1 walk bypass, advice, reads/quoted, outside-repo scenarios. Missing: env-prefix plus absolute-path gh, chained commands, `--auto`/bare merge forms and the disable-auto allowance as explicit rows; confirm each.",
+    "comments": [],
+    "labels": [
+      "area:hooks-dist"
+    ],
+    "open": false,
+    "title": "Cover pre-tool refusal classes the reference exercises: write vs read, disable-auto, wrappers, prefixes, quotes",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:27Z",
+  "synced_event": "042e49ng0",
+  "synced_hash": ""
+}
