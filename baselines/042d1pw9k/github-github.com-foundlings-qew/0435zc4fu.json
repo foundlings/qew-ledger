@@ -14,7 +14,7 @@
     "title": "Board sync reads each card with three API calls; read the whole board once per sync",
     "type": ""
   },
-  "synced_at": "2026-10-22T15:04:46Z",
-  "synced_event": "0435yfrv9",
-  "synced_hash": ""
+  "synced_at": "2026-10-22T15:23:12Z",
+  "synced_event": "0435zc4cr",
+  "synced_hash": "e0772f7aa9fa531a"
 }
