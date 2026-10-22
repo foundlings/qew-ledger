@@ -1,0 +1,23 @@
+{
+  "column": "Done",
+  "linked": [
+    "042cz0ye0"
+  ],
+  "parent_number": 250,
+  "priority": "P0",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Contract: docs/specs/ledger.md, Authority and topology.\nclaimed, push, claim_confirmed on success; rejected push fetches and writes claim_lost when another claim exists; no remote = single writer confirms at once; unreachable configured remote refuses start.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- adversary: two clones race a claim: exactly one confirmed, the other claim_lost\n- golden: single-writer ledger without remote confirms immediately\n- refusal: remote configured but unreachable refuses start",
+    "comments": [],
+    "labels": [
+      "area:authority"
+    ],
+    "open": false,
+    "title": "Claim arbitration through the ledger remote when primary is none",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:06:05Z",
+  "synced_event": "042e4ja2i",
+  "synced_hash": ""
+}

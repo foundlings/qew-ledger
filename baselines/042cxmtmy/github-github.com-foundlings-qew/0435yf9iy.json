@@ -1,0 +1,23 @@
+{
+  "column": "Done",
+  "linked": [
+    "042cxmtmu"
+  ],
+  "parent_number": 201,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Behaviour\n`qew list` accepts `--kind`, `--state`, `--label` (repeatable, every label must match), `--owner NAME` (the claimant derived from claim events), `--author NAME` (the actor of the creating event), `--parent ID` and `--limit`. Matching of labels and names is ASCII-case-insensitive (the forge mirrors fold them, so a filter that does not fold hides real work) but never Unicode-folds: a lookalike label such as one using the Kelvin sign must not match the plain label. Rows carry sorted `labels` and the derived `owner`. A filter that matches nothing prints nothing and exits 0.\n\n## Scenarios\n- golden: two `--label` flags return only items carrying both. Prevents a one-label match leaking work.\n- golden: `--owner alice` returns exactly the items alice currently holds; after `qew release` it returns none. Prevents stale ownership views.\n- golden: `--author alice` returns items whose creating event actor is alice. Prevents the person view depending on a mutable label.\n- adversary: `--label AREA:CLI` matches `area:cli` but a label spelled with the Kelvin sign does not match `k...`-prefixed labels. Prevents Unicode case folding being used to forge a trusted label.\n- golden: rows list `labels` sorted so output is stable. Prevents order churn from file order.\n\n## Reference coverage\nReference read-suite walk: list requires every repeated label; filters by author label and assignee; filters ignore case; rows carry sorted labels and assignees; Kelvin-sign label is not approval (5 tests). `--epic` filter maps to `--parent`.\n\n## Qew today\nReduced. Only `--kind`, `--state`, `--label` (single, exact, case-sensitive); no owner, author, parent, limit, repeat or folding. Covered: `test_list_filters_and_json_output`.",
+    "comments": [],
+    "labels": [
+      "area:read-side"
+    ],
+    "open": false,
+    "title": "Complete `qew list` filters: repeated --label (AND), --owner, --parent, --limit, case folding",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:53Z",
+  "synced_event": "042e4ft8n",
+  "synced_hash": ""
+}

@@ -1,0 +1,23 @@
+{
+  "column": "Done",
+  "linked": [
+    "042cxmtku"
+  ],
+  "parent_number": 165,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "After `qew pr merge`, `qew land PR` records evidence of the merge head and completes the claimed item if gates pass.\nScenarios:\n- golden: merge then land completes\n- refusal: land of an unmerged PR refused",
+    "comments": [],
+    "labels": [
+      "area:merge-gate"
+    ],
+    "open": false,
+    "title": "qew land completes items whose PR merged",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:06:00Z",
+  "synced_event": "042e4d97b",
+  "synced_hash": ""
+}

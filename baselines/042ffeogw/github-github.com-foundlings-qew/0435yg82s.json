@@ -1,0 +1,21 @@
+{
+  "column": "Done",
+  "linked": [],
+  "parent_number": 342,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "qew attach --manifest FILE (JSON Lines: item, source path, name, optional media type) applying many attachments in ONE commit, and create --from-file plan lines accepting an attachments list; idempotent by content hash (a rerun adds nothing), dry-run, per-file and total limits enforced, a failure leaves nothing partial. Walk: 300 files across 40 items in one commit, rerun is a no-op.",
+    "comments": [
+      "6091997022"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "Bulk attach for importers: a manifest and attachments in create --from-file",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:38Z",
+  "synced_event": "042fmcoa0",
+  "synced_hash": ""
+}

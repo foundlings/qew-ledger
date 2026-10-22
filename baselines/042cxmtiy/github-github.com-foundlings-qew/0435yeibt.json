@@ -1,0 +1,21 @@
+{
+  "column": "Done",
+  "linked": [],
+  "parent_number": 100,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "`qew export DIR` writes items/<ID>.md-compatible files and an events summary, deterministic.\nScenarios:\n- golden: export then import into an empty ledger reproduces items\n- adversary: ids that would escape the directory are refused",
+    "comments": [],
+    "labels": [
+      "area:export-import"
+    ],
+    "open": false,
+    "title": "qew export writes items as Markdown files with fixed headers",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:24Z",
+  "synced_event": "042f05eci",
+  "synced_hash": ""
+}

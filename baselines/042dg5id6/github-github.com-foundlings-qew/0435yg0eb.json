@@ -1,0 +1,18 @@
+{
+  "column": "Closed",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "",
+    "comments": [],
+    "labels": [],
+    "open": false,
+    "title": "latency probe C (delete me)",
+    "type": ""
+  },
+  "synced_at": "2026-10-14T19:30:51Z",
+  "synced_event": "042e4oe0a",
+  "synced_hash": ""
+}

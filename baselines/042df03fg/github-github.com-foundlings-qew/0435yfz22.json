@@ -1,0 +1,18 @@
+{
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "",
+    "comments": [],
+    "labels": [],
+    "open": false,
+    "title": "Board follows the ledger implicitly: item-scoped background sync within seconds of a write (no manual sync/project sync); forge-filed issues land in Backlog",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:04:59Z",
+  "synced_event": "042e4nz99",
+  "synced_hash": ""
+}

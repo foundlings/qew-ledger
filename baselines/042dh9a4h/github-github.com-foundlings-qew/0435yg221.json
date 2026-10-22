@@ -1,0 +1,18 @@
+{
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "",
+    "comments": [],
+    "labels": [],
+    "open": false,
+    "title": "qew unlock --stale: explicit, audited removal of a stale repository lock the person approves (qew never deletes one itself)",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:01Z",
+  "synced_event": "042e4ovf2",
+  "synced_hash": ""
+}

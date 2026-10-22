@@ -1,0 +1,23 @@
+{
+  "column": "Done",
+  "linked": [
+    "042cz0ydz"
+  ],
+  "parent_number": 250,
+  "priority": "P0",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Contract: docs/specs/ledger.md, Authority and topology.\nA `claimed` event named by `claim_lost` is ignored by the fold; `claim_confirmed` is informational; check validates refs.\nScenarios (each a named walk whose docstring states the failure it prevents):\n- golden: lost claim leaves the item approved and unclaimed\n- adversary: claim_lost naming a missing event fails check\n- golden: two claims with the second lost fold cleanly",
+    "comments": [],
+    "labels": [
+      "area:authority"
+    ],
+    "open": false,
+    "title": "claim_confirmed and claim_lost events in the fold",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:56Z",
+  "synced_event": "042e4j52w",
+  "synced_hash": ""
+}

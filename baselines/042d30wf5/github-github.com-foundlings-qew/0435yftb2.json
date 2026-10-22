@@ -1,0 +1,20 @@
+{
+  "column": "Done",
+  "linked": [],
+  "priority": "P0",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Owner requirement: the old identity must appear in no repository. Provide scripts/rewrite-identity.sh wrapping git-filter-repo: replace text in files and commit messages, authors and committers, across all refs, for a git repo or a colocated jj repo (re-init jj afterwards), with a dry-run report listing remaining occurrences. Scenario: a fixture repo with the old name in events, messages and author fields ends with zero occurrences and `qew check` still passes.",
+    "comments": [],
+    "labels": [
+      "area:identity"
+    ],
+    "open": false,
+    "title": "Tool to rewrite an identity out of ledger and code repositories (history, events, commit messages)",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:04:53Z",
+  "synced_event": "042e4m21w",
+  "synced_hash": ""
+}

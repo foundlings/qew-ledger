@@ -1,0 +1,24 @@
+{
+  "column": "Done",
+  "linked": [
+    "042cxmtk2",
+    "042cxmtkc"
+  ],
+  "parent_number": 134,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Behaviour\nWhen a commit that nobody claimed delivered an item, the reference lets `close --delivered-by SHA --landed-on BRANCH` record it as completed with the same landing proof as `complete`; half a proof (one flag), or an unlanded commit, is refused before any write. In qew the `completed` state needs a claim; add a close disposition `delivered` (or allow `qew complete --deliverer` from approved) that requires landed evidence, stores it and reaches `completed` so dependents unblock. Without it, work shipped outside qew can only be closed as not planned, which wrongly keeps dependents blocked.\n\n## Scenarios\n- golden: unclaimed approved item, delivered-by commit on target; item is completed, evidence stored, dependents become ready (prevents: dependents blocked forever behind externally shipped work)\n- commit not on the target: refused naming it, zero events (prevents: claiming delivery that did not land)\n- only `--delivered-by` or only `--landed-on`: exit 2, zero events (prevents: half a proof)\n\n## Reference coverage\n2 reference test function(s): `test_close_delivered_by_records_the_proof_and_closes_as_completed`, `test_close_delivered_by_refuses_unlanded_work_and_half_a_proof`\n\n## Qew today\nMissing. A closed item never unblocks dependents (readiness requires `completed`).",
+    "comments": [],
+    "labels": [
+      "area:lifecycle"
+    ],
+    "open": false,
+    "title": "Close work delivered by someone else with a landing proof",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:06:09Z",
+  "synced_event": "042e4bvd7",
+  "synced_hash": ""
+}

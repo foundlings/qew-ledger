@@ -1,0 +1,18 @@
+{
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "qew create --title $'a\\rb' passes the one-line check (only a newline is refused) but the file is read with universal newlines, so every later read fails with malformed header line. Refuse CR (and other line separators) in titles at create and set, and make check report it.",
+    "comments": [],
+    "labels": [],
+    "open": false,
+    "title": "A carriage return in a title corrupts the item file (read back as a line break)",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:04:50Z",
+  "synced_event": "042f06938",
+  "synced_hash": ""
+}

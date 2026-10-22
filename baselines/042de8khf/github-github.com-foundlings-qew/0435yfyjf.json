@@ -1,0 +1,20 @@
+{
+  "column": "Closed",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "<!-- qew-duplicate -->\n\n---\n042d0bm31 \u00b7 claimed \u00b7 issue",
+    "comments": [],
+    "labels": [
+      "drive"
+    ],
+    "open": false,
+    "title": "drive: item created by agent a",
+    "type": ""
+  },
+  "synced_at": "2026-10-14T19:30:47Z",
+  "synced_event": "042e4nuek",
+  "synced_hash": ""
+}

@@ -1,0 +1,24 @@
+{
+  "column": "Done",
+  "linked": [
+    "042cxmtky"
+  ],
+  "parent_number": 36,
+  "priority": "P1",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "After sync every board item has Status from the status model and Priority P0-P4 from the item priority (0-4; larger values clamp to P4 with a warning); changes are verified by reading back with bounded retry; drift is repaired on the next sync; items leaving the target's select are pruned from the board only.\nScenarios (named walks, each stating the failure it prevents):\n- golden: claim moves the card to In progress, completing moves it to Done\n- golden: priority change updates the Priority field\n- adversary: eventual-consistency lag on the forge is retried within bounds then reported, never recorded as synced\n- refusal: prune never closes an issue",
+    "comments": [],
+    "labels": [
+      "area:board",
+      "area:project-parity"
+    ],
+    "open": false,
+    "title": "Item Status and Priority projection kept in sync",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:06:01Z",
+  "synced_event": "042e4dka2",
+  "synced_hash": ""
+}

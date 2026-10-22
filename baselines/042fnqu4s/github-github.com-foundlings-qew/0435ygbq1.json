@@ -1,0 +1,18 @@
+{
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Owner via Santa 2026-10-10, on the analysis draft 042ffhzc6: 'so it all, aproved'. Everything in that analysis is approved, including the items recommended to skip. Order given by Santa: sub-issues and PR-review import first (they matter most for foundlings' tracking), then the rest. Same rules as always: conflict-free events, pacing, idempotent mirrors, qew check validating each.",
+    "comments": [],
+    "labels": [],
+    "open": false,
+    "title": "GitHub parity: what a GitHub issue carries that the ledger cannot hold yet",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:07Z",
+  "synced_event": "042fr9b9o",
+  "synced_hash": ""
+}
