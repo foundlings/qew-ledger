@@ -1,0 +1,26 @@
+{
+  "cmap": {
+    "6102441090": {
+      "ledger": "042hbau0z",
+      "sha": "b75b27486d1b0d36"
+    }
+  },
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Owner: labels made in preparation are legitimate; prune removed GitHub defaults and santa.",
+    "comments": [
+      "6102441090"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "sync --prune-labels deletes only labels qew retired, never one that is merely unused",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T21:38:08Z",
+  "synced_event": "042hbau0z",
+  "synced_hash": ""
+}

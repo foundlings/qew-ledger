@@ -1,0 +1,26 @@
+{
+  "cmap": {
+    "6094552379": {
+      "ledger": "042g137d2",
+      "sha": "cff5dbf77412bbc5"
+    }
+  },
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Today ANY 5xx on ANY forge call raises ForgeUnavailable and stops the whole target (no retry). A single GitHub 500 stopped two foundlings rounds. GitHub can also 500 for a longer stretch (incident), so a fixed retry count is wrong both ways.\n\nDesign (needs owner go): per-call retry with exponential backoff and jitter on 5xx and connection errors, for idempotent calls only (GET, PATCH, PUT, DELETE, GraphQL queries; never a bare create POST, which keeps its duplicate guard). Two knobs under [replication], per mirror override allowed: forge_retries (default 4, 0 = today's behaviour) with backoff 2s,4s,8s,16s capped by forge_retry_max_wait (default 60s); and forge_failure_limit (default 5): after a call exhausts its retries the item is recorded as failed and the sync CONTINUES with other items, but after forge_failure_limit consecutive items failing this way the target stops as ForgeUnavailable (an outage, not a bad item), keeping the retry-after report. Retry-After on a 5xx is honoured. qew status/sync output names retried calls and failed items. Tests: fake returns 500 once then ok (retried, no failure); 500 for one item always (item failed, rest synced, exit nonzero); 500 for everything (stops after the limit, resumable).",
+    "comments": [
+      "6094552379"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "A transient 5xx on one sub-issue call must not stop the whole sync",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:07Z",
+  "synced_event": "042g1mie3",
+  "synced_hash": ""
+}

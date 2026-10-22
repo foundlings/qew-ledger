@@ -1,0 +1,21 @@
+{
+  "cmap": {},
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "",
+    "comments": [
+      "6224810453"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "qew pr label --on-behalf-of ACTOR: a coordinator relabels a pull request its owner would be allowed to",
+    "type": ""
+  },
+  "synced_at": "2026-10-16T21:19:03Z",
+  "synced_event": "042udjq3e",
+  "synced_hash": ""
+}

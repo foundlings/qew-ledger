@@ -1,0 +1,26 @@
+{
+  "cmap": {
+    "6099599398": {
+      "ledger": "042gvnx2q",
+      "sha": "fff887e14d19ac7c"
+    }
+  },
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Santa, bug in 6.3.0: qew pr open TASK refuses because the mirror selects only epics and issues (no issue mirror), so qew pr merge N then refuses (PR not recorded), and the agent guard leaves only QEW_ALLOW_FORGE_BYPASS=1. Expected: the PR opens and merges through qew; record the PR on the task and take the issue number (for the body reference) and the target from the nearest mirrored ancestor, as task claims do since 5.1.1. An item the mirror DOES select but has not synced yet still asks for qew sync.",
+    "comments": [
+      "6099599398"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "A task's pull request goes through qew: open, ready and merge without mirroring the task as an issue",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T16:28:52Z",
+  "synced_event": "042gw5s2g",
+  "synced_hash": ""
+}

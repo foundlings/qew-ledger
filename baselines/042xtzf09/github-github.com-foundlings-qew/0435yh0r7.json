@@ -1,0 +1,21 @@
+{
+  "cmap": {},
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "",
+    "comments": [
+      "6250974335"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "qew pr ready, draft, close and sync take --on-behalf-of ACTOR",
+    "type": ""
+  },
+  "synced_at": "2026-10-18T14:24:42Z",
+  "synced_event": "042xubib5",
+  "synced_hash": ""
+}

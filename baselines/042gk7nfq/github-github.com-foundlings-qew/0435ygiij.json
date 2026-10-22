@@ -1,0 +1,26 @@
+{
+  "cmap": {
+    "6097650049": {
+      "ledger": "042gkbe3g",
+      "sha": "c4e91c8320075d04"
+    }
+  },
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Santa: migrate-layout dry-run on foundlings ran 40+ minutes: one jj log per cited id, each snapshotting a 60k-file working copy. Fix: every resolution jj call is read-only (--ignore-working-copy --no-pager); a manifest or check or migration resolves all ids in a few calls (ancestors of the target once, a batched change_id revset for the rest, git rev-list + cat-file --batch-check). Applies to migrate-layout, check, evidence --manifest and complete.",
+    "comments": [
+      "6097650049"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "Evidence resolution is fast on a big checkout: batched, read-only jj and git calls",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:10Z",
+  "synced_event": "042gky88r",
+  "synced_hash": ""
+}

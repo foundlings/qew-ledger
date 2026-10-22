@@ -1,0 +1,21 @@
+{
+  "cmap": {},
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "",
+    "comments": [
+      "6242191388"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "pr merge --check names what it checked: qew ledger and forge refusals only, not a gate verdict",
+    "type": ""
+  },
+  "synced_at": "2026-10-17T22:30:49Z",
+  "synced_event": "042whmae5",
+  "synced_hash": ""
+}

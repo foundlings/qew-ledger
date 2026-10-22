@@ -1,0 +1,26 @@
+{
+  "cmap": {
+    "6101685503": {
+      "ledger": "042h6xh1f",
+      "sha": "131d6dd82d578338"
+    }
+  },
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Foundlings: 22,487 items have creator qew-import and carry author:qew-import. Add a reviewed bulk correction event (append-only), a via field for the tool, and --as for future imports.",
+    "comments": [
+      "6101685503"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "Author correction: items imported by qew-import are authored by their human; the tool is provenance (via)",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T20:18:50Z",
+  "synced_event": "042h7f3c0",
+  "synced_hash": ""
+}

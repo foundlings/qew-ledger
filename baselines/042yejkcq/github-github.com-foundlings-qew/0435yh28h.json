@@ -1,0 +1,21 @@
+{
+  "cmap": {},
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "baselines/ID/TARGET/ID2.json is a new ledger layout. A qew older than 6.31 ignores it and keeps its sync state local, so it must not work on such a ledger. Bump CURRENT_SCHEMA to 7 (qew init writes it, qew migrate-layout moves 6 to 7 by declaring it), so older qews fail with 'schema_version 7 is not supported; upgrade qew'.",
+    "comments": [
+      "6255262633"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "Declare schema 7 for the committed baselines layout so an older qew refuses the ledger",
+    "type": ""
+  },
+  "synced_at": "2026-10-18T21:27:09Z",
+  "synced_event": "042yezdfv",
+  "synced_hash": ""
+}

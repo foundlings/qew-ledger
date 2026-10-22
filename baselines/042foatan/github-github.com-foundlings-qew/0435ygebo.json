@@ -1,0 +1,26 @@
+{
+  "cmap": {
+    "6092407086": {
+      "ledger": "042fobc03",
+      "sha": "42255a82b7ef9123"
+    }
+  },
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Follow-up to the sub-issue mapping (4.10.0): the first sync after the upgrade sets a parent on every mirrored issue whose parent is mirrored (about 1,800 mutating calls on foundlings). They go through the same create pacing, and a [[mirror]] option sub_issues = false turns the mapping off.",
+    "comments": [
+      "6092407086"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "Sub-issue calls are paced and can be switched off per mirror",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T13:05:07Z",
+  "synced_event": "042foj0a8",
+  "synced_hash": ""
+}

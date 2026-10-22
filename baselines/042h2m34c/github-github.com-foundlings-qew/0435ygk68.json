@@ -1,0 +1,26 @@
+{
+  "cmap": {
+    "6100898543": {
+      "ledger": "042h2mbfc",
+      "sha": "bcaefc424170d3f5"
+    }
+  },
+  "column": "Done",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "Needed to convert foundlings' history from labels to fields; owner moved to brew python@3.15 and dropped uv.",
+    "comments": [
+      "6100898543"
+    ],
+    "labels": [],
+    "open": false,
+    "title": "set --manifest --closed for finished items; setup prefers the brew Python and repairs a venv bound to another build",
+    "type": ""
+  },
+  "synced_at": "2026-10-10T18:41:15Z",
+  "synced_event": "042h2nh3r",
+  "synced_hash": ""
+}
