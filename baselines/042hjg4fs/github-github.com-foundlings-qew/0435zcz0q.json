@@ -20,7 +20,7 @@
     "title": "Releasing or starting an epic reads the whole ledger once per descendant; reads wait for writers; snapshot reads are serial",
     "type": ""
   },
-  "synced_at": "2026-10-22T15:05:11Z",
-  "synced_event": "0435ygope",
-  "synced_hash": ""
+  "synced_at": "2026-10-22T15:23:35Z",
+  "synced_event": "0435zcyxj",
+  "synced_hash": "258bd8eb2aa0da11"
 }

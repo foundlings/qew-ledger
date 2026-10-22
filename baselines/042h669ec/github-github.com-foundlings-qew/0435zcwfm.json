@@ -20,7 +20,7 @@
     "title": "Sync waits out GraphQL and REST rate limits instead of failing items, and yields the ledger lock to waiting verbs",
     "type": ""
   },
-  "synced_at": "2026-10-22T15:05:09Z",
-  "synced_event": "0435ygkx2",
-  "synced_hash": ""
+  "synced_at": "2026-10-22T15:23:33Z",
+  "synced_event": "0435zcwen",
+  "synced_hash": "2d77451f62bfa40f"
 }

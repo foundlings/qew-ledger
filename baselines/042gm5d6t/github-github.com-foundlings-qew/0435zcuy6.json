@@ -20,7 +20,7 @@
     "title": "A ledger commit must leave nothing it wrote uncommitted (migrate-layout left qew-ledger.toml dirty on foundlings)",
     "type": ""
   },
-  "synced_at": "2026-10-22T15:05:07Z",
-  "synced_event": "0435ygikj",
-  "synced_hash": ""
+  "synced_at": "2026-10-22T15:23:31Z",
+  "synced_event": "0435zcur3",
+  "synced_hash": "69691ea29ec02f09"
 }
