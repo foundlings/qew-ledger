@@ -20,7 +20,7 @@
     "title": "Schema 4 ledgers stay usable until migrated; migrate-layout 4 to 5 keeps other logins' claims",
     "type": ""
   },
-  "synced_at": "2026-10-22T15:05:09Z",
-  "synced_event": "0435ygkcd",
-  "synced_hash": ""
+  "synced_at": "2026-10-22T15:23:33Z",
+  "synced_event": "0435zcvzh",
+  "synced_hash": "564fa32f562854ef"
 }
