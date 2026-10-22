@@ -20,7 +20,7 @@
     "title": "sync --prune-labels deletes only labels qew retired, never one that is merely unused",
     "type": ""
   },
-  "synced_at": "2026-10-10T21:38:08Z",
-  "synced_event": "042hbau0z",
-  "synced_hash": ""
+  "synced_at": "2026-10-22T15:05:11Z",
+  "synced_event": "0435ygnzk",
+  "synced_hash": "a000ba027de85c13"
 }

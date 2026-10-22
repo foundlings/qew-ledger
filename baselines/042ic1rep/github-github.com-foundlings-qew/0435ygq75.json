@@ -20,7 +20,7 @@
     "title": "A read on a large jj ledger snapshots the working copy a dozen times: fetch, queries and recovery scan 165k files",
     "type": ""
   },
-  "synced_at": "2026-10-11T10:02:56Z",
-  "synced_event": "042icfzf7",
-  "synced_hash": ""
+  "synced_at": "2026-10-22T15:05:12Z",
+  "synced_event": "0435ygq4w",
+  "synced_hash": "87a3e97bd77df14c"
 }
