@@ -1,0 +1,1 @@
+{"actor": "887", "at": "2026-10-23T23:47:43Z", "quote": "Alexander: 'we should say in the pr label when a pr is blocked and also change the title to blocked by when an elf makes a new pr to solve the blockage. labels should never contain pr ids but the title scan at the end like Bla bla bla [blocked by: #xxxx]'", "type": "approved"}
