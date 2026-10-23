@@ -1,18 +1,21 @@
 {
-  "column": "Ready",
+  "cmap": {},
+  "column": "In progress",
   "linked": [],
   "priority": "P1",
   "seen": {
     "assignee": "",
     "assignees": [],
     "body": "## Problem\n\nan elf that opens a pull request to clear another pull request's blockage has no way to show it: the blocked pull request carries no label and its title does not say what it waits on.\n\n## Done when\n\nqew pr block N --by M adds the label blocked and the title suffix; qew pr unblock N removes a blocker, the label and suffix when none remain; qew pr sync keeps the suffix; merging or landing M unblocks every pull request blocked by M and prints which; no label ever holds an id",
-    "comments": [],
+    "comments": [
+      "6377029116"
+    ],
     "labels": [],
     "open": true,
     "title": "qew pr block and unblock: label blocked, title suffix [blocked by: #M], auto-unblock when the blocker merges",
     "type": ""
   },
-  "synced_at": "2026-10-23T23:47:47Z",
-  "synced_event": "0438pjoen",
-  "synced_hash": "fdc8fc8bf03e8e1f"
+  "synced_at": "2026-10-23T23:48:06Z",
+  "synced_event": "0438pk5mu",
+  "synced_hash": "dcb60dfd1c35e99d"
 }
