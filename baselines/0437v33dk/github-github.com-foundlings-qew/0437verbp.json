@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P1",
   "seen": {
@@ -11,11 +11,11 @@
       "6366361094"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "A pull request split by qew pr check --drop still covers the dropped root: merge refuses half-done work and the title stays",
     "type": ""
   },
-  "synced_at": "2026-10-23T13:52:41Z",
-  "synced_event": "0437vdtc2",
-  "synced_hash": "770fceabb862fd62"
+  "synced_at": "2026-10-23T13:52:48Z",
+  "synced_event": "0437vep34",
+  "synced_hash": "1df16caf95e08cb6"
 }
