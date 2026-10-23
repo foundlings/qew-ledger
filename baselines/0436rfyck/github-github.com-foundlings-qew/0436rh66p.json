@@ -1,18 +1,21 @@
 {
-  "column": "Ready",
+  "cmap": {},
+  "column": "In progress",
   "linked": [],
   "priority": "P2",
   "seen": {
     "assignee": "",
     "assignees": [],
     "body": "## Goal\n\nqew pr union N N... merges the heads of the given open pull requests into one commit (merge commits only, never a squash, every change id kept), refuses on a conflict naming the PR and files and pushing nothing, skips heads already contained, and pushes it forward-only as the first PR's branch, then verifies the remote has it. The lead's ownership rule applies (--other-author --reason). --dry-run builds and reports conflicts without pushing. Then qew pr merge N N... lands the batch. Born from rudolph hand-building the union with jj new, ancestry checks and a verified push.",
-    "comments": [],
+    "comments": [
+      "6354532282"
+    ],
     "labels": [],
     "open": true,
     "title": "qew pr union builds the union of several pull request heads and pushes it as the lead's branch",
     "type": ""
   },
-  "synced_at": "2026-10-23T00:37:22Z",
-  "synced_event": "0436rfyep",
-  "synced_hash": "7309cc7269cdf1e6"
+  "synced_at": "2026-10-23T00:37:59Z",
+  "synced_event": "0436rgubp",
+  "synced_hash": "2a0d49ba1fad304d"
 }
