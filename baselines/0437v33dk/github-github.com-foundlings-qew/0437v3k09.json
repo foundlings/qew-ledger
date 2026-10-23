@@ -1,18 +1,21 @@
 {
-  "column": "Ready",
+  "cmap": {},
+  "column": "In progress",
   "linked": [],
   "priority": "P1",
   "seen": {
     "assignee": "",
     "assignees": [],
     "body": "## Problem\n\ndropping a root's Progress box leaves it in the pull request record's covered items, so qew pr merge --check refuses its open children and qew pr sync retitles from the dropped root; foundlings PR 4917 is blocked on this.\n\n## Done when\n\ndrop removes the item from the covered set (the last one is refused), sync --items does not re-add it, and pr sync titles from the first covered item",
-    "comments": [],
+    "comments": [
+      "6366361094"
+    ],
     "labels": [],
     "open": true,
     "title": "A pull request split by qew pr check --drop still covers the dropped root: merge refuses half-done work and the title stays",
     "type": ""
   },
-  "synced_at": "2026-10-23T13:46:01Z",
-  "synced_event": "0437v33j5",
-  "synced_hash": "68033fd454afe8d1"
+  "synced_at": "2026-10-23T13:46:17Z",
+  "synced_event": "0437v3ifz",
+  "synced_hash": "770fceabb862fd62"
 }
