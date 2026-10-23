@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In review",
+  "column": "In progress",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -15,7 +15,7 @@
     "title": "qew pr merge takes several pull requests and lands them as one batch",
     "type": ""
   },
-  "synced_at": "2026-10-23T00:35:32Z",
+  "synced_at": "2026-10-23T00:36:07Z",
   "synced_event": "0436rd12s",
-  "synced_hash": "71d11e5a6fa676bd"
+  "synced_hash": "1b0d29181796668d"
 }
