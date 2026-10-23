@@ -1,0 +1,11 @@
+{
+  "forge": "github",
+  "head": "pr-merge-batch",
+  "items": [
+    "0436qot41"
+  ],
+  "kind": "pr",
+  "number": 595,
+  "opener": "887",
+  "url": "https://github.com/foundlings/qew"
+}
