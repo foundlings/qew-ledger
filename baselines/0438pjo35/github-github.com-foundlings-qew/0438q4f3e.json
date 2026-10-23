@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "In review",
   "linked": [],
   "priority": "P1",
   "seen": {
@@ -15,7 +15,7 @@
     "title": "qew pr block and unblock: label blocked, title suffix [blocked by: #M], auto-unblock when the blocker merges",
     "type": ""
   },
-  "synced_at": "2026-10-23T23:48:06Z",
-  "synced_event": "0438pk5mu",
-  "synced_hash": "dcb60dfd1c35e99d"
+  "synced_at": "2026-10-23T23:59:17Z",
+  "synced_event": "0438q4f7x",
+  "synced_hash": "81420a2751bde5c2"
 }
