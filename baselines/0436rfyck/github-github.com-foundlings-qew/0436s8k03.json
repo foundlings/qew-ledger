@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "In review",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -15,7 +15,7 @@
     "title": "qew pr union builds the union of several pull request heads and pushes it as the lead's branch",
     "type": ""
   },
-  "synced_at": "2026-10-23T00:37:59Z",
-  "synced_event": "0436rgubp",
-  "synced_hash": "2a0d49ba1fad304d"
+  "synced_at": "2026-10-23T00:53:22Z",
+  "synced_event": "0436s8meb",
+  "synced_hash": "7261c1fc0b4dbf5c"
 }
