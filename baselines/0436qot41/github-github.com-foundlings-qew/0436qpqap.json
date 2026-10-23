@@ -1,18 +1,21 @@
 {
-  "column": "Ready",
+  "cmap": {},
+  "column": "In progress",
   "linked": [],
   "priority": "P2",
   "seen": {
     "assignee": "",
     "assignees": [],
     "body": "## Goal\n\nqew pr merge A B C merges pull requests whose heads form one union (the lead's head contains every other head) through the merge gate once: every PR is gated, the lead is merged, each other PR is verified merged on the forge and its mirror record updated, and the hand-off lists each item. Agents reach for the verb they know, so no new flag or verb. Refuse when no head contains the rest, naming the jj/git recipe to build the union. Born from rudolph landing five PRs by hand with --integrator.",
-    "comments": [],
+    "comments": [
+      "6354322134"
+    ],
     "labels": [],
     "open": true,
     "title": "qew pr merge takes several pull requests and lands them as one batch",
     "type": ""
   },
-  "synced_at": "2026-10-23T00:21:32Z",
-  "synced_event": "0436qotbt",
-  "synced_hash": "1cb25bb38e2497e1"
+  "synced_at": "2026-10-23T00:21:57Z",
+  "synced_event": "0436qpkgz",
+  "synced_hash": "1b0d29181796668d"
 }
