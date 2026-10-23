@@ -1,18 +1,21 @@
 {
-  "column": "Ready",
+  "cmap": {},
+  "column": "In progress",
   "linked": [],
   "priority": "P1",
   "seen": {
     "assignee": "",
     "assignees": [],
     "body": "## Problem\n\nland treats an item as another actor's claim whenever the recorded owner is not the caller, so an integrator who holds the item's epic (or whose claim was re-read) gets 'nothing to take over: you already hold' and nothing is recorded; reported by foundlings for qew land 4992.\n\n## Done when\n\nland skips the takeover when the caller already holds the item, records the merged head as evidence and completes it",
-    "comments": [],
+    "comments": [
+      "6366081241"
+    ],
     "labels": [],
     "open": true,
     "title": "qew land --integrator refuses 'nothing to take over' when the caller already holds the item (directly or through its epic)",
     "type": ""
   },
-  "synced_at": "2026-10-23T13:32:03Z",
-  "synced_event": "0437ue45b",
-  "synced_hash": "63c57259094ddbc6"
+  "synced_at": "2026-10-23T13:32:20Z",
+  "synced_event": "0437uekf1",
+  "synced_hash": "5c482b98740f7743"
 }
