@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "In review",
   "linked": [],
   "priority": "P1",
   "seen": {
@@ -15,7 +15,7 @@
     "title": "qew land --integrator refuses 'nothing to take over' when the caller already holds the item (directly or through its epic)",
     "type": ""
   },
-  "synced_at": "2026-10-23T13:32:20Z",
-  "synced_event": "0437uekf1",
-  "synced_hash": "5c482b98740f7743"
+  "synced_at": "2026-10-23T13:39:08Z",
+  "synced_event": "0437uregp",
+  "synced_hash": "5d3527c47c965e1c"
 }
