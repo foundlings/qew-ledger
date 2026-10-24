@@ -1,18 +1,21 @@
 {
-  "column": "Ready",
+  "cmap": {},
+  "column": "In progress",
   "linked": [],
   "priority": "P2",
   "seen": {
     "assignee": "",
     "assignees": [],
     "body": "## Problem\n\nAsking how far along an epic is takes one qew list --parent call per node (about 6 s each, hundreds of nodes); neither graph nor list --json gives the tree in one call. Requested by the foundlings owner via Santa.",
-    "comments": [],
+    "comments": [
+      "6387389107"
+    ],
     "labels": [],
     "open": true,
     "title": "qew progress ROOT: percent done over the leaves of an epic tree in one ledger read",
     "type": ""
   },
-  "synced_at": "2026-10-24T17:35:47Z",
-  "synced_event": "043a6vhbm",
-  "synced_hash": "c60e29de50a3558e"
+  "synced_at": "2026-10-24T17:36:02Z",
+  "synced_event": "043a6vxb1",
+  "synced_hash": "3569e3c92c7f3e8b"
 }
