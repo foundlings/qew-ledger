@@ -1,0 +1,18 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Where\n\nsrc/qew/forge_github.py find_issue\n\n## Problem\n\nthe pre-create lookup lists every issue of the repository; foundlings has more than 50 pages of issues and pull requests, so a new item's issue is never created and later pushes fail too",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "qew push fails 'more than 50 pages' creating an issue in a repository past the page cap",
+    "type": ""
+  },
+  "synced_at": "2026-10-24T03:27:46Z",
+  "synced_event": "04390bscn",
+  "synced_hash": "d2d404c96581dbbb"
+}
