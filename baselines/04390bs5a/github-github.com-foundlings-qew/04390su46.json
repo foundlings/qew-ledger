@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In review",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -11,11 +11,11 @@
       "6379310109"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "qew push fails 'more than 50 pages' creating an issue in a repository past the page cap",
     "type": ""
   },
-  "synced_at": "2026-10-24T03:36:33Z",
-  "synced_event": "04390ry53",
-  "synced_hash": "c1ff002c96c7669c"
+  "synced_at": "2026-10-24T03:38:01Z",
+  "synced_event": "04390sye9",
+  "synced_hash": "82c30af51f5135e1"
 }
