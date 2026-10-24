@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In review",
+  "column": "In progress",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -15,7 +15,7 @@
     "title": "qew progress ROOT: percent done over the leaves of an epic tree in one ledger read",
     "type": ""
   },
-  "synced_at": "2026-10-24T17:47:30Z",
+  "synced_at": "2026-10-24T17:47:59Z",
   "synced_event": "043a7fr0k",
-  "synced_hash": "e7356e8bde6ed4ab"
+  "synced_hash": "3569e3c92c7f3e8b"
 }
