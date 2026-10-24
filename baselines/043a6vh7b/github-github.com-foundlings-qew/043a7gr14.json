@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -11,11 +11,11 @@
       "6387389107"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "qew progress ROOT: percent done over the leaves of an epic tree in one ledger read",
     "type": ""
   },
-  "synced_at": "2026-10-24T17:47:59Z",
-  "synced_event": "043a7fr0k",
-  "synced_hash": "3569e3c92c7f3e8b"
+  "synced_at": "2026-10-24T17:48:08Z",
+  "synced_event": "043a7gn04",
+  "synced_hash": "ebc9a95629fddce0"
 }
