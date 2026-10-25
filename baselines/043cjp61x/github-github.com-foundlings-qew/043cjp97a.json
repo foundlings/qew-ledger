@@ -1,0 +1,18 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "priority": "P0",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Where\n\nsrc/qew/code_vcs.py (_jj_change, is_ancestor, landing, _landing_many_jj)\n\n## Problem\n\nunder jj 0.46.0 change_id(<hex sha>) is a parse error (change ids use only k-z), so is_ancestor returns False and qew pr merge A B C says no head contains the others\n\n## Fix\n\nemit change_id for k-z strings and commit_id for hex, never both; a failed revset raises exit 3 instead of reading as not an ancestor\n\n## Done when\n\na hex head sha resolves through is_ancestor under jj, and a revset error is raised",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "jj ancestry lookup of a commit sha is a revset parse error and reads as not an ancestor",
+    "type": ""
+  },
+  "synced_at": "2026-10-25T21:46:39Z",
+  "synced_event": "043cjp68x",
+  "synced_hash": "306084a7aca5cdd9"
+}
