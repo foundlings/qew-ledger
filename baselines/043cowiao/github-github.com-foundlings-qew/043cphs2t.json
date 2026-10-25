@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P0",
   "seen": {
@@ -11,11 +11,11 @@
       "6404731057"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "Batch merge ignores --other-author --reason for a follower claimed by another actor",
     "type": ""
   },
-  "synced_at": "2026-10-25T23:24:51Z",
-  "synced_event": "043cpgi0p",
-  "synced_hash": "62f95aa755cfa4da"
+  "synced_at": "2026-10-25T23:24:59Z",
+  "synced_event": "043cpho7z",
+  "synced_hash": "491fd74811ce8e1e"
 }
