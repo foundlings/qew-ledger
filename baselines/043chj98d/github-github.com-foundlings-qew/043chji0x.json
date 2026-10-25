@@ -1,0 +1,18 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "priority": "P1",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Where\n\nsrc/qew/pr_batch.py, src/qew/cmd_pr.py (_merge_gates)\n\n## Problem\n\nqew pr merge A B C preflights every member alone, so a member whose own head conflicts with main is refused although the lead head already contains it and only the lead is merged\n\n## Fix\n\nSkip the conflicts-with-base gate for a member whose head the lead contains; the lead's own gate still applies\n\n## Done when\n\na batch whose followers conflict with main individually but sit inside a conflict-free lead merges",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "Batch merge refuses members that conflict with main though the lead head contains them",
+    "type": ""
+  },
+  "synced_at": "2026-10-25T21:03:03Z",
+  "synced_event": "043chj9c6",
+  "synced_hash": "30f1447e0c33d4ef"
+}
