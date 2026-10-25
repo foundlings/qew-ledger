@@ -1,18 +1,21 @@
 {
-  "column": "Ready",
+  "cmap": {},
+  "column": "In progress",
   "linked": [],
   "priority": "P0",
   "seen": {
     "assignee": "",
     "assignees": [],
     "body": "## Where\n\nsrc/qew/pr_batch.py (_heads, merge_batch)\n\n## Problem\n\n_heads and the follower loop call load with an empty reason, so require_owner refuses any follower whose items another actor claimed although --other-author --reason was given; each pull request alone passes\n\n## Fix\n\nthread the merge reason (when --other-author is set) into every load the batch makes\n\n## Done when\n\na batch with a foreign-claimed follower merges under --other-author --reason and is still refused without it",
-    "comments": [],
+    "comments": [
+      "6404731057"
+    ],
     "labels": [],
     "open": true,
     "title": "Batch merge ignores --other-author --reason for a follower claimed by another actor",
     "type": ""
   },
-  "synced_at": "2026-10-25T23:12:36Z",
-  "synced_event": "043cowihn",
-  "synced_hash": "6bcacc8b73e51a9d"
+  "synced_at": "2026-10-25T23:12:52Z",
+  "synced_event": "043cowwch",
+  "synced_hash": "62f95aa755cfa4da"
 }
