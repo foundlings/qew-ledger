@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In review",
+  "column": "In progress",
   "linked": [],
   "priority": "P0",
   "seen": {
@@ -15,7 +15,7 @@
     "title": "jj ancestry lookup of a commit sha is a revset parse error and reads as not an ancestor",
     "type": ""
   },
-  "synced_at": "2026-10-25T21:55:48Z",
+  "synced_at": "2026-10-25T21:56:34Z",
   "synced_event": "043ck5afh",
-  "synced_hash": "bf45a736ba177410"
+  "synced_hash": "10c2ee704c2a5f89"
 }
