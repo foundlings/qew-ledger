@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "In review",
   "linked": [],
   "priority": "P0",
   "seen": {
@@ -15,7 +15,7 @@
     "title": "Batch merge ignores --other-author --reason for a follower claimed by another actor",
     "type": ""
   },
-  "synced_at": "2026-10-25T23:12:52Z",
-  "synced_event": "043cowwch",
-  "synced_hash": "62f95aa755cfa4da"
+  "synced_at": "2026-10-25T23:24:13Z",
+  "synced_event": "043cpgi0p",
+  "synced_hash": "52147fb259164c0f"
 }
