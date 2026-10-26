@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "In review",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -15,7 +15,7 @@
     "title": "Name the repository, listing and cause when a listing is refused as too long",
     "type": ""
   },
-  "synced_at": "2026-10-26T00:52:42Z",
-  "synced_event": "043ctsnei",
-  "synced_hash": "51e0860bc39eea16"
+  "synced_at": "2026-10-26T01:08:35Z",
+  "synced_event": "043cukfat",
+  "synced_hash": "361e0669343132a7"
 }
