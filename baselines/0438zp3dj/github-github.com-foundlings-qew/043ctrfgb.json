@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P1",
   "seen": {
@@ -11,11 +11,11 @@
       "6405778354"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "Mirror new items without exhausting repository-wide issue pagination",
     "type": ""
   },
-  "synced_at": "2026-10-26T00:51:08Z",
-  "synced_event": "043ctq1c6",
-  "synced_hash": "8d7973bc96967b44"
+  "synced_at": "2026-10-26T00:51:44Z",
+  "synced_event": "043ctra5v",
+  "synced_hash": "98b04fd6ddc260e0"
 }
