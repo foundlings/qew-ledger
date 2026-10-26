@@ -7,5 +7,6 @@ labels:
 owner: 
 priority: 1
 created: 2026-10-24T03:14:28Z
+evidence: lstyyyryxwop mvtkvxvqqwvl
 ---
 Foundlings qew push fails to create mirrors for 0438wat7m, 0438xac9d, 0438vvjei and 0438xrifi with HTTP 200: more than 50 pages; refusing a truncated listing. Existing ledger writes are remote, but mirror creation is stuck. Installed forge_github.py pages() reaches MAX_PAGES during this sync. Preserve fail-closed pagination and cross-host protection; resolve item identity without requiring an unbounded repository-wide listing. Done when a regression fixture with more than 50 issue pages can create or discover the requested item mirror without duplicates or truncated results being treated as complete, and normal bounded pagination controls remain green. Related completed pagination guard: 042cxmtmr.
