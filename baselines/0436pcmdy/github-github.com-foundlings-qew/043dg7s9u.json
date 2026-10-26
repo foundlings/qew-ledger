@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "In review",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -15,7 +15,7 @@
     "title": "qew push --item with several items can leave unpushed above 0 until a second push",
     "type": ""
   },
-  "synced_at": "2026-10-26T08:13:22Z",
-  "synced_event": "043dfdfdo",
-  "synced_hash": "b19bd5d89d27d969"
+  "synced_at": "2026-10-26T08:30:24Z",
+  "synced_event": "043dg7u2i",
+  "synced_hash": "50ea3ccebd813331"
 }
