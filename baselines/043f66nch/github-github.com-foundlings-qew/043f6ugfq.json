@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "In review",
   "linked": [],
   "priority": "P1",
   "seen": {
@@ -15,7 +15,7 @@
     "title": "Ledger lock is unfair and fixed at 60s, so a busy machine can starve an agent",
     "type": ""
   },
-  "synced_at": "2026-10-27T04:55:06Z",
-  "synced_event": "043f673ad",
-  "synced_hash": "4818a86647f72beb"
+  "synced_at": "2026-10-27T05:08:03Z",
+  "synced_event": "043f6uiat",
+  "synced_hash": "7c58358ceeb6dcbc"
 }
