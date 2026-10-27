@@ -1,0 +1,18 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Goal\n\n--tree is plain by default; --color or --color=always paints it, --color=never is plain",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "qew progress --tree: color only when asked with --color, never from tty detection",
+    "type": ""
+  },
+  "synced_at": "2026-10-27T21:57:05Z",
+  "synced_event": "043gm97dp",
+  "synced_hash": "ede4a109d51ea098"
+}
