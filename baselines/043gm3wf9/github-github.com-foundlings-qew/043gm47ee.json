@@ -1,0 +1,18 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Goal\n\ntree rows with counts like 2192/2418 keep their guides in the same column as rows with 2/24",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "qew progress --tree: the left block must stay one width when done/total has more than 7 characters",
+    "type": ""
+  },
+  "synced_at": "2026-10-27T21:54:07Z",
+  "synced_event": "043gm3wmf",
+  "synced_hash": "a78f06b3264993da"
+}
