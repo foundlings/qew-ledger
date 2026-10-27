@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -11,11 +11,11 @@
       "6453952125"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "qew progress --tree --open-only: a terminal-width dashboard view with aligned bars, guides and color",
     "type": ""
   },
-  "synced_at": "2026-10-27T21:52:00Z",
-  "synced_event": "043gky1az",
-  "synced_hash": "9c46dbe744c74b28"
+  "synced_at": "2026-10-27T21:52:24Z",
+  "synced_event": "043gm0yer",
+  "synced_hash": "4b13affdc2d518e0"
 }
