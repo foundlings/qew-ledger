@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -11,11 +11,11 @@
       "6454568640"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "qew progress --tree: the left block must stay one width when done/total has more than 7 characters",
     "type": ""
   },
-  "synced_at": "2026-10-27T21:54:57Z",
-  "synced_event": "043gmtkbi",
-  "synced_hash": "ba7b5bdba7c2dcb8"
+  "synced_at": "2026-10-27T22:11:03Z",
+  "synced_event": "043gmwv6p",
+  "synced_hash": "e6db3fcfa37e287c"
 }
