@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P1",
   "seen": {
@@ -11,11 +11,11 @@
       "6434642018"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "qew check reports a write in flight (event before its item) as ledger problems and sync refuses",
     "type": ""
   },
-  "synced_at": "2026-10-27T06:01:17Z",
-  "synced_event": "043f97i5r",
-  "synced_hash": "598d283436dde7e7"
+  "synced_at": "2026-10-27T06:01:36Z",
+  "synced_event": "043f9g292",
+  "synced_hash": "eb220ac92dbf61e4"
 }
