@@ -1,0 +1,18 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Goal\n\nqew progress prints a box-drawing tree with the bar, percent and done/total in a fixed left column, titles cut to the terminal width, --open-only hiding finished and empty rows, color on a tty; existing output and --json unchanged",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "qew progress --tree --open-only: a terminal-width dashboard view with aligned bars, guides and color",
+    "type": ""
+  },
+  "synced_at": "2026-10-27T21:25:17Z",
+  "synced_event": "043gjpb6h",
+  "synced_hash": "5011e6838e7c3bac"
+}
