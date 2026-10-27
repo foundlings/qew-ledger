@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -11,11 +11,11 @@
       "6454624207"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "qew progress --tree: color only when asked with --color, never from tty detection",
     "type": ""
   },
-  "synced_at": "2026-10-27T22:09:15Z",
-  "synced_event": "043gmtt7v",
-  "synced_hash": "58224fc868163199"
+  "synced_at": "2026-10-27T22:10:16Z",
+  "synced_event": "043gmvp8x",
+  "synced_hash": "46ba91a048a9810d"
 }
