@@ -1,18 +1,21 @@
 {
-  "column": "Ready",
+  "cmap": {},
+  "column": "In progress",
   "linked": [],
   "priority": "P2",
   "seen": {
     "assignee": "",
     "assignees": [],
     "body": "## Goal\n\nthe ledger write lock covers only the ledger reads and writes of pr verbs; forge requests run before or after it, so a slow forge cannot hold every writer",
-    "comments": [],
+    "comments": [
+      "6480261654"
+    ],
     "labels": [],
     "open": true,
     "title": "qew pr open, ready, close and merge hold the ledger write lock across forge HTTP; do the forge calls outside it",
     "type": ""
   },
-  "synced_at": "2026-10-28T20:28:06Z",
-  "synced_event": "043ihdek5",
-  "synced_hash": "d4b0c0e0f3fd9390"
+  "synced_at": "2026-10-28T20:45:57Z",
+  "synced_event": "043ii93jy",
+  "synced_hash": "156a221a98da0a7d"
 }
