@@ -1,18 +1,21 @@
 {
-  "column": "Ready",
+  "cmap": {},
+  "column": "In progress",
   "linked": [],
   "priority": "P2",
   "seen": {
     "assignee": "",
     "assignees": [],
     "body": "## Goal\n\na failed or interrupted migration leaves the pre-migration tree (empty git status), a rerun finishes it, and the check afterwards ignores uncommitted attachments",
-    "comments": [],
+    "comments": [
+      "6483851330"
+    ],
     "labels": [],
     "open": true,
     "title": "migrate-layout: shard directories named _xx so they cannot collide with item ids; rollback restores the exact tree; resumable; structural check; --no-check",
     "type": ""
   },
-  "synced_at": "2026-10-28T23:52:56Z",
-  "synced_event": "043iseec0",
-  "synced_hash": "613b932593fd79b1"
+  "synced_at": "2026-10-28T23:55:44Z",
+  "synced_event": "043isiya0",
+  "synced_hash": "9f85d3f7da4d9127"
 }
