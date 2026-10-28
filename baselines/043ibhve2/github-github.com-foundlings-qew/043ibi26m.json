@@ -1,0 +1,18 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Goal\n\nstart X --needs-on adu-fat verifies each unmet need has evidence landed on that branch, records the staging on the claim, and leaves complete and land requiring main",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "qew start --needs-on BRANCH: start work whose unmet needs are evidenced on a collection branch, not yet on main",
+    "type": ""
+  },
+  "synced_at": "2026-10-28T18:27:12Z",
+  "synced_event": "043ibhvew",
+  "synced_hash": "d69077a41337a839"
+}
