@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In review",
+  "column": "In progress",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -15,7 +15,7 @@
     "title": "qew start --needs-on BRANCH: start work whose unmet needs are evidenced on a collection branch, not yet on main",
     "type": ""
   },
-  "synced_at": "2026-10-28T19:05:44Z",
+  "synced_at": "2026-10-28T19:13:35Z",
   "synced_event": "043ide80u",
-  "synced_hash": "71ce9fd59435ccfd"
+  "synced_hash": "12d120dba56e4d79"
 }
