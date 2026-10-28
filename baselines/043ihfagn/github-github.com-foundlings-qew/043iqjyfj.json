@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -11,11 +11,11 @@
       "6481233461"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "shard events, items, mirrors and baselines by id suffix so a commit rewrites a small tree (schema 8 and a rename migration)",
     "type": ""
   },
-  "synced_at": "2026-10-28T23:11:56Z",
-  "synced_event": "043iq5beq",
-  "synced_hash": "8842bdf925dba509"
+  "synced_at": "2026-10-28T23:14:10Z",
+  "synced_event": "043iqi332",
+  "synced_hash": "e7c61d8f03e3168f"
 }
