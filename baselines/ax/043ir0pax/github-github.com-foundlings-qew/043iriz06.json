@@ -1,18 +1,21 @@
 {
-  "column": "Ready",
+  "cmap": {},
+  "column": "In progress",
   "linked": [],
   "priority": "P2",
   "seen": {
     "assignee": "",
     "assignees": [],
     "body": "## Goal\n\na draft pull request exists the moment a branch is pushed even when the ledger write lock is slow to get",
-    "comments": [],
+    "comments": [
+      "6483486288"
+    ],
     "labels": [],
     "open": true,
     "title": "qew pr open claims an unclaimed item itself: forge PR first, then claim and record in the one short write section",
     "type": ""
   },
-  "synced_at": "2026-10-28T23:25:27Z",
-  "synced_event": "043ir0pb7",
-  "synced_hash": "1b26fa337af7a30d"
+  "synced_at": "2026-10-28T23:34:03Z",
+  "synced_event": "043irh0e8",
+  "synced_hash": "4ca7c741cc0e6ad8"
 }
