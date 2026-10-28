@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In review",
+  "column": "In progress",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -15,7 +15,7 @@
     "title": "shard events, items, mirrors and baselines by id suffix so a commit rewrites a small tree (schema 8 and a rename migration)",
     "type": ""
   },
-  "synced_at": "2026-10-28T23:05:32Z",
+  "synced_at": "2026-10-28T23:11:56Z",
   "synced_event": "043iq5beq",
-  "synced_hash": "446bb68e30aa8b3a"
+  "synced_hash": "8842bdf925dba509"
 }
