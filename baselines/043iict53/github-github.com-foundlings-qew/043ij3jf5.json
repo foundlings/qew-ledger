@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "In review",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -15,7 +15,7 @@
     "title": "detached sync workers pile up: a losing worker waits for the write lock before it checks sync.lock",
     "type": ""
   },
-  "synced_at": "2026-10-28T20:51:16Z",
+  "synced_at": "2026-10-28T21:02:05Z",
   "synced_event": "043iif6em",
-  "synced_hash": "4e9966f41eef0b79"
+  "synced_hash": "f10c1ca71eae1247"
 }
