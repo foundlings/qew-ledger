@@ -1,0 +1,18 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Goal\n\nqew sync abandons jj operations older than 14 days (keeping the newest 200) and garbage collects, at most once a day, with no manual step",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "jj ledger op log grows without bound: sync collects operations older than 14 days automatically",
+    "type": ""
+  },
+  "synced_at": "2026-10-28T19:23:11Z",
+  "synced_event": "043ie776s",
+  "synced_hash": "cdf18838ba3ef0cf"
+}
