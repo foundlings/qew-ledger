@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -11,11 +11,11 @@
       "6479851568"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "sync worker takes lock first, then push.lock, so it never sits on push.lock while queued behind writers",
     "type": ""
   },
-  "synced_at": "2026-10-28T20:41:28Z",
-  "synced_event": "043ihtqcc",
-  "synced_hash": "e3f3491b0a5511c2"
+  "synced_at": "2026-10-28T20:43:39Z",
+  "synced_event": "043ii547d",
+  "synced_hash": "682a29498ee817fa"
 }
