@@ -1,0 +1,18 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Goal\n\nafter a worker releases sync.lock it starts another when sync.queue is not empty, so a burst of writes always ends with every item synced",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "a background sync that exits on a held sync.lock can strand the id its write queued: the running worker must look at the queue again after it releases the lock",
+    "type": ""
+  },
+  "synced_at": "2026-10-28T23:46:42Z",
+  "synced_event": "043is3sfa",
+  "synced_hash": "33da0b3b7af872f5"
+}
