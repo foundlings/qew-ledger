@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -11,11 +11,11 @@
       "6475640101"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "ledger recovery loops forever on a renamed baseline: jj diff --summary shows {old => new}, which qew treats as a path",
     "type": ""
   },
-  "synced_at": "2026-10-28T17:29:02Z",
-  "synced_event": "043i8dr90",
-  "synced_hash": "6931f35575a29c14"
+  "synced_at": "2026-10-28T17:29:35Z",
+  "synced_event": "043i8oo69",
+  "synced_hash": "d66da9f9ce934afb"
 }
