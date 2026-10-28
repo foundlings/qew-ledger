@@ -1,0 +1,18 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Goal\n\na batch start row with needs_on BRANCH verifies each unmet need is evidenced on that branch and records the staging on the claim",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "qew batch start rows accept needs_on, like qew start --needs-on",
+    "type": ""
+  },
+  "synced_at": "2026-10-28T23:28:57Z",
+  "synced_event": "043ir4i87",
+  "synced_hash": "e2f3f1aeea5d67d1"
+}
