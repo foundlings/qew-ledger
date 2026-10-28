@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -11,11 +11,11 @@
       "6480261654"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "qew pr open, ready, close and merge hold the ledger write lock across forge HTTP; do the forge calls outside it",
     "type": ""
   },
-  "synced_at": "2026-10-28T21:30:58Z",
-  "synced_event": "043ik8hfv",
-  "synced_hash": "156a221a98da0a7d"
+  "synced_at": "2026-10-28T21:33:12Z",
+  "synced_event": "043ikjz75",
+  "synced_hash": "13050ce52771f65f"
 }
