@@ -1,0 +1,18 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Goal\n\nthe sync finishing step and checkpoint acquire the write lock before the push lock, so push.lock is held only while committing and pushing",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "sync worker takes lock first, then push.lock, so it never sits on push.lock while queued behind writers",
+    "type": ""
+  },
+  "synced_at": "2026-10-28T20:23:31Z",
+  "synced_event": "043ih2sjg",
+  "synced_hash": "fccd7d6022549ef8"
+}
