@@ -1,0 +1,18 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Goal\n\nland refuses with the real cause, not 'head is not in this checkout', and a later evidence event that covers the head still lets it through",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "qew land and pr merge: an evidence change id that cannot be resolved (ambiguous prefix) is named as such and does not hide other evidence that covers the head",
+    "type": ""
+  },
+  "synced_at": "2026-10-28T11:18:45Z",
+  "synced_event": "043hqiadp",
+  "synced_hash": "23820742986b7d2d"
+}
