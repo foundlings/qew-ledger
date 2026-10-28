@@ -1,0 +1,18 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Goal\n\na jj checkout whose local main bookmark does not hold a merged change but main@origin does lands and completes it instead of refusing 'not an ancestor of main'",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "qew complete and land: a change on the forge's main (main@origin) is landed even when local main is behind or diverged from it",
+    "type": ""
+  },
+  "synced_at": "2026-10-28T09:45:39Z",
+  "synced_event": "043hkyfg4",
+  "synced_hash": "c8b3a57e4ffbc8d9"
+}
