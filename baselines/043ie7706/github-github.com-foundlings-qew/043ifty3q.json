@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -11,11 +11,11 @@
       "6478471332"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "jj ledger op log grows without bound: sync collects operations older than 14 days automatically",
     "type": ""
   },
-  "synced_at": "2026-10-28T19:53:00Z",
-  "synced_event": "043ifbuaz",
-  "synced_hash": "bcb747da3ee041bf"
+  "synced_at": "2026-10-28T19:55:15Z",
+  "synced_event": "043ifs2bt",
+  "synced_hash": "009894fee879d9a4"
 }
