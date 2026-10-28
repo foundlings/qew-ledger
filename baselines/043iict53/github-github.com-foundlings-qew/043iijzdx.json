@@ -1,18 +1,21 @@
 {
-  "column": "Ready",
+  "cmap": {},
+  "column": "In progress",
   "linked": [],
   "priority": "P2",
   "seen": {
     "assignee": "",
     "assignees": [],
     "body": "## Goal\n\na background sync takes sync.lock first and exits at once when another worker holds it, so one write rate cannot spawn a dozen waiting processes",
-    "comments": [],
+    "comments": [
+      "6480332464"
+    ],
     "labels": [],
     "open": true,
     "title": "detached sync workers pile up: a losing worker waits for the write lock before it checks sync.lock",
     "type": ""
   },
-  "synced_at": "2026-10-28T20:48:06Z",
-  "synced_event": "043iictbf",
-  "synced_hash": "7b868910b0c1a216"
+  "synced_at": "2026-10-28T20:51:16Z",
+  "synced_event": "043iif6em",
+  "synced_hash": "4e9966f41eef0b79"
 }
