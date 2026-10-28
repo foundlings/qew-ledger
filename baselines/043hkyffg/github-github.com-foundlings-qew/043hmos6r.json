@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -11,11 +11,11 @@
       "6465733055"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "qew complete and land: a change on the forge's main (main@origin) is landed even when local main is behind or diverged from it",
     "type": ""
   },
-  "synced_at": "2026-10-28T09:59:43Z",
-  "synced_event": "043hmmo32",
-  "synced_hash": "8c5b96f2cb5f8bb5"
+  "synced_at": "2026-10-28T10:00:09Z",
+  "synced_event": "043hmoday",
+  "synced_hash": "41ef61eebf610d09"
 }
