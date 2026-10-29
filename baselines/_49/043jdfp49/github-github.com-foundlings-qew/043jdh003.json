@@ -1,0 +1,18 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "priority": "P0",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "ledger_aliases.scan calls ledger_layout.stamp (root scandir + one stat per shard) on every aliases() call; _homes()/load_mirrors/baseline lookups call aliases() once per item, so a whole-ledger command does items x shards stats (check and sync --all: 42 stamps for 40 items). Flat layout paid one stat. Fix: do not re-stamp on every call.",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "Schema 8 regression: every per-item alias lookup re-stats all ~1200 shards, so check/sync/pr commands take tens of minutes on 25k items",
+    "type": ""
+  },
+  "synced_at": "2026-10-29T07:02:00Z",
+  "synced_event": "043jdfp4r",
+  "synced_hash": "21eed35b7f190033"
+}
