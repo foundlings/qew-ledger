@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -11,11 +11,11 @@
       "6486095725"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "qew pr title N TEXT: a per-pull-request title recorded in the ledger so sync does not overwrite it",
     "type": ""
   },
-  "synced_at": "2026-10-29T02:32:35Z",
-  "synced_event": "043j08ect",
-  "synced_hash": "b719d70248bc0926"
+  "synced_at": "2026-10-29T02:33:38Z",
+  "synced_event": "043j0a8cc",
+  "synced_hash": "b77b3667dc68f35a"
 }
