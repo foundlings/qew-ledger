@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In review",
+  "column": "In progress",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -15,7 +15,7 @@
     "title": "qew doctor reports a recrawling watchman watch and --fix resets it; a slow ledger commit warns once a day",
     "type": ""
   },
-  "synced_at": "2026-10-29T01:29:45Z",
+  "synced_at": "2026-10-29T01:30:40Z",
   "synced_event": "043ix79ay",
-  "synced_hash": "86b53413371be4b1"
+  "synced_hash": "909a075190b2077f"
 }
