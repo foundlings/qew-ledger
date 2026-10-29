@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -11,11 +11,11 @@
       "6485385208"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "GitHub caps a parent at 100 sub-issues: sync records the 422 as a known condition instead of failing every sync",
     "type": ""
   },
-  "synced_at": "2026-10-29T02:11:22Z",
-  "synced_event": "043ixrs3y",
-  "synced_hash": "f9e2516ca7d471e2"
+  "synced_at": "2026-10-29T02:20:25Z",
+  "synced_event": "043iz8vdw",
+  "synced_hash": "63b0d8d9e89f87b0"
 }
