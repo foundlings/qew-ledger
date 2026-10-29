@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "In review",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -15,7 +15,7 @@
     "title": "migrate-layout: shard directories named _xx so they cannot collide with item ids; rollback restores the exact tree; resumable; structural check; --no-check",
     "type": ""
   },
-  "synced_at": "2026-10-28T23:55:44Z",
+  "synced_at": "2026-10-29T00:11:47Z",
   "synced_event": "043isiya0",
-  "synced_hash": "9f85d3f7da4d9127"
+  "synced_hash": "a6c1bea922fd01b6"
 }
