@@ -1,4 +1,5 @@
 {
+  "cmap": {},
   "column": "Ready",
   "linked": [],
   "priority": "P2",
@@ -6,7 +7,9 @@
     "assignee": "",
     "assignees": [],
     "body": "## Goal\n\nenqueue and take_queue are serialised by a lock, so no id a write queued is ever lost; a lock timeout falls back to the full catch-up pass",
-    "comments": [],
+    "comments": [
+      "6485937075"
+    ],
     "labels": [],
     "open": true,
     "title": "the background sync queue loses ids: an append to sync.queue racing the worker's take is deleted with the renamed file",
@@ -14,5 +17,5 @@
   },
   "synced_at": "2026-10-29T01:49:15Z",
   "synced_event": "043iy5j6n",
-  "synced_hash": "bb13230ade4f3b45"
+  "synced_hash": ""
 }
