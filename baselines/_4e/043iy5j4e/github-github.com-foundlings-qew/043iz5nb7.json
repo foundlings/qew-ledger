@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "Ready",
+  "column": "In review",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -15,7 +15,7 @@
     "title": "the background sync queue loses ids: an append to sync.queue racing the worker's take is deleted with the renamed file",
     "type": ""
   },
-  "synced_at": "2026-10-29T01:49:15Z",
-  "synced_event": "043iy5j6n",
-  "synced_hash": ""
+  "synced_at": "2026-10-29T02:09:37Z",
+  "synced_event": "043iz5r1t",
+  "synced_hash": "2a4b2b389f6105f7"
 }
