@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -11,11 +11,11 @@
       "6483751560"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "a background sync that exits on a held sync.lock can strand the id its write queued: the running worker must look at the queue again after it releases the lock",
     "type": ""
   },
-  "synced_at": "2026-10-28T23:49:28Z",
-  "synced_event": "043itmbb4",
-  "synced_hash": "a26efd5017833c7c"
+  "synced_at": "2026-10-29T00:53:04Z",
+  "synced_event": "043ivaefe",
+  "synced_hash": "e06f2b9a558788aa"
 }

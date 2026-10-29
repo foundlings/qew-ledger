@@ -5,7 +5,7 @@
       "sha": "d749cb25d35d0c77"
     }
   },
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -17,11 +17,11 @@
       "6484218361"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "migrate-layout: shard directories named _xx so they cannot collide with item ids; rollback restores the exact tree; resumable; structural check; --no-check",
     "type": ""
   },
-  "synced_at": "2026-10-29T00:22:51Z",
-  "synced_event": "043itmbhj",
-  "synced_hash": "9f85d3f7da4d9127"
+  "synced_at": "2026-10-29T00:53:08Z",
+  "synced_event": "043ivafc9",
+  "synced_hash": "fc6f235c30a7da0f"
 }

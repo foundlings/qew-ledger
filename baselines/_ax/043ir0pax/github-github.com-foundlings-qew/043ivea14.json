@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -11,11 +11,11 @@
       "6483486288"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "qew pr open claims an unclaimed item itself: forge PR first, then claim and record in the one short write section",
     "type": ""
   },
-  "synced_at": "2026-10-28T23:34:03Z",
-  "synced_event": "043itmb5z",
-  "synced_hash": "4ca7c741cc0e6ad8"
+  "synced_at": "2026-10-29T00:53:05Z",
+  "synced_event": "043ivad43",
+  "synced_hash": "8389899400ac1cec"
 }
