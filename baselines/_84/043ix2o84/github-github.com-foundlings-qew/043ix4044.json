@@ -1,0 +1,18 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Goal\n\nwhen several pull requests cover one item each can carry its own title; sync keeps it",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "qew pr title N TEXT: a per-pull-request title recorded in the ledger so sync does not overwrite it",
+    "type": ""
+  },
+  "synced_at": "2026-10-29T01:27:45Z",
+  "synced_event": "043ix2o8x",
+  "synced_hash": "9b734d3d763fb63b"
+}
