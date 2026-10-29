@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -11,11 +11,11 @@
       "6483441082"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "qew batch start rows accept needs_on, like qew start --needs-on",
     "type": ""
   },
-  "synced_at": "2026-10-28T23:31:27Z",
-  "synced_event": "043itjb4z",
-  "synced_hash": "a7f0f9620773a96c"
+  "synced_at": "2026-10-29T00:53:06Z",
+  "synced_event": "043ivacfy",
+  "synced_hash": "ecfba86d759be2df"
 }

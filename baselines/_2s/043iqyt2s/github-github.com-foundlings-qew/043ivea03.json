@@ -1,18 +1,21 @@
 {
-  "column": "Ready",
+  "cmap": {},
+  "column": "In progress",
   "linked": [],
   "priority": "P2",
   "seen": {
     "assignee": "",
     "assignees": [],
     "body": "## Goal\n\ngate.py --changed picks modules from a recorded per-module map of the src files they ran, runs them on every core with the scoped type check beside them, and the full gate stays the release gate and refreshes the map",
-    "comments": [],
+    "comments": [
+      "6484768081"
+    ],
     "labels": [],
     "open": true,
     "title": "scripts/gate.py --changed: run only the test modules and type checks a change can affect, in parallel, slowest first",
     "type": ""
   },
-  "synced_at": "2026-10-28T23:23:36Z",
-  "synced_event": "043iqytax",
-  "synced_hash": "2bb3becf603473bd"
+  "synced_at": "2026-10-29T00:53:04Z",
+  "synced_event": "043ivaggk",
+  "synced_hash": "5d0f45b9f97402b6"
 }
