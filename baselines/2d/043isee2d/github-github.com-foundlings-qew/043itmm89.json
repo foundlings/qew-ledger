@@ -1,5 +1,10 @@
 {
-  "cmap": {},
+  "cmap": {
+    "6484218361": {
+      "ledger": "043ite01j",
+      "sha": "d749cb25d35d0c77"
+    }
+  },
   "column": "In review",
   "linked": [],
   "priority": "P2",
@@ -8,7 +13,8 @@
     "assignees": [],
     "body": "## Goal\n\na failed or interrupted migration leaves the pre-migration tree (empty git status), a rerun finishes it, and the check afterwards ignores uncommitted attachments",
     "comments": [
-      "6483851330"
+      "6483851330",
+      "6484218361"
     ],
     "labels": [],
     "open": true,
@@ -16,6 +22,6 @@
     "type": ""
   },
   "synced_at": "2026-10-29T00:11:47Z",
-  "synced_event": "043isiya0",
+  "synced_event": "043itmbhj",
   "synced_hash": "a6c1bea922fd01b6"
 }
