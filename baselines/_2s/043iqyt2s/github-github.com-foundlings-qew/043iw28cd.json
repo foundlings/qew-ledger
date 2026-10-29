@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In review",
+  "column": "In progress",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -15,7 +15,7 @@
     "title": "scripts/gate.py --changed: run only the test modules and type checks a change can affect, in parallel, slowest first",
     "type": ""
   },
-  "synced_at": "2026-10-29T00:55:30Z",
+  "synced_at": "2026-10-29T01:06:26Z",
   "synced_event": "043ivijbq",
-  "synced_hash": "63fd12ef367d474e"
+  "synced_hash": "5d0f45b9f97402b6"
 }
