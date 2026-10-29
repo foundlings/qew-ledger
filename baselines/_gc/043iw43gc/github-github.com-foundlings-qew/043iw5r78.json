@@ -1,18 +1,21 @@
 {
-  "column": "Ready",
+  "cmap": {},
+  "column": "In progress",
   "linked": [],
   "priority": "P2",
   "seen": {
     "assignee": "",
     "assignees": [],
     "body": "## Goal\n\ndoctor names a watch that recrawled (dropped file events make every jj snapshot wait), --fix runs watch-del and watch-project, and a ledger commit over 20 s prints one hint a day pointing at doctor",
-    "comments": [],
+    "comments": [
+      "6485029607"
+    ],
     "labels": [],
     "open": true,
     "title": "qew doctor reports a recrawling watchman watch and --fix resets it; a slow ledger commit warns once a day",
     "type": ""
   },
-  "synced_at": "2026-10-29T01:07:43Z",
-  "synced_event": "043iw43j3",
-  "synced_hash": "d0d788ded02e196a"
+  "synced_at": "2026-10-29T01:08:33Z",
+  "synced_event": "043iw5bfg",
+  "synced_hash": "909a075190b2077f"
 }
