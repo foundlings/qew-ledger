@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P0",
   "seen": {
@@ -11,11 +11,11 @@
       "6490223453"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "Schema 8 regression: every per-item alias lookup re-stats all ~1200 shards, so check/sync/pr commands take tens of minutes on 25k items",
     "type": ""
   },
-  "synced_at": "2026-10-29T07:23:39Z",
-  "synced_event": "043jehjd0",
-  "synced_hash": "9a131c26af1fb5cc"
+  "synced_at": "2026-10-29T07:24:22Z",
+  "synced_event": "043jeju45",
+  "synced_hash": "d5fefe7fcbeb5684"
 }
