@@ -2,7 +2,8 @@
   "forge": "github",
   "head": "migrate-fixes",
   "items": [
-    "043isee2d"
+    "043isee2d",
+    "043ir4i7v"
   ],
   "kind": "pr",
   "number": 650,
