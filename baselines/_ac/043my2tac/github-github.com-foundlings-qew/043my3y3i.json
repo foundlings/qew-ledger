@@ -1,18 +1,21 @@
 {
-  "column": "Ready",
+  "cmap": {},
+  "column": "In progress",
   "linked": [],
   "priority": "P2",
   "seen": {
     "assignee": "",
     "assignees": [],
     "body": "## Problem\n\nOwner wants epic rows to show done and in progress racing: [####==----] 40% done 20% in progress 4/10 (+2); in progress = claimed leaves (requested by Santa for the owner).\n\n## Done when\n\nEpic rows in --tree show # for done, = for in progress, both percents and (+N); leaf rows keep the state column.",
-    "comments": [],
+    "comments": [
+      "6524043353"
+    ],
     "labels": [],
     "open": true,
     "title": "qew progress --tree: an epic row shows a two-tone bar of done and in-progress with both percents",
     "type": ""
   },
-  "synced_at": "2026-10-30T13:31:20Z",
-  "synced_event": "043my2tfs",
-  "synced_hash": "e3355f535848a93e"
+  "synced_at": "2026-10-30T13:31:56Z",
+  "synced_event": "043my3tmf",
+  "synced_hash": "71b99876a2a232d2"
 }
