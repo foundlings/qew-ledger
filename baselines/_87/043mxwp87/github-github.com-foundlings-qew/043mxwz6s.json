@@ -1,0 +1,18 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Problem\n\nA childless epic renders as the word plan with no bar and looks broken (requested by Santa for the owner).\n\n## Done when\n\nA childless epic row reads [----------]   0%  0/0 in the tree view.",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "qew progress --tree: an epic with no children shows the same bar, percent and 0/0 columns as other epics",
+    "type": ""
+  },
+  "synced_at": "2026-10-30T13:27:49Z",
+  "synced_event": "043mxwpbj",
+  "synced_hash": "2a0074b8d835ba34"
+}

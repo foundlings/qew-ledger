@@ -1,0 +1,18 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Problem\n\nA claimed leaf shows only the word claimed in the tree dashboard; the owner wants a percent there (requested by Santa for the owner).\n\n## Done when\n\nA claimed leaf row shows a bar: 0% claimed, 25% draft PR, 50% evidence, 75% PR ready, 90% merged; totals unchanged.",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "qew progress --tree: a claimed leaf shows a bar and percent from its pull request and evidence",
+    "type": ""
+  },
+  "synced_at": "2026-10-30T13:27:40Z",
+  "synced_event": "043mxvq7m",
+  "synced_hash": "83105d4ccee2c429"
+}
