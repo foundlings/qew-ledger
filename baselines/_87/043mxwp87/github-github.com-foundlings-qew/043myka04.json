@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -11,11 +11,11 @@
       "6523973028"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "qew progress --tree: an epic with no children shows the same bar, percent and 0/0 columns as other epics",
     "type": ""
   },
-  "synced_at": "2026-10-30T13:28:20Z",
-  "synced_event": "043myit50",
-  "synced_hash": ""
+  "synced_at": "2026-10-30T13:41:27Z",
+  "synced_event": "043myk6e2",
+  "synced_hash": "2052dc7d58d45814"
 }

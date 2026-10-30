@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -11,11 +11,11 @@
       "6524043353"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "qew progress --tree: an epic row shows a two-tone bar of done and in-progress with both percents",
     "type": ""
   },
-  "synced_at": "2026-10-30T13:31:56Z",
-  "synced_event": "043myigdx",
-  "synced_hash": "71b99876a2a232d2"
+  "synced_at": "2026-10-30T13:41:35Z",
+  "synced_event": "043myka6q",
+  "synced_hash": "80b3fcdd011211ef"
 }
