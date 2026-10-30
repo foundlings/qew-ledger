@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "In review",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -15,7 +15,7 @@
     "title": "qew progress --tree: a claimed leaf shows a bar and percent from its pull request and evidence",
     "type": ""
   },
-  "synced_at": "2026-10-30T13:28:06Z",
+  "synced_at": "2026-10-30T13:40:16Z",
   "synced_event": "043mxx8gx",
-  "synced_hash": "9797256d96c5e575"
+  "synced_hash": "7f7d8a1363fa7ee7"
 }
