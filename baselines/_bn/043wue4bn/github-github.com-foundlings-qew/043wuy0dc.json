@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -11,11 +11,11 @@
       "6629319608"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "Support optional named remotes for code and ledger operations",
     "type": ""
   },
-  "synced_at": "2026-11-04T11:32:23Z",
-  "synced_event": "043wuod7h",
-  "synced_hash": "49ceb3341919d30b"
+  "synced_at": "2026-11-04T11:33:02Z",
+  "synced_event": "043wuxi98",
+  "synced_hash": "0753fdfd20920341"
 }
