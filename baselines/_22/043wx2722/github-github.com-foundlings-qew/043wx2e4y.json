@@ -1,0 +1,18 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Problem\n\nA worker can acquire its lock and exit before Popen returns. The parent then writes sync.starting after the worker cleared it, so the next queued write sees a nonexistent worker and remains unsynced. Deterministic reproduction: two queue calls spawn once, worker_running stays true after exit, and the second id stays queued. Observed full gate synced five of six burst items.\n\n## Fix\n\nWrite the startup marker before spawning, clear it if spawning fails, and preserve spawn errors. Add deterministic fast-worker and failed-spawn regression walks.\n\n## Done when\n\nThe fast worker cannot leave a stale startup marker, failed spawn leaves no marker, concurrent burst walks and the full release gate pass.",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "Publish the sync worker startup marker before spawning it",
+    "type": ""
+  },
+  "synced_at": "2026-11-04T12:16:24Z",
+  "synced_event": "043wx278g",
+  "synced_hash": "d4e90e52856d8e05"
+}
