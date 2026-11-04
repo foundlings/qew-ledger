@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In review",
+  "column": "In progress",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -15,7 +15,7 @@
     "title": "Support optional named remotes for code and ledger operations",
     "type": ""
   },
-  "synced_at": "2026-11-04T11:31:38Z",
+  "synced_at": "2026-11-04T11:32:23Z",
   "synced_event": "043wuod7h",
-  "synced_hash": "ad1ec89c19a3cf70"
+  "synced_hash": "49ceb3341919d30b"
 }
