@@ -1,5 +1,10 @@
 {
-  "cmap": {},
+  "cmap": {
+    "6630612136": {
+      "ledger": "043wxorf8",
+      "sha": "a6f3bafdf3de49ee"
+    }
+  },
   "column": "In review",
   "linked": [],
   "priority": "P2",
@@ -16,6 +21,6 @@
     "type": ""
   },
   "synced_at": "2026-11-04T12:28:40Z",
-  "synced_event": "043wwmch0",
+  "synced_event": "043wxorf8",
   "synced_hash": "455276864a5e1881"
 }
