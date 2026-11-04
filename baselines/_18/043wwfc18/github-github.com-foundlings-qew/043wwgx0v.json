@@ -1,18 +1,21 @@
 {
-  "column": "Ready",
+  "cmap": {},
+  "column": "In progress",
   "linked": [],
   "priority": "P2",
   "seen": {
     "assignee": "",
     "assignees": [],
     "body": "## Problem\n\nIntegrators landing a batch of union PRs must invoke qew land once per PR; a multi-number invocation is rejected.\n\n## Fix\n\nExtend qew land NUMBER... with ordered deduplication, per-PR results, independent progress through errors, machine-readable batch output and unchanged single-PR behavior.\n\n## Done when\n\nCommand walks cover batch success, duplicates, retries, mixed failures and integrator claims; help README and specs agree; full gate passes and a new release is published.",
-    "comments": [],
+    "comments": [
+      "6630114151"
+    ],
     "labels": [],
     "open": true,
     "title": "Allow qew land to complete multiple merged pull requests in one call",
     "type": ""
   },
-  "synced_at": "2026-11-04T12:03:38Z",
-  "synced_event": "043wwfc7d",
-  "synced_hash": "fd6c13d4d1731d86"
+  "synced_at": "2026-11-04T12:04:29Z",
+  "synced_event": "043wwgsbk",
+  "synced_hash": "aa939aee8d62286a"
 }
