@@ -13,7 +13,8 @@
     "assignees": [],
     "body": "## Problem\n\nIntegrators landing a batch of union PRs must invoke qew land once per PR; a multi-number invocation is rejected.\n\n## Fix\n\nExtend qew land NUMBER... with ordered deduplication, per-PR results, independent progress through errors, machine-readable batch output and unchanged single-PR behavior.\n\n## Done when\n\nCommand walks cover batch success, duplicates, retries, mixed failures and integrator claims; help README and specs agree; full gate passes and a new release is published.",
     "comments": [
-      "6630114151"
+      "6630114151",
+      "6630612136"
     ],
     "labels": [],
     "open": true,
