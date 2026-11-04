@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "In review",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -15,7 +15,7 @@
     "title": "Allow qew land to complete multiple merged pull requests in one call",
     "type": ""
   },
-  "synced_at": "2026-11-04T12:04:29Z",
+  "synced_at": "2026-11-04T12:28:40Z",
   "synced_event": "043wwmch0",
-  "synced_hash": "aa939aee8d62286a"
+  "synced_hash": "455276864a5e1881"
 }
