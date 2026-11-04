@@ -5,7 +5,7 @@
       "sha": "a6f3bafdf3de49ee"
     }
   },
-  "column": "In review",
+  "column": "In progress",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -21,7 +21,7 @@
     "title": "Allow qew land to complete multiple merged pull requests in one call",
     "type": ""
   },
-  "synced_at": "2026-11-04T12:28:40Z",
+  "synced_at": "2026-11-04T12:29:24Z",
   "synced_event": "043wxorf8",
-  "synced_hash": "455276864a5e1881"
+  "synced_hash": "aa939aee8d62286a"
 }
