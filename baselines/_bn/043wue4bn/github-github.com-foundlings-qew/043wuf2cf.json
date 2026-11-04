@@ -1,0 +1,18 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Problem\n\nHardcoded origin prevents using an alternate remote during a protocol outage even when origin2 reaches the same repository.\n\n## Fix\n\nAdd optional --remote and --ledger-remote selectors, retain origin defaults, consistently select fetch push merge tracking and evidence refs for git and jj, document and release.\n\n## Done when\n\nOffline command walks prove alternate remotes work with unreachable origin, invalid names are refused, defaults remain compatible, full gate passes and a new release is published.",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "Support optional named remotes for code and ledger operations",
+    "type": ""
+  },
+  "synced_at": "2026-11-04T11:22:32Z",
+  "synced_event": "043wue4ca",
+  "synced_hash": "78426cc3590c4c1a"
+}
