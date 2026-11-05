@@ -1,5 +1,10 @@
 {
-  "cmap": {},
+  "cmap": {
+    "6659552422": {
+      "ledger": "043z1xf94",
+      "sha": "4ac4df8833f8f410"
+    }
+  },
   "column": "In review",
   "linked": [],
   "priority": "P2",
@@ -16,6 +21,6 @@
     "type": ""
   },
   "synced_at": "2026-11-05T13:44:29Z",
-  "synced_event": "043z0v6d6",
+  "synced_event": "043z1xf94",
   "synced_hash": "82df657e1b2bcd8e"
 }
