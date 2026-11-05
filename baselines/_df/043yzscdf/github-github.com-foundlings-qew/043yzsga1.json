@@ -1,0 +1,18 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Problem\n\nready already sorts priority then chain depth then direct dependents, but hides the metrics and provides no alternate ranking or root scope. Agents mistake waiting-item counts for immediate unlocks and manually reconstruct rankings over the whole ledger.\n\n## Fix\n\nAdd by-priority and by-dependents ordering, root-scoped candidates, visible rank and priority plus direct/transitive open dependents, immediate unlocks and chain depth in text and JSON. Keep the default priority ordering and explain its precedence.\n\n## Done when\n\nCommand walks prove priority versus impact ordering, diamond deduplication, AND-gate immediate unlocks, finished/gated exclusions and scoped candidates; docs and help agree; the combined release gate passes.",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "Expose ready-item impact scores and explicit priority or dependent ranking",
+    "type": ""
+  },
+  "synced_at": "2026-11-05T13:01:01Z",
+  "synced_event": "043yzschn",
+  "synced_hash": "461948e6bffba723"
+}
