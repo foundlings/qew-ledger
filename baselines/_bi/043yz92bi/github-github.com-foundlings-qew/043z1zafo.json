@@ -5,7 +5,7 @@
       "sha": "4ac4df8833f8f410"
     }
   },
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -17,11 +17,11 @@
       "6659552422"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "Traverse and draw scoped item graphs from any node in graph and progress",
     "type": ""
   },
-  "synced_at": "2026-11-05T13:45:15Z",
-  "synced_event": "043z1xf94",
-  "synced_hash": "2fcf7dfe5c953cbb"
+  "synced_at": "2026-11-05T13:45:53Z",
+  "synced_event": "043z1z6bx",
+  "synced_hash": "6f431322677caf3a"
 }

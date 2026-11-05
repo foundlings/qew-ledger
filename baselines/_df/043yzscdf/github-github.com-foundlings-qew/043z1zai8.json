@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -11,11 +11,11 @@
       "6658688782"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "Expose ready-item impact scores and explicit priority or dependent ranking",
     "type": ""
   },
-  "synced_at": "2026-11-05T13:03:31Z",
-  "synced_event": "043z0vcfb",
-  "synced_hash": "34bd75c67e13a911"
+  "synced_at": "2026-11-05T13:45:53Z",
+  "synced_event": "043z1z7fu",
+  "synced_hash": "44b3cf7dbcbed10d"
 }

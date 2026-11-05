@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -11,11 +11,11 @@
       "6659349601"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "Use the worker lock rather than startup grace for queued-work handoff",
     "type": ""
   },
-  "synced_at": "2026-11-05T13:35:19Z",
-  "synced_event": "043z1ju03",
-  "synced_hash": "c060ce8fa15f36a5"
+  "synced_at": "2026-11-05T13:45:53Z",
+  "synced_event": "043z1z7gn",
+  "synced_hash": "fa68c54982c8578a"
 }
