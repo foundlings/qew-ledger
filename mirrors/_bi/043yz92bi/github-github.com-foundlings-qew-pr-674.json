@@ -2,7 +2,9 @@
   "forge": "github",
   "head": "scoped-graph-ready",
   "items": [
-    "043yz92bi"
+    "043yz92bi",
+    "043yzscdf",
+    "043z1c67e"
   ],
   "kind": "pr",
   "number": 674,
