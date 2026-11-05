@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "In review",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -15,7 +15,7 @@
     "title": "Traverse and draw scoped item graphs from any node in graph and progress",
     "type": ""
   },
-  "synced_at": "2026-11-05T12:51:39Z",
+  "synced_at": "2026-11-05T13:44:29Z",
   "synced_event": "043z0v6d6",
-  "synced_hash": "2fcf7dfe5c953cbb"
+  "synced_hash": "82df657e1b2bcd8e"
 }
