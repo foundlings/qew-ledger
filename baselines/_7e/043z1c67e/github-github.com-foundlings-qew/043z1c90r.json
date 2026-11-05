@@ -1,0 +1,18 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Problem\n\nThe release gate again synced only five of six burst writes. A worker exiting with queued ids calls queue, which can mistake a fresh or stale provisional sync.starting marker for an active worker and leave the tail queued. Publishing the marker before spawn does not cover this handoff case.\n\n## Fix\n\nOn worker handoff, consult the authoritative sync.lock instead of provisional startup grace. Keep normal spawn coalescing and retry backoff. Add deterministic stale-marker and active-worker refusal walks.\n\n## Done when\n\nAn exiting worker cannot leave queued work blocked solely by startup grace; a real active worker still prevents a competing spawn; burst and full gate walks pass.",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "Use the worker lock rather than startup grace for queued-work handoff",
+    "type": ""
+  },
+  "synced_at": "2026-11-05T13:32:59Z",
+  "synced_event": "043z1c68v",
+  "synced_hash": "be966ee1b26b2574"
+}
