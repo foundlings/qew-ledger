@@ -13,7 +13,8 @@
     "assignees": [],
     "body": "## Problem\n\ngraph draws the entire ledger and progress only follows children, so agents rebuild needs graphs and cannot draw the dependency view rooted at ADU.\n\n## Fix\n\nAdd explicit edge traversal from selected roots to graph and progress, reverse relationships, depth and open/unmet filters, terminal graph views and structured JSON. Preserve shared links, count shared leaves once and keep existing default output compatible.\n\n## Done when\n\nCommand walks cover rooted diamonds, reverse edges, isolated and missing nodes, cycles, depth and filtering, safe labels and unchanged defaults; docs and help agree; gate passes and capabilities are installed.",
     "comments": [
-      "6658444472"
+      "6658444472",
+      "6659552422"
     ],
     "labels": [],
     "open": true,
