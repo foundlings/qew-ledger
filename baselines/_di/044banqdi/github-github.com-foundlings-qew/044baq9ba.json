@@ -1,18 +1,21 @@
 {
-  "column": "Ready",
+  "cmap": {},
+  "column": "In progress",
   "linked": [],
   "priority": "P2",
   "seen": {
     "assignee": "",
     "assignees": [],
     "body": "## Problem\n\nqew pr ready accepts one number, so marking a union of 12 draft PRs ready is 12 serial processes, each with its own snapshot and forge call. pr merge N1..N8 already batches (6.53.1). Wanted: qew pr ready N1 N2 ... with one shared snapshot, concurrent forge draft-to-ready calls, per-number results, same refusals and exit codes as the single form.\n\n## Done when\n\npr ready 1 2 3 takes one snapshot and flips concurrently; refusal order and exit codes match the single form",
-    "comments": [],
+    "comments": [
+      "6800168122"
+    ],
     "labels": [],
     "open": true,
     "title": "pr ready takes several numbers: one snapshot, concurrent forge flips",
     "type": ""
   },
-  "synced_at": "2026-11-11T15:37:57Z",
-  "synced_event": "044banqgv",
-  "synced_hash": "3f8d431b6957d741"
+  "synced_at": "2026-11-11T15:39:21Z",
+  "synced_event": "044baq7g3",
+  "synced_hash": "0be2ef1ec73e840c"
 }
