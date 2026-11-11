@@ -1,0 +1,11 @@
+{
+  "forge": "github",
+  "head": "pr-ready-batch",
+  "items": [
+    "044banqdi"
+  ],
+  "kind": "pr",
+  "number": 679,
+  "opener": "887",
+  "url": "https://github.com/foundlings/qew"
+}
