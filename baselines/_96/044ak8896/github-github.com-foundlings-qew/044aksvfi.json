@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P1",
   "seen": {
@@ -11,11 +11,11 @@
       "6789335099"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "pr merge --check: batch preflight runs per-PR loads and checks sequentially",
     "type": ""
   },
-  "synced_at": "2026-11-11T07:10:10Z",
-  "synced_event": "044akrrbs",
-  "synced_hash": "b8cb70e70ee7a2ae"
+  "synced_at": "2026-11-11T07:10:27Z",
+  "synced_event": "044akst94",
+  "synced_hash": "de08fb5712cc1cd6"
 }
