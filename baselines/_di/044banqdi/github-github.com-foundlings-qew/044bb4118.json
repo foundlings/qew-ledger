@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In review",
+  "column": "In progress",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -15,7 +15,7 @@
     "title": "pr ready takes several numbers: one snapshot, concurrent forge flips",
     "type": ""
   },
-  "synced_at": "2026-11-11T15:41:36Z",
+  "synced_at": "2026-11-11T15:47:23Z",
   "synced_event": "044bau6ei",
-  "synced_hash": "f00c6ec85fdf18c7"
+  "synced_hash": "0be2ef1ec73e840c"
 }
