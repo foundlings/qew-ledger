@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In review",
+  "column": "In progress",
   "linked": [],
   "priority": "P1",
   "seen": {
@@ -15,7 +15,7 @@
     "title": "pr merge --check: batch preflight runs per-PR loads and checks sequentially",
     "type": ""
   },
-  "synced_at": "2026-11-11T07:09:41Z",
+  "synced_at": "2026-11-11T07:10:10Z",
   "synced_event": "044akrrbs",
-  "synced_hash": "6afe3bb81eccaac6"
+  "synced_hash": "b8cb70e70ee7a2ae"
 }
