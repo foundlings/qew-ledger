@@ -1,0 +1,18 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Where\n\ntests/test_edge_walk.py test_two_branches_adding_different_edges_keep_both\n\n## Problem\n\nAbout 1 in 3 solo runs, and once in the full gate, 'ready' after two offline 'block' edits on cloned git ledgers exits 1 (line 61). Find whether ready/replication has a real race or the test needs a settle step.\n\n## Done when\n\n20 consecutive solo runs pass.",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "Flaky: test_edge_walk two-branch edges, ready exits 1 intermittently",
+    "type": ""
+  },
+  "synced_at": "2026-11-11T07:09:25Z",
+  "synced_event": "044akr11e",
+  "synced_hash": "397767b21db2e58a"
+}
