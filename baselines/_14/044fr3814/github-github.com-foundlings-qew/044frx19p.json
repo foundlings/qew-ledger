@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -11,11 +11,11 @@
       "6864155166"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "pr merge waits for the forge to compute mergeable instead of refusing at once",
     "type": ""
   },
-  "synced_at": "2026-11-13T20:47:52Z",
-  "synced_event": "044frkg29",
-  "synced_hash": "34a6e17a536b58ac"
+  "synced_at": "2026-11-13T20:48:19Z",
+  "synced_event": "044frwz98",
+  "synced_hash": "b32fc715e9d8a0bb"
 }
