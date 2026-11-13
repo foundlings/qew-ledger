@@ -1,0 +1,18 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Problem\n\nGitHub returns mergeable null for seconds after a push or base move; pr merge and --check refuse 'merge state unknown, retry in a moment' and the foundlings merge gate fails as gate_refused. Requested by Santa.\n\n## Done when\n\nA merge-state read that is None is re-read with backoff 1,2,4,8,15,30 s (60 s) in pr merge, --check and the batch read, then gated normally; only after the budget does it refuse, saying how long it waited. Sleep is injectable.",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "pr merge waits for the forge to compute mergeable instead of refusing at once",
+    "type": ""
+  },
+  "synced_at": "2026-11-13T20:31:37Z",
+  "synced_event": "044fr385w",
+  "synced_hash": "78dc2deb7bb1bdfc"
+}
