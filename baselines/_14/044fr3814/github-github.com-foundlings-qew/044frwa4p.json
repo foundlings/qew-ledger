@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In review",
+  "column": "In progress",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -15,7 +15,7 @@
     "title": "pr merge waits for the forge to compute mergeable instead of refusing at once",
     "type": ""
   },
-  "synced_at": "2026-11-13T20:34:26Z",
+  "synced_at": "2026-11-13T20:47:52Z",
   "synced_event": "044frkg29",
-  "synced_hash": "35d91cc6e6ff6560"
+  "synced_hash": "34a6e17a536b58ac"
 }
