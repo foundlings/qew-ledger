@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In review",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -11,11 +11,11 @@
       "6925861675"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "Flaky: test_edge_walk two-branch edges, ready exits 1 intermittently",
     "type": ""
   },
-  "synced_at": "2026-11-16T18:58:10Z",
-  "synced_event": "044mnsybq",
-  "synced_hash": ""
+  "synced_at": "2026-11-16T18:59:11Z",
+  "synced_event": "044mo57gy",
+  "synced_hash": "9e0efd02dc030587"
 }
