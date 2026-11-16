@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -11,11 +11,11 @@
       "6922891382"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "pr ready and pr union refuse unticked checklist items, with an --allow-unticked override",
     "type": ""
   },
-  "synced_at": "2026-11-16T17:03:26Z",
-  "synced_event": "044mgzv0j",
-  "synced_hash": "770bbdaa56f53309"
+  "synced_at": "2026-11-16T17:03:47Z",
+  "synced_event": "044mhhp6m",
+  "synced_hash": "0f8f676a3f16a823"
 }
