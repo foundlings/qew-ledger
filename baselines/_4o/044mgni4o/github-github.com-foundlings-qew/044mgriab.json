@@ -1,18 +1,21 @@
 {
-  "column": "Ready",
+  "cmap": {},
+  "column": "In progress",
   "linked": [],
   "priority": "P2",
   "seen": {
     "assignee": "",
     "assignees": [],
     "body": "## Problem\n\nAgents run qew pr ready on PRs whose Progress checklist has unticked boxes; the failure surfaces only later at pr merge --check, at the integrator. Requested by Santa.\n\n## Done when\n\npr ready N refuses (exit 2, nothing changed) while any box is unticked, naming each item with its fix commands; --allow-unticked --reason TEXT overrides and records it on the items and in the body; pr union refuses unticked boxes naming the source PR, same override; pr merge --check prints the same explanation; tests and docs",
-    "comments": [],
+    "comments": [
+      "6922891382"
+    ],
     "labels": [],
     "open": true,
     "title": "pr ready and pr union refuse unticked checklist items, with an --allow-unticked override",
     "type": ""
   },
-  "synced_at": "2026-11-16T16:46:09Z",
-  "synced_event": "044mgnieg",
-  "synced_hash": "3ded3034a352f1e4"
+  "synced_at": "2026-11-16T16:48:26Z",
+  "synced_event": "044mgrcja",
+  "synced_hash": "770bbdaa56f53309"
 }
