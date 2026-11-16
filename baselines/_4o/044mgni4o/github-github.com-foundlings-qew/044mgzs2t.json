@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "In review",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -15,7 +15,7 @@
     "title": "pr ready and pr union refuse unticked checklist items, with an --allow-unticked override",
     "type": ""
   },
-  "synced_at": "2026-11-16T16:48:26Z",
+  "synced_at": "2026-11-16T16:53:14Z",
   "synced_event": "044mgrcja",
-  "synced_hash": "770bbdaa56f53309"
+  "synced_hash": "ac5e7bebcf9c2c8a"
 }
