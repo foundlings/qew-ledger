@@ -1,0 +1,17 @@
+id: 044qmdca8
+kind: issue
+title: Forge-less and offline PRs: local PR records and landing from ancestry
+parent: 044qdr89f
+needs: 
+labels: 
+owner: 
+priority: 2
+created: 2026-11-18T18:01:07Z
+---
+## Goal
+
+pr open --local records a declaration with no forge; qew land LOCAL --change records that the head reached the target and lands; sync/repair detect a merged head by ancestry offline
+
+## Done when
+
+walks
