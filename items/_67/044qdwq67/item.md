@@ -1,6 +1,6 @@
 id: 044qdwq67
 kind: issue
-title: Forge projection block, drift warning, retire Progress checklist and pr check
+title: Decouple the Progress checklist from items at schema 9 (display only); drift warnings
 parent: 044qdr89f
 needs: 
 labels: 
