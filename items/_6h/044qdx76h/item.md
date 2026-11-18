@@ -1,6 +1,6 @@
 id: 044qdx76h
 kind: issue
-title: pr migrate (--dry-run, parent protection), check audit, local/offline PRs
+title: pr migrate (dry run on schema 8, parent protection, idempotent apply)
 parent: 044qdr89f
 needs: 
 labels: 
