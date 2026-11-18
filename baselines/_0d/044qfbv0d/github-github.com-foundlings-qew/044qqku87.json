@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "Ready",
+  "column": "In progress",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -15,7 +15,7 @@
     "title": "qew evidence --repair: replace git-hash-only evidence on a completed item",
     "type": ""
   },
-  "synced_at": "2026-11-18T15:58:02Z",
-  "synced_event": "044qfbv3s",
-  "synced_hash": ""
+  "synced_at": "2026-11-18T19:27:22Z",
+  "synced_event": "044qqk89b",
+  "synced_hash": "b4c17d0a68eb02dd"
 }

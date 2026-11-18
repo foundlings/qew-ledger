@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "Ready",
+  "column": "In progress",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -15,7 +15,7 @@
     "title": "qew check: items/ID and events/ID reported as belonging to no item although the item exists in its shard",
     "type": ""
   },
-  "synced_at": "2026-11-18T15:57:49Z",
-  "synced_event": "044qfbpet",
-  "synced_hash": ""
+  "synced_at": "2026-11-18T19:27:22Z",
+  "synced_event": "044qqkc2u",
+  "synced_hash": "545c8bbc8e5b721b"
 }
