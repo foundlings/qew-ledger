@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "parent_number": 685,
   "priority": "P2",
@@ -12,11 +12,11 @@
       "6987429572"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "PRs without any item: pr open --no-item REASON with no ITEM, record under prs/",
     "type": ""
   },
-  "synced_at": "2026-11-18T18:16:54Z",
-  "synced_event": "044qn4fa4",
-  "synced_hash": "925705e338f50897"
+  "synced_at": "2026-11-18T18:17:09Z",
+  "synced_event": "044qn5jf2",
+  "synced_hash": "89f1c2e09e710b11"
 }
