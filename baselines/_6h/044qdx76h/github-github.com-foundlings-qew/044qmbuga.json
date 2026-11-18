@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In review",
+  "column": "In progress",
   "linked": [],
   "parent_number": 685,
   "priority": "P2",
@@ -16,7 +16,7 @@
     "title": "pr migrate (--dry-run, parent protection), check audit, local/offline PRs",
     "type": ""
   },
-  "synced_at": "2026-11-18T17:59:46Z",
+  "synced_at": "2026-11-18T18:00:17Z",
   "synced_event": "044qmaz9j",
-  "synced_hash": "fcca56901bc40a60"
+  "synced_hash": "0be48475c2b0e88a"
 }
