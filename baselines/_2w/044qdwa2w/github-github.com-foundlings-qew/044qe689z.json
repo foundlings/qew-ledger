@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "In review",
   "linked": [],
   "parent_number": 685,
   "priority": "P2",
@@ -16,7 +16,7 @@
     "title": "Ledger-only merge preflight: pr merge N [M..] --check --ledger-only (schema 8 compat)",
     "type": ""
   },
-  "synced_at": "2026-11-18T15:33:44Z",
-  "synced_event": "044qe57ek",
-  "synced_hash": "b4153641e1d01504"
+  "synced_at": "2026-11-18T15:34:07Z",
+  "synced_event": "044qe5zcs",
+  "synced_hash": "93be48786d8c7572"
 }
