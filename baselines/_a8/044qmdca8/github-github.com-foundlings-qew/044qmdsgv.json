@@ -1,0 +1,19 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "parent_number": 685,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Goal\n\npr open --local records a declaration with no forge; qew land LOCAL --change records that the head reached the target and lands; sync/repair detect a merged head by ancestry offline\n\n## Done when\n\nwalks",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "Forge-less and offline PRs: local PR records and landing from ancestry",
+    "type": ""
+  },
+  "synced_at": "2026-11-18T18:01:22Z",
+  "synced_event": "044qmdcb1",
+  "synced_hash": "9094707ebaa0f0f1"
+}
