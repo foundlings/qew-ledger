@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P0",
   "seen": {
@@ -11,11 +11,11 @@
       "6985619505"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "pr merge --check (ledger-only and forge) re-scans every item's mirrors per pull request: 26-PR union takes 373 s",
     "type": ""
   },
-  "synced_at": "2026-11-18T17:29:22Z",
-  "synced_event": "044qjsy7v",
-  "synced_hash": "87d3d8045da5bc5d"
+  "synced_at": "2026-11-18T17:29:40Z",
+  "synced_event": "044qju6dt",
+  "synced_hash": "e877ff99b811046b"
 }
