@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In review",
+  "column": "In progress",
   "linked": [],
   "parent_number": 685,
   "priority": "P2",
@@ -16,7 +16,7 @@
     "title": "Specs, README, Foundlings rule text, release 7.0.0",
     "type": ""
   },
-  "synced_at": "2026-11-18T18:44:14Z",
+  "synced_at": "2026-11-18T18:44:39Z",
   "synced_event": "044qoh6go",
-  "synced_hash": "2a86428484dd8bf5"
+  "synced_hash": "9eab52ba3bcc5c3a"
 }
