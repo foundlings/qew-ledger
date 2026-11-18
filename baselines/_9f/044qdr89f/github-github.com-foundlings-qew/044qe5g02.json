@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "Backlog",
+  "column": "In progress",
   "linked": [],
   "priority": "P0",
   "seen": {
@@ -15,7 +15,7 @@
     "title": "Mandatory PR link declaration (closes/remains/related/no-item), auto-land, qew 7.0.0",
     "type": ""
   },
-  "synced_at": "2026-11-18T15:27:56Z",
+  "synced_at": "2026-11-18T15:33:40Z",
   "synced_event": "044qdvn6w",
-  "synced_hash": "198512010b041df4"
+  "synced_hash": "76150145223dfa76"
 }
