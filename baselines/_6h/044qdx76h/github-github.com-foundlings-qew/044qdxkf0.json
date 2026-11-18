@@ -1,0 +1,19 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "parent_number": 685,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Goal\n\nmigration and audit\n\n## Done when\n\nwalks",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "pr migrate (--dry-run, parent protection), check audit, local/offline PRs",
+    "type": ""
+  },
+  "synced_at": "2026-11-18T15:29:00Z",
+  "synced_event": "044qdx7ck",
+  "synced_hash": "2c1649973b2a1f18"
+}

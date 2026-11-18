@@ -1,0 +1,19 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "parent_number": 685,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Goal\n\ndocs and release\n\n## Done when\n\nreleased with minimum_version 7.0.0",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "Specs, README, Foundlings rule text, release 7.0.0",
+    "type": ""
+  },
+  "synced_at": "2026-11-18T15:29:00Z",
+  "synced_event": "044qdxdjx",
+  "synced_hash": "b232d8afd73a3ddd"
+}
