@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "parent_number": 685,
   "priority": "P2",
@@ -12,11 +12,11 @@
       "6987022686"
     ],
     "labels": [],
-    "open": true,
-    "title": "pr migrate (--dry-run, parent protection), check audit, local/offline PRs",
+    "open": false,
+    "title": "pr migrate (dry run on schema 8, parent protection, idempotent apply)",
     "type": ""
   },
-  "synced_at": "2026-11-18T18:00:17Z",
-  "synced_event": "044qmaz9j",
-  "synced_hash": "0be48475c2b0e88a"
+  "synced_at": "2026-11-18T18:00:46Z",
+  "synced_event": "044qmcng0",
+  "synced_hash": "eef4244b684a3a85"
 }
