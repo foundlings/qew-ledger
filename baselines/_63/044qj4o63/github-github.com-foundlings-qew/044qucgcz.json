@@ -5,7 +5,7 @@
       "sha": "947e512b642a64d4"
     }
   },
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -17,11 +17,11 @@
       "6990598523"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "Full ledger snapshot takes 13-20 s on the 60k-event Foundlings ledger: profile and cut it",
     "type": ""
   },
-  "synced_at": "2026-11-18T20:25:10Z",
-  "synced_event": "044quc72e",
-  "synced_hash": ""
+  "synced_at": "2026-11-18T20:43:58Z",
+  "synced_event": "044qucbe2",
+  "synced_hash": "010735e3b6b845d5"
 }
