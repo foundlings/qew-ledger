@@ -1,6 +1,6 @@
 id: 044qmdca8
 kind: issue
-title: Forge-less and offline PRs: local PR records and landing from ancestry
+title: Offline landing: qew land --offline lands a merged pull request with no forge
 parent: 044qdr89f
 needs: 
 labels: 
