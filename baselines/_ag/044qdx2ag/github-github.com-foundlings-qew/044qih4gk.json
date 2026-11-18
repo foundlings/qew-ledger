@@ -1,5 +1,6 @@
 {
-  "column": "Ready",
+  "cmap": {},
+  "column": "In progress",
   "linked": [],
   "parent_number": 685,
   "priority": "P2",
@@ -7,13 +8,15 @@
     "assignee": "",
     "assignees": [],
     "body": "## Goal\n\nmembers' links aggregated at read time\n\n## Done when\n\nwalks",
-    "comments": [],
+    "comments": [
+      "6985586133"
+    ],
     "labels": [],
     "open": true,
     "title": "Union aggregation of links",
     "type": ""
   },
-  "synced_at": "2026-11-18T15:29:00Z",
-  "synced_event": "044qdx2gp",
-  "synced_hash": "5bb4fe8020928cc4"
+  "synced_at": "2026-11-18T17:02:08Z",
+  "synced_event": "044qigzfh",
+  "synced_hash": "d6f301234d70e789"
 }
