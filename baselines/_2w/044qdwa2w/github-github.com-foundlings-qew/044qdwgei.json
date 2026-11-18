@@ -1,0 +1,19 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "parent_number": 685,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Goal\n\nFast ledger-only preflight collecting every refusal with fix commands, JSON, unions, no forge\n\n## Done when\n\nwalk tests: partial-slice, conflict, union exemption, offline, json, exit codes",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "Ledger-only merge preflight: pr merge N [M..] --check --ledger-only (schema 8 compat)",
+    "type": ""
+  },
+  "synced_at": "2026-11-18T15:28:21Z",
+  "synced_event": "044qdwaef",
+  "synced_hash": "b26c79194cc86904"
+}
