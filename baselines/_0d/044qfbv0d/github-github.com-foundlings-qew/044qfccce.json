@@ -1,0 +1,18 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Problem\n\nCompleted items 044b5zzg9, 044grx5bt, 044hjd13z carry only git-hash evidence and qew evidence refuses completed items, so it cannot be repaired short of reopening. Add --repair (or document reopen) and make qew check name such items with the exact command.\n\n## Done when\n\nqew evidence ID --change X --repair works on a completed item, recorded as an event; qew check names git-hash-only completed items with the command",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "qew evidence --repair: replace git-hash-only evidence on a completed item",
+    "type": ""
+  },
+  "synced_at": "2026-11-18T15:58:02Z",
+  "synced_event": "044qfbv3s",
+  "synced_hash": "20979ab1cbd5df49"
+}

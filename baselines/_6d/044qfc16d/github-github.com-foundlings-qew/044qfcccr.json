@@ -1,0 +1,18 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Problem\n\nThe claim identity is shared (887), so claimed says nothing about a live worker; 151 claimed items had no open PR and no commit ref in 24h.\n\n## Done when\n\nqew check --stale-claims [--hours N] lists them with last activity, json too",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "qew check --stale-claims: claimed items with no open PR and no recent activity",
+    "type": ""
+  },
+  "synced_at": "2026-11-18T15:58:02Z",
+  "synced_event": "044qfc1cg",
+  "synced_hash": "76705239b59ba2cd"
+}
