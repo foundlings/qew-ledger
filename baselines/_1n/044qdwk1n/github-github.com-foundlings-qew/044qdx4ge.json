@@ -1,6 +1,8 @@
 {
+  "column": "Ready",
   "linked": [],
   "parent_number": 685,
+  "priority": "P2",
   "seen": {
     "assignee": "",
     "assignees": [],
