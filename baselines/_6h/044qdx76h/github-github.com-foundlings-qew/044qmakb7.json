@@ -1,4 +1,5 @@
 {
+  "cmap": {},
   "column": "Ready",
   "linked": [],
   "parent_number": 685,
@@ -7,13 +8,15 @@
     "assignee": "",
     "assignees": [],
     "body": "## Goal\n\nmigration and audit\n\n## Done when\n\nwalks",
-    "comments": [],
+    "comments": [
+      "6987022686"
+    ],
     "labels": [],
     "open": true,
     "title": "pr migrate (--dry-run, parent protection), check audit, local/offline PRs",
     "type": ""
   },
-  "synced_at": "2026-11-18T15:29:00Z",
-  "synced_event": "044qdx7ck",
-  "synced_hash": "2c1649973b2a1f18"
+  "synced_at": "2026-11-18T17:59:34Z",
+  "synced_event": "044qmafip",
+  "synced_hash": "0be48475c2b0e88a"
 }
