@@ -1,5 +1,6 @@
 {
-  "column": "Ready",
+  "cmap": {},
+  "column": "In progress",
   "linked": [],
   "parent_number": 685,
   "priority": "P2",
@@ -7,13 +8,15 @@
     "assignee": "",
     "assignees": [],
     "body": "## Goal\n\nMerge never fails on bookkeeping; evidence per item on main\n\n## Done when\n\nwalks, lock-not-held-across-forge test",
-    "comments": [],
+    "comments": [
+      "6986679509"
+    ],
     "labels": [],
     "open": true,
     "title": "Merge re-validation, auto-land, land_pending, repair, short-lock two-phase",
     "type": ""
   },
-  "synced_at": "2026-11-18T15:28:44Z",
-  "synced_event": "044qdwwdi",
-  "synced_hash": "edba1c4ef0a8b80e"
+  "synced_at": "2026-11-18T17:45:20Z",
+  "synced_event": "044qkm1fg",
+  "synced_hash": "1556400b78dafb8e"
 }
