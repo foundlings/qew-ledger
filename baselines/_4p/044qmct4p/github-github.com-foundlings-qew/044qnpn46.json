@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "parent_number": 685,
   "priority": "P2",
@@ -12,11 +12,11 @@
       "6987717050"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "qew check and qew repair audit pull requests: unlanded, unlinked, land_pending (with member PR), conflicting closes",
     "type": ""
   },
-  "synced_at": "2026-11-18T18:27:56Z",
-  "synced_event": "044qnoefz",
-  "synced_hash": "e6f5286f2b3e5d62"
+  "synced_at": "2026-11-18T18:28:10Z",
+  "synced_event": "044qnpf0a",
+  "synced_hash": "e967e17137d00eea"
 }
