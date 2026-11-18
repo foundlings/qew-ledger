@@ -1,0 +1,19 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "parent_number": 685,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Goal\n\nLink events one file each under prs/, folded last-wins\n\n## Done when\n\nwalks for fold, concurrent clones, older schema refusal",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "Schema 9 prs/ link event store, fold, migrate-layout to 9",
+    "type": ""
+  },
+  "synced_at": "2026-11-18T15:28:33Z",
+  "synced_event": "044qdwfer",
+  "synced_hash": "a22d8844c3b91915"
+}
