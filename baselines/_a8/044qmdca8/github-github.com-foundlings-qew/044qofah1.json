@@ -12,11 +12,11 @@
       "6988085358"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "Offline landing: qew land --offline lands a merged pull request with no forge",
     "type": ""
   },
-  "synced_at": "2026-11-18T18:43:05Z",
-  "synced_event": "044qof65n",
-  "synced_hash": ""
+  "synced_at": "2026-11-18T18:44:04Z",
+  "synced_event": "044qofa72",
+  "synced_hash": "ec8aa7a93c6526dd"
 }
