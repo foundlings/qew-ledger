@@ -1,0 +1,18 @@
+{
+  "column": "Backlog",
+  "linked": [],
+  "priority": "P0",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Goal\n\nEvery PR through qew carries a ledger-held, machine-checked link declaration; merging lands the ledger exactly with no manual step. Design attached as design.md. Requested by Santa for the owner.\n\n## Done when\n\npr open/link/unlink, ledger-only preflight, auto-land with land_pending repair, union aggregation, pr migrate, check audit shipped as 7.0.0 with minimum_version 7.0.0",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "Mandatory PR link declaration (closes/remains/related/no-item), auto-land, qew 7.0.0",
+    "type": ""
+  },
+  "synced_at": "2026-11-18T15:25:29Z",
+  "synced_event": "044qdr8bh",
+  "synced_hash": "2ed952b70e09d021"
+}
