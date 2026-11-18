@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "parent_number": 685,
   "priority": "P2",
@@ -12,11 +12,11 @@
       "6985326944"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "Decouple the Progress checklist from items at schema 9 (display only); drift warnings",
     "type": ""
   },
-  "synced_at": "2026-11-18T16:57:47Z",
-  "synced_event": "044qi8v2m",
-  "synced_hash": "6fe6d3b2e25f8bd7"
+  "synced_at": "2026-11-18T16:58:03Z",
+  "synced_event": "044qi9xbg",
+  "synced_hash": "eb484dbdacfe1943"
 }
