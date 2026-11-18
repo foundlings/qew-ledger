@@ -1,0 +1,19 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "parent_number": 685,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Goal\n\nmembers' links aggregated at read time\n\n## Done when\n\nwalks",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "Union aggregation of links",
+    "type": ""
+  },
+  "synced_at": "2026-11-18T15:29:00Z",
+  "synced_event": "044qdx2gp",
+  "synced_hash": "5bb4fe8020928cc4"
+}
