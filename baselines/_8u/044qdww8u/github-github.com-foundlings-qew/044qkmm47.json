@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "In review",
   "linked": [],
   "parent_number": 685,
   "priority": "P2",
@@ -16,7 +16,7 @@
     "title": "Merge re-validation, auto-land, land_pending, repair, short-lock two-phase",
     "type": ""
   },
-  "synced_at": "2026-11-18T17:45:20Z",
-  "synced_event": "044qkm1fg",
-  "synced_hash": ""
+  "synced_at": "2026-11-18T17:45:34Z",
+  "synced_event": "044qkmnfv",
+  "synced_hash": "935656fbf4d16746"
 }
