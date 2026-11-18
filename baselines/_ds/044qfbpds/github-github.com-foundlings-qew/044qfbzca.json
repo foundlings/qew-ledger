@@ -1,0 +1,18 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Problem\n\nFoundlings audit: qew check reports events/044qev99r and items/044qev99r belong to no item, graph orphans=2, yet items/_9r/044qev99r exists with parent 042oidxb2.\n\n## Done when\n\na walk reproduces it (or finds the true cause) and qew check is clean for a correctly sharded item",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "qew check: items/ID and events/ID reported as belonging to no item although the item exists in its shard",
+    "type": ""
+  },
+  "synced_at": "2026-11-18T15:57:49Z",
+  "synced_event": "044qfbpet",
+  "synced_hash": "9cb4e0150d5a9cd9"
+}
