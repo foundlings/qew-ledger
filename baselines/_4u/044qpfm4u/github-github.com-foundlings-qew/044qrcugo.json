@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -11,11 +11,11 @@
       "6989422564"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "test_background_sync_walk test_concurrent_writes_never_double_sync flakes: an id left queued / 5 of 6 items synced",
     "type": ""
   },
-  "synced_at": "2026-11-18T19:42:45Z",
-  "synced_event": "044qr7kb9",
-  "synced_hash": "dc7165814f86f9cd"
+  "synced_at": "2026-11-18T19:42:56Z",
+  "synced_event": "044qrcsc5",
+  "synced_hash": "5ac719f0a319e6d9"
 }
