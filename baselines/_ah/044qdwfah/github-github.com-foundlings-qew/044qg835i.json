@@ -1,4 +1,5 @@
 {
+  "cmap": {},
   "column": "Ready",
   "linked": [],
   "parent_number": 685,
@@ -7,13 +8,15 @@
     "assignee": "",
     "assignees": [],
     "body": "## Goal\n\nLink events one file each under prs/, folded last-wins\n\n## Done when\n\nwalks for fold, concurrent clones, older schema refusal",
-    "comments": [],
+    "comments": [
+      "6984341885"
+    ],
     "labels": [],
     "open": true,
     "title": "Schema 9 prs/ link event store, fold, migrate-layout to 9",
     "type": ""
   },
-  "synced_at": "2026-11-18T15:28:33Z",
-  "synced_event": "044qdwfer",
-  "synced_hash": "a22d8844c3b91915"
+  "synced_at": "2026-11-18T16:16:02Z",
+  "synced_event": "044qg7ta3",
+  "synced_hash": "0efcbe1e32d9a16d"
 }
