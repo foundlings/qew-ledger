@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In review",
+  "column": "In progress",
   "linked": [],
   "parent_number": 685,
   "priority": "P2",
@@ -16,7 +16,7 @@
     "title": "Forge-less and offline PRs: local PR records and landing from ancestry",
     "type": ""
   },
-  "synced_at": "2026-11-18T18:42:29Z",
+  "synced_at": "2026-11-18T18:42:55Z",
   "synced_event": "044qoe8gk",
-  "synced_hash": "da2c863d20e3e745"
+  "synced_hash": "0f52bf5e3c4fd1ca"
 }
