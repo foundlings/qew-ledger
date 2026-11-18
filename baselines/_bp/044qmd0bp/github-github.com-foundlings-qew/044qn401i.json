@@ -1,5 +1,6 @@
 {
-  "column": "Ready",
+  "cmap": {},
+  "column": "In progress",
   "linked": [],
   "parent_number": 685,
   "priority": "P2",
@@ -7,13 +8,15 @@
     "assignee": "",
     "assignees": [],
     "body": "## Goal\n\nA PR or draft can be opened with no ledger item; the record lives under prs/ and every pr verb works on it\n\n## Done when\n\nwalks for open, ready, merge, close on a hostless PR",
-    "comments": [],
+    "comments": [
+      "6987429572"
+    ],
     "labels": [],
     "open": true,
     "title": "PRs without any item: pr open --no-item REASON with no ITEM, record under prs/",
     "type": ""
   },
-  "synced_at": "2026-11-18T18:01:02Z",
-  "synced_event": "044qmd0gu",
-  "synced_hash": "bce352db07615650"
+  "synced_at": "2026-11-18T18:16:07Z",
+  "synced_event": "044qn3w3j",
+  "synced_hash": "925705e338f50897"
 }
