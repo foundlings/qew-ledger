@@ -5,20 +5,23 @@
       "sha": "947e512b642a64d4"
     }
   },
-  "column": "Ready",
+  "column": "In progress",
   "linked": [],
   "priority": "P2",
   "seen": {
     "assignee": "",
     "assignees": [],
     "body": "## Problem\n\nAny command that reads the whole ledger pays one full snapshot (QEW_TRACE shows 'ledger snapshot (full)' 13.8-19.8 s on a loaded machine, mostly waiting on stat of ~25k items and event dirs). It is now the floor of pr merge --check --ledger-only.\n\n## Done when\n\nprofile (measure_reads.py) names where the time goes; a one-PR ledger-only check on the Foundlings ledger takes under 5 s, or the remaining floor is explained",
-    "comments": [],
+    "comments": [
+      "6989574953",
+      "6990598523"
+    ],
     "labels": [],
     "open": true,
     "title": "Full ledger snapshot takes 13-20 s on the 60k-event Foundlings ledger: profile and cut it",
     "type": ""
   },
-  "synced_at": "2026-11-18T17:15:26Z",
-  "synced_event": "044qrdz60",
-  "synced_hash": "412911b5ac7ef163"
+  "synced_at": "2026-11-18T20:25:10Z",
+  "synced_event": "044qtf5dg",
+  "synced_hash": "6dcbddb07a8400e1"
 }
