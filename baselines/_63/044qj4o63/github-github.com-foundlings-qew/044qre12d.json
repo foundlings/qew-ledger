@@ -1,4 +1,10 @@
 {
+  "cmap": {
+    "6989574953": {
+      "ledger": "044qrdz60",
+      "sha": "947e512b642a64d4"
+    }
+  },
   "column": "Ready",
   "linked": [],
   "priority": "P2",
@@ -13,6 +19,6 @@
     "type": ""
   },
   "synced_at": "2026-11-18T17:15:26Z",
-  "synced_event": "044qj4ofa",
+  "synced_event": "044qrdz60",
   "synced_hash": "412911b5ac7ef163"
 }
