@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In review",
+  "column": "In progress",
   "linked": [],
   "parent_number": 685,
   "priority": "P2",
@@ -16,7 +16,7 @@
     "title": "PRs without any item: pr open --no-item REASON with no ITEM, record under prs/",
     "type": ""
   },
-  "synced_at": "2026-11-18T18:16:22Z",
+  "synced_at": "2026-11-18T18:16:54Z",
   "synced_event": "044qn4fa4",
-  "synced_hash": "4977426b9ced846a"
+  "synced_hash": "925705e338f50897"
 }
