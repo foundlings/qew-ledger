@@ -1,0 +1,1 @@
+{"actor": "887", "at": "2026-11-18T18:00:36Z", "key": "title", "new": "pr migrate (dry run on schema 8, parent protection, idempotent apply)", "old": "pr migrate (--dry-run, parent protection), check audit, local/offline PRs", "type": "field"}
