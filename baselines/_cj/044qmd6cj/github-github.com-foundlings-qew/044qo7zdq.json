@@ -1,5 +1,6 @@
 {
-  "column": "Ready",
+  "cmap": {},
+  "column": "In progress",
   "linked": [],
   "parent_number": 685,
   "priority": "P2",
@@ -7,13 +8,15 @@
     "assignee": "",
     "assignees": [],
     "body": "## Goal\n\nAfter auto-land the lead block lists per member the completed items with evidence and the items left open and why; a member closed unmerged or dropped from the union loses its links with a comment on items only it closed\n\n## Done when\n\nwalks",
-    "comments": [],
+    "comments": [
+      "6988003292"
+    ],
     "labels": [],
     "open": true,
     "title": "Union landing report in the lead's projection block and member removal",
     "type": ""
   },
-  "synced_at": "2026-11-18T18:01:22Z",
-  "synced_event": "044qmd6gc",
-  "synced_hash": "87b30e56d8233324"
+  "synced_at": "2026-11-18T18:38:52Z",
+  "synced_event": "044qo7vmk",
+  "synced_hash": "cfb63b2323aa8070"
 }
