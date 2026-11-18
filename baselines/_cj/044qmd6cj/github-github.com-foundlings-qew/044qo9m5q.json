@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "parent_number": 685,
   "priority": "P2",
@@ -12,11 +12,11 @@
       "6988003292"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "Union landing report in the lead's projection block and member removal",
     "type": ""
   },
-  "synced_at": "2026-11-18T18:39:37Z",
-  "synced_event": "044qo8f4a",
-  "synced_hash": "cfb63b2323aa8070"
+  "synced_at": "2026-11-18T18:39:49Z",
+  "synced_event": "044qo9hg4",
+  "synced_hash": "c2dcd3be832a4e85"
 }
