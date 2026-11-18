@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "Ready",
+  "column": "In progress",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -15,7 +15,7 @@
     "title": "qew check --stale-claims: claimed items with no open PR and no recent activity",
     "type": ""
   },
-  "synced_at": "2026-11-18T15:58:02Z",
-  "synced_event": "044qfc1cg",
-  "synced_hash": ""
+  "synced_at": "2026-11-18T19:27:23Z",
+  "synced_event": "044qqk4ad",
+  "synced_hash": "5e9abea25c0662ef"
 }
