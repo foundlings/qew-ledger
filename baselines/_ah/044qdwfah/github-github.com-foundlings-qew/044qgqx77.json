@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In review",
+  "column": "In progress",
   "linked": [],
   "parent_number": 685,
   "priority": "P2",
@@ -16,7 +16,7 @@
     "title": "Schema 9 prs/ link event store, fold, migrate-layout to 9",
     "type": ""
   },
-  "synced_at": "2026-11-18T16:16:15Z",
+  "synced_at": "2026-11-18T16:26:25Z",
   "synced_event": "044qg8j36",
-  "synced_hash": "32ab79bcbec19c29"
+  "synced_hash": "0efcbe1e32d9a16d"
 }
