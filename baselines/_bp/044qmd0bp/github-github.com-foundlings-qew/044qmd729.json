@@ -1,0 +1,19 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "parent_number": 685,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Goal\n\nA PR or draft can be opened with no ledger item; the record lives under prs/ and every pr verb works on it\n\n## Done when\n\nwalks for open, ready, merge, close on a hostless PR",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "PRs without any item: pr open --no-item REASON with no ITEM, record under prs/",
+    "type": ""
+  },
+  "synced_at": "2026-11-18T18:01:02Z",
+  "synced_event": "044qmd0gu",
+  "synced_hash": "bce352db07615650"
+}
