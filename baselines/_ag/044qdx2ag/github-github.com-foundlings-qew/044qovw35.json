@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "parent_number": 685,
   "priority": "P2",
@@ -12,11 +12,11 @@
       "6985586133"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "Union aggregation of links",
     "type": ""
   },
-  "synced_at": "2026-11-18T17:02:49Z",
-  "synced_event": "044qihj11",
-  "synced_hash": ""
+  "synced_at": "2026-11-18T18:52:17Z",
+  "synced_event": "044qovtc7",
+  "synced_hash": "d956b6d6f075fc9e"
 }
