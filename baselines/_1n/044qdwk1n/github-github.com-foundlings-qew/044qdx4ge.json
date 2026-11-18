@@ -1,0 +1,17 @@
+{
+  "linked": [],
+  "parent_number": 685,
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Goal\n\nMandatory declaration by role\n\n## Done when\n\nwalks for all roles, idempotence, refusal prints exact command",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "pr open declaration, pr link/unlink/links, no-item PRs",
+    "type": ""
+  },
+  "synced_at": "2026-11-18T15:28:44Z",
+  "synced_event": "044qdwk3q",
+  "synced_hash": "9333989456b8c2c3"
+}

@@ -1,0 +1,19 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "parent_number": 685,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Goal\n\nMachine-owned block; pr check no-op for a release\n\n## Done when\n\nwalks",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "Forge projection block, drift warning, retire Progress checklist and pr check",
+    "type": ""
+  },
+  "synced_at": "2026-11-18T15:28:44Z",
+  "synced_event": "044qdwq7a",
+  "synced_hash": "42bf8cc0f8e51f2c"
+}

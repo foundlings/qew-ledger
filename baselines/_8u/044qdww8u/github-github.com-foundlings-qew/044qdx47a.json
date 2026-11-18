@@ -1,0 +1,17 @@
+{
+  "linked": [],
+  "parent_number": 685,
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Goal\n\nMerge never fails on bookkeeping; evidence per item on main\n\n## Done when\n\nwalks, lock-not-held-across-forge test",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "Merge re-validation, auto-land, land_pending, repair, short-lock two-phase",
+    "type": ""
+  },
+  "synced_at": "2026-11-18T15:28:44Z",
+  "synced_event": "044qdwwdi",
+  "synced_hash": "edba1c4ef0a8b80e"
+}
