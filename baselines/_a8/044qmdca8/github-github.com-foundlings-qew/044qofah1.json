@@ -13,10 +13,10 @@
     ],
     "labels": [],
     "open": true,
-    "title": "Forge-less and offline PRs: local PR records and landing from ancestry",
+    "title": "Offline landing: qew land --offline lands a merged pull request with no forge",
     "type": ""
   },
-  "synced_at": "2026-11-18T18:42:55Z",
-  "synced_event": "044qoe8gk",
-  "synced_hash": "0f52bf5e3c4fd1ca"
+  "synced_at": "2026-11-18T18:43:05Z",
+  "synced_event": "044qof65n",
+  "synced_hash": "042b8e6946ea6bed"
 }
