@@ -1,5 +1,6 @@
 {
-  "column": "Ready",
+  "cmap": {},
+  "column": "In progress",
   "linked": [],
   "parent_number": 685,
   "priority": "P2",
@@ -7,13 +8,15 @@
     "assignee": "",
     "assignees": [],
     "body": "## Goal\n\ncheck reports merged PRs with closes items not completed and no pending record, merged PRs with no declaration, open PRs closing the same item; repair lists and runs land for every pending PR; status/prime show the pending count\n\n## Done when\n\nwalks for each finding and the repair",
-    "comments": [],
+    "comments": [
+      "6987717050"
+    ],
     "labels": [],
     "open": true,
     "title": "qew check and qew repair audit pull requests: unlanded, unlinked, land_pending (with member PR), conflicting closes",
     "type": ""
   },
-  "synced_at": "2026-11-18T18:01:02Z",
-  "synced_event": "044qmct5y",
-  "synced_hash": "ebd991911cff0643"
+  "synced_at": "2026-11-18T18:27:13Z",
+  "synced_event": "044qnnsdf",
+  "synced_hash": "e6f5286f2b3e5d62"
 }
