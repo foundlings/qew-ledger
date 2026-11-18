@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "In review",
   "linked": [],
   "parent_number": 685,
   "priority": "P2",
@@ -16,7 +16,7 @@
     "title": "Forge projection block, drift warning, retire Progress checklist and pr check",
     "type": ""
   },
-  "synced_at": "2026-11-18T16:52:30Z",
+  "synced_at": "2026-11-18T16:52:43Z",
   "synced_event": "044qi0hbm",
-  "synced_hash": "29bc39949abe09f1"
+  "synced_hash": "44e36d65956b1dad"
 }
