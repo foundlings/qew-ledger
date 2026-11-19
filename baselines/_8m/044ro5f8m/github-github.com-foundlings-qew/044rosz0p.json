@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P1",
   "seen": {
@@ -11,11 +11,11 @@
       "7001699703"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "qew gc --now needs the write lock ahead of queued writers, and the audit note names open pull requests whose items are already finished",
     "type": ""
   },
-  "synced_at": "2026-11-19T06:32:13Z",
-  "synced_event": "044rosuf1",
-  "synced_hash": "92f0342f06ab4200"
+  "synced_at": "2026-11-19T06:45:54Z",
+  "synced_event": "044roszfb",
+  "synced_hash": "a3645ba34084ca69"
 }
