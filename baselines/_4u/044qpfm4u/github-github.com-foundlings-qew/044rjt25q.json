@@ -13,7 +13,8 @@
     "assignees": [],
     "body": "## Problem\n\nFails about 1 run in 3 solo and sometimes in the parallel gate (seen before the 7.0 changes): 'an id was left queued' or '5 of 6 items synced'.\n\n## Done when\n\n20 consecutive solo runs pass, or the race is found and fixed",
     "comments": [
-      "6989422564"
+      "6989422564",
+      "6991090642"
     ],
     "labels": [],
     "open": false,
