@@ -1,0 +1,18 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "priority": "P0",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Problem\n\nSanta 2026-11-20: events/044tp182k holds 044uon3g8 and 044uoni4s, both completed by 887 15s apart (two repair-evidence events with ssh and https repo urls); every read failed with completed is illegal from state completed.\n\n## Done when\n\nA duplicate completed of a completed item reads as one completion (fleet unblocked); the writer path that appended the second is found and refused without writing.",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "A second completed event on a completed item made the whole ledger unreadable: the fold tolerates the duplicate; find how it was written",
+    "type": ""
+  },
+  "synced_at": "2026-11-20T18:35:49Z",
+  "synced_event": "044up4t8v",
+  "synced_hash": "f7d26b9aac5a782c"
+}
