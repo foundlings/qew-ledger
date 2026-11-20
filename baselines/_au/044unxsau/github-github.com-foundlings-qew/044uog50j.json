@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P0",
   "seen": {
@@ -11,11 +11,11 @@
       "7047084592"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "An item whose recorded evidence names a change id that does not exist cannot be completed or repaired, although a good id on main is also recorded",
     "type": ""
   },
-  "synced_at": "2026-11-20T18:11:34Z",
-  "synced_event": "044uofp93",
-  "synced_hash": "2576652b84cd71b9"
+  "synced_at": "2026-11-20T18:21:58Z",
+  "synced_event": "044uofwc8",
+  "synced_hash": "618f50febfea7ce3"
 }
