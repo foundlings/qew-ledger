@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "In review",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -15,7 +15,7 @@
     "title": "Reject unresolved evidence and add an audit-safe retraction",
     "type": ""
   },
-  "synced_at": "2026-11-21T19:19:34Z",
+  "synced_at": "2026-11-21T19:36:18Z",
   "synced_event": "044wskmd8",
-  "synced_hash": "a043ab427bf3f2e6"
+  "synced_hash": "06f5e3b697a6e296"
 }
