@@ -1,0 +1,18 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Problem\n\nThe evidence command records syntactically valid change IDs that do not resolve in the configured code checkout, and an incorrect evidence event on open work cannot be retracted while preserving event history.\n\n## Fix\n\nRefuse unresolved evidence before writing, and let the item holder retract a cited change from an open item's effective evidence with a reason recorded in the ledger.\n\n## Done when\n\nCommand tests prove unresolved IDs are refused without an event, resolvable changes are recorded, a cited ID can be retracted with an auditable reason, and uncited IDs or completed items are refused. README and command spec describe the interface.",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "Reject unresolved evidence and add an audit-safe retraction",
+    "type": ""
+  },
+  "synced_at": "2026-11-21T19:15:36Z",
+  "synced_event": "044wrjxgf",
+  "synced_hash": "cf98717fa250d6eb"
+}
