@@ -5,7 +5,7 @@
       "sha": "e882506b53ec4a84"
     }
   },
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "parent_number": 739,
   "priority": "P2",
@@ -18,11 +18,11 @@
       "7084619135"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "Lazy snapshot, then evidence and start read only their items",
     "type": ""
   },
-  "synced_at": "2026-11-22T19:43:42Z",
-  "synced_event": "044ytko0p",
-  "synced_hash": "b69e59398adef0cb"
+  "synced_at": "2026-11-22T19:48:13Z",
+  "synced_event": "044ytnkgd",
+  "synced_hash": "31a4c0459b169587"
 }
