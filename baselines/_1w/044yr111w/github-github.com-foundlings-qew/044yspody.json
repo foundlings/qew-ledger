@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -11,11 +11,11 @@
       "7084345421"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "A write verb resolves an exact item id without listing the ledger",
     "type": ""
   },
-  "synced_at": "2026-11-22T19:23:40Z",
-  "synced_event": "044ysj57c",
-  "synced_hash": "aa8b58de076bf276"
+  "synced_at": "2026-11-22T19:26:55Z",
+  "synced_event": "044ysnre3",
+  "synced_hash": "5665d8ab9910884d"
 }
