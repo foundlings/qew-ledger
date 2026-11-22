@@ -5,7 +5,7 @@
       "sha": "fee625be84fc4b7d"
     }
   },
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P0",
   "seen": {
@@ -17,11 +17,11 @@
       "7078829054"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "qew sync is O(all): full issue pull exceeds the 50-page cap and fails after doing all the work",
     "type": ""
   },
-  "synced_at": "2026-11-22T11:59:21Z",
-  "synced_event": "044y7q3ck",
-  "synced_hash": "d375b1fc037df490"
+  "synced_at": "2026-11-22T12:43:15Z",
+  "synced_event": "044y7vtbk",
+  "synced_hash": "60100aedb38f39b3"
 }
