@@ -1,0 +1,7 @@
+{
+  "at": "2026-11-22T08:38:25Z",
+  "by": "887",
+  "item": "044wrjx9m",
+  "type": "land_pending",
+  "why": "has no evidence on main: none of this pull request's changes is an ancestor of it yet (fetch, then `qew land 726`)"
+}
