@@ -1,5 +1,6 @@
 {
-  "column": "Ready",
+  "cmap": {},
+  "column": "Done",
   "linked": [],
   "parent_number": 739,
   "priority": "P2",
@@ -7,13 +8,15 @@
     "assignee": "",
     "assignees": [],
     "body": "## Problem\n\nthe pull request verbs take the full snapshot for the few items a pull request links.\n\n## Done when\n\ntheir trace shows a lazy snapshot, equal output",
-    "comments": [],
+    "comments": [
+      "7085498735"
+    ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "pr ready, pr open and pr merge read only the items a pull request links",
     "type": ""
   },
-  "synced_at": "2026-11-22T19:34:18Z",
-  "synced_event": "044yt0jed",
-  "synced_hash": "90a50f8155c5d718"
+  "synced_at": "2026-11-22T20:47:47Z",
+  "synced_event": "044ywk2ab",
+  "synced_hash": "8a3bd4bc9727c6d0"
 }
