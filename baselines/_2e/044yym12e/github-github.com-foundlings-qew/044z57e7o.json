@@ -1,5 +1,6 @@
 {
-  "column": "Ready",
+  "cmap": {},
+  "column": "Done",
   "linked": [],
   "parent_number": 743,
   "priority": "P2",
@@ -7,13 +8,15 @@
     "assignee": "",
     "assignees": [],
     "body": "## Problem\n\na GraphQL answer carrying its own x-ratelimit headers overwrites the REST accounting the background reserve and pr migrate read.\n\n## Done when\n\nWATCH is kept per resource, the reserve holds on the resource a request uses",
-    "comments": [],
+    "comments": [
+      "7086585804"
+    ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "Track the core and graphql rate limits separately",
     "type": ""
   },
-  "synced_at": "2026-11-22T22:07:05Z",
-  "synced_event": "044z0cubg",
-  "synced_hash": "f6fe4d75b5c26a95"
+  "synced_at": "2026-11-22T23:42:22Z",
+  "synced_event": "044z0om0b",
+  "synced_hash": "d461ecf00707da53"
 }

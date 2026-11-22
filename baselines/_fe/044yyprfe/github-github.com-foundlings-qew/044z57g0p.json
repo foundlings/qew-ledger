@@ -1,5 +1,6 @@
 {
-  "column": "Ready",
+  "cmap": {},
+  "column": "Done",
   "linked": [],
   "parent_number": 743,
   "priority": "P2",
@@ -7,13 +8,15 @@
     "assignee": "",
     "assignees": [],
     "body": "## Problem\n\nrequires_status_checks makes 2 REST calls each time a verb asks.\n\n## Done when\n\nasked once per branch per process",
-    "comments": [],
+    "comments": [
+      "7086642803"
+    ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "Cache the branch protection lookup per process",
     "type": ""
   },
-  "synced_at": "2026-11-22T22:07:05Z",
-  "synced_event": "044z0gtdg",
-  "synced_hash": "77540985ac092f7f"
+  "synced_at": "2026-11-22T23:42:22Z",
+  "synced_event": "044z0w6do",
+  "synced_hash": "5eac3dc8cd84cff1"
 }
