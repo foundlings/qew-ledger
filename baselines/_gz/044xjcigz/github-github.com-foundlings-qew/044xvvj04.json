@@ -1,4 +1,10 @@
 {
+  "cmap": {
+    "7076627962": {
+      "ledger": "044xvurgu",
+      "sha": "6fd1d3dde8a3d01e"
+    }
+  },
   "column": "Ready",
   "linked": [],
   "priority": "P2",
@@ -13,6 +19,6 @@
     "type": ""
   },
   "synced_at": "2026-11-22T04:42:58Z",
-  "synced_event": "044xjcikn",
+  "synced_event": "044xvurgu",
   "synced_hash": "e18c9fdd9ed05fd7"
 }
