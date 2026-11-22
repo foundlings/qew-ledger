@@ -1,0 +1,18 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "priority": "P0",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Where\n\nsrc/qew/forge_http.py, forge_retry.py\n\n## Problem\n\nFoundlings' shared GitHub token hit remaining 0 (403, reset 13:41Z) and every merge failed. Background pulls (50+ pages each before 7.1.2) and retries spent the budget: nothing stopped the worker at a reserve, and a 403 with x-ratelimit-remaining 0 was retried six times on a 30 s guess instead of honouring x-ratelimit-reset.\n\n## Fix\n\nBackground worker stands down below a 500-call reserve; an exhausted limit that lifts within the cap waits until the reset, one further away is reported once with the retry time; interactive verbs are not held back.\n\n## Done when\n\nWalks show the worker makes no calls below the reserve, an exhausted limit with a far reset is not retried, and one with a near reset waits until it.",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "A background sync must never drain the shared token: reset-aware waits and a call reserve",
+    "type": ""
+  },
+  "synced_at": "2026-11-22T13:43:00Z",
+  "synced_event": "044y9svf5",
+  "synced_hash": "fbbf169687201a5a"
+}
