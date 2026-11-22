@@ -1,0 +1,18 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Where\n\nscripts/setup_user.py\n\n## Problem\n\npip uninstalls the old qew then installs the new one in place; for those seconds the agent guard hook (and any qew call) imports a package that is absent or half copied (foundlings agent saw ImportError on sync_plan, retry worked; sync_plan.py was not renamed).\n\n## Fix\n\nBuild the wheel first, install it with no deps in one short step, and keep the old package importable until the new files are in place; add a walk that runs the install while a hook loop imports qew.\n\n## Done when\n\nA walk shows no import failure while setup_user runs.",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "setup_user reinstalls into the live venv: hooks that run meanwhile fail with ImportError",
+    "type": ""
+  },
+  "synced_at": "2026-11-22T08:56:37Z",
+  "synced_event": "044xws28c",
+  "synced_hash": "f6a0805bd2bf5eed"
+}
