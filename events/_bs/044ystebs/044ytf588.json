@@ -1,0 +1,1 @@
+{"actor": "887", "at": "2026-11-22T19:41:45Z", "author": "887", "text": "start moved to the second slice: it enforces the claim cap over every item's fold and starts an epic through its descendants, which are graph-wide. This slice ships evidence (record, retract, repair).", "type": "commented"}
