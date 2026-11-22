@@ -1,5 +1,5 @@
 {
-  "column": "Backlog",
+  "column": "In progress",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -12,7 +12,7 @@
     "title": "Write verbs read only the items they touch",
     "type": ""
   },
-  "synced_at": "2026-11-22T19:29:03Z",
+  "synced_at": "2026-11-22T19:43:38Z",
   "synced_event": "044ysrkh3",
-  "synced_hash": "adf548777d33fc7c"
+  "synced_hash": "6bcfcbb7f3cc3bcb"
 }
