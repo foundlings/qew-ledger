@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "parent_number": 739,
   "priority": "P2",
@@ -12,11 +12,11 @@
       "7085053996"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "A reverse-edge map for complete: children and released items without parsing the ledger",
     "type": ""
   },
-  "synced_at": "2026-11-22T20:14:41Z",
-  "synced_event": "044yv1kdx",
-  "synced_hash": "ed750cb5421be63d"
+  "synced_at": "2026-11-22T20:17:52Z",
+  "synced_event": "044yv562k",
+  "synced_hash": "9db55ea6e9515710"
 }
