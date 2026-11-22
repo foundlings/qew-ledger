@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -11,11 +11,11 @@
       "7076998222"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "A ledger write holds the lock minutes: full-tree jj snapshot per commit, stale lock.waiting files",
     "type": ""
   },
-  "synced_at": "2026-11-22T09:13:18Z",
-  "synced_event": "044xxqb90",
-  "synced_hash": "69916d89b3ab4dd3"
+  "synced_at": "2026-11-22T09:19:06Z",
+  "synced_event": "044xxw777",
+  "synced_hash": "43819c3becce10aa"
 }

@@ -5,7 +5,7 @@
       "sha": "6fd1d3dde8a3d01e"
     }
   },
-  "column": "In progress",
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -17,11 +17,11 @@
       "7076677734"
     ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "qew pr open creates the forge PR before taking the ledger lock, leaving orphans",
     "type": ""
   },
-  "synced_at": "2026-11-22T08:42:52Z",
-  "synced_event": "044xxpu20",
-  "synced_hash": "aaca1bd063ec63f1"
+  "synced_at": "2026-11-22T09:18:11Z",
+  "synced_event": "044xxsic4",
+  "synced_hash": "69beb8a463802d15"
 }
