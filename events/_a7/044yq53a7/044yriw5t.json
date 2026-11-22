@@ -1,0 +1,1 @@
+{"actor": "887", "at": "2026-11-22T19:03:06Z", "note": "Built and measured: with exact file-signature validation a warm read saves 25-35% under load and is never stored on a ledger written every second; not worth its machinery. Superseded by the write-path items 044yr111w and 044yr2w56.", "reason": "not_planned", "type": "closed"}
