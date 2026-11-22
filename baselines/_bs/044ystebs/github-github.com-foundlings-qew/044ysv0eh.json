@@ -1,0 +1,19 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "parent_number": 739,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Problem\n\nevidence and start call the full snapshot although they read one item, its ancestors and its needs.\n\n## Done when\n\nLedger.snapshot(lazy=True) exists, evidence retract repair and start use it, their trace shows ledger snapshot (lazy) and no full snapshot, output equals the full snapshot's, QEW_NO_LAZY=1 restores the full one",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "Lazy snapshot, then evidence and start read only their items",
+    "type": ""
+  },
+  "synced_at": "2026-11-22T19:30:00Z",
+  "synced_event": "044ystej6",
+  "synced_hash": "ec0cfa713a97ada9"
+}
