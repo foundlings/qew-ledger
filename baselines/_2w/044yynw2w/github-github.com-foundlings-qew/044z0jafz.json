@@ -1,0 +1,19 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "parent_number": 743,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Problem\n\nread_pull_request is 3 REST calls plus the verbs' repeats.\n\n## Done when\n\nread_pull_request, find_open_pull_requests and the write verbs' reads use one GraphQL query with checks, REST is the fallback, a parity walk compares both",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "Read a pull request through one GraphQL query",
+    "type": ""
+  },
+  "synced_at": "2026-11-22T22:07:05Z",
+  "synced_event": "044z0evf6",
+  "synced_hash": "c9c6fa46d08ca51b"
+}

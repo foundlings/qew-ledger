@@ -1,0 +1,18 @@
+{
+  "column": "Backlog",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Problem\n\nread_pull_request makes at least 3 REST calls (the pull, the combined status, the check runs) and every pr verb makes it several times; with 15 agents the shared token's core REST limit hits 0 while GraphQL has 4955 of 5000 left.\n\n## Approach\n\nRead a pull request's whole state, checks included, in one GraphQL query with REST as the fallback; find open pull requests for a head in one query; track core and graphql quota separately; cache the branch protection lookup per process.\n\n## Done when\n\na pr verb's read path makes no REST read calls on GitHub, the parity walk proves GraphQL and REST give the same RemotePullRequest, the reserve watches the right resource",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "GitHub pull request reads cost one GraphQL point, not three REST calls",
+    "type": ""
+  },
+  "synced_at": "2026-11-22T22:07:01Z",
+  "synced_event": "044yyj7h2",
+  "synced_hash": "b9ea327c55a3e0e5"
+}

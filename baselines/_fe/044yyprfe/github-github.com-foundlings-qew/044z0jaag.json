@@ -1,0 +1,19 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "parent_number": 743,
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Problem\n\nrequires_status_checks makes 2 REST calls each time a verb asks.\n\n## Done when\n\nasked once per branch per process",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "Cache the branch protection lookup per process",
+    "type": ""
+  },
+  "synced_at": "2026-11-22T22:07:05Z",
+  "synced_event": "044z0gtdg",
+  "synced_hash": "77540985ac092f7f"
+}
