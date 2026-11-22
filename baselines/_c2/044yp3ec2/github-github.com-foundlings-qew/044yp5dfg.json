@@ -1,0 +1,18 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Problem\n\ngit status porcelain printed a rename as old -> new and that line went to git add as one path, so qew pr ready 8283 on foundlings left its forge change out of the ledger.\n\n## Done when\n\na staged or unstaged rename commits",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "A renamed ledger file is committed as two paths",
+    "type": ""
+  },
+  "synced_at": "2026-11-22T18:14:23Z",
+  "synced_event": "044yp3efo",
+  "synced_hash": "e89c9247d7e47980"
+}
