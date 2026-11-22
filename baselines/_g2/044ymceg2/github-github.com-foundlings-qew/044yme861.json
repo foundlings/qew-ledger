@@ -1,0 +1,18 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Problem\n\n--quote '887: ...' was refused: the name had to start with a letter, but the owner's name is a login number.\n\n## Done when\n\na digits-only name is a valid quote name",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "Accept a number as the name in a requester quote",
+    "type": ""
+  },
+  "synced_at": "2026-11-22T17:18:18Z",
+  "synced_event": "044ymcegq",
+  "synced_hash": "ae72950ab99d6732"
+}
