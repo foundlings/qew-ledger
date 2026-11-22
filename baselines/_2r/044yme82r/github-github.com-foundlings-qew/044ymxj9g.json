@@ -1,18 +1,21 @@
 {
-  "column": "Ready",
+  "cmap": {},
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
     "assignee": "",
     "assignees": [],
     "body": "## Problem\n\n6521 stale refs/jj/keep/*.lock files (about 3 days old) piled up in the foundlings ledger; qew gc could not run until they were removed by hand.\n\n## Done when\n\nthe code path that creates keep-ref locks and leaves them is found and fixed, or shown to be jj's own",
-    "comments": [],
+    "comments": [
+      "7082867046"
+    ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "Find what leaves refs/jj/keep/*.lock files behind",
     "type": ""
   },
-  "synced_at": "2026-11-22T17:18:35Z",
-  "synced_event": "044yme876",
-  "synced_hash": "7d41fd43aaeff96b"
+  "synced_at": "2026-11-22T17:29:01Z",
+  "synced_event": "044ymxd8w",
+  "synced_hash": "349f099a56265cea"
 }
