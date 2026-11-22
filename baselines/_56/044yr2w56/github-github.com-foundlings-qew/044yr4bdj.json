@@ -1,0 +1,18 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Problem\n\nstart, evidence and complete parse the whole ledger (4 to 5 s on foundlings) inside the write lock, so fifteen writers queue for minutes.\n\n## Approach\n\nMeasure each write verb on a clone of the foundlings ledger, then serve the parse from the warm snapshot or load only the items the verb touches.\n\n## Done when\n\neach write verb's time under the lock is measured before and after on the clone, and the slowest is cut",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "A write verb under the ledger lock parses only what it needs",
+    "type": ""
+  },
+  "synced_at": "2026-11-22T18:54:36Z",
+  "synced_event": "044yr2w93",
+  "synced_hash": "954af54974276655"
+}

@@ -1,0 +1,18 @@
+{
+  "column": "Ready",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Problem\n\nEvery read command (show, list, ready, progress) parses all items and events of the ledger: about 5 s of CPU on foundlings (28k items, 220k events), multiplied by about 15 agents reading at once.\n\n## Approach\n\nKeep the parsed snapshot in .qew beside snapshot.db, valid while the ledger generation (bumped by every qew write and pull), the ledger git head and a max age are unchanged; a restricted unpickle; a clean full parse stays the fallback and the qew check path.\n\n## Done when\n\na second read of an unchanged ledger skips the parse, every write invalidates it, a damaged or unknown warm file is ignored, QEW_NO_CACHE bypasses it, and qew check still parses everything",
+    "comments": [],
+    "labels": [],
+    "open": true,
+    "title": "Serve reads from a warm parsed snapshot instead of parsing the whole ledger",
+    "type": ""
+  },
+  "synced_at": "2026-11-22T18:54:36Z",
+  "synced_event": "044yq53gr",
+  "synced_hash": "413c4c26c75f5f5c"
+}
