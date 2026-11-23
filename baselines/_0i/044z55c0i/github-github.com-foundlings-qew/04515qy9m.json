@@ -1,18 +1,21 @@
 {
-  "column": "Ready",
+  "cmap": {},
+  "column": "Done",
   "linked": [],
   "priority": "P2",
   "seen": {
     "assignee": "",
     "assignees": [],
     "body": "## Problem\n\nreview_sync.pull reads reviews and inline comments (2 REST calls) of every tracked pull request on every pass; only a record saying merged or closed stops it. foundlings tracks 3264 with 1106 stale open records: about 4500 core calls a pass, the hour's whole budget, retried at every reset.\n\n## Done when\n\na pass asks the forge one cheap stamp query, reads only changed pull requests, marks finished ones read whatever the record says, and is capped per pass",
-    "comments": [],
+    "comments": [
+      "7087786472"
+    ],
     "labels": [],
-    "open": true,
+    "open": false,
     "title": "The review sync reads every tracked pull request every pass",
     "type": ""
   },
-  "synced_at": "2026-11-22T23:42:17Z",
-  "synced_event": "044z55eh1",
-  "synced_hash": "4b5504eaa17fb484"
+  "synced_at": "2026-11-23T23:42:27Z",
+  "synced_event": "044z5dee6",
+  "synced_hash": "f823d5bdf045740f"
 }
