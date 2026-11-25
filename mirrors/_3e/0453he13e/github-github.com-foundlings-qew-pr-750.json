@@ -7,5 +7,6 @@
   "kind": "pr",
   "number": 750,
   "opener": "887",
+  "pr_title": "Deduplicate PR records and adopt no-item legacy PRs",
   "url": "https://github.com/foundlings/qew"
 }
