@@ -1,0 +1,37 @@
+{
+  "cmap": {
+    "7159768229": {
+      "ledger": "045426j2c",
+      "sha": "a7159c36b2240459"
+    },
+    "7159768516": {
+      "ledger": "04542kzbc",
+      "sha": "d41f387f2ea30ac6"
+    },
+    "7159843826": {
+      "ledger": "0454349ep",
+      "sha": "18e236dea308c03a"
+    }
+  },
+  "column": "In review",
+  "linked": [],
+  "priority": "P2",
+  "seen": {
+    "assignee": "",
+    "assignees": [],
+    "body": "## Where\n\nqew PR record lookup and mutation commands\n\n## Problem\n\nFor Foundlings #8660, `qew pr links 8660 --target github-github.com-foundlings-foundlings-pr-8660`, `qew pr link 8660 --related 0450a8kg6 --target github-github.com-foundlings-foundlings-pr-8660`, and `qew pr merge 8660 --target github-github.com-foundlings-foundlings-pr-8660` refuse with `qew: pull request #8660 exists on several targets; pass --target`. The same forge PR is recorded as both hostless and item-linked records.\n\n## Fix\n\nResolve a PR identity once per target and number. When hostless and item-linked records identify the same forge PR, use the item-linked record for item ownership and its declaration while preserving shared PR state; refuse only when records disagree on identity or state.\n\n## Done when\n\nMatching hostless and item-linked records let `qew pr links`, `qew pr link`, and `qew pr merge` select the PR with its exact target. Existing retarget, ready, and body operations continue to work. Conflicting identity, declaration, or state still fails closed.",
+    "comments": [
+      "7151979771",
+      "7159768229",
+      "7159768516",
+      "7159843826"
+    ],
+    "labels": [],
+    "open": true,
+    "title": "qew pr links, link and merge: a PR number exists on several targets and cannot be disambiguated",
+    "type": ""
+  },
+  "synced_at": "2026-11-25T10:37:11Z",
+  "synced_event": "04543ag1g",
+  "synced_hash": "5a6ba8b0d28f3fbd"
+}
