@@ -1,6 +1,6 @@
 id: 0453he13e
 kind: issue
-title: Deduplicate hostless and item-linked pull request records
+title: qew pr links, link and merge: a PR number exists on several targets and cannot be disambiguated
 parent: 
 needs: 
 labels: 
@@ -14,12 +14,12 @@ qew PR record lookup and mutation commands
 
 ## Problem
 
-The same forge PR number and target can be recorded once as a hostless PR and again as an item-linked mirror. qew pr retarget and qew pr ready count both records and refuse, even with the exact target selector, so a stacked PR cannot be retargeted or marked ready. This blocks Foundlings PR #8660.
+For Foundlings #8660, qew pr links, qew pr link, and qew pr merge refuse with `pull request #8660 exists on several targets; pass --target`, including when the exact target is supplied. The same PR is represented by hostless and item-linked records.
 
 ## Fix
 
-Resolve a PR identity once per target and number. When hostless and item-linked records identify the same forge PR, use the item-linked record for item ownership and its declaration while preserving the shared PR state; refuse only when the records disagree on identity or state.
+Resolve a PR identity once per target and number. When hostless and item-linked records identify the same forge PR, use the item-linked record for item ownership and its declaration while preserving shared PR state. Refuse only when records disagree on identity or state.
 
 ## Done when
 
-A fixture with matching hostless and item-linked PR records lets qew pr retarget, ready, and body operations select that PR with its target; a fixture with conflicting records still fails closed.
+Matching hostless and item-linked records let `qew pr links`, `qew pr link`, and `qew pr merge` select the PR with its exact target; existing retarget, ready, and body operations continue to work. Conflicting identity, declaration, or state still fails closed.
