@@ -1,6 +1,6 @@
 {
   "cmap": {},
-  "column": "In progress",
+  "column": "In review",
   "linked": [],
   "priority": "P2",
   "seen": {
@@ -15,7 +15,7 @@
     "title": "Deduplicate hostless and item-linked pull request records",
     "type": ""
   },
-  "synced_at": "2026-11-25T03:31:26Z",
-  "synced_event": "0453hrb46",
-  "synced_hash": "f6663df686e9faa2"
+  "synced_at": "2026-11-25T03:56:54Z",
+  "synced_event": "0453in4gs",
+  "synced_hash": "45ef5da83b940f9f"
 }
