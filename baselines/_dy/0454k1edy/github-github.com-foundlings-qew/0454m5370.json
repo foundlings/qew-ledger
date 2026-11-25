@@ -1,18 +1,21 @@
 {
-  "column": "Ready",
+  "cmap": {},
+  "column": "In progress",
   "linked": [],
   "priority": "P2",
   "seen": {
     "assignee": "",
     "assignees": [],
     "body": "## Problem\n\n`qew pr open --no-item ... --adopt-legacy N --reason ...` ignores the adoption flag, then forge creation rejects the existing head. This leaves an unrecorded legacy PR impossible to adopt.\n\n## Fix\n\nValidate the explicitly named open unrecorded PR against the requested head, base and mirror, update its no-item declaration/body, and record the existing number without creating a second PR.\n\n## Done when\n\nCommand walks prove adoption preserves the PR number/head, records its no-item declaration and body, and refuses mismatched, closed, or already-recorded PRs.",
-    "comments": [],
+    "comments": [
+      "7168328190"
+    ],
     "labels": [],
     "open": true,
     "title": "Adopt an existing no-item PR by number",
     "type": ""
   },
-  "synced_at": "2026-11-25T16:20:04Z",
-  "synced_event": "0454kw90o",
-  "synced_hash": "fb875de5dcb5588f"
+  "synced_at": "2026-11-25T16:40:30Z",
+  "synced_event": "0454m39g4",
+  "synced_hash": "4141ee899866ffe6"
 }
